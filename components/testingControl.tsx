@@ -1,7 +1,7 @@
 import moment, { Moment } from 'moment'
 import React from 'react'
 import { Panel } from 'react-bootstrap'
-import From2017 from '../config/2017'
+import From2018 from '../config/2018'
 import SponsorData from '../config/sponsors'
 import { Conference } from '../config/types'
 import dateTimeProvider, { CurrentDate } from './utils/dateTimeProvider'
@@ -120,7 +120,7 @@ class TestingControl extends React.Component<TestingControlProps, TestingControl
               <a
                 className="sponsors btn"
                 style={btnStyle}
-                onClick={() => (this.props.conference.Sponsors = From2017.Sponsors)}
+                onClick={() => (this.props.conference.Sponsors = From2018.Sponsors)}
               >
                 Add sponsors
               </a>

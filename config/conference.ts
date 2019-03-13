@@ -4,8 +4,8 @@ import SponsorData from '../config/sponsors'
 import { Conference as IConference } from './types'
 import venue from './venue'
 
-const name = 'DDD Perth'
-const tagLine = `${name} is an inclusive non-profit conference for the Perth software community`
+const name = 'DDD Melbourne'
+const tagLine = `${name} is an inclusive non-profit conference for the software community`
 
 const hideDate = false
 const isSoldOut = false
@@ -76,20 +76,20 @@ const Conference: IConference = {
   PreviousInstance: (currentInstance - 1).toString(),
   PreviousInstances: [...Array(currentInstance - firstInstance).keys()].map((_, i) => (firstInstance + i).toString()),
   Organiser: {
-    Name: 'DDD WA Inc.',
-    Url: 'https://blog.dddperth.com/meet-the-team-35865433cb39',
-    ShirtColour: 'pink',
+    Name: 'Oz Dev Inc.',
+    Url: 'https://medium.com/ddd-melbourne/the-ddd-melbourne-crew-5f0dd3da09df',
+    ShirtColour: 'blue',
   },
   TagLine: tagLine,
   SiteDescription: `${tagLine}.`,
   Goal:
-    "Our goal is to create an approachable event that appeals to the whole community, especially people that don't normally get to attend or speak at conferences.",
+    'Our goal is to create an approachable event that appeals to the whole community, especially people who usually don’t have the opportunity to attend, or speak at, conferences.',
   GoogleAnalyticsId: 'UA-60040308-1',
   TicketPrice: '$50',
   EventbriteId: null,
   FinancialAssistanceEventbriteCode: 'financialassistance',
   IsSoldOut: isSoldOut,
-  HashTag: 'dddperth',
+  HashTag: 'dddmelbourne',
   SellingPoints: ['One day', 'Fully catered', 'Inclusive atmosphere', 'Interesting presentations', 'Awesome people'],
   Handbook: null,
   SessionizeUrl: null,
@@ -97,7 +97,7 @@ const Conference: IConference = {
   PreviouslySubmittedTopics:
     'Agile, building great teams, UI design, software testing, virtual reality, women in tech, web accessibility, open source software, feedback culture, self-employment tips, mentoring, Scrum, pair programming, bots, IoT, machine learning, neural networks, quantum encryption, Assembly language, automated deployments, mobile development, mobile test automation, architecture, microservices, serverless, APIs, GraphQL, actors, JavaScript, authentication, React, UWP,  HTTP protocol, Git, Docker and pointers',
 
-  ContactEmail: 'info@dddperth.com',
+  ContactEmail: 'dddmelbourne@gmail.com',
   SponsorshipEmail: 'sponsorship@dddperth.com',
   MentoringEmail: 'mentors@dddperth.com',
   EmergencyContactName: 'Rob Moore',

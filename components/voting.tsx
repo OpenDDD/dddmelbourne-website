@@ -232,7 +232,7 @@ export default class Voting extends React.PureComponent<VotingProps, VotingState
             <Panel.Heading>
               {this.state.submitted && (
                 <p className="alert alert-success">
-                  You've submitted your vote for this year :) Thanks! &lt;3 DDD Perth team
+                  You've submitted your vote for this year :) Thanks! &lt;3 DDD Melnourne team
                 </p>
               )}
               {!this.state.submitted && (

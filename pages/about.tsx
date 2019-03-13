@@ -5,8 +5,12 @@ import withPageMetadata, { WithPageMetadataProps } from '../components/global/wi
 import Page from '../layouts/withSidebar'
 
 export default withPageMetadata((props: WithPageMetadataProps) => (
-  <Page pageMetadata={props.pageMetadata} title="About" description="The goal and history of DDD Perth and DDD WA Inc.">
-    <h1>About DDD Perth</h1>
+  <Page
+    pageMetadata={props.pageMetadata}
+    title="About"
+    description="The goal and history of DDD Melbourne and OpenDDD Inc."
+  >
+    <h1>About DDD Melbourne</h1>
     <p>
       {props.pageMetadata.conference.TagLine}. {props.pageMetadata.conference.Goal} We do this by:
     </p>
@@ -18,8 +22,8 @@ export default withPageMetadata((props: WithPageMetadataProps) => (
       <li>Focussing on creating a safe and inclusive environment where everyone is welcome</li>
     </ul>
     <p className="text-center">
-      <img src="/static/images/logo.png" alt="DDD Perth logo" style={{ width: '250px' }} />
-      <img src="/static/images/logo-2019.png" alt="DDD Perth 2019 logo" style={{ width: '250px' }} />
+      <img src="/static/images/logo.png" alt="DDD Melbourne logo" style={{ width: '250px' }} />
+      <img src="/static/images/logo-2019.png" alt="DDD Melbourne 2019 logo" style={{ width: '250px' }} />
     </p>
     <p>
       Furthermore, {props.pageMetadata.conference.Name} aims to both create opportunities for underrepresented
