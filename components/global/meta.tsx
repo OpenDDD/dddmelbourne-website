@@ -1,6 +1,5 @@
 import Head from 'next/head'
-import * as React from 'react'
-import { Fragment, StatelessComponent } from 'react'
+import React, { Fragment, StatelessComponent } from 'react'
 import { Conference, Dates } from '../../config/types'
 import '../../styles/screen.scss'
 
@@ -68,7 +67,6 @@ const Meta: StatelessComponent<MetaArgs> = ({
       <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" />
       <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Montserrat:700" />
       <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Overpass+Mono:700" />
-      <link rel="stylesheet" href="/_next/static/style.css" />
       {instrumentationKey && (
         <script
           type="text/javascript"

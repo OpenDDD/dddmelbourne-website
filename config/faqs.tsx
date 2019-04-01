@@ -1,6 +1,6 @@
 // tslint:disable:object-literal-sort-keys
-import * as React from 'react'
-import { Fragment } from 'react'
+import React, { Fragment } from 'react'
+import { SafeLink } from '../components/global/safeLink'
 import Conference from './conference'
 import { Dates, FAQ } from './types'
 
@@ -131,12 +131,13 @@ export default function getFaqs(dates: Dates): FAQ[] {
     Answer: (
       <Fragment>
         You are welcome to send someone else in your place. Please do this through{' '}
-        <a
+        <SafeLink
           href="https://www.eventbrite.com/support/articles/en_US/How_To/how-to-update-your-ticket-registration-information"
           target="_blank"
         >
           Eventbrite
-        </a>.
+        </SafeLink>
+        .
       </Fragment>
     ),
     Category: 'tickets',
@@ -147,9 +148,10 @@ export default function getFaqs(dates: Dates): FAQ[] {
     Answer: (
       <Fragment>
         The Twitter hashtag is{' '}
-        <a href={'https://twitter.com/search?q=%23' + Conference.HashTag} target="_blank">
+        <SafeLink href={'https://twitter.com/search?q=%23' + Conference.HashTag} target="_blank">
           #{Conference.HashTag}
-        </a>.
+        </SafeLink>
+        .
       </Fragment>
     ),
   })
@@ -190,9 +192,10 @@ export default function getFaqs(dates: Dates): FAQ[] {
           <Fragment>
             {' '}
             and Twitter at{' '}
-            <a href={'https://twitter.com/' + Conference.Socials.Twitter.Name} target="_blank">
+            <SafeLink href={'https://twitter.com/' + Conference.Socials.Twitter.Name} target="_blank">
               @{Conference.Socials.Twitter.Name}
-            </a>. See also the other Social Media accounts at the footer of this page.
+            </SafeLink>
+            . See also the other Social Media accounts at the footer of this page.
           </Fragment>
         ) : (
           '. Also, see our various social media accounts at the footer of this page.'
@@ -213,7 +216,8 @@ export default function getFaqs(dates: Dates): FAQ[] {
         if you would like a copy{' '}
         <a className="maillink" href={'mailto:' + Conference.SponsorshipEmail}>
           please contact us
-        </a>.
+        </a>
+        .
       </Fragment>
     ),
   })
@@ -225,76 +229,77 @@ export default function getFaqs(dates: Dates): FAQ[] {
         <p>Perth has a very active software community. Consider attending one of the meetups/conferences such as:</p>
         <ul>
           <li>
-            <a href="http://www.meetup.com/PerthDotNet/" target="_blank">
+            <SafeLink href="http://www.meetup.com/PerthDotNet/" target="_blank">
               Perth .NET
-            </a>
+            </SafeLink>
           </li>
           <li>
-            <a href="http://www.meetup.com/Perth-Cloud/" target="_blank">
+            <SafeLink href="http://www.meetup.com/Perth-Cloud/" target="_blank">
               Perth MS Cloud Computing User Group
-            </a>
+            </SafeLink>
           </li>
           <li>
-            <a href="http://www.meetup.com/PerthFP/" target="_blank">
+            <SafeLink href="http://www.meetup.com/PerthFP/" target="_blank">
               Perth Functional Programmers
-            </a>
+            </SafeLink>
           </li>
           <li>
-            <a href="http://www.meetup.com/Agile-Perth/" target="_blank">
+            <SafeLink href="http://www.meetup.com/Agile-Perth/" target="_blank">
               Agile Perth
-            </a>
+            </SafeLink>
           </li>
           <li>
-            <a href="http://www.meetup.com/Perth-Agile-Meetup-Group/" target="_blank">
+            <SafeLink href="http://www.meetup.com/Perth-Agile-Meetup-Group/" target="_blank">
               Perth Agile Meetup
-            </a>
+            </SafeLink>
           </li>
           <li>
-            <a href="http://www.meetup.com/DevOps-Perth/" target="_blank">
+            <SafeLink href="http://www.meetup.com/DevOps-Perth/" target="_blank">
               DevOps Perth
-            </a>
+            </SafeLink>
           </li>
           <li>
-            <a href="http://www.meetup.com/Front-End-Web-Developers-Perth/" target="_blank">
+            <SafeLink href="http://www.meetup.com/Front-End-Web-Developers-Perth/" target="_blank">
               Front End Web Developers Perth (Fenders)
-            </a>
+            </SafeLink>
           </li>
           <li>
-            <a href="http://www.meetup.com/Perth-Agile-Testing/" target="_blank">
+            <SafeLink href="http://www.meetup.com/Perth-Agile-Testing/" target="_blank">
               Perth Agile Testing
-            </a>
+            </SafeLink>
           </li>
           <li>
-            <a href="http://www.meetup.com/Perth-Code-Dojo/" target="_blank">
+            <SafeLink href="http://www.meetup.com/Perth-Code-Dojo/" target="_blank">
               Perth Code Dojo
-            </a>
+            </SafeLink>
           </li>
           <li>
-            <a href="https://www.meetup.com/Perth-mobile-dot-net-developers/" target="_blank">
+            <SafeLink href="https://www.meetup.com/Perth-mobile-dot-net-developers/" target="_blank">
               Perth Mobile .NET Developers
-            </a>
+            </SafeLink>
           </li>
           <li>
-            <a href="http://www.witwa.org.au/" target="_blank">
+            <SafeLink href="http://www.witwa.org.au/" target="_blank">
               Women in Technology, WA
-            </a>
+            </SafeLink>
           </li>
           <li>
-            <a href="http://mixinconf.com/" target="_blank">
+            <SafeLink href="http://mixinconf.com/" target="_blank">
               Mixin conference
-            </a>
+            </SafeLink>
           </li>
           <li>
-            <a href="http://west.yowconference.com.au/" target="_blank">
+            <SafeLink href="http://west.yowconference.com.au/" target="_blank">
               Yow! West conference
-            </a>
+            </SafeLink>
           </li>
         </ul>
         <p>
           Furthermore, you can see an up to date list of Australian conferences at{' '}
-          <a href="https://github.com/readify/devevents" target="_blank">
+          <SafeLink href="https://github.com/readify/devevents" target="_blank">
             Readify's DevEvents repository
-          </a>.
+          </SafeLink>
+          .
         </p>
       </Fragment>
     ),
@@ -310,70 +315,71 @@ export default function getFaqs(dates: Dates): FAQ[] {
         </p>
         <ul>
           <li>
-            <a href="https://twitter.com/robdmoore" target="_blank">
+            <SafeLink href="https://twitter.com/robdmoore" target="_blank">
               Rob Moore
-            </a>
+            </SafeLink>
           </li>
           <li>
-            <a href="https://twitter.com/JakeGinnivan" target="_blank">
+            <SafeLink href="https://twitter.com/JakeGinnivan" target="_blank">
               Jake Ginnivan
-            </a>
+            </SafeLink>
           </li>
           <li>
-            <a href="https://twitter.com/LeeRyanCampbell" target="_blank">
+            <SafeLink href="https://twitter.com/LeeRyanCampbell" target="_blank">
               Lee Campbell
-            </a>
+            </SafeLink>
           </li>
           <li>
-            <a href="https://twitter.com/ian_hughes" target="_blank">
+            <SafeLink href="https://twitter.com/ian_hughes" target="_blank">
               Ian Hughes
-            </a>
+            </SafeLink>
           </li>
           <li>
-            <a href="https://www.linkedin.com/in/rebeccacwaters/" target="_blank">
+            <SafeLink href="https://www.linkedin.com/in/rebeccacwaters/" target="_blank">
               Rebecca Waters
-            </a>
+            </SafeLink>
           </li>
           <li>
-            <a href="https://twitter.com/AshleyAitken" target="_blank">
+            <SafeLink href="https://twitter.com/AshleyAitken" target="_blank">
               Ashley Aitken
-            </a>
+            </SafeLink>
           </li>
           <li>
-            <a href="https://twitter.com/robdcrowley" target="_blank">
+            <SafeLink href="https://twitter.com/robdcrowley" target="_blank">
               Rob Crowley
-            </a>
+            </SafeLink>
           </li>
           <li>
-            <a href="https://twitter.com/mattyjward" target="_blank">
+            <SafeLink href="https://twitter.com/mattyjward" target="_blank">
               Matt Ward
-            </a>
+            </SafeLink>
           </li>
           <li>
-            <a href="https://twitter.com/zia_marjan" target="_blank">
+            <SafeLink href="https://twitter.com/zia_marjan" target="_blank">
               Marjan Zia Khodadadian
-            </a>
+            </SafeLink>
           </li>
           <li>
-            <a href="https://twitter.com/aidanjmorgan" target="_blank">
+            <SafeLink href="https://twitter.com/aidanjmorgan" target="_blank">
               Aidan Morgan
-            </a>
+            </SafeLink>
           </li>
           <li>
-            <a href="https://twitter.com/andrealchagas" target="_blank">
+            <SafeLink href="https://twitter.com/andrealchagas" target="_blank">
               Andrea Chagas
-            </a>
+            </SafeLink>
           </li>
           <li>
-            <a href="https://twitter.com/deekob" target="_blank">
+            <SafeLink href="https://twitter.com/deekob" target="_blank">
               Derek Bingham
-            </a>
+            </SafeLink>
           </li>
         </ul>
         <p>
-          <a href="https://blog.dddperth.com/meet-the-team-35865433cb39" target="_blank">
+          <SafeLink href="https://blog.dddperth.com/meet-the-team-35865433cb39" target="_blank">
             Meet the team
-          </a>! Furthermore, we have many others who volunteer and have assisted with organisation in the past.
+          </SafeLink>
+          ! Furthermore, we have many others who volunteer and have assisted with organisation in the past.
         </p>
       </Fragment>
     ),

@@ -1,8 +1,9 @@
 import fetch from 'isomorphic-fetch'
 import Router from 'next/router'
-import * as React from 'react'
+import React from 'react'
 import AllAgendas from '../components/allAgendas'
 import CurrentAgenda from '../components/currentAgenda'
+import { SafeLink } from '../components/global/safeLink'
 import withPageMetadata, { WithPageMetadataProps } from '../components/global/withPageMetadata'
 import dateTimeProvider from '../components/utils/dateTimeProvider'
 import Conference from '../config/conference'
@@ -46,15 +47,15 @@ class AgendaPage extends React.Component<AgendaPageProps> {
     const dates = this.props.pageMetadata.dates
 
     const AfterSessionDetails = (s: Session) => {
-      return (
+      return dates.AcceptingFeedback ? (
         <>
           <p className="text-center">
-            <a className="btn btn-secondary" target="_blank" href={conference.SessionFeedbackLink}>
+            <SafeLink className="btn btn-secondary" target="_blank" href={conference.SessionFeedbackLink}>
               Give feedback
-            </a>
+            </SafeLink>
           </p>
         </>
-      )
+      ) : null
     }
 
     return (
