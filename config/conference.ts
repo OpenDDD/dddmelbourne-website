@@ -83,10 +83,10 @@ const Conference: IConference = {
   SiteDescription: `${tagLine}.`,
   Goal:
     'Our goal is to create an approachable event that appeals to the whole community, especially people who usually don’t have the opportunity to attend, or speak at, conferences.',
-  GoogleAnalyticsId: 'UA-60040308-1', //TODO
+  GoogleAnalyticsId: 'UA-60040308-1', // TODO
   TicketPrice: '$79',
-  EventbriteId: null, //TODO
-  FinancialAssistanceEventbriteCode: 'financialassistance', //TODO
+  EventbriteId: null, // TODO
+  FinancialAssistanceEventbriteCode: 'financialassistance', // TODO
   IsSoldOut: isSoldOut,
   HashTag: 'dddmelbourne',
   SellingPoints: ['One day', 'Fully catered', 'Inclusive atmosphere', 'Interesting presentations', 'Awesome people'],
@@ -99,12 +99,12 @@ const Conference: IConference = {
   ContactEmail: 'info@dddmelbourne.com',
   SponsorshipEmail: 'sponsorship@dddmelbourne.com',
   MentoringEmail: 'speakers@dddmelbourne.com',
-  EmergencyContactName: 'Tien Phan', //TODO
-  EmergencyContactPhoneNumber: 'TBC', //TODO
-  MediaOfficerName: 'Yolanie Gamage', //TODO
+  EmergencyContactName: 'Tien Phan', // TODO
+  EmergencyContactPhoneNumber: 'TBC', // TODO
+  MediaOfficerName: 'Yolanie Gamage', // TODO
 
   AnonymousReportFormUrl:
-    'https://forms.office.com/Pages/ResponsePage.aspx?id=8IU585acE0S9pvuDhIEiS26sQVnJFzFLm-6XlxI4bCFURDVGTks2N1VOQVBWWUU1VFJESDZMNlkxNS4u', //TODO
+    'https://forms.office.com/Pages/ResponsePage.aspx?id=8IU585acE0S9pvuDhIEiS26sQVnJFzFLm-6XlxI4bCFURDVGTks2N1VOQVBWWUU1VFJESDZMNlkxNS4u', // TODO
 
   AnonymousVoting: true,
   MinVotes: 8,
@@ -140,12 +140,12 @@ const Conference: IConference = {
       Id: '971044039',
       Name: 'DDDMelbourne',
     },
-    Facebook: 'DDDMelbourne', //TODO
-    Flickr: 'https://www.flickr.com/photos/135003652@N08/albums', //TODO
+    Facebook: 'DDDMelbourne', // TODO
+    Flickr: 'https://www.flickr.com/photos/135003652@N08/albums', // TODO
     Youtube: 'https://www.youtube.com/channel/UCq4oEsAIrAg-AdpuSLtfxbw',
     Blog: 'https://blog.dddmelbourne.com/',
     Email: 'info@dddmelbourne.com',
-    MailingList: 'http://eepurl.com/cRvaSf', //TODO
+    MailingList: 'http://eepurl.com/cRvaSf', // TODO
     GitHub: 'OpenDDD',
   },
 
