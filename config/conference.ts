@@ -9,23 +9,25 @@ const tagLine = `${name} is an inclusive non-profit conference for the software 
 
 const hideDate = false
 const isSoldOut = false
-const date = moment.parseZone('2019-08-03T08:00+08:00')
+const date = moment.parseZone('2019-08-10T08:00+10:00')
 const endDate = date.clone().add(12, 'h')
 const currentInstance = parseInt(date.format('YYYY'), 10)
 const firstInstance = 2015
-const registrationOpenFrom = moment.parseZone('2019-04-30T17:00:00+08:00')
-const registrationOpenUntil = hideDate
+const registrationOpenFrom = moment.parseZone('2019-04-30T17:00:00+10:00')
+const wave1RegistrationOpenFrom = moment.parseZone('2019-05-06T12:00:00+10:00')
+const wave2RegistrationOpenFrom = moment.parseZone('2019-06-01T15:00:00+10:00')
+const registrationOpenUntil = true
   ? null
   : date
-      .clone()
-      .add(-1, 'd')
-      .startOf('day')
-      .add(17, 'h')
-const presentationSubmissionsOpenFrom = moment.parseZone('2019-04-30T17:00:00+08:00')
-const presentationSubmissionsOpenUntil = moment.parseZone('2019-06-02T23:59:59+08:00')
-const votingOpenFrom = moment.parseZone('2019-06-08T17:00:00+08:00')
-const votingOpenUntil = moment.parseZone('2019-06-16T23:59:59+08:00')
-const agendaPublishedFrom = moment.parseZone('2019-06-23T17:00:00+08:00')
+    .clone()
+    .add(-1, 'd')
+    .startOf('day')
+    .add(17, 'h')
+const presentationSubmissionsOpenFrom = moment.parseZone('2019-04-30T17:00:00+10:00')
+const presentationSubmissionsOpenUntil = moment.parseZone('2019-06-02T23:59:59+10:00')
+const votingOpenFrom = moment.parseZone('2019-06-16T12:00:00+10:00')
+const votingOpenUntil = moment.parseZone('2019-06-22T17:59:59+10:00')
+const agendaPublishedFrom = moment.parseZone('2019-07-15T19:00:00+10:00')
 const feedbackOpenFrom = date.clone()
 const feedbackOpenUntil = endDate
 const importantDates = [
@@ -39,11 +41,8 @@ const importantDates = [
     Description: 'Call for presentations close',
     Type: 'content',
   },
-  {
-    Date: registrationOpenFrom,
-    Description: 'Ticket sales open',
-    Type: 'tickets',
-  },
+  { Description: 'Wave 1', Date: wave1RegistrationOpenFrom, Type: 'tickets' },
+  { Description: 'Wave 2', Date: wave2RegistrationOpenFrom, Type: 'tickets' },
   { Description: 'Voting open', Date: votingOpenFrom, Type: 'voting' },
   { Description: 'Voting close', Date: votingOpenUntil, Type: 'voting' },
   {
@@ -84,10 +83,10 @@ const Conference: IConference = {
   SiteDescription: `${tagLine}.`,
   Goal:
     'Our goal is to create an approachable event that appeals to the whole community, especially people who usually don’t have the opportunity to attend, or speak at, conferences.',
-  GoogleAnalyticsId: 'UA-60040308-1',
-  TicketPrice: '$50',
-  EventbriteId: null,
-  FinancialAssistanceEventbriteCode: 'financialassistance',
+  GoogleAnalyticsId: 'UA-60040308-1', //TODO
+  TicketPrice: '$79',
+  EventbriteId: null, //TODO
+  FinancialAssistanceEventbriteCode: 'financialassistance', //TODO
   IsSoldOut: isSoldOut,
   HashTag: 'dddmelbourne',
   SellingPoints: ['One day', 'Fully catered', 'Inclusive atmosphere', 'Interesting presentations', 'Awesome people'],
@@ -97,15 +96,15 @@ const Conference: IConference = {
   PreviouslySubmittedTopics:
     'Agile, building great teams, UI design, software testing, virtual reality, women in tech, web accessibility, open source software, feedback culture, self-employment tips, mentoring, Scrum, pair programming, bots, IoT, machine learning, neural networks, quantum encryption, Assembly language, automated deployments, mobile development, mobile test automation, architecture, microservices, serverless, APIs, GraphQL, actors, JavaScript, authentication, React, UWP,  HTTP protocol, Git, Docker and pointers',
 
-  ContactEmail: 'dddmelbourne@gmail.com',
-  SponsorshipEmail: 'sponsorship@dddperth.com',
-  MentoringEmail: 'mentors@dddperth.com',
-  EmergencyContactName: 'Rob Moore',
-  EmergencyContactPhoneNumber: '0400 777 763',
-  MediaOfficerName: 'Rebecca Waters',
+  ContactEmail: 'info@dddmelbourne.com',
+  SponsorshipEmail: 'sponsorship@dddmelbourne.com',
+  MentoringEmail: 'speakers@dddmelbourne.com',
+  EmergencyContactName: 'Tien Phan', //TODO
+  EmergencyContactPhoneNumber: 'TBC', //TODO
+  MediaOfficerName: 'Yolanie Gamage', //TODO
 
   AnonymousReportFormUrl:
-    'https://forms.office.com/Pages/ResponsePage.aspx?id=8IU585acE0S9pvuDhIEiS26sQVnJFzFLm-6XlxI4bCFURDVGTks2N1VOQVBWWUU1VFJESDZMNlkxNS4u',
+    'https://forms.office.com/Pages/ResponsePage.aspx?id=8IU585acE0S9pvuDhIEiS26sQVnJFzFLm-6XlxI4bCFURDVGTks2N1VOQVBWWUU1VFJESDZMNlkxNS4u', //TODO
 
   AnonymousVoting: true,
   MinVotes: 8,
@@ -138,16 +137,16 @@ const Conference: IConference = {
 
   Socials: {
     Twitter: {
-      Id: '977876011',
-      Name: 'DDDPerth',
+      Id: '971044039',
+      Name: 'DDDMelbourne',
     },
-    Facebook: 'DDDPerth',
-    Flickr: 'https://www.flickr.com/photos/135003652@N08/albums',
-    Youtube: 'https://www.youtube.com/channel/UCj4UnNYakbLAh2xTWTjeoAQ',
-    Blog: 'https://blog.dddperth.com/',
-    Email: 'info@dddperth.com',
-    MailingList: 'http://eepurl.com/cRvaSf',
-    GitHub: 'dddwa',
+    Facebook: 'DDDMelbourne', //TODO
+    Flickr: 'https://www.flickr.com/photos/135003652@N08/albums', //TODO
+    Youtube: 'https://www.youtube.com/channel/UCq4oEsAIrAg-AdpuSLtfxbw',
+    Blog: 'https://blog.dddmelbourne.com/',
+    Email: 'info@dddmelbourne.com',
+    MailingList: 'http://eepurl.com/cRvaSf', //TODO
+    GitHub: 'OpenDDD',
   },
 
   ImageStrip: [
@@ -168,14 +167,14 @@ const Conference: IConference = {
       Details: '1800 806 292',
     },
     EmergencyMedical: {
-      Details: 'Royal Perth Hospital, 197 Wellington St, Perth WA 6000',
+      Details: 'Royal Melbourne Hospital, 300 Grattan Street, Melbourne VIC 3000',
       MapUrl:
-        'https://www.google.com.au/maps/place/Royal+Perth+Hospital/@-31.953946,115.8637156,17z/data=!3m1!4b1!4m5!3m4!1s0x2a32bb26d7818b2d:0x31db7aa443eb9c11!8m2!3d-31.953946!4d115.8659043',
+        'https://www.google.com/maps/place/The+Royal+Melbourne+Hospital/@-37.7990618,144.9538002,17z/data=!3m1!4b1!4m5!3m4!1s0x6ad65d2e7f540971:0x9d8b2b9975e322e7!8m2!3d-37.7990618!4d144.9559889',
     },
     NonEmergencyMedical: {
-      Details: 'Perth Medical Centre, 713 Hay St, Perth WA 6000 ph: (08) 9481 4342',
+      Details: 'Swanston Street Medical Centre, Level 3, 255 Bourke St, Melbourne VIC 3000',
       MapUrl:
-        'https://www.google.com.au/maps/place/Perth+Medical+Centre/@-31.9539771,115.8552714,17z/data=!3m1!4b1!4m5!3m4!1s0x2a32bad5d00fb27f:0xa93cc014867a5f8b!8m2!3d-31.9539771!4d115.8574654',
+        'https://www.google.com/maps/place/Swanston+Street+Medical+Centre/@-37.8135749,144.9639683,17z/data=!3m1!4b1!4m5!3m4!1s0x6ad642cb0cd76b79:0xd7d3d0b9719c23c0!8m2!3d-37.8135749!4d144.966157',
     },
   },
 
