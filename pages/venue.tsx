@@ -87,6 +87,17 @@ class VenuePage extends React.Component<WithPageMetadataProps> {
                 </div>
               </div>
             )}
+            {conference.Venue.Parking && (
+              <div className="col">
+                <div className="top">
+                  <i className="fa fa-car" aria-hidden="true" />
+                  <h3>Parking</h3>
+                </div>
+                <div className="txt">
+                  <p>{conference.Venue.Parking}</p>
+                </div>
+              </div>
+            )}
             {conference.Venue.Train && (
               <div className="col">
                 <div className="top">

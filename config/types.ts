@@ -82,6 +82,7 @@ export interface Venue {
   AfterpartyAddress: string | null
   Accommodation?: JSX.Element | string
   Car?: JSX.Element | string
+  Parking?: JSX.Element | string
   Train?: JSX.Element | string
   Bus?: JSX.Element | string
   Tram?: JSX.Element | string

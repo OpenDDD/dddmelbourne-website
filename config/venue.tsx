@@ -5,54 +5,51 @@ import { Venue } from './types'
 
 // tslint:disable:object-literal-sort-keys
 const venue: Venue = {
-  Name: 'Perth Convention and Exhibition Centre',
-  Address: '21 Mounts Bay Rd, Perth',
-  Latitude: -31.9565004,
-  Longitude: 115.853,
+  Name: 'Melbourne Convention and Exhibition Centre',
+  Address: '1 Convention Centre Pl, South Wharf VIC 3006',
+  Latitude: -37.8256,
+  Longitude: 144.9531075,
   Afterparty: 'TBD',
   AfterpartyAddress: 'TBD',
-  Wifi: 'PCEC has free wifi for all attendees limited to 512Kb download speed that needs to be renewed every hour.',
-  Accommodation: (
+  Wifi: 'MCEC has free wifi for all attendees limited to 512Kb download speed that needs to be renewed every hour.',
+  Accommodation: null,
+  Car: (
     <Fragment>
-      To get a 10% discount from the best available rate for the nearby 4.5 star Adina Apartment Hotel you can use the
-      special{' '}
-      <SafeLink href="https://gc.synxis.com/rez.aspx?Chain=14687&amp;locale=en-US&amp;promo=PERTHCONV" target="_blank">
-        booking link
+      Visit the MCEC website for {' '}
+      <SafeLink href="https://mcec.com.au/visit/visit-information" target="_blank">
+        paid parking options
       </SafeLink>
-      . Adina Hotel can be contacted on +61 8 9217 8000 or{' '}
-      <a className="maillink" href="mailto:perth@adinahotels.com.au">
-        perth@adinahotels.com.au
-      </a>
       .
     </Fragment>
   ),
-  Car: (
+  Parking: (
     <Fragment>
-      PCEC has parking underneath it for{' '}
-      <SafeLink href="https://www.cityofperthparking.com.au/convention-centre" target="_blank">
-        $16.80 for the day
+      If you’re being dropped off at the Exhibition Centre, Clarendon Street entrance is the closest entrance. If you’re getting a lift to the Convention Centre, the entrance near DFO is the closest drop off point. Visit MCEC {' '}
+      <SafeLink href="https://mcec.com.au/visit/visit-information" target="_blank">
+        for further guidance
       </SafeLink>
       .
     </Fragment>
   ),
   Train: (
     <Fragment>
-      PCEC is adjoining the Elizabeth Quay Train Station and is a 5 minute walk from it. See{' '}
-      <SafeLink href="http://transperth.wa.gov.au/" target="_blank">
-        Transperth
+      The closest station is Southern Cross. Once you exit the station, you can catch the 96, 109 or 12 tram routes and arrive at MCEC in just a few stops. See{' '}
+      <SafeLink href="https://www.ptv.vic.gov.au/" target="_blank">
+        Public Transport Victoria
       </SafeLink>{' '}
-      for more details.
+      to plan your journey.
     </Fragment>
   ),
-  Bus: (
+  Tram: (
     <Fragment>
-      PCEC is easy to get to via any bus that goes to the Esplanade Busport, which is adjoining the PCEC. See{' '}
-      <SafeLink href="http://transperth.wa.gov.au/" target="_blank">
-        Transperth
+      Tram routes 96, 109 and 12 will all take you from Southern Cross St to the Clarendon Street entrance (Stop 124A Casino/MCEC). Tram routes 70, 75 will take you from Flinders Street St to Spencer Street (Stop 1 Spencer/Flinders Street), it’s just a short walk up Clarendon Street until you reach MCEC. See{' '}
+      <SafeLink href="https://www.ptv.vic.gov.au/" target="_blank">
+        Public Transport Victoria
       </SafeLink>{' '}
-      for more details.
+      to plan your journey.
     </Fragment>
   ),
+  Bus: null
 }
 
 export default venue
