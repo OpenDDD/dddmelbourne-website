@@ -15,7 +15,7 @@ export default withPageMetadata((props: WithPageMetadataProps) => (
       {props.pageMetadata.conference.TagLine}. {props.pageMetadata.conference.Goal} We do this by:
     </p>
     <ul>
-      <li>Making the ticket price as low as possible ($50)</li>
+      <li>Making the ticket price as low as possible ({props.pageMetadata.conference.TicketPrice})</li>
       <li>Running the event on a Saturday</li>
       <li>Allowing anyone to submit about any software industry related topic</li>
       <li>Having a democratically chosen agenda</li>
@@ -32,69 +32,27 @@ export default withPageMetadata((props: WithPageMetadataProps) => (
     </p>
     <h2>What do we do with the money we raise?</h2>
     <p>
-      DDD Perth is run by DDD WA Inc., a non-profit association. All funds raised as part of running DDD Perth, selling
+      DDD Melbourne is run by Oz Dev Inc., a non-profit association. All funds raised as part of running DDD Melbourne, selling
       merchandise on{' '}
-      <SafeLink href="https://www.redbubble.com/people/dddperth" target="_blank">
+      <SafeLink href="https://www.redbubble.com/people/dddmelbourne" target="_blank">
         Red Bubble
       </SafeLink>{' '}
       or any other activities are used for:
     </p>
     <ul>
-      <li>Running current, or future, DDD Perth or DDD By Night events</li>
+      <li>Running current, or future, DDD Melbourne or DDD By Night events</li>
       <li>
-        Sponsoring events or meetup groups in the WA software industry that align to the purpose and goals of DDD Perth
+        Sponsoring events or meetup groups in the WA software industry that align to the purpose and goals of DDD Melbourne
       </li>
       <li>Other activities that contribute to the WA software industry and align to our purpose and goals</li>
     </ul>
     <h2>What does DDD stand for?</h2>
     <p>
-      DDD Perth started out its life as part of the Developer! Developer! Developer! series of events and while our
-      heritage is as a developer-focussed conference, DDD Perth is not just for developers, but for all professionals in
+      DDD Melbourne started out its life as part of the Developer! Developer! Developer! series of events and while our
+      heritage is as a developer-focussed conference, DDD Melbourne is not just for developers, but for all professionals in
       the software industry. These days we don't expand DDD - it's not an acronym for us anymore, but if people insist
       then we might say Designer, Developer and Data Scientist, or is it DevOps, Data architect, distributed tester?
     </p>
-    <h2>History</h2>
-    <p>
-      DDD Perth was founded in 2015 by{' '}
-      <SafeLink href="https://www.twitter.com/robdmoore" target="_blank">
-        Rob Moore
-      </SafeLink>{' '}
-      and{' '}
-      <SafeLink href="https://www.twitter.com/mdaviesnet" target="_blank">
-        Matt Davies
-      </SafeLink>{' '}
-      and{' '}
-      <SafeLink href="https://blog.dddperth.com/meet-the-team-35865433cb39" target="_blank">
-        since 2018 it has been run by DDD WA Inc.
-      </SafeLink>
-    </p>
-    <p>The original DDD Perth logo was:</p>
-    <p className="text-center">
-      <img src="/static/images/logo-old.png" alt="DDD Perth logo" style={{ width: '250px' }} />
-    </p>
-    <p>DDD Perth has been held on the following dates:</p>
-    <ul>
-      <li>
-        <Link href="/agenda/2015">
-          <a>29 August 2015 @ Burswood on Swan - 100 attendees</a>
-        </Link>
-      </li>
-      <li>
-        <Link href="/agenda/2016">
-          <a>27 August 2016 @ Mercure Hotel - 180 attendees (190 tickets sold)</a>
-        </Link>
-      </li>
-      <li>
-        <Link href="/agenda/2017">
-          <a>16 September 2017 @ Perth Convention and Exhibition Centre - 330 attendees (360 tickets sold)</a>
-        </Link>
-      </li>
-      <li>
-        <Link href="/agenda/2018">
-          <a>4 August 2018 @ Perth Convention and Exhibition Centre - 470 attendees (510 tickets sold)</a>
-        </Link>
-      </li>
-    </ul>
     <p>
       Developer! Developer! Developer! started in 2005 in the United Kingdom as a community conference organised by
       software developers for software developers.{' '}

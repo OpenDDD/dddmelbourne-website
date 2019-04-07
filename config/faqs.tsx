@@ -12,12 +12,12 @@ export default function getFaqs(dates: Dates): FAQ[] {
       Question: 'When and where is it?',
       Answer: `The event ${dates.IsComplete ? 'was' : 'will be'} held on ${dates.Display}${
         Conference.HideVenue ? '' : ' at ' + Conference.Venue.Name
-      }.
+        }.
           Doors ${dates.IsComplete ? 'opened' : 'will open'} at ${Conference.DoorsOpenTime} and ${
         dates.IsComplete ? 'we finished' : "we'll finish"
-      } at ${Conference.FinishTime} followed by the afterparty${
+        } at ${Conference.FinishTime} followed by the afterparty${
         Conference.HideAfterpartyVenue ? '' : ' at ' + Conference.Venue.Afterparty
-      }.`,
+        }.`,
     })
   }
 
@@ -25,10 +25,10 @@ export default function getFaqs(dates: Dates): FAQ[] {
     Question: 'How much does it cost to attend?',
     Answer: `${
       Conference.TicketPrice
-    } covers your entry, food and coffee all day and access to the afterparty! Amazing value right!?
+      } covers your entry, food and coffee all day and access to the afterparty! Amazing value right!?
       We are able to keep the ticket price so low thanks to our generous sponsors.
       ${
-        Conference.Name
+      Conference.Name
       } is a non profit event and any excess will be kept as part of a fund for future events and/or donated to charity.`,
     Category: 'tickets',
   })
@@ -102,11 +102,11 @@ export default function getFaqs(dates: Dates): FAQ[] {
         ) : dates.RegistrationClosed ? (
           <Fragment>Ticket sales have closed.</Fragment>
         ) : (
-          <Fragment>
-            Registration opens on {Conference.RegistrationOpenFrom.format(dates.DateDisplayFormat)} at{' '}
-            {Conference.RegistrationOpenFrom.format(dates.TimeDisplayFormat)}.
+                <Fragment>
+                  Registration opens on {Conference.RegistrationOpenFrom.format(dates.DateDisplayFormat)} at{' '}
+                  {Conference.RegistrationOpenFrom.format(dates.TimeDisplayFormat)}.
           </Fragment>
-        )}
+              )}
       </Fragment>
     ),
   })
@@ -198,8 +198,8 @@ export default function getFaqs(dates: Dates): FAQ[] {
             . See also the other Social Media accounts at the footer of this page.
           </Fragment>
         ) : (
-          '. Also, see our various social media accounts at the footer of this page.'
-        )}
+            '. Also, see our various social media accounts at the footer of this page.'
+          )}
       </Fragment>
     ),
   })
@@ -310,73 +310,21 @@ export default function getFaqs(dates: Dates): FAQ[] {
     AnswerWithoutParagraph: (
       <Fragment>
         <p>
-          {Conference.Name} is organised by DDD WA Inc. a non-profit organisation set up to create inclusive events for
-          the WA software community. {Conference.Name} {Conference.Instance} is organised by:
+          {Conference.Name} is organised by Oz Dev Inc. A non-profit organisation set up to create inclusive events for
+          the VIC software community. {Conference.Name} {Conference.Instance} is organised by:
         </p>
         <ul>
           <li>
-            <SafeLink href="https://twitter.com/robdmoore" target="_blank">
-              Rob Moore
+            <SafeLink href="https://twitter.com/TienMPhan" target="_blank">
+              Tien Phan
             </SafeLink>
           </li>
           <li>
-            <SafeLink href="https://twitter.com/JakeGinnivan" target="_blank">
-              Jake Ginnivan
-            </SafeLink>
-          </li>
-          <li>
-            <SafeLink href="https://twitter.com/LeeRyanCampbell" target="_blank">
-              Lee Campbell
-            </SafeLink>
-          </li>
-          <li>
-            <SafeLink href="https://twitter.com/ian_hughes" target="_blank">
-              Ian Hughes
-            </SafeLink>
-          </li>
-          <li>
-            <SafeLink href="https://www.linkedin.com/in/rebeccacwaters/" target="_blank">
-              Rebecca Waters
-            </SafeLink>
-          </li>
-          <li>
-            <SafeLink href="https://twitter.com/AshleyAitken" target="_blank">
-              Ashley Aitken
-            </SafeLink>
-          </li>
-          <li>
-            <SafeLink href="https://twitter.com/robdcrowley" target="_blank">
-              Rob Crowley
-            </SafeLink>
-          </li>
-          <li>
-            <SafeLink href="https://twitter.com/mattyjward" target="_blank">
-              Matt Ward
-            </SafeLink>
-          </li>
-          <li>
-            <SafeLink href="https://twitter.com/zia_marjan" target="_blank">
-              Marjan Zia Khodadadian
-            </SafeLink>
-          </li>
-          <li>
-            <SafeLink href="https://twitter.com/aidanjmorgan" target="_blank">
-              Aidan Morgan
-            </SafeLink>
-          </li>
-          <li>
-            <SafeLink href="https://twitter.com/andrealchagas" target="_blank">
-              Andrea Chagas
-            </SafeLink>
-          </li>
-          <li>
-            <SafeLink href="https://twitter.com/deekob" target="_blank">
-              Derek Bingham
-            </SafeLink>
+            TBC
           </li>
         </ul>
         <p>
-          <SafeLink href="https://blog.dddperth.com/meet-the-team-35865433cb39" target="_blank">
+          <SafeLink href="#" target="_blank">
             Meet the team
           </SafeLink>
           ! Furthermore, we have many others who volunteer and have assisted with organisation in the past.

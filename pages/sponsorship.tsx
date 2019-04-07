@@ -24,7 +24,7 @@ export default withPageMetadata((props: WithPageMetadataProps) => (
     </p>
     <ul>
       <li>
-        Making the ticket price as low as possible ($50); people don't need to request PD budget from their employer to
+        Making the ticket price as low as possible ({props.pageMetadata.conference.TicketPrice}); people don't need to request Professional Development (PD) budget from their employer to
         attend and it's accessible to most people regardless of financial circumstance
       </li>
       <li>
@@ -54,8 +54,8 @@ export default withPageMetadata((props: WithPageMetadataProps) => (
     </p>
 
     <p>
-      In 2017 DDD Perth had 330 attendees from 360 sold tickets; this makes us the biggest software conference in
-      Western Australia.
+      In 2018 DDD Melbourne had 600 attendees from 700 sold tickets; this makes us the biggest community conference in
+      Victoria.
     </p>
 
     <p>

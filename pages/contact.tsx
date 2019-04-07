@@ -38,13 +38,10 @@ export default withPageMetadata((props: WithPageMetadataProps) => (
           props.pageMetadata.conference.EmergencyContactPhoneNumber}
       </li>
     </ul>
-    <h2>DDD WA Inc.</h2>
+    <h2>Oz Dev Inc.</h2>
     <ul>
       <li>
-        <strong>ABN:</strong> 61 201 381 758
-      </li>
-      <li>
-        <strong>Postal Address:</strong> PO Box 7550, Perth WA 6000
+        <strong>ABN:</strong> 11 942 618 043
       </li>
     </ul>
   </Page>

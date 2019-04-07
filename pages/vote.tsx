@@ -173,13 +173,13 @@ class VotePage extends React.Component<VoteProps, VoteState> {
                       between {minVotes} and {maxVotes}
                     </span>
                   ) : (
-                    <span>{minVotes}</span>
-                  )}{' '}
+                      <span>{minVotes}</span>
+                    )}{' '}
                   sessions and you have until{' '}
                   {this.props.pageMetadata.conference.VotingOpenUntil.format(
                     this.props.pageMetadata.dates.TimeDisplayFormat +
-                      ' ' +
-                      this.props.pageMetadata.dates.DateDisplayFormat,
+                    ' ' +
+                    this.props.pageMetadata.dates.DateDisplayFormat,
                   )}
                 </strong>{' '}
                 to submit your votes. <strong>Each person should only lodge one set of votes</strong>; we have a number
@@ -255,7 +255,7 @@ class VotePage extends React.Component<VoteProps, VoteState> {
             <br />
             Thanks!
             <br />
-            &lt;3 DDD Perth team
+            &lt;3 DDD Melbourne team
           </p>
 
           {this.state.isLoading && <p>Loading sessions...</p>}

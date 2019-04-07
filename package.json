@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "The website for DDD Melbourne.",
   "main": "index.js",
-  "author": "DDD WA Inc.",
+  "author": "Oz Dev Inc.",
   "license": "N/A",
   "private": true,
   "scripts": {
