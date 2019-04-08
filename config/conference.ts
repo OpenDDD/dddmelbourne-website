@@ -23,7 +23,7 @@ const registrationOpenUntil = true
     .add(-1, 'd')
     .startOf('day')
     .add(17, 'h')
-const presentationSubmissionsOpenFrom = moment.parseZone('2019-04-30T17:00:00+10:00')
+const presentationSubmissionsOpenFrom = moment.parseZone('2019-04-13T17:00:00+10:00')
 const presentationSubmissionsOpenUntil = moment.parseZone('2019-06-02T23:59:59+10:00')
 const votingOpenFrom = moment.parseZone('2019-06-16T12:00:00+10:00')
 const votingOpenUntil = moment.parseZone('2019-06-22T17:59:59+10:00')
