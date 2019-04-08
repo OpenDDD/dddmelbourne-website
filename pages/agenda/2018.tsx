@@ -38,11 +38,7 @@ class Agenda2018 extends React.Component<AgendaPageProps> {
                 <td colSpan={4} className="breadth">
                   Registration
                   <br />
-                  <em>Perth Convention and Exhibition Centre</em>
-                  <br />
-                  21 Mounts Bay Rd, Perth
-                  <br />
-                  <small className="room">Upstairs foyer (Level 3)</small>
+                  <small className="room">Foyer</small>
                 </td>
               </tr>
 
@@ -51,16 +47,7 @@ class Agenda2018 extends React.Component<AgendaPageProps> {
                 <td colSpan={4} className="breadth">
                   Welcome and housekeeping
                   <br />
-                  <small className="room">VGW Ballroom 2</small>
-                </td>
-              </tr>
-
-              <tr className="breadth-row">
-                <td className="time">9:00</td>
-                <td colSpan={4} className="breadth">
-                  Welcome to country
-                  <br />
-                  <small className="room">VGW Ballroom 2</small>
+                  <small className="room">Main Hall</small>
                 </td>
               </tr>
 
@@ -260,10 +247,7 @@ class Agenda2018 extends React.Component<AgendaPageProps> {
             Flickr Album
           </SafeLink>
         </p>
-        <Sponsors
-          show={true}
-          sponsors={From2018.Sponsors.filter(s => s.type === SponsorType.Gold || s.type === SponsorType.Platinum)}
-        />
+        <Sponsors show={true} sponsors={From2018.Sponsors} />
       </Fragment>
     )
   }
