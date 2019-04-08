@@ -75,8 +75,8 @@ export default withPageMetadata((props: WithPageMetadataProps) => (
     <h2>Sister events</h2>
     <p>We have a number of sister events across Australia:</p>
     <p className="text-center">
-      <SafeLink href="https://dddmelbourne.com/" target="_blank">
-        <img src="/static/images/logo-dddmelbourne.jpg" alt="DDD Melbourne logo" style={{ width: '200px' }} />
+      <SafeLink href="https://dddperth.com/" target="_blank">
+        <img src="/static/images/logo-dddperth.png" alt="DDD Perth logo" style={{ width: '200px' }} />
       </SafeLink>{' '}
       <SafeLink href="http://dddsydney.com.au/" target="_blank">
         <img src="/static/images/logo-dddsydney.png" alt="DDD Sydney logo" style={{ width: '200px' }} />
