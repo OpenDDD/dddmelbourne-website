@@ -13,25 +13,31 @@ interface From2018 {
 const From2018: From2018 = {
   YouTubePlaylistUrl: 'https://www.youtube.com/watch?v=A02tSBP7CCw&list=PLkLJSte3oodSP0RvXqylgI16BO5eojS19',
   // tslint:disable-next-line:object-literal-sort-keys
-  YouTubeKeynoteEmbedUrl: 'https://www.youtube.com/embed/MDrrZucJtJo',
-  YouTubeLunchnoteEmbedUrl: 'https://www.youtube.com/embed/NCj0xNu8f8s',
-  YouTubeLocknoteEmbedUrl: 'https://www.youtube.com/embed/Vb8ebpzoioQ',
-  FlickrAlbumUrl: 'https://www.flickr.com/photos/135003652@N08/albums/72157700075126705',
-  HandbookUrl: '/static/docs/handbook2018.pdf',
+  YouTubeKeynoteEmbedUrl: null,
+  YouTubeLunchnoteEmbedUrl: null,
+  YouTubeLocknoteEmbedUrl: null,
+  FlickrAlbumUrl: null,
+  HandbookUrl: null,
   Sponsors: [
     // Platinum
     {
-      imageUrl: '/static/images/sponsors/vgw.png',
-      name: 'Virtual Gaming Worlds',
+      imageUrl: '/static/images/sponsors/liberty.png',
+      name: 'Liberty',
       type: SponsorType.Platinum,
-      url: 'https://www.vgw.co/',
+      url: 'https://www.liberty.com.au/',
     },
     // Gold
     {
-      imageUrl: '/static/images/sponsors/aws.png',
-      name: 'Amazon Web Services',
+      imageUrl: '/static/images/sponsors/compass.png',
+      name: 'Compass',
       type: SponsorType.Gold,
-      url: 'https://aws.amazon.com/',
+      url: 'https://www.compass.education/',
+    },
+    {
+      imageUrl: '/static/images/sponsors/kiandrait.png',
+      name: 'Kiandra It',
+      type: SponsorType.Gold,
+      url: 'https://kiandra.com.au/',
     },
     {
       imageUrl: '/static/images/sponsors/livehire.png',
@@ -44,6 +50,36 @@ const From2018: From2018 = {
       name: 'Microsoft',
       type: SponsorType.Gold,
       url: 'https://www.microsoft.com/',
+    },
+    {
+      imageUrl: '/static/images/sponsors/nintex.png',
+      name: 'Nintex',
+      type: SponsorType.Gold,
+      url: 'https://www.nintex.com',
+    },
+    {
+      imageUrl: '/static/images/sponsors/readify.png',
+      name: 'Readify ',
+      type: SponsorType.Gold,
+      url: 'https://readify.net/',
+    },
+    {
+      imageUrl: '/static/images/sponsors/square.png',
+      name: 'Square',
+      type: SponsorType.Gold,
+      url: 'https://squareup.com/au',
+    },
+    {
+      imageUrl: '/static/images/sponsors/starrez.png',
+      name: 'StarRez',
+      type: SponsorType.Gold,
+      url: 'https://www.starrez.com/',
+    },
+    {
+      imageUrl: '/static/images/sponsors/twilio.png',
+      name: 'Twilio',
+      type: SponsorType.Gold,
+      url: 'https://www.twilio.com/',
     },
     // Silver
     {
@@ -58,67 +94,42 @@ const From2018: From2018 = {
       type: SponsorType.Silver,
       url: 'https://www.progress.com/',
     },
-    {
-      imageUrl: '/static/images/sponsors/octopus-deploy.png',
-      name: 'Octopus Deploy',
-      type: SponsorType.Silver,
-      url: 'https://octopus.com/',
-    },
     // Community
     {
-      imageUrl: '/static/images/sponsors/yow-perth.png',
-      name: 'YOW! Perth',
+      imageUrl: '/static/images/sponsors/GGDMelb.png',
+      name: 'Girl Geek Dinners Melbourne',
       type: SponsorType.Community,
-      url: 'http://west.yowconference.com.au/',
+      url: 'https://www.meetup.com/en-AU/Girl-Geek-Dinners-Melbourne/',
+    },
+    {
+      imageUrl: '/static/images/sponsors/juniordev.png',
+      name: 'JuniorDev',
+      type: SponsorType.Community,
+      url: 'http://juniordev.io/',
     },
     // Services
     {
-      imageUrl: '/static/images/sponsors/readify.png',
-      name: 'Readify',
-      serviceProvided: 'Coffee Cart',
+      imageUrl: '/static/images/sponsors/flexrule.png',
+      name: 'FlexRule',
+      serviceProvided: 'Wifi',
       type: SponsorType.Service,
-      url: 'https://readify.net/',
+      url: 'http://www.flexrule.com',
     },
     {
-      imageUrl: '/static/images/sponsors/planit.png',
-      name: 'Planit',
-      serviceProvided: 'Coffee Cart',
+      imageUrl: '/static/images/sponsors/mexia.png',
+      name: 'Mexia',
+      serviceProvided: 'Childcare',
       type: SponsorType.Service,
-      url: 'https://www.planittesting.com/',
+      url: 'https://www.mexia.com.au',
     },
     {
-      imageUrl: '/static/images/sponsors/mechanical-rock-2018.png',
-      name: 'Mechanical Rock',
-      serviceProvided: 'Afterparty',
+      imageUrl: '/static/images/sponsors/devexpress.png',
+      name: 'DevExpress',
+      serviceProvided: 'Cofee Cart',
       type: SponsorType.Service,
-      url: 'https://mechanicalrock.io/',
-    },
-    {
-      imageUrl: '/static/images/sponsors/yow-perth.png',
-      name: 'YOW! Perth',
-      serviceProvided: 'Keynote',
-      type: SponsorType.Service,
-      url: 'http://west.yowconference.com.au/',
+      url: 'https://www.devexpress.com',
     },
     // Standard
-    {
-      imageUrl: '/static/images/sponsors/wallabyjs.png',
-      name: 'Wallaby.js',
-      type: SponsorType.Standard,
-      url: 'https://wallabyjs.com/',
-    },
-    {
-      imageUrl: '/static/images/sponsors/psg.png',
-      name: 'PSG Information Technology',
-      type: SponsorType.Standard,
-      url: 'https://www.professionalsearchgroup.com.au/',
-    },
-    {
-      imageUrl: '/static/images/sponsors/aspose.png',
-      name: 'Aspose',
-      type: SponsorType.Standard,
-      url: 'http://www.aspose.com/',
-    },
   ],
 }
 

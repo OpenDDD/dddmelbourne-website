@@ -21,23 +21,15 @@ class Agenda2018 extends React.Component<AgendaPageProps> {
     const SessionCell = this.props.SessionCell
     return (
       <Fragment>
-        <div style={{ overflow: 'auto' }}>
+        <div style={{ overflow: 'initial' }}>
           <table className="agenda-row table">
             <thead>
               <tr>
-                <th style={{ width: '4%' }} />
-                <th style={{ width: '24%' }}>
-                  <strong className="room">RR4</strong>
-                </th>
-                <th style={{ width: '24%' }}>
-                  <strong className="room">M3</strong>
-                </th>
-                <th style={{ width: '24%' }}>
-                  <strong className="room">M2</strong>
-                </th>
-                <th style={{ width: '24%' }}>
-                  <strong className="room">M1</strong>
-                </th>
+                <th style={{ width: '4%' }}></th>
+                <th style={{ width: '24%' }}><strong style={{ background: '#54a6d6' }}>Main Hall</strong><em>1<sup>st</sup> Floor</em></th>
+                <th style={{ width: '24%' }}><strong style={{ background: '#66ad4a' }}>Yarra Room</strong><em>2<sup>nd</sup> Floor</em></th>
+                <th style={{ width: '24%' }}><strong style={{ background: '#ad4a54' }}>Supper Room</strong><em>3<sup>rd</sup> Floor</em></th>
+                <th style={{ width: '24%' }}><strong style={{ background: '#ca7b29' }}>Junior Dev</strong><em>1<sup>st</sup> Floor</em></th>
               </tr>
             </thead>
             <tbody>
@@ -243,23 +235,23 @@ class Agenda2018 extends React.Component<AgendaPageProps> {
             </tbody>
           </table>
         </div>
-        <h2>Handbook</h2>
-        <p>
+        <h2 style={{ display: 'none' }}>Handbook</h2>
+        <p style={{ display: 'none' }}>
           <a className="btn btn-pdf" href={From2018.HandbookUrl}>
             Download 2018 handbook (PDF)
           </a>
         </p>
-        <h2>Media</h2>
+        <h2 style={{ display: 'none' }}>Media</h2>
 
-        <div className="text-center">
+        <div className="text-center" style={{ display: 'none' }}>
           <ResponsiveVideo src={From2018.YouTubeKeynoteEmbedUrl} />
           <ResponsiveVideo src={From2018.YouTubeLocknoteEmbedUrl} />
         </div>
         <br />
-        <div>
+        <div style={{ display: 'none' }}>
           <ResponsiveVideo src={From2018.YouTubeLunchnoteEmbedUrl} />
         </div>
-        <p>
+        <p style={{ display: 'none' }}>
           <SafeLink href={From2018.YouTubePlaylistUrl} target="_blank">
             YouTube Playlist
           </SafeLink>{' '}
