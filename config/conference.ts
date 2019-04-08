@@ -140,12 +140,11 @@ const Conference: IConference = {
       Id: '971044039',
       Name: 'DDDMelbourne',
     },
-    Facebook: 'DDDMelbourne', // TODO
-    Flickr: 'https://www.flickr.com/photos/135003652@N08/albums', // TODO
-    Youtube: 'https://www.youtube.com/channel/UCq4oEsAIrAg-AdpuSLtfxbw',
-    Blog: 'https://blog.dddmelbourne.com/',
-    Email: 'info@dddmelbourne.com',
-    MailingList: 'http://eepurl.com/cRvaSf', // TODO
+    Instagram: 'dddmelb',
+    Flickr: 'https://www.flickr.com/photos/135717775@N07/albums',
+    Youtube: 'https://www.youtube.com/channel/UCj4UnNYakbLAh2xTWTjeoAQ',
+    Blog: 'https://medium.com/ddd-melbourne',
+    Email: 'dddmelbourne@gmail.com',
     GitHub: 'OpenDDD',
   },
 
