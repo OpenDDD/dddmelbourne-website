@@ -91,7 +91,7 @@ const Conference: IConference = {
   HashTag: 'dddmelbourne',
   SellingPoints: ['One day', 'Fully catered', 'Inclusive atmosphere', 'Interesting presentations', 'Awesome people'],
   Handbook: null,
-  SessionizeUrl: null,
+  SessionizeUrl: 'https://sessionize.com/ddd-melbourne-2019/',
   SessionizeEditUrl: 'https://sessionize.com/app/speaker/',
   PreviouslySubmittedTopics:
     'Agile, building great teams, UI design, software testing, virtual reality, women in tech, web accessibility, open source software, feedback culture, self-employment tips, mentoring, Scrum, pair programming, bots, IoT, machine learning, neural networks, quantum encryption, Assembly language, automated deployments, mobile development, mobile test automation, architecture, microservices, serverless, APIs, GraphQL, actors, JavaScript, authentication, React, UWP,  HTTP protocol, Git, Docker and pointers',
@@ -150,24 +150,24 @@ const Conference: IConference = {
   },
 
   ImageStrip: [
-    { Url: '/static/images/strip/1.jpg', Alternate: 'Kris Howard delivering her 2017 locknote' },
-    { Url: '/static/images/strip/2.jpg', Alternate: 'Our 2017 speakers' },
-    { Url: '/static/images/strip/3.jpg', Alternate: 'Visting the readify booth' },
-    { Url: '/static/images/strip/4.jpg', Alternate: 'Early morning registration' },
-    { Url: '/static/images/strip/5.jpg', Alternate: 'Donna Edwards speaking at DDD 2017' },
+    { Url: '/static/images/strip/1.jpg', Alternate: 'Ladies networking breakfast 2018' },
+    { Url: '/static/images/strip/2.jpg', Alternate: 'Our 2018 speakers' },
+    { Url: '/static/images/strip/3.jpg', Alternate: 'DDD 2018 Organisers & Volunteers' },
+    { Url: '/static/images/strip/4.jpg', Alternate: 'Socialising with the Liberty Robot' },
+    { Url: '/static/images/strip/5.jpg', Alternate: 'Crowd of attendees in 2018' },
   ],
 
   ImportantContacts: {
     Police: {
-      Details: '2 Fitzgerald St, Northbridge WA 6003 ph: (08) 9422 7111',
+      Details: 'Melbourne West Police Station, 313 Spencer St, Docklands VIC 3008',
       MapUrl:
-        'https://www.google.com.au/maps/place/WA+Police/@-31.9539457,115.8571227,15z/data=!4m8!1m2!2m1!1swa+police!3m4!1s0x2a32bad2aad309a9:0x132b875b4c12ce8a!8m2!3d-31.9465398!4d115.852523',
+        'https://www.google.com/maps/place/Melbourne+West+Police+Station/@-37.813749,144.9488465,17z/data=!3m1!4b1!4m5!3m4!1s0x6ad65d4f44719edf:0xc5a10f192bea4367!8m2!3d-37.8137533!4d144.9510352',
     },
     CentreAgainstSexualAssault: {
       Details: '1800 806 292',
     },
     EmergencyMedical: {
-      Details: 'Royal Melbourne Hospital, 300 Grattan Street, Melbourne VIC 3000',
+      Details: 'Royal Melbourne Hospital, 300 Grattan St, Melbourne VIC 3000',
       MapUrl:
         'https://www.google.com/maps/place/The+Royal+Melbourne+Hospital/@-37.7990618,144.9538002,17z/data=!3m1!4b1!4m5!3m4!1s0x6ad65d2e7f540971:0x9d8b2b9975e322e7!8m2!3d-37.7990618!4d144.9559889',
     },
