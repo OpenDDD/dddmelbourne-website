@@ -42,9 +42,9 @@ export default withPageMetadata((props: WithPageMetadataProps) => (
     <ul>
       <li>Running current, or future, DDD Melbourne or DDD By Night events</li>
       <li>
-        Sponsoring events or meetup groups in the WA software industry that align to the purpose and goals of DDD Melbourne
+        Sponsoring events or meetup groups in the VIC software industry that align to the purpose and goals of DDD Melbourne
       </li>
-      <li>Other activities that contribute to the WA software industry and align to our purpose and goals</li>
+      <li>Other activities that contribute to the VIC software industry and align to our purpose and goals</li>
     </ul>
     <h2>What does DDD stand for?</h2>
     <p>
@@ -52,6 +52,10 @@ export default withPageMetadata((props: WithPageMetadataProps) => (
       heritage is as a developer-focussed conference, DDD Melbourne is not just for developers, but for all professionals in
       the software industry. These days we don't expand DDD - it's not an acronym for us anymore, but if people insist
       then we might say Designer, Developer and Data Scientist, or is it DevOps, Data architect, distributed tester?
+    </p>
+    <p>The original DDD Melbourne logo was:</p>
+    <p className="text-center">
+      <img src="/static/images/logo-old.png" alt="DDD Melbourne logo" style={{ width: '250px' }} />
     </p>
     <p>
       Developer! Developer! Developer! started in 2005 in the United Kingdom as a community conference organised by
