@@ -15,7 +15,7 @@ const Sponsors: StatelessComponent<SponsorsProps> = ({ sponsors, show, hideUpsel
       <section className="sponsors">
         {sponsors.find(s => s.type === SponsorType.Platinum) && (
           <Fragment>
-            <h2>Platinum Partner</h2>
+            <h2>Platinum Sponsors</h2>
             {sponsors
               .filter(s => s.type === SponsorType.Platinum)
               .map(s => (
@@ -107,19 +107,19 @@ const Sponsors: StatelessComponent<SponsorsProps> = ({ sponsors, show, hideUpsel
       )}
     </Fragment>
   ) : (
-    <Fragment>
-      <section className="sponsors">
-        <h2>Sponsors</h2>
-        <p>
-          We are currently looking for sponsors! If you'd like to explore sponsorship opportunities, please check out
+      <Fragment>
+        <section className="sponsors">
+          <h2>Sponsors</h2>
+          <p>
+            We are currently looking for sponsors! If you'd like to explore sponsorship opportunities, please check out
           our{' '}
-          <Link href="/sponsorship">
-            <a>sponsorship page</a>
-          </Link>{' '}
-          for more information.
+            <Link href="/sponsorship">
+              <a>sponsorship page</a>
+            </Link>{' '}
+            for more information.
         </p>
-      </section>
-    </Fragment>
-  )
+        </section>
+      </Fragment>
+    )
 
 export default Sponsors
