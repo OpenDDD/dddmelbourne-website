@@ -115,12 +115,12 @@ export default function getFaqs(dates: Dates): FAQ[] {
     Question: 'Can I pay by cheque, invoice, cash, Coinye West?',
     Answer: (
       <Fragment>
-        Payments can be made with credit card using Eventbrite via our tickets page when registrations are open.
-        Companies that want to buy bulk tickets (> 5) can{' '}
-        <a className="maillink" href={'mailto:' + Conference.ContactEmail}>
-          contact us
+        Payments can be made with credit card using Ti.to via our tickets page when registrations are open.
+        Companies that want to buy bulk tickets (> 10) can{' '}
+        <a className="maillink" href={'mailto:' + Conference.SponsorshipEmail}>
+          contact our sponsorship team
         </a>{' '}
-        to pay by invoice (EFT or credit card).
+        .
       </Fragment>
     ),
     Category: 'tickets',
@@ -132,10 +132,10 @@ export default function getFaqs(dates: Dates): FAQ[] {
       <Fragment>
         You are welcome to send someone else in your place. Please do this through{' '}
         <SafeLink
-          href="https://www.eventbrite.com/support/articles/en_US/How_To/how-to-update-your-ticket-registration-information"
+          href="https://ti.to"
           target="_blank"
         >
-          Eventbrite
+          Ti.to
         </SafeLink>
         .
       </Fragment>
@@ -229,68 +229,18 @@ export default function getFaqs(dates: Dates): FAQ[] {
         <p>Perth has a very active software community. Consider attending one of the meetups/conferences such as:</p>
         <ul>
           <li>
-            <SafeLink href="http://www.meetup.com/PerthDotNet/" target="_blank">
-              Perth .NET
+            <SafeLink href="http://melbjs.com/" target="_blank">
+              MelbJS
             </SafeLink>
           </li>
           <li>
-            <SafeLink href="http://www.meetup.com/Perth-Cloud/" target="_blank">
-              Perth MS Cloud Computing User Group
+            <SafeLink href="http://melbourne.ozalt.net/" target="_blank">
+              Alt.net
             </SafeLink>
           </li>
           <li>
-            <SafeLink href="http://www.meetup.com/PerthFP/" target="_blank">
-              Perth Functional Programmers
-            </SafeLink>
-          </li>
-          <li>
-            <SafeLink href="http://www.meetup.com/Agile-Perth/" target="_blank">
-              Agile Perth
-            </SafeLink>
-          </li>
-          <li>
-            <SafeLink href="http://www.meetup.com/Perth-Agile-Meetup-Group/" target="_blank">
-              Perth Agile Meetup
-            </SafeLink>
-          </li>
-          <li>
-            <SafeLink href="http://www.meetup.com/DevOps-Perth/" target="_blank">
-              DevOps Perth
-            </SafeLink>
-          </li>
-          <li>
-            <SafeLink href="http://www.meetup.com/Front-End-Web-Developers-Perth/" target="_blank">
-              Front End Web Developers Perth (Fenders)
-            </SafeLink>
-          </li>
-          <li>
-            <SafeLink href="http://www.meetup.com/Perth-Agile-Testing/" target="_blank">
-              Perth Agile Testing
-            </SafeLink>
-          </li>
-          <li>
-            <SafeLink href="http://www.meetup.com/Perth-Code-Dojo/" target="_blank">
-              Perth Code Dojo
-            </SafeLink>
-          </li>
-          <li>
-            <SafeLink href="https://www.meetup.com/Perth-mobile-dot-net-developers/" target="_blank">
-              Perth Mobile .NET Developers
-            </SafeLink>
-          </li>
-          <li>
-            <SafeLink href="http://www.witwa.org.au/" target="_blank">
-              Women in Technology, WA
-            </SafeLink>
-          </li>
-          <li>
-            <SafeLink href="http://mixinconf.com/" target="_blank">
-              Mixin conference
-            </SafeLink>
-          </li>
-          <li>
-            <SafeLink href="http://west.yowconference.com.au/" target="_blank">
-              Yow! West conference
+            <SafeLink href="http://melbourne.ozalt.net/" target="_blank">
+              Vic .NET
             </SafeLink>
           </li>
         </ul>
