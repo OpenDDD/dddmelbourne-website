@@ -72,7 +72,7 @@ export default function Menu(conference: Conference, dates: Dates) {
       },
       {
         external: true,
-        href: 'https://www.redbubble.com/people/dddperth',
+        href: 'https://www.redbubble.com/people/dddmelbourne',
         name: 'Merchandise',
       },
       {
