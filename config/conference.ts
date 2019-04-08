@@ -15,7 +15,7 @@ const currentInstance = parseInt(date.format('YYYY'), 10)
 const firstInstance = 2015
 const registrationOpenFrom = moment.parseZone('2019-04-30T17:00:00+10:00')
 const wave1RegistrationOpenFrom = moment.parseZone('2019-05-06T12:00:00+10:00')
-const wave2RegistrationOpenFrom = moment.parseZone('2019-06-01T15:00:00+10:00')
+const wave2RegistrationOpenFrom = moment.parseZone('2019-06-15T15:00:00+10:00')
 const registrationOpenUntil = true
   ? null
   : date
