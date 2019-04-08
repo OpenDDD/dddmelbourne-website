@@ -41,8 +41,8 @@ const importantDates = [
     Description: 'Call for presentations close',
     Type: 'content',
   },
-  { Description: 'Wave 1', Date: wave1RegistrationOpenFrom, Type: 'tickets' },
-  { Description: 'Wave 2', Date: wave2RegistrationOpenFrom, Type: 'tickets' },
+  { Description: 'Ticket Release - Wave 1', Date: wave1RegistrationOpenFrom, Type: 'tickets' },
+  { Description: 'Ticket Release - Wave 2', Date: wave2RegistrationOpenFrom, Type: 'tickets' },
   { Description: 'Voting open', Date: votingOpenFrom, Type: 'voting' },
   { Description: 'Voting close', Date: votingOpenUntil, Type: 'voting' },
   {

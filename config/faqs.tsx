@@ -34,25 +34,15 @@ export default function getFaqs(dates: Dates): FAQ[] {
   })
 
   Faqs.push({
-    Question: "[Financial Assistance] What if I can't afford to attend?",
+    Question: "What if I can't afford to attend? [Financial Assistance]",
     AnswerWithoutParagraph: (
       <div>
         <p>
-          If you can't afford the ticket price then we have Sponsored (Financial Assistance) tickets available. DDD
-          Perth is donating 10 such tickets and we also have an option for people within the community to donate further
-          tickets. The only requirement for eligibility is that you can't afford the ticket; you can access the
-          Financial Assistance tickets by entering the promotional code of{' '}
-          <code>{Conference.FinancialAssistanceEventbriteCode}</code>.
+          We’re dedicated to diversity, inclusion and even more so—equal opportunity. We realise that buying a ticket to a conference for many isn’t a trivial expense, but it can be a turning point in someone’s career.
         </p>
-        <ul>
-          <li>Already attended a conference in the past? That's ok.</li>
-          <li>Already received a sponsored ticket in the past? Still ok.</li>
-          <li>
-            Don't have much (or any) experience with the technology featured at {Conference.Name}? That’s ok, too.
-          </li>
-          <li>Don't want to take money away from someone else? Really, it’s ok, everyone says that!</li>
-          <li>Don't feel like you deserve this? That’s also ok: you do.</li>
-        </ul>
+        <p>
+          That's why we've launched our <a href={"./opportunity-program"}>Opportunity Program</a>. We're committed to bringing in as many individuals who couldn’t attend otherwise as possible.
+        </p>
       </div>
     ),
     Category: 'tickets',
@@ -67,13 +57,13 @@ export default function getFaqs(dates: Dates): FAQ[] {
   Faqs.push({
     Question: 'Will refreshments be provided?',
     Answer:
-      'Yes, attendees will receive lunch and snacks throughout the day and we will have a coffee cart operating all day. We usually will also have a couple of small snacks in the showbags.',
+      'Yes, attendees will receive lunch and snacks throughout the day and we will have a coffee cart operating all day.',
   })
 
   Faqs.push({
     Question: 'What about swag?',
     Answer:
-      'Yes, there will be a bunch of swag on offer on the day both from our swag table as well as with the various sponsors that will have booths. We have decided not to offer showbags this year as they often end up resulting in a lot of waste; this way attendees can choose the swag they want. We will have a small number of bags on offer if you need, but it may also be prudent to bring your own bag.',
+      'Yes, there will be a bunch of swag on offer on the day both from our swag table as well as with the various sponsors that will have booths. We have decided not to offer showbags this year as they often end up resulting in a lot of waste; this way attendees can choose the swag they want. We may have a small number of bags on offer if you need, but it may also be prudent to bring your own bag.',
   })
 
   if (Conference.Venue && Conference.Venue.Wifi !== null) {
@@ -86,7 +76,7 @@ export default function getFaqs(dates: Dates): FAQ[] {
   Faqs.push({
     Question: 'Will childcare be available?',
     Answer:
-      'Yes! We will be providing childcare at this year’s conference. It will be available for the duration of the main conference (not including the afterparty) and will cost $50. For this year we are limiting it to children 3 years and above, and to a maximum of 20 places. You will be required to provide food for your child for the day. If you would like to book your child in then please purchase an additional ‘Childcare’ ticket when purchasing your ticket.',
+      'Yes! We will be providing childcare at this year’s conference. It will be available for the duration of the main conference (not including the afterparty) free of charge! For this year we are limiting it to children 3 years and above, and to a maximum of 20 places on a first come first serve basis. You will be required to provide food for your child for the day.',
   })
 
   Faqs.push({
@@ -261,9 +251,10 @@ export default function getFaqs(dates: Dates): FAQ[] {
       <Fragment>
         <p>
           {Conference.Name} is organised by Oz Dev Inc. A non-profit organisation set up to create inclusive events for
-          the VIC software community. {Conference.Name} {Conference.Instance} is organised by:
+          the VIC software community.
+          {/* {Conference.Name} {Conference.Instance} is organised by: */}
         </p>
-        <ul>
+        {/* <ul>
           <li>
             <SafeLink href="https://twitter.com/TienMPhan" target="_blank">
               Tien Phan
@@ -278,7 +269,7 @@ export default function getFaqs(dates: Dates): FAQ[] {
             Meet the team
           </SafeLink>
           ! Furthermore, we have many others who volunteer and have assisted with organisation in the past.
-        </p>
+        </p> */}
       </Fragment>
     ),
   })
