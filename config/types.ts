@@ -40,7 +40,8 @@ export interface Conference {
   EndDate: Moment
   DoorsOpenTime: string
   FinishTime: string
-  RegistrationOpenFrom: Moment
+  Wave1RegistrationOpenFrom: Moment
+  Wave2RegistrationOpenFrom: Moment
   RegistrationOpenUntil: Moment | null
   PresentationSubmissionsOpenFrom: Moment
   PresentationSubmissionsOpenUntil: Moment

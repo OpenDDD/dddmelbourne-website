@@ -9,20 +9,19 @@ const tagLine = `${name} is an inclusive non-profit conference for the software 
 
 const hideDate = false
 const isSoldOut = false
-const date = moment.parseZone('2019-08-10T08:00+10:00')
+const date = moment.parseZone('2019-08-10T08:00:00+10:00')
 const endDate = date.clone().add(12, 'h')
 const currentInstance = parseInt(date.format('YYYY'), 10)
 const firstInstance = 2015
-const registrationOpenFrom = moment.parseZone('2019-04-30T17:00:00+10:00')
 const wave1RegistrationOpenFrom = moment.parseZone('2019-05-06T12:00:00+10:00')
 const wave2RegistrationOpenFrom = moment.parseZone('2019-06-08T15:00:00+10:00')
 const registrationOpenUntil = true
   ? null
   : date
-    .clone()
-    .add(-1, 'd')
-    .startOf('day')
-    .add(17, 'h')
+      .clone()
+      .add(-1, 'd')
+      .startOf('day')
+      .add(17, 'h')
 const presentationSubmissionsOpenFrom = moment.parseZone('2019-04-13T17:00:00+10:00')
 const presentationSubmissionsOpenUntil = moment.parseZone('2019-06-15T23:59:59+10:00')
 const votingOpenFrom = moment.parseZone('2019-06-16T12:00:00+10:00')
@@ -114,7 +113,8 @@ const Conference: IConference = {
   EndDate: endDate,
   DoorsOpenTime: '8:00am',
   FinishTime: '6:00pm',
-  RegistrationOpenFrom: wave1RegistrationOpenFrom,
+  Wave1RegistrationOpenFrom: wave1RegistrationOpenFrom,
+  Wave2RegistrationOpenFrom: wave2RegistrationOpenFrom,
   RegistrationOpenUntil: registrationOpenUntil,
   PresentationSubmissionsOpenFrom: presentationSubmissionsOpenFrom,
   PresentationSubmissionsOpenUntil: presentationSubmissionsOpenUntil,

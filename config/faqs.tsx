@@ -12,12 +12,12 @@ export default function getFaqs(dates: Dates): FAQ[] {
       Question: 'When and where is it?',
       Answer: `The event ${dates.IsComplete ? 'was' : 'will be'} held on ${dates.Display}${
         Conference.HideVenue ? '' : ' at ' + Conference.Venue.Name
-        }.
+      }.
           Doors ${dates.IsComplete ? 'opened' : 'will open'} at ${Conference.DoorsOpenTime} and ${
         dates.IsComplete ? 'we finished' : "we'll finish"
-        } at ${Conference.FinishTime} followed by the afterparty${
+      } at ${Conference.FinishTime} followed by the afterparty${
         Conference.HideAfterpartyVenue ? '' : ' at ' + Conference.Venue.Afterparty
-        }.`,
+      }.`,
     })
   }
 
@@ -25,10 +25,10 @@ export default function getFaqs(dates: Dates): FAQ[] {
     Question: 'How much does it cost to attend?',
     Answer: `${
       Conference.TicketPrice
-      } covers your entry, food and coffee all day and access to the afterparty! Amazing value right!?
+    } covers your entry, food and coffee all day and access to the afterparty! Amazing value right!?
       We are able to keep the ticket price so low thanks to our generous sponsors.
       ${
-      Conference.Name
+        Conference.Name
       } is a non profit event and any excess will be kept as part of a fund for future events and/or donated to charity.`,
     Category: 'tickets',
   })
@@ -38,10 +38,12 @@ export default function getFaqs(dates: Dates): FAQ[] {
     AnswerWithoutParagraph: (
       <div>
         <p>
-          We’re dedicated to diversity, inclusion and even more so—equal opportunity. We realise that buying a ticket to a conference for many isn’t a trivial expense, but it can be a turning point in someone’s career.
+          We’re dedicated to diversity, inclusion and even more so—equal opportunity. We realise that buying a ticket to
+          a conference for many isn’t a trivial expense, but it can be a turning point in someone’s career.
         </p>
         <p>
-          That's why we've launched our <a href={"./opportunity-program"}>Opportunity Program</a>. We're committed to bringing in as many individuals who couldn’t attend otherwise as possible.
+          That's why we've launched our <a href={'./opportunity-program'}>Opportunity Program</a>. We're committed to
+          bringing in as many individuals who couldn’t attend otherwise as possible.
         </p>
       </div>
     ),
@@ -92,16 +94,19 @@ export default function getFaqs(dates: Dates): FAQ[] {
         ) : dates.RegistrationClosed ? (
           <Fragment>Ticket sales have closed.</Fragment>
         ) : (
-                <Fragment>
-                  Due to the popularity of last years event, we are running 2 separate ticket waves to give everyone an opportunity to obtain a ticket.
-                  <br /><br />
-                  Wave 1 registration opens on {Conference.RegistrationOpenFrom.format(dates.DateDisplayFormat)} at{' '}
-                  {Conference.RegistrationOpenFrom.format(dates.TimeDisplayFormat)}.<br />
-                  Wave 2 registration opens on Saturday 8th June 2019 at 3:00pm.<br />
-                  <br />
-                  The ticket price will stay at $79 for each wave.
-                </Fragment>
-              )}
+          <Fragment>
+            Due to the popularity of last years event, we are running 2 separate ticket waves to give everyone an
+            opportunity to obtain a ticket.
+            <br />
+            <br />
+            Wave 1 registration opens on {Conference.Wave1RegistrationOpenFrom.format(dates.DateDisplayFormat)} at{' '}
+            {Conference.Wave1RegistrationOpenFrom.format(dates.TimeDisplayFormat)}.<br />
+            Wave 2 registration opens on {Conference.Wave2RegistrationOpenFrom.format(dates.DateDisplayFormat)} at{' '}
+            {Conference.Wave2RegistrationOpenFrom.format(dates.TimeDisplayFormat)}.<br />
+            <br />
+            The ticket price will stay at {Conference.TicketPrice} for each wave.
+          </Fragment>
+        )}
       </Fragment>
     ),
   })
@@ -110,8 +115,8 @@ export default function getFaqs(dates: Dates): FAQ[] {
     Question: 'Can I pay by cheque, invoice, cash, Coinye West?',
     Answer: (
       <Fragment>
-        Payments can be made with credit card using Ti.to via our tickets page when registrations are open.
-        Companies that want to buy bulk tickets (> 10) can{' '}
+        Payments can be made with credit card using Ti.to via our tickets page when registrations are open. Companies
+        that want to buy bulk tickets (> 10) can{' '}
         <a className="maillink" href={'mailto:' + Conference.SponsorshipEmail}>
           contact our sponsorship team to discuss options
         </a>{' '}
@@ -126,10 +131,7 @@ export default function getFaqs(dates: Dates): FAQ[] {
     Answer: (
       <Fragment>
         You are welcome to send someone else in your place. Please do this through{' '}
-        <SafeLink
-          href="https://ti.to"
-          target="_blank"
-        >
+        <SafeLink href="https://ti.to" target="_blank">
           Ti.to
         </SafeLink>
         .
@@ -193,8 +195,8 @@ export default function getFaqs(dates: Dates): FAQ[] {
             . See also the other Social Media accounts at the footer of this page.
           </Fragment>
         ) : (
-            '. Also, see our various social media accounts at the footer of this page.'
-          )}
+          '. Also, see our various social media accounts at the footer of this page.'
+        )}
       </Fragment>
     ),
   })
@@ -221,7 +223,9 @@ export default function getFaqs(dates: Dates): FAQ[] {
     Question: 'How can I go to this kind of thing more often?',
     AnswerWithoutParagraph: (
       <Fragment>
-        <p>Melbourne has a very active software community. Consider attending one of the meetups/conferences such as:</p>
+        <p>
+          Melbourne has a very active software community. Consider attending one of the meetups/conferences such as:
+        </p>
         <ul>
           <li>
             <SafeLink href="http://melbjs.com/" target="_blank">
