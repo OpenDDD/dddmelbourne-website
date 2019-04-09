@@ -15,14 +15,14 @@ const currentInstance = parseInt(date.format('YYYY'), 10)
 const firstInstance = 2015
 const registrationOpenFrom = moment.parseZone('2019-04-30T17:00:00+10:00')
 const wave1RegistrationOpenFrom = moment.parseZone('2019-05-06T12:00:00+10:00')
-const wave2RegistrationOpenFrom = moment.parseZone('2019-06-8T15:00:00+10:00')
+const wave2RegistrationOpenFrom = moment.parseZone('2019-06-08T15:00:00+10:00')
 const registrationOpenUntil = true
   ? null
   : date
-    .clone()
-    .add(-1, 'd')
-    .startOf('day')
-    .add(17, 'h')
+      .clone()
+      .add(-1, 'd')
+      .startOf('day')
+      .add(17, 'h')
 const presentationSubmissionsOpenFrom = moment.parseZone('2019-04-13T17:00:00+10:00')
 const presentationSubmissionsOpenUntil = moment.parseZone('2019-06-15T23:59:59+10:00')
 const votingOpenFrom = moment.parseZone('2019-06-16T12:00:00+10:00')

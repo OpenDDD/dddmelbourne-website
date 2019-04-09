@@ -3,21 +3,15 @@ import { Sponsor, SponsorType } from './types'
 interface From2018 {
   YouTubePlaylistUrl: string
   YouTubeKeynoteEmbedUrl: string
-  YouTubeLunchnoteEmbedUrl: string
-  YouTubeLocknoteEmbedUrl: string
   FlickrAlbumUrl: string
-  HandbookUrl: string
   Sponsors: Sponsor[]
 }
 
 const From2018: From2018 = {
-  YouTubePlaylistUrl: 'https://www.youtube.com/watch?v=A02tSBP7CCw&list=PLkLJSte3oodSP0RvXqylgI16BO5eojS19',
+  YouTubePlaylistUrl: null, // TODO
   // tslint:disable-next-line:object-literal-sort-keys
-  YouTubeKeynoteEmbedUrl: null,
-  YouTubeLunchnoteEmbedUrl: null,
-  YouTubeLocknoteEmbedUrl: null,
-  FlickrAlbumUrl: null,
-  HandbookUrl: null,
+  YouTubeKeynoteEmbedUrl: null, // TODO
+  FlickrAlbumUrl: null, // TODO
   Sponsors: [
     // Platinum
     {
