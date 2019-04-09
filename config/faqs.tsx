@@ -93,9 +93,14 @@ export default function getFaqs(dates: Dates): FAQ[] {
           <Fragment>Ticket sales have closed.</Fragment>
         ) : (
                 <Fragment>
-                  Registration opens on {Conference.RegistrationOpenFrom.format(dates.DateDisplayFormat)} at{' '}
-                  {Conference.RegistrationOpenFrom.format(dates.TimeDisplayFormat)}.
-          </Fragment>
+                  Due to the popularity of last years event, we are running 2 separate ticket waves to give everyone an opportunity to obtain a ticket.
+                  <br /><br />
+                  Wave 1 registration opens on {Conference.RegistrationOpenFrom.format(dates.DateDisplayFormat)} at{' '}
+                  {Conference.RegistrationOpenFrom.format(dates.TimeDisplayFormat)}.<br />
+                  Wave 2 registration opens on Saturday 8th June 2019 at 3:00pm.<br />
+                  <br />
+                  The ticket price will stay at $79 for each wave.
+                </Fragment>
               )}
       </Fragment>
     ),
@@ -108,7 +113,7 @@ export default function getFaqs(dates: Dates): FAQ[] {
         Payments can be made with credit card using Ti.to via our tickets page when registrations are open.
         Companies that want to buy bulk tickets (> 10) can{' '}
         <a className="maillink" href={'mailto:' + Conference.SponsorshipEmail}>
-          contact our sponsorship team
+          contact our sponsorship team to discuss options
         </a>{' '}
         .
       </Fragment>
@@ -216,7 +221,7 @@ export default function getFaqs(dates: Dates): FAQ[] {
     Question: 'How can I go to this kind of thing more often?',
     AnswerWithoutParagraph: (
       <Fragment>
-        <p>Perth has a very active software community. Consider attending one of the meetups/conferences such as:</p>
+        <p>Melbourne has a very active software community. Consider attending one of the meetups/conferences such as:</p>
         <ul>
           <li>
             <SafeLink href="http://melbjs.com/" target="_blank">

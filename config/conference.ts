@@ -19,10 +19,10 @@ const wave2RegistrationOpenFrom = moment.parseZone('2019-06-08T15:00:00+10:00')
 const registrationOpenUntil = true
   ? null
   : date
-      .clone()
-      .add(-1, 'd')
-      .startOf('day')
-      .add(17, 'h')
+    .clone()
+    .add(-1, 'd')
+    .startOf('day')
+    .add(17, 'h')
 const presentationSubmissionsOpenFrom = moment.parseZone('2019-04-13T17:00:00+10:00')
 const presentationSubmissionsOpenUntil = moment.parseZone('2019-06-15T23:59:59+10:00')
 const votingOpenFrom = moment.parseZone('2019-06-16T12:00:00+10:00')
@@ -112,9 +112,9 @@ const Conference: IConference = {
 
   Date: date,
   EndDate: endDate,
-  DoorsOpenTime: '8:10am',
-  FinishTime: '5:10pm',
-  RegistrationOpenFrom: registrationOpenFrom,
+  DoorsOpenTime: '8:00am',
+  FinishTime: '6:00pm',
+  RegistrationOpenFrom: wave1RegistrationOpenFrom,
   RegistrationOpenUntil: registrationOpenUntil,
   PresentationSubmissionsOpenFrom: presentationSubmissionsOpenFrom,
   PresentationSubmissionsOpenUntil: presentationSubmissionsOpenUntil,
