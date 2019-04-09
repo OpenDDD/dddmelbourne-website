@@ -35,6 +35,12 @@ const Sponsors: Sponsor[] = [
         type: SponsorType.Community,
         url: 'http://juniordev.io/',
     },
+    {
+        imageUrl: '/static/images/sponsors/womenwhocode.png',
+        name: 'Women Who Code Melbourne',
+        type: SponsorType.Community,
+        url: 'https://www.womenwhocode.com/melbourne',
+    },
     // Services
     // Standard
 ];
