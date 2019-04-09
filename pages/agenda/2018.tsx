@@ -55,9 +55,8 @@ class Agenda2018 extends React.Component<AgendaPageProps> {
                 <td className="time">9:10</td>
                 <SessionCell
                   isKeynote={true}
-                  sessionId="c79f149d-4e7b-4202-ba30-13cbb1df1b33"
-                  sponsorName="YOW! Perth"
-                  room="VGW Ballroom 2"
+                  sessionId="594ece25-f804-4a79-8500-161babbec3d2"
+                  room="Main Hall"
                 />
               </tr>
 
@@ -81,7 +80,7 @@ class Agenda2018 extends React.Component<AgendaPageProps> {
                 <td colSpan={4} className="breadth">
                   Morning tea
                   <br />
-                  <small className="room">Upstairs foyer</small>
+                  <small className="room">Main Hall</small>
                 </td>
               </tr>
 
@@ -128,7 +127,7 @@ class Agenda2018 extends React.Component<AgendaPageProps> {
                 <td colSpan={4} className="breadth">
                   Lunch
                   <br />
-                  <small className="room">Upstairs foyer</small>
+                  <small className="room">Main Hall</small>
                 </td>
               </tr>
 
@@ -147,7 +146,7 @@ class Agenda2018 extends React.Component<AgendaPageProps> {
                 <td colSpan={4} className="breadth">
                   Lunch (continued)
                   <br />
-                  <small className="room">Upstairs foyer</small>
+                  <small className="room">Main Hall</small>
                 </td>
               </tr>
 
@@ -179,7 +178,7 @@ class Agenda2018 extends React.Component<AgendaPageProps> {
                 <td colSpan={4} className="breadth">
                   Afternoon tea
                   <br />
-                  <small className="room">Upstairs foyer</small>
+                  <small className="room">Main Hall</small>
                 </td>
               </tr>
 
@@ -188,7 +187,7 @@ class Agenda2018 extends React.Component<AgendaPageProps> {
                 <td colSpan={4} className="breadth">
                   Prize Draw
                   <br />
-                  <small className="room">VGW Ballroom 2</small>
+                  <small className="room">Main Hall</small>
                 </td>
               </tr>
 
@@ -207,7 +206,7 @@ class Agenda2018 extends React.Component<AgendaPageProps> {
                 <td colSpan={4} className="breadth">
                   <strong>Thank yous and wrap up</strong>
                   <br />
-                  <small className="room">VGW Ballroom 2</small>
+                  <small className="room">Main Hall</small>
                 </td>
               </tr>
 
@@ -216,7 +215,10 @@ class Agenda2018 extends React.Component<AgendaPageProps> {
                 <td colSpan={4} className="breadth">
                   <strong>Afterparty</strong>
                   <br />
-                  <small className="room">Upstairs foyer</small>
+                  <br />
+                  <small className="room">The Carlton Club</small>
+                  <br />
+                  <small>193 Bourke St, Melbourne VIC 3000</small>
                 </td>
               </tr>
             </tbody>

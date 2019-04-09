@@ -143,10 +143,10 @@ const agenda = (WrappedComponent: React.ComponentType<AgendaProps>, externalProp
                   {props.isKeynote
                     ? 'KEYNOTE - '
                     : props.isLocknote
-                    ? 'LOCKNOTE - '
-                    : props.isLunchnote
-                    ? 'LUNCHNOTE - '
-                    : null}
+                      ? 'LOCKNOTE - '
+                      : props.isLunchnote
+                        ? 'LUNCHNOTE - '
+                        : null}
                   {session.Presenters.map(p => p.Name).join(', ')}
                 </strong>
                 <br />
