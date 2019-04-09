@@ -106,7 +106,7 @@ const Conference: IConference = {
   AnonymousReportFormUrl:
     'https://forms.office.com/Pages/ResponsePage.aspx?id=8IU585acE0S9pvuDhIEiS26sQVnJFzFLm-6XlxI4bCFURDVGTks2N1VOQVBWWUU1VFJESDZMNlkxNS4u', // TODO
 
-  AnonymousVoting: true,
+  AnonymousVoting: false,
   MinVotes: 8,
   MaxVotes: 12,
 
