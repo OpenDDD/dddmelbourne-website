@@ -43,7 +43,7 @@ class Agenda2018 extends React.Component<AgendaPageProps> {
               </tr>
 
               <tr className="breadth-row">
-                <td className="time">8:45</td>
+                <td className="time">9:00</td>
                 <td colSpan={4} className="breadth">
                   Welcome and housekeeping
                   <br />
@@ -52,7 +52,7 @@ class Agenda2018 extends React.Component<AgendaPageProps> {
               </tr>
 
               <tr className="breadth-row">
-                <td className="time">9:10</td>
+                <td className="time">9:15</td>
                 <SessionCell
                   isKeynote={true}
                   sessionId="594ece25-f804-4a79-8500-161babbec3d2"
@@ -61,69 +61,41 @@ class Agenda2018 extends React.Component<AgendaPageProps> {
               </tr>
 
               <tr className="breadth-row">
-                <td className="time">9:55</td>
+                <td className="time">10:00</td>
                 <td colSpan={4} className="breadth">
-                  Changeover
-                </td>
-              </tr>
-
-              <tr>
-                <td className="time">10:05</td>
-                <SessionCell sessionId="68927257-08c3-41f7-9810-5d290c373405" />
-                <SessionCell sessionId="318d8f95-54e8-486b-8119-94bb91924f64" />
-                <SessionCell sessionId="ab660bb2-d12a-4627-9c2a-b92900e87bca" />
-                <SessionCell sessionId="77fea600-238f-4523-baf8-f51b5db5d666" />
-              </tr>
-
-              <tr className="breadth-row">
-                <td className="time">10:50</td>
-                <td colSpan={4} className="breadth">
-                  Morning tea
+                  Morning Tea
                   <br />
                   <small className="room">Main Hall</small>
                 </td>
               </tr>
 
               <tr>
-                <td className="time">11:20</td>
-                <SessionCell sessionId="24bc1c06-ec0d-4ba0-8d3e-a995d2118f46" />
-                <SessionCell sessionId="0f383402-2fee-4728-a6bf-fbe74ba2671e" />
-                <SessionCell sessionId="0d35dfb9-c75f-48a4-bd73-18fe07f6a04b" />
-                <SessionCell sessionId="88344a80-a3e8-484a-93b6-e6a4f80af84f" />
+                <td className="time" rowSpan={2}>10:30</td>
+                <SessionCell sessionId="4b4e8c52-7d63-47ae-adca-9a228099819d" rowSpan={2} />
+                <SessionCell sessionId="b7108d0e-bcfd-4738-b231-c1a380609373" rowSpan={2} />
+                <SessionCell sessionId="a1c08893-0444-4a89-90d0-24cef5e20bff" rowSpan={2} />
+                <SessionCell sessionId="202bfd14-d7b4-413a-8d91-3227970bd91d" />
               </tr>
-
+              <tr>
+                <SessionCell sessionId="2ff74bfe-ab9e-4cbf-b304-842f41870eb6" />
+              </tr>
               <tr className="breadth-row">
-                <td className="time">11:40</td>
+                <td className="time">11:15</td>
                 <td colSpan={4} className="breadth">
                   Changeover
                 </td>
               </tr>
 
               <tr>
-                <td className="time">11:50</td>
-                <SessionCell sessionId="6cf90233-65d8-4bdd-868f-9d13683aac78" />
-                <SessionCell sessionId="96326393-7372-46d0-a07c-3006b97517cf" />
-                <SessionCell sessionId="ee60b006-8662-4d8c-8a60-4ee4ad2018f7" />
-                <SessionCell sessionId="a45d6be4-668d-4c01-8522-34c43580baab" />
+                <td className="time">11:30</td>
+                <SessionCell sessionId="d104878e-79ef-4d40-81cc-045d396bc663" />
+                <SessionCell sessionId="dc818ccb-639b-414a-bf6a-d4d3a8ce0f03" />
+                <SessionCell sessionId="12bdca97-f489-4191-914a-db1c763aa5b5" />
+                <SessionCell sessionId="570485c2-2102-436c-97f7-c3065b908355" />
               </tr>
 
               <tr className="breadth-row">
-                <td className="time">12:10</td>
-                <td colSpan={4} className="breadth">
-                  Changeover
-                </td>
-              </tr>
-
-              <tr>
-                <td className="time">12:20</td>
-                <SessionCell sessionId="5588dee1-39a1-47a9-bc04-376ff1578930" />
-                <SessionCell sessionId="dd4a2717-47ed-426f-a97d-5bb4f9c1fef3" />
-                <SessionCell sessionId="a9c48983-c3c9-4ceb-b21b-6b1d116a6882" />
-                <SessionCell sessionId="c0f29a8d-0c21-43d6-aeb1-c34054e6541f" />
-              </tr>
-
-              <tr className="breadth-row">
-                <td className="time">13:05</td>
+                <td className="time">12:15</td>
                 <td colSpan={4} className="breadth">
                   Lunch
                   <br />
@@ -131,78 +103,63 @@ class Agenda2018 extends React.Component<AgendaPageProps> {
                 </td>
               </tr>
 
-              <tr className="breadth-row">
-                <td className="time">13:15</td>
-                <SessionCell
-                  isLunchnote={true}
-                  sessionId="26c62196-0d96-4e52-b4ba-7896ddf2ff04"
-                  sponsorName="Bankwest"
-                  room="VGW Ballroom 2"
-                />
-              </tr>
-
-              <tr className="breadth-row">
-                <td className="time">13:45</td>
-                <td colSpan={4} className="breadth">
-                  Lunch (continued)
-                  <br />
-                  <small className="room">Main Hall</small>
-                </td>
-              </tr>
-
               <tr>
-                <td className="time">14:05</td>
-                <SessionCell sessionId="3a0236e4-c8fa-4cc9-ab48-fc0371a6b990" />
-                <SessionCell sessionId="2f2a3626-5ec3-4085-baca-941910c09467" />
-                <SessionCell sessionId="9ac2e311-7559-436c-8ee8-6f0aed17a431" />
-                <SessionCell sessionId="9a72d1fa-6563-4de2-bb3c-27d13d7e0d64" />
+                <td className="time">13:15</td>
+                <SessionCell sessionId="77920952-0229-4430-bf7a-aee27323dd3d" />
+                <SessionCell sessionId="d95a3a34-5c01-4f59-b59c-48b29a62cb99" />
+                <SessionCell sessionId="b06f971d-7fef-440a-bbe4-913ded5319ba" />
+                <SessionCell sessionId="51ba3f2f-b392-4a46-8cd3-1d07eeebdd91" />
               </tr>
 
               <tr className="breadth-row">
-                <td className="time">14:25</td>
+                <td className="time">14:00</td>
                 <td colSpan={4} className="breadth">
                   Changeover
                 </td>
               </tr>
 
               <tr>
-                <td className="time">14:35</td>
-                <SessionCell sessionId="f7fc010d-8c47-4b86-b1e9-1221b63e0281" />
-                <SessionCell sessionId="2234f8f6-6e13-4998-ba37-baf53ae44d9d" />
-                <SessionCell sessionId="4f463f9b-bf28-446a-9558-c6ac59697cc9" />
-                <SessionCell sessionId="fd830fb5-8e7b-4527-bc79-f7ddf693232f" />
+                <td className="time">14:15</td>
+                <SessionCell sessionId="247f0452-a9cf-4867-bef3-2112e9931886" />
+                <SessionCell sessionId="116a8329-aaa6-449a-a5d2-24d00d5e4fff" />
+                <SessionCell sessionId="8ef77b38-292b-46ab-ad5c-7a3c07e66146" />
+                <SessionCell sessionId="6c441bab-cf12-443e-a77d-44edb0e6db6a" />
               </tr>
 
               <tr className="breadth-row">
-                <td className="time">15:20</td>
+                <td className="time">15:00</td>
                 <td colSpan={4} className="breadth">
-                  Afternoon tea
+                  Afternoon Tea
                   <br />
                   <small className="room">Main Hall</small>
                 </td>
               </tr>
 
               <tr className="breadth-row">
-                <td className="time">15:50</td>
+                <td className="time">15:30</td>
+                <SessionCell sessionId="baed0437-b817-4ff5-8bc1-0ac10ee7307c" />
+                <SessionCell sessionId="baed0437-b817-4ff5-8bc1-0ac10ee7307c" />
+                <SessionCell sessionId="d5bfc25b-f8c6-4762-8d62-89efe3176456" />
+                <SessionCell sessionId="d2c1f8a3-75bd-4e75-9731-fc03ff351d9b" />
+              </tr>
+
+              <tr className="breadth-row">
+                <td className="time">14:00</td>
                 <td colSpan={4} className="breadth">
-                  Prize Draw
-                  <br />
-                  <small className="room">Main Hall</small>
+                  Changeover
                 </td>
               </tr>
 
               <tr className="breadth-row">
-                <td className="time">16:20</td>
-                <SessionCell
-                  isLocknote={true}
-                  sessionId="264b7669-8127-41a3-9f6b-87511a879cf1"
-                  sponsorName="YOW! Perth"
-                  room="VGW Ballroom 2"
-                />
+                <td className="time">16:30</td>
+                <SessionCell sessionId="ab611921-8c48-4f75-9c8a-e22579c5f1c7" />
+                <SessionCell sessionId="c28761b5-cb4c-4abb-9a74-ac8129203e85" />
+                <SessionCell sessionId="4fa335ae-f910-4df8-9037-d6eb6738d448" />
+                <SessionCell sessionId="56c58b7c-eb9a-4789-b270-025e38c6a9f1" />
               </tr>
 
               <tr className="breadth-row">
-                <td className="time">17:05</td>
+                <td className="time">17:15</td>
                 <td colSpan={4} className="breadth">
                   <strong>Thank yous and wrap up</strong>
                   <br />
