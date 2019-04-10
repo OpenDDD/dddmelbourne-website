@@ -5,7 +5,6 @@ import withPageMetadata from '../../components/global/withPageMetadata'
 import ResponsiveVideo from '../../components/responsiveVideo'
 import Sponsors from '../../components/sponsors'
 import From2018 from '../../config/2018'
-import { SponsorType } from '../../config/types'
 
 class Agenda2018 extends React.Component<AgendaPageProps> {
   static getAgendaPageParams(): AgendaPageParameters {
@@ -25,11 +24,31 @@ class Agenda2018 extends React.Component<AgendaPageProps> {
           <table className="agenda-row table">
             <thead>
               <tr>
-                <th style={{ width: '4%' }}></th>
-                <th style={{ width: '24%' }}><strong style={{ background: '#54a6d6' }}>Main Hall</strong><em>1<sup>st</sup> Floor</em></th>
-                <th style={{ width: '24%' }}><strong style={{ background: '#66ad4a' }}>Yarra Room</strong><em>2<sup>nd</sup> Floor</em></th>
-                <th style={{ width: '24%' }}><strong style={{ background: '#ad4a54' }}>Supper Room</strong><em>3<sup>rd</sup> Floor</em></th>
-                <th style={{ width: '24%' }}><strong style={{ background: '#ca7b29' }}>Junior Dev</strong><em>1<sup>st</sup> Floor</em></th>
+                <th style={{ width: '4%' }} />
+                <th style={{ width: '24%' }}>
+                  <strong style={{ background: '#54a6d6' }}>Main Hall</strong>
+                  <em>
+                    1<sup>st</sup> Floor
+                  </em>
+                </th>
+                <th style={{ width: '24%' }}>
+                  <strong style={{ background: '#66ad4a' }}>Yarra Room</strong>
+                  <em>
+                    2<sup>nd</sup> Floor
+                  </em>
+                </th>
+                <th style={{ width: '24%' }}>
+                  <strong style={{ background: '#ad4a54' }}>Supper Room</strong>
+                  <em>
+                    3<sup>rd</sup> Floor
+                  </em>
+                </th>
+                <th style={{ width: '24%' }}>
+                  <strong style={{ background: '#ca7b29' }}>Junior Dev</strong>
+                  <em>
+                    1<sup>st</sup> Floor
+                  </em>
+                </th>
               </tr>
             </thead>
             <tbody>
@@ -53,11 +72,7 @@ class Agenda2018 extends React.Component<AgendaPageProps> {
 
               <tr className="breadth-row">
                 <td className="time">9:15</td>
-                <SessionCell
-                  isKeynote={true}
-                  sessionId="594ece25-f804-4a79-8500-161babbec3d2"
-                  room="Main Hall"
-                />
+                <SessionCell isKeynote={true} sessionId="594ece25-f804-4a79-8500-161babbec3d2" room="Main Hall" />
               </tr>
 
               <tr className="breadth-row">
@@ -70,7 +85,9 @@ class Agenda2018 extends React.Component<AgendaPageProps> {
               </tr>
 
               <tr>
-                <td className="time" rowSpan={2}>10:30</td>
+                <td className="time" rowSpan={2}>
+                  10:30
+                </td>
                 <SessionCell sessionId="4b4e8c52-7d63-47ae-adca-9a228099819d" rowSpan={2} />
                 <SessionCell sessionId="b7108d0e-bcfd-4738-b231-c1a380609373" rowSpan={2} />
                 <SessionCell sessionId="a1c08893-0444-4a89-90d0-24cef5e20bff" rowSpan={2} />
@@ -181,22 +198,12 @@ class Agenda2018 extends React.Component<AgendaPageProps> {
             </tbody>
           </table>
         </div>
-        <h2 style={{ display: 'none' }}>Handbook</h2>
-        <p style={{ display: 'none' }}>
-          <a className="btn btn-pdf" href={From2018.HandbookUrl}>
-            Download 2018 handbook (PDF)
-          </a>
-        </p>
         <h2 style={{ display: 'none' }}>Media</h2>
 
         <div className="text-center" style={{ display: 'none' }}>
           <ResponsiveVideo src={From2018.YouTubeKeynoteEmbedUrl} />
-          <ResponsiveVideo src={From2018.YouTubeLocknoteEmbedUrl} />
         </div>
         <br />
-        <div style={{ display: 'none' }}>
-          <ResponsiveVideo src={From2018.YouTubeLunchnoteEmbedUrl} />
-        </div>
         <p style={{ display: 'none' }}>
           <SafeLink href={From2018.YouTubePlaylistUrl} target="_blank">
             YouTube Playlist

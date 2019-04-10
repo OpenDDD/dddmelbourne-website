@@ -7,7 +7,7 @@
   "license": "N/A",
   "private": true,
   "scripts": {
-    "dev": "cross-env TESTING_MODE=true APPINSIGHTS_INSTRUMENTATIONKEY=c87865f7-34bd-43db-b0ae-38537acbd0d6 GET_SUBMISSIONS_URL=https://dddmelb-functions-test.azurewebsites.net/api/GetSubmissions SUBMIT_VOTE_URL=https://dddmelb-functions-test.azurewebsites.net/api/SubmitVote GET_AGENDA_URL=https://dddmelb-functions-test.azurewebsites.net/api/GetAgenda next --inspect",
+    "dev": "cross-env TESTING_MODE=true APPINSIGHTS_INSTRUMENTATIONKEY=c87865f7-34bd-43db-b0ae-38537acbd0d6 GET_SUBMISSIONS_URL=https://localhost:7071/api/GetSubmissions SUBMIT_VOTE_URL=https://localhost:7071/api/SubmitVote GET_AGENDA_URL=https://localhost:7071/api/GetAgenda next --inspect",
     "build": "next build",
     "start": "next start",
     "analyze": "cross-env BUNDLE_ANALYZE=both next build",
