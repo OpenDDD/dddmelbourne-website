@@ -140,7 +140,7 @@ class Agenda2018 extends React.Component<AgendaPageProps> {
                 <SessionCell sessionId="f57c0054-0a3c-4882-b7b1-12f8308ba039" rowSpan={2} />
                 <SessionCell sessionId="b7192823-b51a-4dac-af27-de229367464f" rowSpan={2} />
                 <SessionCell sessionId="a56f1309-4872-4809-bb08-83161e4af498" rowSpan={2} />
-                <SessionCell sessionId="c3d69f45-72d1-4868-a011-420f11e82699" />
+                <SessionCell sessionId="224901ee-39f0-4935-9a61-5128a2c807ed" />
               </tr>
               <tr>
                 <SessionCell sessionId="c3d69f45-72d1-4868-a011-420f11e82699" />
