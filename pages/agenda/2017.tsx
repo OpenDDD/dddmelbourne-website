@@ -27,39 +27,27 @@ class Agenda2018 extends React.Component<AgendaPageProps> {
                 <th style={{ width: '4%' }} />
                 <th style={{ width: '13.7%' }}>
                   <strong style={{ background: '#01b6ad' }}>Aqua</strong>
-                  <em>
-                    K309
-                  </em>
+                  <em>K309</em>
                 </th>
                 <th style={{ width: '13.7%' }}>
                   <strong style={{ background: '#54a6d6' }}>Blue</strong>
-                  <em>
-                    K321
-                  </em>
+                  <em>K321</em>
                 </th>
                 <th style={{ width: '13.7%' }}>
                   <strong style={{ background: '#66ad4a' }}>Green</strong>
-                  <em>
-                    B214
-                  </em>
+                  <em>B214</em>
                 </th>
                 <th style={{ width: '13.7%' }}>
                   <strong style={{ background: '#cd9152' }}>Orange</strong>
-                  <em>
-                    B215
-                  </em>
+                  <em>B215</em>
                 </th>
                 <th style={{ width: '13.7%' }}>
                   <strong style={{ background: '#9e55c0' }}>Purple</strong>
-                  <em>
-                    K213
-                  </em>
+                  <em>K213</em>
                 </th>
                 <th style={{ width: '13.7%' }}>
                   <strong style={{ background: '#e3d800' }}>Yellow</strong>
-                  <em>
-                    K212
-                  </em>
+                  <em>K212</em>
                 </th>
                 <th style={{ width: '13.7%' }}>
                   <strong style={{ background: '#ad4a54' }}>Junior Dev</strong>
@@ -103,9 +91,7 @@ class Agenda2018 extends React.Component<AgendaPageProps> {
               </tr>
 
               <tr>
-                <td className="time">
-                  10:30
-                </td>
+                <td className="time">10:30</td>
                 <SessionCell sessionId="5cd8f694-f8de-4f8a-bcae-071670641919" />
                 <SessionCell sessionId="94240edd-22a6-4aef-8542-226f105298a3" />
                 <SessionCell sessionId="9eb0154e-daeb-4415-90cd-a1f9fae646e1" />
@@ -120,7 +106,6 @@ class Agenda2018 extends React.Component<AgendaPageProps> {
                   Changeover
                 </td>
               </tr>
-
 
               <tr>
                 <td className="time" rowSpan={2}>
@@ -252,7 +237,7 @@ class Agenda2018 extends React.Component<AgendaPageProps> {
           </SafeLink>
         </p>
         <Sponsors show={true} sponsors={From2017.Sponsors} />
-      </Fragment >
+      </Fragment>
     )
   }
 }
