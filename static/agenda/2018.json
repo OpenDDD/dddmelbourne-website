@@ -6,9 +6,8 @@
     "Format": "45 mins",
     "Level": "No experience necessary",
     "Tags": [
-      "Design and UX",
-      "Frontend dev",
-      "Web"
+      "Leadership",
+      "Career"
     ],
     "Presenters": [
       {
@@ -16,7 +15,7 @@
         "Name": "Dayle Stevens",
         "Tagline": "Divisional CIO, AGL",
         "Bio": "Dayle Stevens is an award winning technology executive, being named in the CIO50 list as one of Australia’s top CIOs, twice winning the Australian Computer Society Digital Disruptor Award, twice a finalist in Australia’s premiere business women’s awards, and winning a #TechDiversity Award. Dayle joined AGL in Februrary 2018 as a Divisional CIO, leading the transformation of the Corporate & Operations technology services and part of the larger transformation taking place at AGL. Previously Dayle was at NAB, where she was a Divisional CIO providing the technology services for NAB’s Corporate Operations divisions. Outside of work Dayle is a Non-Executive Director at Robogals Global, an international not-for-profit volunteer organisation aiming to engage young women in engineering and technical education and careers. Dayle is also an Ambassador at Girl Geek Academy, a global movement encouraging women to learn technology, create startups and build more of the internet. Dayle has been a personal mentor in the Queen’s Young Leaders Programme since 2016, and in 2018 is a tutor for the Programme based at Cambridge University in the UK",
-        "ProfilePhotoUrl": null,
+        "ProfilePhotoUrl": "https://twitter.com/Dayle_Stevens/profile_image?size=original",
         "TwitterHandle": "Dayle_Stevens",
         "WebsiteUrl": "https://daylestevens.com/"
       }
@@ -29,7 +28,7 @@
     "Format": "45 mins",
     "Level": "No experience necessary",
     "Tags": [
-      "Design and UX",
+      "Architecture",
       "Frontend dev",
       "Web"
     ],
@@ -39,7 +38,7 @@
         "Name": "Jason Taylor",
         "Tagline": "SSW Solution Architect",
         "Bio": "Jason is an SSW Solution Architect and full stack developer with over 17 years professional experience. He is currently specializing in teaching and building awesome applications utilizing ASP.NET Core, EF Core and Angular. Jason loves a challenge and is skilled at progressing from a proposal into a well-defined, coded, and tested solution.",
-        "ProfilePhotoUrl": null,
+        "ProfilePhotoUrl": "https://twitter.com/jasongtau/profile_image?size=original",
         "TwitterHandle": "jasongtau",
         "WebsiteUrl": "https://www.codingflow.net/"
       }
@@ -52,9 +51,7 @@
     "Format": "45 mins",
     "Level": "No experience necessary",
     "Tags": [
-      "Design and UX",
-      "Frontend dev",
-      "Web"
+      "Design and UX"
     ],
     "Presenters": [
       {
@@ -62,7 +59,7 @@
         "Name": "Laura Summers",
         "Tagline": null,
         "Bio": "Laura is a multi-disciplinary designer working across user experience research, design and front-end development for startups. Asking questions, unpacking assumptions and trying to get to the bottom of things are some of her favourite activities - supported by methodologies all the cool kids are using, such as Lean, Agile and Design Thinking. She's a passionate advocate for improving diversity in technology and ensuring our workplaces are welcoming and inclusive. Also: cats rule, dogs drool.",
-        "ProfilePhotoUrl": null,
+        "ProfilePhotoUrl": "https://twitter.com/summerscope/profile_image?size=original",
         "TwitterHandle": "summerscope",
         "WebsiteUrl": null
       }
@@ -74,18 +71,14 @@
     "Abstract": "Quantum computing takes a giant leap forward from today’s technology—one that will forever alter our economic, industrial, academic, and societal landscape. \n\nThis presentation will cover the theoretical basics of quantum computing; the Microsoft Quantum Development Kit and Q# programing language; and some important applications of quantum computing.",
     "Format": "45 mins",
     "Level": "No experience necessary",
-    "Tags": [
-      "Design and UX",
-      "Frontend dev",
-      "Web"
-    ],
+    "Tags": [],
     "Presenters": [
       {
         "Id": "68a0128c-2a96-4b88-91e0-381f3f3659b0",
         "Name": "Rian Finnegan",
         "Tagline": "Microsoft Software Engineer",
         "Bio": "Rian is a Software Engineer with Microsoft's Commercial Software Engineering (CSE) team, and focuses emerging technologies like Blockchain, Mixed Reality and Quantum Computing.",
-        "ProfilePhotoUrl": null,
+        "ProfilePhotoUrl": "https://twitter.com/xtellurian/profile_image?size=original",
         "TwitterHandle": "xtellurian",
         "WebsiteUrl": null
       }
@@ -98,9 +91,7 @@
     "Format": "20 mins",
     "Level": "No experience necessary",
     "Tags": [
-      "Design and UX",
-      "Frontend dev",
-      "Web"
+      "Design and UX"
     ],
     "Presenters": [
       {
@@ -108,7 +99,7 @@
         "Name": "J. Rosenbaum",
         "Tagline": "Contemporary Figurative Artist",
         "Bio": "J. Rosenbaum is a contemporary figurative artist working in 3D modeling and exploring the boundaries of technology and art. Their most recent work has been in exploring the nature of Non Binary Transness and their own genders and sexuality. Well known for being a painter of nudes, Rosenbaum has recently undertaken a masters degree and changed focus to more technologically based digital art using physics based rendering, Deep Neural Networks and Unity to develop an Augmented Reality mobile application. Following a car accident that impaired Rosenbaum’s mobility they have turned their mind inwards exploring the nature of humanity, religion and gender through art. The human body has always been a source of fascination in Rosenbaum’s art with a focus on mythical and archaeological stories driving their progress. This fascination has continued with their newest Computer Generated works with a basis in classical art and history. J is an American working from their home in Victoria, Australia with their partner and child and two cats.",
-        "ProfilePhotoUrl": null,
+        "ProfilePhotoUrl": "https://twitter.com/minxdragon/profile_image?size=original",
         "TwitterHandle": "minxdragon",
         "WebsiteUrl": "http://www.jennierosenbaum.com/"
       }
@@ -121,9 +112,9 @@
     "Format": "20 mins",
     "Level": "No experience necessary",
     "Tags": [
-      "Design and UX",
-      "Frontend dev",
-      "Web"
+      "Career",
+      "Soft skills",
+      "Teams"
     ],
     "Presenters": [
       {
@@ -144,9 +135,8 @@
     "Format": "45 mins",
     "Level": "No experience necessary",
     "Tags": [
-      "Design and UX",
-      "Frontend dev",
-      "Web"
+      "Serverless",
+      "AWS"
     ],
     "Presenters": [
       {
@@ -154,7 +144,7 @@
         "Name": "Mai Nguyen",
         "Tagline": "Carsales.com Developer",
         "Bio": "Energetic, enthusiastic and detail-driven, Mai is a developer at Carsales.com Strong believer in sharing knowledge, she has a passion for helping girls build their self-confidence and reach their full potential both in life and future careers. \r\n\r\nShe is also a lead co-ordinator for Code Like a Girl through which she reaches out to hundreds of women in technology and kids by conducting workshops in a goal to help them have a career in STEM.",
-        "ProfilePhotoUrl": null,
+        "ProfilePhotoUrl": "https://twitter.com/mai_isthebest/profile_image?size=original",
         "TwitterHandle": "mai_isthebest",
         "WebsiteUrl": null
       }
@@ -177,7 +167,7 @@
         "Name": "Jaime Febres",
         "Tagline": "Carsales.com Developer",
         "Bio": "Energetic, enthusiastic and detail-driven, Mai is a developer at Carsales.com Strong believer in sharing knowledge, she has a passion for helping girls build their self-confidence and reach their full potential both in life and future careers. \r\n\r\nShe is also a lead co-ordinator for Code Like a Girl through which she reaches out to hundreds of women in technology and kids by conducting workshops in a goal to help them have a career in STEM.",
-        "ProfilePhotoUrl": null,
+        "ProfilePhotoUrl": "https://twitter.com/jaimefebres/profile_image?size=original",
         "TwitterHandle": "jaimefebres",
         "WebsiteUrl": "https://blog.fullsnackdev.com/"
       }
@@ -190,9 +180,9 @@
     "Format": "45 mins",
     "Level": "No experience necessary",
     "Tags": [
-      "Design and UX",
-      "Frontend dev",
-      "Web"
+      "Career",
+      "Soft skills",
+      "Leadership"
     ],
     "Presenters": [
       {
@@ -200,7 +190,7 @@
         "Name": "Ben Cull",
         "Tagline": "Pinch Payments' Developer",
         "Bio": "Ben Cull has left the comfortable consultant lifestyle at SSW Australia for the untamed mountains and treacherous valleys of the startup world with his payments platform, Pinch Payments. \r\n\r\nHe has extensive experience developing enterprise web solutions, but is now free to apply his efforts to the bleeding edge of today's technologies. He wrestles with Alphas, fights with betas, and reminisces with RTMs so that you don't have to. You can find him talking at conferences around the world about his favourite topics: Payments, Web, and Beer. \r\n\r\nOh boy the beer! If you get caught anywhere near him, you'll definitely get into a discussion about either beer or brewing :)",
-        "ProfilePhotoUrl": null,
+        "ProfilePhotoUrl": "https://twitter.com/benwholikesbeer/profile_image?size=original",
         "TwitterHandle": "benwholikesbeer",
         "WebsiteUrl": "https://bencull.com/"
       }
@@ -223,7 +213,7 @@
         "Name": "Rhiana Heath",
         "Tagline": "Pinch Payments' Developer",
         "Bio": "Rhiana is a front end developer specialising in making web sites and applications accessible for people with disabilities. Combining her background in educational psychology and a love of computers.",
-        "ProfilePhotoUrl": null,
+        "ProfilePhotoUrl": "https://twitter.com/rhianaheath/profile_image?size=original",
         "TwitterHandle": "rhianaheath",
         "WebsiteUrl": "http://rhiana.heath.cc/"
       }
@@ -236,8 +226,9 @@
     "Format": "45 mins",
     "Level": "No experience necessary",
     "Tags": [
-      "Design and UX",
-      "Frontend dev",
+      "Cloud",
+      "DevOps",      
+      "Security",
       "Web"
     ],
     "Presenters": [
@@ -246,7 +237,7 @@
         "Name": "Kieran Jacobsen",
         "Tagline": "Head of Information Technology at Readify",
         "Bio": "Kieran Jacobsen is the Head of Information Technology at Readify and a Microsoft MVP for Cloud and Datacenter Management. Kieran maintains several PowerShell modules, supports Planet PowerShell (https://planetpowershell.com), and writes the Posh Security (https://poshsecurity.com) blog. Kieran is a regular speaker at a various conferences and user groups including Infrastructure Saturday, CrikeyCon, Azure Global Bootcamp and Experts Live.",
-        "ProfilePhotoUrl": null,
+        "ProfilePhotoUrl": "https://twitter.com/kjacobsen/profile_image?size=original",
         "TwitterHandle": "kjacobsen",
         "WebsiteUrl": "https://poshsecurity.com"
       }
@@ -259,7 +250,7 @@
     "Format": "45 mins",
     "Level": "No experience necessary",
     "Tags": [
-      "Design and UX",
+      "Tooling",
       "Frontend dev",
       "Web"
     ],
@@ -269,7 +260,7 @@
         "Name": "Brendan Richards",
         "Tagline": "Solution Architect at SSW Brisbane",
         "Bio": "Solution Architect at SSW Brisbane, Open Source Evangelist and builder of many websites. \r\n\r\nBrendan is a Solution Architect at SSW Brisbane and has been delivering successful web projects across diverse platforms and technologies since 1999. \r\n\r\nHe currently spends most of his day coding for clients with occasional breaks to deliver training SSW FirebootCamp or speak at .Net User Groups and Hackdays. \r\n\r\nA few of his favorite things include Linux, Open Source, .NET Core, Angular, ngrx and Elastic Search.",
-        "ProfilePhotoUrl": null,
+        "ProfilePhotoUrl": "https://twitter.com/brendanssw/profile_image?size=original",
         "TwitterHandle": "brendanssw",
         "WebsiteUrl": null
       }
@@ -282,9 +273,9 @@
     "Format": "45 mins",
     "Level": "No experience necessary",
     "Tags": [
-      "Design and UX",
-      "Frontend dev",
-      "Web"
+      "Soft skills",
+      "Career",
+      "Teams"
     ],
     "Presenters": [
       {
@@ -292,7 +283,7 @@
         "Name": "Prakriti Mateti",
         "Tagline": "Engineering Team Lead at Zendesk",
         "Bio": "I am an Engineering Team Lead at Zendesk. I care deeply about gender diversity and inclusion in tech, code quality, engineering culture, and what makes a team work well together. \r\n\r\nI’ve been fortunate to work with a diverse group of people in my time in tech so far and have journeyed across hugely different tech cultures. I’ve made plenty of mistakes along this journey and this talk was born out of my introspection of those mistakes. \r\n\r\nI like travelling, food, reading, and dream of flying my own airplane (if I can get away from Netflix)",
-        "ProfilePhotoUrl": null,
+        "ProfilePhotoUrl": "https://twitter.com/PrakritiMateti/profile_image?size=original",
         "TwitterHandle": "PrakritiMateti",
         "WebsiteUrl": null
       }
@@ -305,9 +296,8 @@
     "Format": "45 mins",
     "Level": "No experience necessary",
     "Tags": [
-      "Design and UX",
-      "Frontend dev",
-      "Web"
+      "Tooling",
+      "Teams"
     ],
     "Presenters": [
       {
@@ -328,9 +318,8 @@
     "Format": "45 mins",
     "Level": "No experience necessary",
     "Tags": [
-      "Design and UX",
-      "Frontend dev",
-      "Web"
+      "Data and analytics",
+      "Machine Learning"
     ],
     "Presenters": [
       {
@@ -338,7 +327,7 @@
         "Name": "Damian Brady",
         "Tagline": "Microsoft Cloud Developer Advocate",
         "Bio": "Damian works for Microsoft as a Cloud Developer Advocate, specializing in DevOps.He's an Australian speaker, author, and developer recently based in Toronto, Canada, but now back home! Formerly a Microsoft MVP and Octopus Deploy developer, he regularly speaks at conferences, User Groups, and other events around the world. But most of the time you'll find him talking to developers and IT Pros to help them get the most out of their DevOps strategies.",
-        "ProfilePhotoUrl": null,
+        "ProfilePhotoUrl": "https://twitter.com/damovisa/profile_image?size=original",
         "TwitterHandle": "damovisa",
         "WebsiteUrl": null
       }
@@ -361,7 +350,7 @@
         "Name": "Allison Ravenhal",
         "Tagline": "Digital Accessibility Sensei at Intopia",
         "Bio": "Allison is a Digital Accessibility Sensei at Intopia, helping organisations create inclusive websites and apps.",
-        "ProfilePhotoUrl": null,
+        "ProfilePhotoUrl": "https://twitter.com/RavenAlly/profile_image?size=original",
         "TwitterHandle": "RavenAlly",
         "WebsiteUrl": "http://intopia.digital/"
       }
@@ -374,8 +363,8 @@
     "Format": "45 mins",
     "Level": "No experience necessary",
     "Tags": [
-      "Design and UX",
-      "Frontend dev",
+      "AWS",
+      "Microservices",
       "Web"
     ],
     "Presenters": [
@@ -384,7 +373,7 @@
         "Name": "Abhaya Chauhan",
         "Tagline": "Digital Accessibility Sensei at Intopia",
         "Bio": "I am an AWS expert, specialising in DynamoDB and the serverless movement. I have been working with AWS for many years, and am extremely passionate about about the impact it has had on the software industry. \r\n\r\nI spend a lot of time working with SaaS product companies, helping them discover and leverage their core technology strengths. \r\n\r\nI have been developing software for over 15 years, ranging from consulting, startups, in house development and building products. \r\n\r\nI’ve worked with a range of technologies, mainly including .NET, and Javascript. Mentoring, coaching and learning is a big part of what I do, and I am incredible passionate about it. \r\n\r\nCurrently working at PageUp as a Senior Technical Advisor.",
-        "ProfilePhotoUrl": null,
+        "ProfilePhotoUrl": "https://twitter.com/abhayachauhan/profile_image?size=original",
         "TwitterHandle": "abhayachauhan",
         "WebsiteUrl": "http://www.abhayachauhan.com/"
       }
@@ -398,7 +387,7 @@
     "Level": "No experience necessary",
     "Tags": [
       "Design and UX",
-      "Frontend dev",
+      "APIs,
       "Web"
     ],
     "Presenters": [
@@ -418,11 +407,18 @@
     "Title": "Service Meshes - Powering the next wave of microservice architectures",
     "Abstract": "Microservices and containers have transformed application design and deployment patterns. Modern cloud native architectures - which underpin many of the world's groundbreaking tech companies such as Uber, Netflix and Airbnb - afford unparalleled levels of agility and scale but are not without trade-offs. In applications comprising hundreds of services (and thousands of service instances), concerns such as security, operability and observability pose significant challenges. Supporting compensating capabilities such as circuit breakers, retry policies and service discovery in each microservice adds undesirable code bloat and impacts our ability to choose the best language for the problem at hand should the required libraries not be available. \r\n\r\nIn this session, we will take an in-depth look at the service mesh pattern; the benefits that a decentralized microservice management approach brings; the best practices that have evolved; and most importantly what you need to know to effectively leverage a service mesh in your architecture:\r\n\r\n- How to determine the suitability of a service mesh for your application context. Don't just drink the cloud native Kool-Aid!\r\n- Disambiguate the overlapping responsibilities of an API gateway and service mesh in a modern architecture and demonstrate how they can be used in harmony.\r\n- How a service mesh enables choosing the best tool or language for a given service without being constrained by the availability of libraries for each platform. Effectively it's a weight loss plan for your microservices.\r\n- What techniques to apply when transitioning to a service mesh based architecture.\r\n\r\nAdditionally, we will take a hands-on look at what is involved to build and manage a microservice architecture leveraging Kubernetes and Istio, a leading open source service mesh. By the end of the session, you will not only understand the concepts underpinning the service mesh pattern but also have the knowledge to put them into practice.",
     "Format": "45 mins",
-    "Level": "No experience necessary",
+    "Level": "Mostly intermediate",
     "Tags": [
-      "Design and UX",
-      "Frontend dev",
-      "Web"
+      "Backend dev",
+      "Testing",
+      "Security",
+      "Cloud",
+      "DevOps",
+      "Containers",
+      "Continuous Delivery",
+      "APIs",
+      "Architecture",
+      "Microservices"
     ],
     "Presenters": [
       {
@@ -430,7 +426,7 @@
         "Name": "Rob Crowley",
         "Tagline": "Principal Consultant, Readify",
         "Bio": "Rob is a software consultant, developer and team lead with a passion for delivering systems that perform at scale. Rob has over 15 years of experience building distributed systems on the web stack and has read more RFCs than he cares to admit. Rob is an active member of the Perth IT community and regularly shares his ideas at various Meetups and conferences around Australia and internationally. He is also a co-organiser of DDD Perth, the largest IT conference in Western Australia.",
-        "ProfilePhotoUrl": null,
+        "ProfilePhotoUrl": "https://twitter.com/robdcrowley/profile_image?size=original",
         "TwitterHandle": "robdcrowley",
         "WebsiteUrl": "http://speakerdeck.com/robcrowley"
       }
@@ -453,7 +449,7 @@
         "Name": "Ryan Preece",
         "Tagline": "Senior Consultant, Readify",
         "Bio": "Ryan has been building stuff with code for 10 years, and has spent the last three of them with Readify in Melbourne. He's mostly a .NET tragic with a bit of everything else mixed in - and he's never met anything he couldn't automate.",
-        "ProfilePhotoUrl": null,
+        "ProfilePhotoUrl": "https://twitter.com/preecington/profile_image?size=original",
         "TwitterHandle": "preecington",
         "WebsiteUrl": null
       }
@@ -466,8 +462,8 @@
     "Format": "45 mins",
     "Level": "No experience necessary",
     "Tags": [
-      "Design and UX",
-      "Frontend dev",
+      "Testing",
+      "Tooling",
       "Web"
     ],
     "Presenters": [
@@ -476,7 +472,7 @@
         "Name": "Amanda Dean",
         "Tagline": "Test Manager",
         "Bio": "Amanda is a test manager who works with teams and people to help them better test their software and networks. She is passionate about testing, and about the people within technology, particularly around building and transforming people, teams and practices. Since she fell into testing nine years ago, she has gained a diverse range of experience including fields such as satellite internet, health insurance and alcohol manufacturing, which has led to a relatively eclectic approach to testing and technology. \r\n\r\nAmanda is an active member of the Melbourne, Australia tech community, and never passes up an opportunity to learn something new.",
-        "ProfilePhotoUrl": null,
+        "ProfilePhotoUrl": "https://twitter.com/msamandadean/profile_image?size=original",
         "TwitterHandle": "msamandadean",
         "WebsiteUrl": null
       }
@@ -489,8 +485,8 @@
     "Format": "45 mins",
     "Level": "No experience necessary",
     "Tags": [
-      "Design and UX",
-      "Frontend dev",
+      "Security",
+      "Cloud",
       "Web"
     ],
     "Presenters": [
@@ -499,7 +495,7 @@
         "Name": "Sirani McNeill",
         "Tagline": null,
         "Bio": "Software Developer and Web Application Security expert",
-        "ProfilePhotoUrl": null,
+        "ProfilePhotoUrl": "https://twitter.com/mcne65/profile_image?size=original",
         "TwitterHandle": "mcne65",
         "WebsiteUrl": null
       }
@@ -512,9 +508,9 @@
     "Format": "45 mins",
     "Level": "No experience necessary",
     "Tags": [
-      "Design and UX",
-      "Frontend dev",
-      "Web"
+      "DevOps",
+      "Cloud",
+      "Tooling"
     ],
     "Presenters": [
       {
@@ -522,7 +518,7 @@
         "Name": "Anthony Borton",
         "Tagline": null,
         "Bio": "Anthony is a DevOps Architect in the Global DevOps Customer Advisory Team at Microsoft. He is passionate about helping teams succeed in their DevOps transformations and he been a community advocate for many years.He's an avid traveller and enjoys flying his drone when he can find the time.",
-        "ProfilePhotoUrl": null,
+        "ProfilePhotoUrl": "https://twitter.com/anthonyborton/profile_image?size=original",
         "TwitterHandle": "anthonyborton",
         "WebsiteUrl": "https://www.myalmblog.com/"
       }
@@ -533,11 +529,12 @@
     "Title": "Securing Single Page Applications",
     "Abstract": "We’ve been spending more and more time developing applications that run in the browser, Single Page Applications, SPA's, and more recently Progressive Web Applications, PWA’s. But with more code running client side what changes do we need to make to how we write applications, test applications and secure applications?\r\n\r\nSo how do we write a secure SPA? What do we do with our security tokens, client-side data, track vulnerabilities in our dependencies or implement trust between the client and server?\r\n\r\nIn this talk, we'll deep dive into some practical solutions on how to create secure modern web applications.",
     "Format": "45 mins",
-    "Level": "No experience necessary",
+    "Level": "Mostly intermediate",
     "Tags": [
-      "Design and UX",
+      "Security",
       "Frontend dev",
-      "Web"
+      "Web",
+      "Architecture"
     ],
     "Presenters": [
       {
@@ -545,7 +542,7 @@
         "Name": "Aaron Powell",
         "Tagline": "Technical Pre-Sales Consultant, Readify",
         "Bio": "Aaron is a technical person at Readify and Microsoft Front End Web Dev MVP. By day he spends his time in all facets of .NET development and by night he explores crazy ideas like writing your own implementation of numbers in .NET, creating IoC in JavaScript or implementing tic-tac-toe using git commits.",
-        "ProfilePhotoUrl": null,
+        "ProfilePhotoUrl": "https://twitter.com/slace/profile_image?size=original",
         "TwitterHandle": "slace",
         "WebsiteUrl": "https://www.aaron-powell.com/"
       }
@@ -558,9 +555,10 @@
     "Format": "45 mins",
     "Level": "No experience necessary",
     "Tags": [
-      "Design and UX",
+      "Architecture",
+      "Backend dev",
       "Frontend dev",
-      "Web"
+      "Tooling"
     ],
     "Presenters": [
       {
@@ -568,7 +566,7 @@
         "Name": "Tama Waddel",
         "Tagline": "Senior Developer, Readify",
         "Bio": "Tama is a 30 year old software developer who's been programming since he was 15. He's currently working as a consultant at Readify and has spent the past year educating, uplifting teams and solving business problems. He would like to share what experiences he's has introduced to the team and the feedback he's had from his community.",
-        "ProfilePhotoUrl": null,
+        "ProfilePhotoUrl": "https://twitter.com/twaddell_/profile_image?size=original",
         "TwitterHandle": "twaddell_",
         "WebsiteUrl": null
       }
@@ -581,7 +579,7 @@
     "Format": "45 mins",
     "Level": "No experience necessary",
     "Tags": [
-      "Design and UX",
+      "Testing",
       "Frontend dev",
       "Web"
     ],
