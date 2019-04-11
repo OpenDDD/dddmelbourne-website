@@ -61,7 +61,7 @@ class Agenda2018 extends React.Component<AgendaPageProps> {
                 <td colSpan={7} className="breadth">
                   Registration
                   <br />
-                  <small className="room">Foyer</small>
+                  <small className="room" style={{ color: 'rgb(1, 182, 173)' }}>Foyer</small>
                 </td>
               </tr>
 
@@ -70,13 +70,13 @@ class Agenda2018 extends React.Component<AgendaPageProps> {
                 <td colSpan={7} className="breadth">
                   Welcome and housekeeping
                   <br />
-                  <small className="room">Main Hall</small>
+                  <small className="room" style={{ color: 'rgb(1, 182, 173)' }}>Main Hall</small>
                 </td>
               </tr>
 
               <tr className="breadth-row">
                 <td className="time">9:00</td>
-                <SessionCell isKeynote={true} sessionId="keynote" room="Main Hall" />
+                <SessionCell isKeynote={true} sessionId="keynote" room="K309" />
               </tr>
 
               <tr className="breadth-row">
@@ -89,7 +89,7 @@ class Agenda2018 extends React.Component<AgendaPageProps> {
               </tr>
 
               <tr>
-                <td className="time">10:30</td>
+                <td className="time">10:00</td>
                 <SessionCell sessionId="5cd8f694-f8de-4f8a-bcae-071670641919" />
                 <SessionCell sessionId="94240edd-22a6-4aef-8542-226f105298a3" />
                 <SessionCell sessionId="9eb0154e-daeb-4415-90cd-a1f9fae646e1" />
@@ -99,7 +99,7 @@ class Agenda2018 extends React.Component<AgendaPageProps> {
                 <SessionCell sessionId="" />
               </tr>
               <tr className="breadth-row">
-                <td className="time">11:15</td>
+                <td className="time">10:45</td>
                 <td colSpan={7} className="breadth">
                   Changeover
                 </td>
@@ -107,7 +107,7 @@ class Agenda2018 extends React.Component<AgendaPageProps> {
 
               <tr>
                 <td className="time" rowSpan={2}>
-                  12:00
+                  11:00
                 </td>
                 <SessionCell sessionId="a1b6fff5-1a0b-49c0-a7af-f1daeaf650bc" rowSpan={2} />
                 <SessionCell sessionId="136443a9-4d1e-4e85-b3f9-5e8aa6017784" rowSpan={2} />
@@ -115,18 +115,16 @@ class Agenda2018 extends React.Component<AgendaPageProps> {
                 <SessionCell sessionId="2edafe97-2ff0-4350-86ab-b0f7daa45667" />
                 <SessionCell sessionId="108dc100-d48f-4cea-b2d7-41d170aba98b" rowSpan={2} />
                 <SessionCell sessionId="a64224e2-8a2d-4b56-adcb-a0a5e6eed6e6" rowSpan={2} />
-                <SessionCell sessionId="a64224e2-8a2d-4b56-adcb-a0a5e6eed6e6" rowSpan={2} />
+                <SessionCell sessionId="" rowSpan={2} />
               </tr>
               <tr>
                 <SessionCell sessionId="4c2e5038-1149-443f-80f4-fbf208c785b9" />
               </tr>
 
               <tr className="breadth-row">
-                <td className="time">12:15</td>
+                <td className="time">11:45</td>
                 <td colSpan={7} className="breadth">
-                  Lunch
-                  <br />
-                  <small className="room">Main Hall</small>
+                  Changeover
                 </td>
               </tr>
 
@@ -147,14 +145,16 @@ class Agenda2018 extends React.Component<AgendaPageProps> {
               </tr>
 
               <tr className="breadth-row">
-                <td className="time">14:00</td>
+                <td className="time">12:45</td>
                 <td colSpan={7} className="breadth">
-                  Changeover
+                  Lunch
+                  <br />
+                  <small className="room" style={{ color: 'rgb(1, 182, 173)' }}>Foyer</small>
                 </td>
               </tr>
 
               <tr>
-                <td className="time">14:15</td>
+                <td className="time">13:45</td>
                 <SessionCell sessionId="5382b81b-73fe-4e2e-8053-ec25ed7c0d99" />
                 <SessionCell sessionId="3f7b5a67-95d9-4978-91d5-2f6fd3d2b317" />
                 <SessionCell sessionId="c111ddd6-1aa1-4860-8ba7-f0b0dd1a2d96" />
@@ -165,16 +165,16 @@ class Agenda2018 extends React.Component<AgendaPageProps> {
               </tr>
 
               <tr className="breadth-row">
-                <td className="time">15:00</td>
+                <td className="time">14:30</td>
                 <td colSpan={7} className="breadth">
                   Afternoon Tea
                   <br />
-                  <small className="room">Main Hall</small>
+                  <small className="room" style={{ color: 'rgb(1, 182, 173)' }}>Foyer</small>
                 </td>
               </tr>
 
               <tr className="breadth-row">
-                <td className="time">15:30</td>
+                <td className="time">15:00</td>
                 <SessionCell sessionId="8d35ea03-e324-45e3-bdd8-433afdbccd03" />
                 <SessionCell sessionId="263f717f-08f2-4ad8-809a-622534e37a01" />
                 <SessionCell sessionId="0e871481-eb76-4fdf-b77f-7f515a76c45c" />
@@ -185,35 +185,35 @@ class Agenda2018 extends React.Component<AgendaPageProps> {
               </tr>
 
               <tr className="breadth-row">
-                <td className="time">14:00</td>
+                <td className="time">15:45</td>
                 <td colSpan={7} className="breadth">
                   Changeover
                 </td>
               </tr>
 
               <tr className="breadth-row">
-                <td className="time">16:30</td>
-                <SessionCell isLocknote={true} sessionId="locknote" />
+                <td className="time">16:00</td>
+                <SessionCell isLocknote={true} sessionId="locknote" room="K309" />
               </tr>
 
               <tr className="breadth-row">
                 <td className="time">17:15</td>
                 <td colSpan={7} className="breadth">
-                  <strong>Thank yous and wrap up</strong>
+                  <strong>Give aways and wrap up</strong>
                   <br />
-                  <small className="room">Main Hall</small>
+                  <small className="room" style={{ color: 'rgb(1, 182, 173)' }}>K309</small>
                 </td>
               </tr>
 
               <tr className="breadth-row">
-                <td className="time">17:10</td>
+                <td className="time">17:30</td>
                 <td colSpan={7} className="breadth">
                   <strong>Afterparty</strong>
                   <br />
                   <br />
-                  <small className="room">The Carlton Club</small>
+                  <small className="room" style={{ color: 'rgb(1, 182, 173)' }}>The Glasshouse Caulfield</small>
                   <br />
-                  <small>193 Bourke St, Melbourne VIC 3000</small>
+                  <small>31 Station St, Caulfield East VIC 3145</small>
                 </td>
               </tr>
             </tbody>
