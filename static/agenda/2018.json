@@ -140,7 +140,7 @@
   {
     "Id": "d104878e-79ef-4d40-81cc-045d396bc663",
     "Title": "Let’s go Serverless",
-    "Abstract": "What is serverless but a server in disguise? \r\n In this talk, we will see how Carsales.com embraced serverless technology a year ago by launching its first ever serverless app using AWS and discuss about the technical hurdles faced, challenges resolved and victorious moments! \r\n With insights on the choice of going serverless, what type of applications thrive and those that suck, what tools, techniques and pitfalls we faced in this journey, this talk will help you regardless of where you stand - deciding to go serverless, have little knowledge about what it is or to learn about solving similar issues you might be facing today.",
+    "Abstract": "What is serverless but a server in disguise? \r\n\r\nIn this talk, we will see how Carsales.com embraced serverless technology a year ago by launching its first ever serverless app using AWS and discuss about the technical hurdles faced, challenges resolved and victorious moments! \r\n\r\nWith insights on the choice of going serverless, what type of applications thrive and those that suck, what tools, techniques and pitfalls we faced in this journey, this talk will help you regardless of where you stand - deciding to go serverless, have little knowledge about what it is or to learn about solving similar issues you might be facing today.",
     "Format": "45 mins",
     "Level": "No experience necessary",
     "Tags": [
@@ -151,7 +151,7 @@
     "Presenters": [
       {
         "Id": "9f48fadf-ec00-4ee6-a0cf-a96f0a11a02d",
-        "Name": "Mike Nam-Lee",
+        "Name": "Mai Nguyen",
         "Tagline": "Carsales.com Developer",
         "Bio": "Energetic, enthusiastic and detail-driven, Mai is a developer at Carsales.com Strong believer in sharing knowledge, she has a passion for helping girls build their self-confidence and reach their full potential both in life and future careers. \r\n She is also a lead co-ordinator for Code Like a Girl through which she reaches out to hundreds of women in technology and kids by conducting workshops in a goal to help them have a career in STEM.",
         "ProfilePhotoUrl": null,
