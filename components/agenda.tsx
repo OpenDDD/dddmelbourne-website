@@ -11,6 +11,7 @@ export interface SessionCellProps {
   isKeynote?: boolean
   isLocknote?: boolean
   isLunchnote?: boolean
+  colSpan?: number
   rowSpan?: number
   sponsorName?: string
   room?: string

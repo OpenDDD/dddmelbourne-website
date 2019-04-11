@@ -18,10 +18,10 @@ const wave2RegistrationOpenFrom = moment.parseZone('2019-06-08T15:00:00+10:00')
 const registrationOpenUntil = true
   ? null
   : date
-      .clone()
-      .add(-1, 'd')
-      .startOf('day')
-      .add(17, 'h')
+    .clone()
+    .add(-1, 'd')
+    .startOf('day')
+    .add(17, 'h')
 const presentationSubmissionsOpenFrom = moment.parseZone('2019-04-13T17:00:00+10:00')
 const presentationSubmissionsOpenUntil = moment.parseZone('2019-06-15T23:59:59+10:00')
 const votingOpenFrom = moment.parseZone('2019-06-16T12:00:00+10:00')
@@ -72,7 +72,8 @@ const Conference: IConference = {
   Name: name,
   Instance: currentInstance.toString(),
   PreviousInstance: (currentInstance - 1).toString(),
-  PreviousInstances: [...Array(currentInstance - firstInstance).keys()].map((_, i) => (firstInstance + i).toString()),
+  PreviousInstances: [...Array(currentInstance - 2017).keys()].map((_, i) => (2017 + i).toString()),
+  // PreviousInstances: [...Array(currentInstance - firstInstance).keys()].map((_, i) => (firstInstance + i).toString()),
   Organiser: {
     Name: 'Oz Dev Inc.',
     Url: 'https://medium.com/ddd-melbourne/the-ddd-melbourne-crew-5f0dd3da09df',

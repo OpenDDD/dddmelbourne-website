@@ -185,7 +185,7 @@ class Agenda2018 extends React.Component<AgendaPageProps> {
               </tr>
 
               <tr className="breadth-row">
-                <td className="time">17:10</td>
+                <td className="time">18:00</td>
                 <td colSpan={4} className="breadth">
                   <strong>Afterparty</strong>
                   <br />

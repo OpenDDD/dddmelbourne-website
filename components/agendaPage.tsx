@@ -87,11 +87,11 @@ const agendaPage = <TOriginalProps extends {}>(
               sponsors={externalProps.sponsors}
             />
 
-            {/* <AllAgendas
+            <AllAgendas
               conference={conference}
               dates={this.props.pageMetadata.dates}
               conferenceInstance={externalProps.conferenceInstance}
-            /> */}
+            />
           </div>
         </Page>
       )
