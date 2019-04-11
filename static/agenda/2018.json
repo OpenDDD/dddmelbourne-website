@@ -94,7 +94,7 @@
   {
     "Id": "202bfd14-d7b4-413a-8d91-3227970bd91d",
     "Title": "Mixed Reality and Art",
-    "Abstract": "This talk is about mixed reality technologies, Virtual Reality, Augmented Reality and how they can be beneficial to artists and exploring art in depth. I will go behind the code to the amazing things this technology currently does, what it can reveal and how it is currently being used for good and for ill. I will also discuss how easy it is to get off track on your project, as an artist or as a developer and what we need to bear in mind as we navigate the different streams of development and art\r\n I am an artist and a developer, and will be pitching this talk for people who are interested in both or who would like a new way to look at existing technologies to see the potential beneath. I speak with the experience of someone who has developed my own Augmented Reality applications and used it to create award winning art. \r\n This talk brings value in terms of looking at the way we currently approach technologies as to how we could be approaching them and is a light and fun introduction to mixed and immersive reality options.",
+    "Abstract": "This talk is about mixed reality technologies, Virtual Reality, Augmented Reality and how they can be beneficial to artists and exploring art in depth. I will go behind the code to the amazing things this technology currently does, what it can reveal and how it is currently being used for good and for ill. I will also discuss how easy it is to get off track on your project, as an artist or as a developer and what we need to bear in mind as we navigate the different streams of development and art\r\n\r\nI am an artist and a developer, and will be pitching this talk for people who are interested in both or who would like a new way to look at existing technologies to see the potential beneath. I speak with the experience of someone who has developed my own Augmented Reality applications and used it to create award winning art. \r\n\r\nThis talk brings value in terms of looking at the way we currently approach technologies as to how we could be approaching them and is a light and fun introduction to mixed and immersive reality options.",
     "Format": "20 mins",
     "Level": "No experience necessary",
     "Tags": [
@@ -153,7 +153,7 @@
         "Id": "9f48fadf-ec00-4ee6-a0cf-a96f0a11a02d",
         "Name": "Mai Nguyen",
         "Tagline": "Carsales.com Developer",
-        "Bio": "Energetic, enthusiastic and detail-driven, Mai is a developer at Carsales.com Strong believer in sharing knowledge, she has a passion for helping girls build their self-confidence and reach their full potential both in life and future careers. \r\n She is also a lead co-ordinator for Code Like a Girl through which she reaches out to hundreds of women in technology and kids by conducting workshops in a goal to help them have a career in STEM.",
+        "Bio": "Energetic, enthusiastic and detail-driven, Mai is a developer at Carsales.com Strong believer in sharing knowledge, she has a passion for helping girls build their self-confidence and reach their full potential both in life and future careers. \r\n\r\nShe is also a lead co-ordinator for Code Like a Girl through which she reaches out to hundreds of women in technology and kids by conducting workshops in a goal to help them have a career in STEM.",
         "ProfilePhotoUrl": null,
         "TwitterHandle": "mai_isthebest",
         "WebsiteUrl": null
@@ -176,7 +176,7 @@
         "Id": "0985218b-8b8a-4800-a8d2-358676126c68",
         "Name": "Jaime Febres",
         "Tagline": "Carsales.com Developer",
-        "Bio": "Energetic, enthusiastic and detail-driven, Mai is a developer at Carsales.com Strong believer in sharing knowledge, she has a passion for helping girls build their self-confidence and reach their full potential both in life and future careers. \r\n She is also a lead co-ordinator for Code Like a Girl through which she reaches out to hundreds of women in technology and kids by conducting workshops in a goal to help them have a career in STEM.",
+        "Bio": "Energetic, enthusiastic and detail-driven, Mai is a developer at Carsales.com Strong believer in sharing knowledge, she has a passion for helping girls build their self-confidence and reach their full potential both in life and future careers. \r\n\r\nShe is also a lead co-ordinator for Code Like a Girl through which she reaches out to hundreds of women in technology and kids by conducting workshops in a goal to help them have a career in STEM.",
         "ProfilePhotoUrl": null,
         "TwitterHandle": "jaimefebres",
         "WebsiteUrl": "https://blog.fullsnackdev.com/"
@@ -199,7 +199,7 @@
         "Id": "c9b227a5-a886-4977-801f-1b62bb9dbfce",
         "Name": "Ben Cull",
         "Tagline": "Pinch Payments' Developer",
-        "Bio": "Ben Cull has left the comfortable consultant lifestyle at SSW Australia for the untamed mountains and treacherous valleys of the startup world with his payments platform, Pinch Payments. \r\n He has extensive experience developing enterprise web solutions, but is now free to apply his efforts to the bleeding edge of today's technologies. He wrestles with Alphas, fights with betas, and reminisces with RTMs so that you don't have to. You can find him talking at conferences around the world about his favourite topics: Payments, Web, and Beer. \r\n Oh boy the beer! If you get caught anywhere near him, you'll definitely get into a discussion about either beer or brewing :)",
+        "Bio": "Ben Cull has left the comfortable consultant lifestyle at SSW Australia for the untamed mountains and treacherous valleys of the startup world with his payments platform, Pinch Payments. \r\n\r\nHe has extensive experience developing enterprise web solutions, but is now free to apply his efforts to the bleeding edge of today's technologies. He wrestles with Alphas, fights with betas, and reminisces with RTMs so that you don't have to. You can find him talking at conferences around the world about his favourite topics: Payments, Web, and Beer. \r\n\r\nOh boy the beer! If you get caught anywhere near him, you'll definitely get into a discussion about either beer or brewing :)",
         "ProfilePhotoUrl": null,
         "TwitterHandle": "benwholikesbeer",
         "WebsiteUrl": "https://bencull.com/"
@@ -209,7 +209,7 @@
   {
     "Id": "570485c2-2102-436c-97f7-c3065b908355",
     "Title": "The 5 W's of Accessibility",
-    "Abstract": "This session goes through the What, Why, Who, When and How's of accessibility in terms of a web development project. Accessibility in this context being how useable your website is to someone who has a permanent or temporary disability. It goes through the main types of disabilities and how these effect someones experience when accessing the web. \r\n I then will go through some ways to test your website for accessibility and how to fix those problems you encounter. This is with some short code examples (junior level) and can also include a demo testing of a real live site. \r\n The main focus is on the development side of accessibility, as that is where my experience is, but also from the UX, design and project management view point as well. As making a project accessible requires the whole team to work together, \r\n By the end I expect my audience will have a better appreciation of how to more effectively design a website with accessibility in mind so more people can access it.",
+    "Abstract": "This session goes through the What, Why, Who, When and How's of accessibility in terms of a web development project. Accessibility in this context being how useable your website is to someone who has a permanent or temporary disability. It goes through the main types of disabilities and how these effect someones experience when accessing the web. \r\n\r\nI then will go through some ways to test your website for accessibility and how to fix those problems you encounter. This is with some short code examples (junior level) and can also include a demo testing of a real live site. \r\n\r\nThe main focus is on the development side of accessibility, as that is where my experience is, but also from the UX, design and project management view point as well. As making a project accessible requires the whole team to work together, \r\n\r\nBy the end I expect my audience will have a better appreciation of how to more effectively design a website with accessibility in mind so more people can access it.",
     "Format": "45 mins",
     "Level": "No experience necessary",
     "Tags": [
@@ -268,7 +268,7 @@
         "Id": "160dc749-7bc6-4521-84d8-7c6a64c2ad56",
         "Name": "Brendan Richards",
         "Tagline": "Solution Architect at SSW Brisbane",
-        "Bio": "Solution Architect at SSW Brisbane, Open Source Evangelist and builder of many websites. \r\n Brendan is a Solution Architect at SSW Brisbane and has been delivering successful web projects across diverse platforms and technologies since 1999. \r\n He currently spends most of his day coding for clients with occasional breaks to deliver training SSW FirebootCamp or speak at .Net User Groups and Hackdays. \r\n A few of his favorite things include Linux, Open Source, .NET Core, Angular, ngrx and Elastic Search.",
+        "Bio": "Solution Architect at SSW Brisbane, Open Source Evangelist and builder of many websites. \r\n\r\nBrendan is a Solution Architect at SSW Brisbane and has been delivering successful web projects across diverse platforms and technologies since 1999. \r\n\r\nHe currently spends most of his day coding for clients with occasional breaks to deliver training SSW FirebootCamp or speak at .Net User Groups and Hackdays. \r\n\r\nA few of his favorite things include Linux, Open Source, .NET Core, Angular, ngrx and Elastic Search.",
         "ProfilePhotoUrl": null,
         "TwitterHandle": "brendanssw",
         "WebsiteUrl": null
@@ -278,7 +278,7 @@
   {
     "Id": "b06f971d-7fef-440a-bbe4-913ded5319ba",
     "Title": "8 lessons in 8 years",
-    "Abstract": "Want to know the 8 toughest obstacles I faced in my first 8 years in tech and what I learned from them? \r\n Some of the stories I will tell are very close to my heart. Some touch on the most vulnerable situations of my life and career. Join me in examining my failures and discussing what I’ve learned. \r\n I’ll share my experience with finding my voice, learning how to recognise that a job isn’t working out, figuring out what I want and learning to ask for it, dealing with personal problems that affect work, and navigating the confusing world of self worth and imposter syndrome.",
+    "Abstract": "Want to know the 8 toughest obstacles I faced in my first 8 years in tech and what I learned from them? \r\n\r\nSome of the stories I will tell are very close to my heart. Some touch on the most vulnerable situations of my life and career. Join me in examining my failures and discussing what I’ve learned. \r\n\r\nI’ll share my experience with finding my voice, learning how to recognise that a job isn’t working out, figuring out what I want and learning to ask for it, dealing with personal problems that affect work, and navigating the confusing world of self worth and imposter syndrome.",
     "Format": "45 mins",
     "Level": "No experience necessary",
     "Tags": [
@@ -291,7 +291,7 @@
         "Id": "df1f14be-b6f7-4b5a-a1f4-c78e5a7d8b61",
         "Name": "Prakriti Mateti",
         "Tagline": "Engineering Team Lead at Zendesk",
-        "Bio": "I am an Engineering Team Lead at Zendesk. I care deeply about gender diversity and inclusion in tech, code quality, engineering culture, and what makes a team work well together. \r\n I’ve been fortunate to work with a diverse group of people in my time in tech so far and have journeyed across hugely different tech cultures. I’ve made plenty of mistakes along this journey and this talk was born out of my introspection of those mistakes. \r\n I like travelling, food, reading, and dream of flying my own airplane (if I can get away from Netflix)",
+        "Bio": "I am an Engineering Team Lead at Zendesk. I care deeply about gender diversity and inclusion in tech, code quality, engineering culture, and what makes a team work well together. \r\n\r\nI’ve been fortunate to work with a diverse group of people in my time in tech so far and have journeyed across hugely different tech cultures. I’ve made plenty of mistakes along this journey and this talk was born out of my introspection of those mistakes. \r\n\r\nI like travelling, food, reading, and dream of flying my own airplane (if I can get away from Netflix)",
         "ProfilePhotoUrl": null,
         "TwitterHandle": "PrakritiMateti",
         "WebsiteUrl": null
@@ -314,7 +314,7 @@
         "Id": "6e458baa-64e0-4b44-ad33-5de97884a7da",
         "Name": "Andrew Hore",
         "Tagline": "Engineering Team Lead at Zendesk",
-        "Bio": "I’m a software developer from Melbourne, currently working at PageUp. \r\n PageUp was my first job as a graduate, and in the three and a half years I've been there I’ve worked in both devops and on client facing webapps, gaining a bunch of experience in C# .NET, AWS, and AngularJS. When I started, I was mentored by a very friendly senior developer, which helped with my confidence and made me feel welcomed. I’ve tried to pass on that experience by mentoring new developers on my team, helping them learn and improve as they’re starting out. \r\n I've always wanted to try and expand that to helping other developers outside of my workplace, so I’ve become a part of Melbourne’s developer and meetup community, having regularly attended DDD Melbourne, presented at DDD by Night, and attended ALT.NET and OWASP meetups. If given the opportunity, presenting at DDD Melbourne will be another step along that path!",
+        "Bio": "I’m a software developer from Melbourne, currently working at PageUp. \r\n\r\nPageUp was my first job as a graduate, and in the three and a half years I've been there I’ve worked in both devops and on client facing webapps, gaining a bunch of experience in C# .NET, AWS, and AngularJS. When I started, I was mentored by a very friendly senior developer, which helped with my confidence and made me feel welcomed. I’ve tried to pass on that experience by mentoring new developers on my team, helping them learn and improve as they’re starting out. \r\n\r\nI've always wanted to try and expand that to helping other developers outside of my workplace, so I’ve become a part of Melbourne’s developer and meetup community, having regularly attended DDD Melbourne, presented at DDD by Night, and attended ALT.NET and OWASP meetups. If given the opportunity, presenting at DDD Melbourne will be another step along that path!",
         "ProfilePhotoUrl": null,
         "TwitterHandle": null,
         "WebsiteUrl": null
