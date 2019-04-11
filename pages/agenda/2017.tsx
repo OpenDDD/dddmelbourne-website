@@ -43,17 +43,15 @@ class Agenda2018 extends React.Component<AgendaPageProps> {
                 </th>
                 <th style={{ width: '13.7%' }}>
                   <strong style={{ background: '#9e55c0' }}>Purple</strong>
-                  <em>K213</em>
+                  <em>B218</em>
                 </th>
                 <th style={{ width: '13.7%' }}>
                   <strong style={{ background: '#e3d800' }}>Yellow</strong>
-                  <em>K212</em>
+                  <em>K213</em>
                 </th>
                 <th style={{ width: '13.7%' }}>
                   <strong style={{ background: '#ad4a54' }}>Junior Dev</strong>
-                  <em>
-                    1<sup>st</sup> Floor
-                  </em>
+                  <em>K212</em>
                 </th>
               </tr>
             </thead>
