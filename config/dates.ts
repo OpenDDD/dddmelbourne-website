@@ -19,7 +19,7 @@ export default function getConferenceDates(conference: Conference, currentDate: 
     RegistrationOpen: now > conference.Wave1RegistrationOpenFrom && !conference.IsSoldOut && !registrationClosed,
     RegistrationClosed: registrationClosed,
     AcceptingPresentations:
-      now > conference.PresentationSubmissionsOpenFrom && now < conference.PresentationSubmissionsOpenUntil,
+      true && now > conference.PresentationSubmissionsOpenFrom && now < conference.PresentationSubmissionsOpenUntil,
     VotingOpen: now > conference.VotingOpenFrom && now < conference.VotingOpenUntil,
     VotingFinished: now > conference.VotingOpenUntil,
     AgendaPublished: now > conference.AgendaPublishedFrom,
