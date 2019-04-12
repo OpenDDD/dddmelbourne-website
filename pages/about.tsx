@@ -19,6 +19,7 @@ export default withPageMetadata((props: WithPageMetadataProps) => (
       <li>Allowing anyone to submit about any software industry related topic</li>
       <li>Having a democratically chosen agenda</li>
       <li>Focussing on creating a safe and inclusive environment where everyone is welcome</li>
+      <li>Providing free childcare options for the duration of the main conference</li>
     </ul>
     <p className="text-center">
       <img src="/static/images/logo.png" alt="DDD Melbourne logo" style={{ width: '250px' }} />

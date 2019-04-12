@@ -25,7 +25,7 @@ export default withPageMetadata((props: WithPageMetadataProps) => (
 
     <h2>DDD By Night</h2>
     <p>
-      We also run a free evening event called DDD By Night which involves a series of lightning talks deliverd for the
+      We also run a free evening event called DDD By Night which involves a series of lightning talks delivered for the
       community by the community.
     </p>
 
