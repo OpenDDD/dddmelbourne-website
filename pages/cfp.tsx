@@ -129,12 +129,6 @@ class CFPPage extends React.Component<WithPageMetadataProps> {
           </li>
         </ul>
 
-        <p className="text-center">
-          <SafeLink className="btn content" target="_blank" href={conference.SessionizeUrl}>
-            Submit a session via Sessionize
-          </SafeLink>
-        </p>
-
         <h2>Already submitted, but want to edit?</h2>
 
         <p className="text-center">
