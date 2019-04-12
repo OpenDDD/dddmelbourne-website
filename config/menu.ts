@@ -14,10 +14,6 @@ export default function Menu(conference: Conference, dates: Dates) {
       href: '/sponsorship',
       name: 'Sponsorship',
     },
-    {
-      href: '/speaker-initiatives',
-      name: 'Speaker Initiatives',
-    },
   ]
 
   if (dates.RegistrationOpen) {
