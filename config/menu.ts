@@ -13,12 +13,15 @@ export default function Menu(conference: Conference, dates: Dates) {
     {
       href: '/sponsorship',
       name: 'Sponsorship',
-    },
-    {
+    }
+  ]
+
+  if (false) {
+    topMenu.push({
       href: '/speaker-initiatives',
       name: 'Speaker Initiatives',
-    },
-  ]
+    })
+  }
 
   if (dates.RegistrationOpen) {
     topMenu.push({

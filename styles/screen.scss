@@ -156,6 +156,15 @@ a.btn {
   background-color: darken($agenda, 10%);
 }
 
+.btn.pink {
+  background-color: darken($foyer-room, 5%);
+}
+.btn.pink:hover,
+.btn.pink:active,
+.btn.pink:focus {
+  background-color: darken($foyer-room, 10%);
+}
+
 .btn.sponsors {
   background-color: $dark-grey;
 }

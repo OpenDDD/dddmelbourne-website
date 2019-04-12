@@ -42,6 +42,12 @@ class CFPPage extends React.Component<WithPageMetadataProps> {
           {conference.PreviouslySubmittedTopics}.
         </p>
 
+        <p className="text-center">
+          <SafeLink className="btn pink" href={'./speaker-initiatives'}>
+            Read more about our Speaker Initiatives
+          </SafeLink>
+        </p>
+
         <p>We want to encourage people that wouldn't normally speak at conferences to give it a go! We do this by:</p>
         <ul>
           <li>
@@ -109,7 +115,7 @@ class CFPPage extends React.Component<WithPageMetadataProps> {
             </a>{' '}
             and we'll reach out to discuss options.
           </li>
-          <li>You will likely be speaking to an audience of between 50-150 people.</li>
+          <li>You will likely be speaking to an audience of between 80-180 people.</li>
           <li>
             We are not interested in sales/vendor pitch presentations although you are welcome to have a slide or two
             about yourself and your company.
