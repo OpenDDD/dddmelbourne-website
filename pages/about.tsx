@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import React from 'react'
 import { SafeLink } from '../components/global/safeLink'
 import withPageMetadata, { WithPageMetadataProps } from '../components/global/withPageMetadata'
@@ -32,8 +33,8 @@ export default withPageMetadata((props: WithPageMetadataProps) => (
     </p>
     <h2>What do we do with the money we raise?</h2>
     <p>
-      DDD Melbourne is run by Oz Dev Inc., a non-profit association. All funds raised as part of running DDD Melbourne,
-      selling merchandise on{' '}
+      DDD Melbourne is run by Oz Dev Inc., a non-profit association. All funds raised as part of running DDD Melbourne, selling
+      merchandise on{' '}
       <SafeLink href="https://www.redbubble.com/people/dddmelbourne" target="_blank">
         Red Bubble
       </SafeLink>{' '}
@@ -42,18 +43,16 @@ export default withPageMetadata((props: WithPageMetadataProps) => (
     <ul>
       <li>Running current, or future, DDD Melbourne or DDD By Night events</li>
       <li>
-        Sponsoring events or meetup groups in the VIC software industry that align to the purpose and goals of DDD
-        Melbourne
+        Sponsoring events or meetup groups in the VIC software industry that align to the purpose and goals of DDD Melbourne
       </li>
       <li>Other activities that contribute to the VIC software industry and align to our purpose and goals</li>
     </ul>
     <h2>What does DDD stand for?</h2>
     <p>
       DDD Melbourne started out its life as part of the Developer! Developer! Developer! series of events and while our
-      heritage is as a developer-focussed conference, DDD Melbourne is not just for developers, but for all
-      professionals in the software industry. These days we don't expand DDD - it's not an acronym for us anymore, but
-      if people insist then we might say Designer, Developer and Data Scientist, or is it DevOps, Data architect,
-      distributed tester?
+      heritage is as a developer-focussed conference, DDD Melbourne is not just for developers, but for all professionals in
+      the software industry. These days we don't expand DDD - it's not an acronym for us anymore, but if people insist
+      then we might say Designer, Developer and Data Scientist, or is it DevOps, Data architect, distributed tester?
     </p>
     <p>The original DDD Melbourne logo was:</p>
     <p className="text-center">
@@ -80,7 +79,7 @@ export default withPageMetadata((props: WithPageMetadataProps) => (
       <SafeLink href="https://dddperth.com/" target="_blank">
         <img src="/static/images/logo-dddperth.png" alt="DDD Perth logo" style={{ width: '200px' }} />
       </SafeLink>{' '}
-      <SafeLink href="http://dddsydney.com.au/" target="_blank">
+      <SafeLink href="https://next.dddsydney.com.au/" target="_blank">
         <img src="/static/images/logo-dddsydney.png" alt="DDD Sydney logo" style={{ width: '200px' }} />
       </SafeLink>{' '}
       <SafeLink href="http://dddbrisbane.com/" target="_blank">
