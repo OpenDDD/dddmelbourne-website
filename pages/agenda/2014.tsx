@@ -25,7 +25,7 @@ class Agenda2014 extends React.Component<AgendaPageProps> {
             <thead>
               <tr>
                 <th style={{ width: '4%' }} />
-                <th style={{ width: '19.2%' }}>
+                <th style={{ width: '24%' }}>
                   <strong style={{ background: '#66ad4a' }}>Green</strong>
                   <em>ATC 101 - MAIN HALL</em>
                 </th>
@@ -81,14 +81,14 @@ class Agenda2014 extends React.Component<AgendaPageProps> {
                 <SessionCell sessionId="f9f0c08e-71c0-4082-843e-0aec53f1919f" />
                 <SessionCell sessionId="workshop1" />
               </tr>
-              
+
               <tr className="breadth-row">
                 <td className="time">11:00</td>
                 <td colSpan={5} className="breadth">
                   Changeover
                 </td>
               </tr>
-              
+
               <tr>
                 <td className="time">
                   11:15
@@ -137,7 +137,7 @@ class Agenda2014 extends React.Component<AgendaPageProps> {
                   Afternoon Tea
                 </td>
               </tr>
-              
+
               <tr className="breadth-row">
                 <td className="time">15:00</td>
                 <SessionCell sessionId="1f1471ee-79d2-4e49-b1f2-3228d7c0b6f3" />
@@ -145,13 +145,13 @@ class Agenda2014 extends React.Component<AgendaPageProps> {
                 <SessionCell sessionId="5c22ad22-dc66-4de8-9f65-b228302505ea" />
                 <SessionCell sessionId="" />
               </tr>
-              
+
               <tr className="breadth-row">
                 <td className="time">15:45</td>
                 <td colSpan={5} className="breadth">
                   Changeover
                 </td>
-              </tr>         
+              </tr>
 
               <tr className="breadth-row">
                 <td className="time">16:00</td>
