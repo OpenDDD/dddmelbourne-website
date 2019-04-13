@@ -86,6 +86,7 @@ class Agenda2015 extends React.Component<AgendaPageProps> {
                 <SessionCell sessionId="workshop-1" />
                 <SessionCell sessionId="workshop-2" />
               </tr>
+
               <tr className="breadth-row">
                 <td className="time">10:45</td>
                 <td colSpan={5} className="breadth">
