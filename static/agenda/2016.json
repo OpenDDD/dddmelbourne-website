@@ -95,25 +95,6 @@
     "Tags": []
   },
   {
-    "Id": "90292699-e721-49c2-aa42-f99c039fbee6",
-    "Title": "Getting in deep with React",
-    "Presenters": [
-      {
-        "Id": null,
-        "Name": "Aaron Powell",
-        "Tagline": null,
-        "Bio": null,
-        "ProfilePhotoUrl": null,
-        "TwitterHandle": "slace",
-        "WebsiteUrl": "https://www.aaron-powell.com/"
-      }
-    ],
-    "Abstract": "React is still hot property when it comes to web application development and in this workshop we'll beyond your component classes and modularisation and look into some deeper dive concepts like higher order components, automated testing and Redux.",
-    "Format": "45 mins",
-    "Level": "No experience necessary",
-    "Tags": []
-  },
-  {
     "Id": "705b410d-eeb5-4ec1-a1ae-779457cd5de4",
     "Title": "ASP.NET Core From Scratch",
     "Presenters": [
@@ -401,6 +382,53 @@
       }
     ],
     "Abstract": "Objective-C is a heinous and ugly beast. It's a testament to the other advantages of the Apple ecosystem that anyone bothered to build apps with it at all. It seems that maybe Apple realised this and last year they announced their newest programming language for all their platforms: Swift. Is it any good though? Or is it just more of the NSSame? Come take a quick lap through some of the semantics, syntax and capabilities of Swift and additionally, see how they compare to language features in C#/.NET with a few nods to JavaScript along the way.",
+    "Format": "45 mins",
+    "Level": "No experience necessary",
+    "Tags": []
+  },
+  {
+    "Id": "workshop-1",
+    "Title": "Getting in deep with React",
+    "Presenters": [
+      {
+        "Id": null,
+        "Name": "Aaron Powell",
+        "Tagline": null,
+        "Bio": null,
+        "ProfilePhotoUrl": null,
+        "TwitterHandle": "slace",
+        "WebsiteUrl": "https://www.aaron-powell.com/"
+      }
+    ],
+    "Abstract": "React is still hot property when it comes to web application development and in this workshop we'll beyond your component classes and modularisation and look into some deeper dive concepts like higher order components, automated testing and Redux.",
+    "Format": "45 mins",
+    "Level": "No experience necessary",
+    "Tags": []
+  },  
+  {
+    "Id": "workshop-2",
+    "Title": "Jumpstart into Virtual Actors with Orleans",
+    "Presenters": [
+      {
+        "Id": null,
+        "Name": "Alexey Shcherbak",
+        "Tagline": null,
+        "Bio": null,
+        "ProfilePhotoUrl": null,
+        "TwitterHandle": null,
+        "WebsiteUrl": null
+      },
+      {
+        "Id": null,
+        "Name": "Reuben Bond",
+        "Tagline": null,
+        "Bio": null,
+        "ProfilePhotoUrl": null,
+        "TwitterHandle": null,
+        "WebsiteUrl": null
+      }
+    ],
+    "Abstract": "You'll learn how to model and build your first app with virtual actors, host it on-prem or in a Cloud, yield the superpowers of distributed applications and make first steps to world domination. <br /><strong>Pre requisites:</strong> Clone the following repo https://github.com/centur/DDDMelb2016.VirtualActors, and make sure you pull the latest changes before DDD Melbourne.",
     "Format": "45 mins",
     "Level": "No experience necessary",
     "Tags": []
