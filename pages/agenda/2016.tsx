@@ -89,7 +89,7 @@ class Agenda2016 extends React.Component<AgendaPageProps> {
                 <SessionCell sessionId="1497f72a-48b8-4844-bd8a-bb3dc988bd5f" />
                 <SessionCell sessionId="64790a8b-9849-41f0-9a65-e46e4bea967a" />
                 <SessionCell sessionId="9528c415-ceff-4977-ac7e-9733b5969b8f" />
-                <SessionCell sessionId="391c8b8a-b4b2-4b9f-8dac-493440c427c3" />
+                <SessionCell sessionId="06740ef2-1718-45b6-8bf1-ff3da52a3bee" />
                 <SessionCell sessionId="workshop-1" />
                 <SessionCell sessionId="workshop-3" />
               </tr>
