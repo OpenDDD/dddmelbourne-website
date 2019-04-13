@@ -6,7 +6,7 @@ import ResponsiveVideo from '../../components/responsiveVideo'
 import Sponsors from '../../components/sponsors'
 import From2017 from '../../config/2017'
 
-class Agenda2018 extends React.Component<AgendaPageProps> {
+class Agenda2017 extends React.Component<AgendaPageProps> {
   static getAgendaPageParams(): AgendaPageParameters {
     return {
       conferenceInstance: '2017',
@@ -240,4 +240,4 @@ class Agenda2018 extends React.Component<AgendaPageProps> {
   }
 }
 
-export default withPageMetadata(AgendaPage(Agenda2018, Agenda2018.getAgendaPageParams()))
+export default withPageMetadata(AgendaPage(Agenda2017, Agenda2017.getAgendaPageParams()))
