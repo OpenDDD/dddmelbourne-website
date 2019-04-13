@@ -80,7 +80,7 @@ class Agenda2016 extends React.Component<AgendaPageProps> {
                 <td colSpan={6} className="breadth">
                   Morning Tea
                   <br />
-                  <small className="room">K309</small>
+                  <small className="room" style={{ color: 'rgb(102, 173, 74)' }}>Foyer</small>
                 </td>
               </tr>
 
