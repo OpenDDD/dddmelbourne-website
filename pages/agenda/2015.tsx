@@ -4,7 +4,7 @@ import { SafeLink } from '../../components/global/safeLink'
 import withPageMetadata from '../../components/global/withPageMetadata'
 import ResponsiveVideo from '../../components/responsiveVideo'
 import Sponsors from '../../components/sponsors'
-import From2016 from '../../config/2015'
+import From2015 from '../../config/2015'
 
 class Agenda2015 extends React.Component<AgendaPageProps> {
   static getAgendaPageParams(): AgendaPageParameters {
