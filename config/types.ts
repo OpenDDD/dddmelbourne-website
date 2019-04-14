@@ -140,6 +140,7 @@ export enum SponsorType {
   Silver,
   Gold,
   Platinum,
+  Diamond,
   Service,
   Community,
 }

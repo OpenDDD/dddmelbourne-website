@@ -13,9 +13,22 @@ const Sponsors: StatelessComponent<SponsorsProps> = ({ sponsors, show, hideUpsel
   show && sponsors.length ? (
     <Fragment>
       <section className="sponsors">
+        {sponsors.find(s => s.type === SponsorType.Diamond) && (
+          <Fragment>
+            <h2>Platinum Partner</h2>
+            {sponsors
+              .filter(s => s.type === SponsorType.Diamond)
+              .map(s => (
+                <SafeLink href={s.url} target="_blank" key={s.name} title={s.name}>
+                  <img src={s.imageUrl} alt={s.name} className="diamond" />
+                </SafeLink>
+              ))}
+          </Fragment>
+        )}
+
         {sponsors.find(s => s.type === SponsorType.Platinum) && (
           <Fragment>
-            <h2>Platinum Sponsors</h2>
+            <h2>Platinum {sponsors.filter(s => s.type === SponsorType.Platinum).length > 1 ? 'Sponsors' : 'Partner'}</h2>
             {sponsors
               .filter(s => s.type === SponsorType.Platinum)
               .map(s => (
