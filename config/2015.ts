@@ -103,7 +103,7 @@ const From2015: From2015 = {
       type: SponsorType.Service,
       url: 'https://pageuppeople.com/',
     },
-    //Standard
+    // Standard
     {
       imageUrl: '/static/images/sponsors/2015/aspose.png',
       name: 'Aspose',
