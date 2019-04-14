@@ -90,7 +90,7 @@ const From2016: From2016 = {
       type: SponsorType.Service,
       url: 'http://www.pansoftware.com.au/',
     },
-    //Standard
+    // Standard
     {
       imageUrl: '/static/images/sponsors/2016/aspose.png',
       name: 'Aspose',
