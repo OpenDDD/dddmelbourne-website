@@ -69,7 +69,7 @@ const From2014: From2014 = {
       type: SponsorType.Silver,
       url: 'https://ssw.com.au/',
     },
-    //Standard
+    // Standard
     {
       imageUrl: '/static/images/sponsors/2014/flexrule.png',
       name: 'FlexRule',
