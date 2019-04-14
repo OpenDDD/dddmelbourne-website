@@ -6,7 +6,7 @@ import ResponsiveVideo from '../../components/responsiveVideo'
 import Sponsors from '../../components/sponsors'
 import From2017 from '../../config/2017'
 
-class Agenda2018 extends React.Component<AgendaPageProps> {
+class Agenda2017 extends React.Component<AgendaPageProps> {
   static getAgendaPageParams(): AgendaPageParameters {
     return {
       conferenceInstance: '2017',
@@ -70,7 +70,7 @@ class Agenda2018 extends React.Component<AgendaPageProps> {
                 <td colSpan={7} className="breadth">
                   Welcome and housekeeping
                   <br />
-                  <small className="room" style={{ color: 'rgb(1, 182, 173)' }}>Main Hall</small>
+                  <small className="room" style={{ color: 'rgb(1, 182, 173)' }}>K309</small>
                 </td>
               </tr>
 
@@ -84,7 +84,7 @@ class Agenda2018 extends React.Component<AgendaPageProps> {
                 <td colSpan={7} className="breadth">
                   Morning Tea
                   <br />
-                  <small className="room">Main Hall</small>
+                  <small className="room" style={{ color: 'rgb(1, 182, 173)' }}>Foyer</small>
                 </td>
               </tr>
 
@@ -240,4 +240,4 @@ class Agenda2018 extends React.Component<AgendaPageProps> {
   }
 }
 
-export default withPageMetadata(AgendaPage(Agenda2018, Agenda2018.getAgendaPageParams()))
+export default withPageMetadata(AgendaPage(Agenda2017, Agenda2017.getAgendaPageParams()))

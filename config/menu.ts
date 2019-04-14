@@ -16,13 +16,6 @@ export default function Menu(conference: Conference, dates: Dates) {
     }
   ]
 
-  if (false) {
-    topMenu.push({
-      href: '/speaker-initiatives',
-      name: 'Speaker Initiatives',
-    })
-  }
-
   if (dates.RegistrationOpen) {
     topMenu.push({
       href: '/tickets',
