@@ -127,7 +127,7 @@
         "WebsiteUrl": "devkimchi.com"
       }
     ],
-    "Abstract": "Since AWS Lamba was unveiled in 2014, it was virtually the only option for cloud based serverless computing. Now, Azure Functions has been introduced in Build 2016, which is corresponding to AWS Lambda as a competitor. Both Azure Functions and AWS Lambda are event driven, compute-on-demand experience triggered by events occurring in virtually any cloud service as well as on-premises systems. <br /><br />In this session, I will briefly give a comparison with both services, show a demo how they work, especially writing in C# codes, and how to integrate it into your real world example.",
+    "Abstract": "Since AWS Lamba was unveiled in 2014, it was virtually the only option for cloud based serverless computing. Now, Azure Functions has been introduced in Build 2016, which is corresponding to AWS Lambda as a competitor. Both Azure Functions and AWS Lambda are event driven, compute-on-demand experience triggered by events occurring in virtually any cloud service as well as on-premises systems. \r\n\r\nIn this session, I will briefly give a comparison with both services, show a demo how they work, especially writing in C# codes, and how to integrate it into your real world example.",
     "Format": "45 mins",
     "Level": "No experience necessary",
     "Tags": []
@@ -168,7 +168,7 @@
     "PresenterName": "Damian Brady",
     "PresenterTwitterAlias": "damovisa",
     "RecommendedAudience": "~200 level. Anyone interested in the software deployment side of DevOps.",
-    "Abstract": "You've toiled hard on your code, tested it locally, and you're confident it's ready to go. But how long until you see it in production? For some teams, it can be months or even years. By the time your new feature or bug fix gets used in anger, you've forgotten what you did! But with a great deployment pipeline and some clever architecture, there's a better way. <br /><br />This session is packed with war stories and real world successes. We'll walk through the realities of a no-touch deployment pipeline that you can trust all the way to production, and we'll examine some clever architectural patterns to enable true software agility. By the end, you'll be convinced that if it's not in production, it doesn't count. If you struggle to get updates in the hands of users, this is the session for you.",
+    "Abstract": "You've toiled hard on your code, tested it locally, and you're confident it's ready to go. But how long until you see it in production? For some teams, it can be months or even years. By the time your new feature or bug fix gets used in anger, you've forgotten what you did! But with a great deployment pipeline and some clever architecture, there's a better way. \r\n\r\nThis session is packed with war stories and real world successes. We'll walk through the realities of a no-touch deployment pipeline that you can trust all the way to production, and we'll examine some clever architectural patterns to enable true software agility. By the end, you'll be convinced that if it's not in production, it doesn't count. If you struggle to get updates in the hands of users, this is the session for you.",
     "Format": "45 mins",
     "Level": "No experience necessary",
     "Tags": []
@@ -187,7 +187,7 @@
         "WebsiteUrl": "www.digitallycreated.net"
       }
     ],
-    "Abstract": "Haskell is often dismissed as a language too academic for practical use in real-world production applications. However, as functional programming becomes more and more popular, and the benefits of static typing, purity and immutability become increasingly apparent, teams are looking for a language that exemplifies these traits; that language is Haskell. <br /><br />In this talk we'll take a look at one team's journey from working in F# on .NET into the world of shipping pure, immutable and fully-functional code written in Haskell straight into production on AWS. We'll cover the reasons why we chose Haskell, what advantages it brought us, and the challenges we overcame along our journey.",
+    "Abstract": "Haskell is often dismissed as a language too academic for practical use in real-world production applications. However, as functional programming becomes more and more popular, and the benefits of static typing, purity and immutability become increasingly apparent, teams are looking for a language that exemplifies these traits; that language is Haskell. \r\n\r\nIn this talk we'll take a look at one team's journey from working in F# on .NET into the world of shipping pure, immutable and fully-functional code written in Haskell straight into production on AWS. We'll cover the reasons why we chose Haskell, what advantages it brought us, and the challenges we overcame along our journey.",
     "Format": "45 mins",
     "Level": "No experience necessary",
     "Tags": []
@@ -206,7 +206,7 @@
         "WebsiteUrl": "david.gardiner.net.au"
       }
     ],
-    "Abstract": "In this fast-paced talk we'll look at 10 really useful libraries and tools that can make writing unit tests faster, simplify reading and understanding test code and better help identify the root cause of failed tests. <br /><br />A great mix of general and special purpose libraries to have in your unit testing toolbox.",
+    "Abstract": "In this fast-paced talk we'll look at 10 really useful libraries and tools that can make writing unit tests faster, simplify reading and understanding test code and better help identify the root cause of failed tests. \r\n\r\nA great mix of general and special purpose libraries to have in your unit testing toolbox.",
     "Format": "45 mins",
     "Level": "No experience necessary",
     "Tags": []
@@ -225,7 +225,7 @@
         "WebsiteUrl": "www.aaron-powell.com"
       }
     ],
-    "Abstract": "Redux has grown in popularity within the React community as an alternative to Flux and a powerful way to manage within your application. From its focus on immutability, pure functions or time traveling, it's become a popular way to back your React applications. <br /><br />But Redux is more than a React library, it's a powerful pattern for data management in any kind of application. <br /><br />In this session we're going to dive deeply into how Redux works, look at why it's so popular with React, how it can work with any front-end framework and even beyond JavaScript.",
+    "Abstract": "Redux has grown in popularity within the React community as an alternative to Flux and a powerful way to manage within your application. From its focus on immutability, pure functions or time traveling, it's become a popular way to back your React applications. \r\n\r\nBut Redux is more than a React library, it's a powerful pattern for data management in any kind of application. \r\n\r\nIn this session we're going to dive deeply into how Redux works, look at why it's so popular with React, how it can work with any front-end framework and even beyond JavaScript.",
     "Format": "45 mins",
     "Level": "No experience necessary",
     "Tags": []
@@ -244,7 +244,7 @@
         "WebsiteUrl": "mahe.sh"
       }
     ],
-    "Abstract": "In the eyes of a lot of people, \"the stereotypical developer\" is an introvert, who spends all of his or her time in front of a computer, communicates poorly, is socially awkward, unreliable, wears esoteric T-shirts and has an addiction to caffeine. <br /><br />Of course, this is not (all) true, but as developers our coding skills far outweigh our \"soft\" skills. So, what do we, as developers, need to do to improve on these skills? <br /><br />Mahesh Krishnan, draws upon his years of experience as a developer and consultant to talk about these skills, and what you need to do to get them. He will provide you with tools and tips to help you with your confidence, communication skills, time management skills, how to resolve conflict, etc; and also what you need to do to advance both your technical and leadership skills.",
+    "Abstract": "In the eyes of a lot of people, \"the stereotypical developer\" is an introvert, who spends all of his or her time in front of a computer, communicates poorly, is socially awkward, unreliable, wears esoteric T-shirts and has an addiction to caffeine. \r\n\r\nOf course, this is not (all) true, but as developers our coding skills far outweigh our \"soft\" skills. So, what do we, as developers, need to do to improve on these skills? \r\n\r\nMahesh Krishnan, draws upon his years of experience as a developer and consultant to talk about these skills, and what you need to do to get them. He will provide you with tools and tips to help you with your confidence, communication skills, time management skills, how to resolve conflict, etc; and also what you need to do to advance both your technical and leadership skills.",
     "Format": "45 mins",
     "Level": "No experience necessary",
     "Tags": []
@@ -264,7 +264,7 @@
       }
     ],
     "RecommendedAudience": "Developers, DevOps and Operations with at least basic level of development.",
-    "Abstract": "Microsoft just released a windows 10 insider version allowing Hyper-V Containers on Windows 10 desktops. <br /><br />Learn how you can use Docker and Hyper-V containers, to develop and ship containerized applications today!",
+    "Abstract": "Microsoft just released a windows 10 insider version allowing Hyper-V Containers on Windows 10 desktops. \r\n\r\nLearn how you can use Docker and Hyper-V containers, to develop and ship containerized applications today!",
     "Format": "45 mins",
     "Level": "No experience necessary",
     "Tags": []
@@ -302,7 +302,7 @@
         "WebsiteUrl": "www.eliasdigital.com"
       }
     ],
-    "Abstract": "Many great resources exist for those who wish to understand quantum computing, however nearly all these resources fail to cater to the novice. Many resources simply assume that the reader is already proficient with both linear and matrix algebra, as well as intrinsically understand how a quantum system should function. These resources are all well and good, and probably provide a great deal of insight to those equipped to digest them (physicists, mathematicians), but for the rest of us, they appear dense and impenetrable. <br /><br />How can you begin to understand something this complex in the first instance? <br /><br />What is needed is an introduction to the introduction, some bridging information that illustrates these concepts in 'normal' language, and allows the reader to go from ‘Novice’ to ‘Somewhat Prepared’. Join me to get the skinny on quantum computing and quantum information fundamentals, as seen from an OO perspective.",
+    "Abstract": "Many great resources exist for those who wish to understand quantum computing, however nearly all these resources fail to cater to the novice. Many resources simply assume that the reader is already proficient with both linear and matrix algebra, as well as intrinsically understand how a quantum system should function. These resources are all well and good, and probably provide a great deal of insight to those equipped to digest them (physicists, mathematicians), but for the rest of us, they appear dense and impenetrable. \r\n\r\nHow can you begin to understand something this complex in the first instance? \r\n\r\nWhat is needed is an introduction to the introduction, some bridging information that illustrates these concepts in 'normal' language, and allows the reader to go from ‘Novice’ to ‘Somewhat Prepared’. Join me to get the skinny on quantum computing and quantum information fundamentals, as seen from an OO perspective.",
     "Format": "45 mins",
     "Level": "No experience necessary",
     "Tags": []
@@ -404,7 +404,7 @@
     "Format": "45 mins",
     "Level": "No experience necessary",
     "Tags": []
-  },  
+  },
   {
     "Id": "workshop-2",
     "Title": "Jumpstart into Virtual Actors with Orleans",
@@ -428,7 +428,7 @@
         "WebsiteUrl": null
       }
     ],
-    "Abstract": "You'll learn how to model and build your first app with virtual actors, host it on-prem or in a Cloud, yield the superpowers of distributed applications and make first steps to world domination. <br /><strong>Pre requisites:</strong> Clone the following repo https://github.com/centur/DDDMelb2016.VirtualActors, and make sure you pull the latest changes before DDD Melbourne.",
+    "Abstract": "You'll learn how to model and build your first app with virtual actors, host it on-prem or in a Cloud, yield the superpowers of distributed applications and make first steps to world domination. \r\n<strong>Pre requisites:</strong> Clone the following repo https://github.com/centur/DDDMelb2016.VirtualActors, and make sure you pull the latest changes before DDD Melbourne.",
     "Format": "45 mins",
     "Level": "No experience necessary",
     "Tags": []
@@ -466,7 +466,7 @@
         "WebsiteUrl": null
       }
     ],
-    "Abstract": "Want confidence in your code but don't know how to escape the monotony of writing innumerable unit tests? Does refactoring fill you with a sense of dread when you realise the number of tests that will be impacted? Enter property based testing... <br /><br />Come along to learn how to test the properties of your code, and leave with a new level of confidence and satisfaction you never knew was possible.",
+    "Abstract": "Want confidence in your code but don't know how to escape the monotony of writing innumerable unit tests? Does refactoring fill you with a sense of dread when you realise the number of tests that will be impacted? Enter property based testing... \r\n\r\nCome along to learn how to test the properties of your code, and leave with a new level of confidence and satisfaction you never knew was possible.",
     "Format": "45 mins",
     "Level": "No experience necessary",
     "Tags": []
@@ -494,7 +494,7 @@
         "WebsiteUrl": null
       }
     ],
-    "Abstract": "This talk is to discuss the lessons we learnt from our first microservice. It has been running in production just under a year (over 160 deployments) - looking back, we have scars, and we've learnt a lot - lets have a retro! <br /><br />We will cover all sorts of topics ranging from the technical details of our approach, in terms of technology stack, continuous deployments, our journey with new technology, and even our big mistakes. We'll discuss what happened, and how we worked to fix them. <br /><br />A lot has been learnt, especially in terms of working with the Monolith, and we'd love to share. Something for everyone.",
+    "Abstract": "This talk is to discuss the lessons we learnt from our first microservice. It has been running in production just under a year (over 160 deployments) - looking back, we have scars, and we've learnt a lot - lets have a retro! \r\n\r\nWe will cover all sorts of topics ranging from the technical details of our approach, in terms of technology stack, continuous deployments, our journey with new technology, and even our big mistakes. We'll discuss what happened, and how we worked to fix them. \r\n\r\nA lot has been learnt, especially in terms of working with the Monolith, and we'd love to share. Something for everyone.",
     "Format": "45 mins",
     "Level": "No experience necessary",
     "Tags": []
@@ -532,7 +532,7 @@
         "WebsiteUrl": "graphql-elixir.org"
       }
     ],
-    "Abstract": "What if you could simply declare your available data types and quickly publish a fluid, fast and self-documented API that isn't tied to HTTP, JSON or your choice of backend store? Sounds better than handcrafting a RESTful API right? <br /><br />Say hello to GraphQL, an exciting new REST alternative from Facebook which will help you build faster and easier to work with web APIs than ever before. <br /><br />We'll explore how to define your schemas, hook them up to your data and connect to them from your frontend clients. We'll also look at the future of GraphQL. You'll never look at REST APIs the same way again. Promise.",
+    "Abstract": "What if you could simply declare your available data types and quickly publish a fluid, fast and self-documented API that isn't tied to HTTP, JSON or your choice of backend store? Sounds better than handcrafting a RESTful API right? \r\n\r\nSay hello to GraphQL, an exciting new REST alternative from Facebook which will help you build faster and easier to work with web APIs than ever before. \r\n\r\nWe'll explore how to define your schemas, hook them up to your data and connect to them from your frontend clients. We'll also look at the future of GraphQL. You'll never look at REST APIs the same way again. Promise.",
     "Format": "45 mins",
     "Level": "No experience necessary",
     "Tags": []

@@ -64,7 +64,7 @@ class Agenda2014 extends React.Component<AgendaPageProps> {
 
               <tr className="breadth-row">
                 <td className="time">9:10</td>
-                <SessionCell isKeynote={true} sessionId="keynote" room="ATC 101 - MAIN HALL" />
+                <SessionCell isKeynote={true} sessionId="keynote" room="ATC 101 - MAIN HALL" roomStyle={{ color: 'rgb(102, 173, 74)' }} />
               </tr>
 
               <tr className="breadth-row">
@@ -99,12 +99,12 @@ class Agenda2014 extends React.Component<AgendaPageProps> {
                 <SessionCell sessionId="workshop1" />
               </tr>
 
-             <tr className="breadth-row">
+              <tr className="breadth-row">
                 <td className="time">12:00</td>
                 <td colSpan={5} className="breadth">
                   Lunch
                   <br />
-                  <small className="room">Atrium</small>
+                  <small className="room" style={{ color: 'rgb(102, 173, 74)' }}>Atrium</small>
                 </td>
               </tr>
 
@@ -155,7 +155,7 @@ class Agenda2014 extends React.Component<AgendaPageProps> {
 
               <tr className="breadth-row">
                 <td className="time">16:00</td>
-                <SessionCell isLocknote={true} sessionId="locknote" room="ATC 101 - MAIN HALL" />
+                <SessionCell isLocknote={true} sessionId="locknote" room="ATC 101 - MAIN HALL" roomStyle={{ color: 'rgb(102, 173, 74)' }} />
               </tr>
 
               <tr className="breadth-row">

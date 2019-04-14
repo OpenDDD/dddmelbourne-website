@@ -1,5 +1,5 @@
 import fetch from 'isomorphic-fetch'
-import React from 'react'
+import React, { CSSProperties } from 'react'
 import { Session, Sponsor } from '../config/types'
 import Page from '../layouts/main'
 import Agenda, { AgendaProps } from './agenda'
@@ -15,6 +15,7 @@ export interface SessionCellProps {
   rowSpan?: number
   sponsorName?: string
   room?: string
+  roomStyle?: CSSProperties
 }
 
 export interface AgendaPageProps {
