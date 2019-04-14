@@ -86,7 +86,7 @@ const From2018: From2018 = {
       imageUrl: '/static/images/sponsors/2018/telerik.png',
       name: 'Progress Telerik',
       type: SponsorType.Silver,
-      url: 'https://www.progress.com/progress.png',
+      url: 'https://www.progress.com/',
     },
     // Community
     {
