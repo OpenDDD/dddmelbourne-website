@@ -194,7 +194,7 @@ class Agenda2014 extends React.Component<AgendaPageProps> {
             Flickr Album
           </SafeLink>
         </p>
-        <Sponsors show={false} sponsors={From2014.Sponsors} />
+        <Sponsors show={true} sponsors={From2014.Sponsors} />
       </Fragment>
     )
   }

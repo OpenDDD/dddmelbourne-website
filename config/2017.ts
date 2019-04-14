@@ -42,7 +42,6 @@ const From2017: From2017 = {
     {
       imageUrl: '/static/images/sponsors/2017/devexpress.png',
       name: 'DevExpress',
-      serviceProvided: 'Developer Recharge (Coffee)',
       type: SponsorType.Gold,
       url: 'https://www.devexpress.com',
     },

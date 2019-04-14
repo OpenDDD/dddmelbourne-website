@@ -1,0 +1,918 @@
+[
+  {
+    "Id": "angular",
+    "Title": "An Introduction to AngularJS",
+    "Abstract": "For workshop details please refer to home page workshop section.",
+    "RecommendedAudience": "",
+    "Presenters": [
+      {
+        "Name": "Glen Maddern",
+        "TwitterAlias": "glenmaddern",
+        "Website": "",
+        "Bio": ""
+      }
+    ],
+    "Format": "45 mins",
+    "Level": "No experience necessary",
+    "Tags": []
+  },
+  {
+    "Id": "javascript",
+    "Title": "JavaScript all the things",
+    "Abstract": "For workshop details please refer to home page workshop section.",
+    "RecommendedAudience": "",
+    "Presenters": [
+      {
+        "Name": "Aaron Powell",
+        "TwitterAlias": "slace",
+        "Website": "",
+        "Bio": ""
+      }
+    ],
+    "Format": "45 mins",
+    "Level": "No experience necessary",
+    "Tags": []
+  },
+  {
+    "Id": "git",
+    "Title": "Thinking Like A Git",
+    "Abstract": "For workshop details please refer to home page workshop section.",
+    "RecommendedAudience": "",
+    "Presenters": [
+      {
+        "Name": "Brendan Forster",
+        "TwitterAlias": "shiftkey",
+        "Website": "",
+        "Bio": ""
+      }
+    ],
+    "Format": "45 mins",
+    "Level": "No experience necessary",
+    "Tags": []
+  },
+  {
+    "Id": "linqpad",
+    "Title": "Hands-on Concurrency Lab in LINQPad",
+    "Abstract": "For workshop details please refer to home page workshop section.",
+    "RecommendedAudience": "",
+    "Presenters": [
+      {
+        "Name": "Jospeh Albahari",
+        "TwitterAlias": null,
+        "Website": "",
+        "Bio": ""
+      }
+    ],
+    "Format": "45 mins",
+    "Level": "No experience necessary",
+    "Tags": []
+  },
+  {
+    "Id": "windows8",
+    "Title": "Windows 8 Apps for Business Workshop",
+    "Abstract": "For workshop details please refer to home page workshop section.",
+    "RecommendedAudience": "",
+    "Presenters": [
+      {
+        "Name": "Mitch Denny",
+        "TwitterAlias": "mitchdenny",
+        "Website": "",
+        "Bio": ""
+      }
+    ],
+    "Format": "45 mins",
+    "Level": "No experience necessary",
+    "Tags": []
+  },
+  {
+    "Id": "017e43a8-bd9e-44e6-9d80-76a817415e56",
+    "Title": "Developing large scale Web applications with Google Closure Tools",
+    "Abstract": "Google Closure tools is Google's toolkit used to produce some of their core products e.g Gmail; Calendar; Google +; this talk aims to walkthrough developing an application using the Google closure tools; including dependency management; CSS minification; and code compilation.",
+    "RecommendedAudience": "Basic knowledge of JavaScript and REST",
+    "Presenters": [
+      {
+        "Name": "Devraj Mukherjee",
+        "TwitterAlias": "mdevraj",
+        "Website": "etk.com.au",
+        "Bio": "10 years in the industry; business owner; with clients like Charles Sturt University, De Bortoli Wines; Web / iOS developer; maintainer of prestans micro framework https://githib.com/prestans"
+      }
+    ],
+    "Format": "45 mins",
+    "Level": "No experience necessary",
+    "Tags": []
+  },
+  {
+    "Id": "0219d40b-0dff-4dbd-9aa8-101996bccfa5",
+    "Title": "Towards a responsive business, the developer way.",
+    "Abstract": "Over the last year, a team of software engineers have been quietly revamping the architecture, codebase and development practises at World Vision Australia (http://www.worldvision.com.au/Home.aspx). They have been using the principles of continuous delivery to deliver a SOA based IT platform for a non-profit who's business genuinely has a world wide impact.\r\n\r\nThe team has been replacing a legacy .net codebase with Angular JS front ends talking to .net REST Services built on top of WebAPI using the Strangler pattern (http://www.martinfowler.com/bliki/StranglerApplication.html).\r\n\r\nIn the span of 6 months they have delivered several drops to production through a push button deployment process. The deployments are built on top of a Bamboo based CI pipeline. \r\n\r\nWe use Nuget for dependency management, ProGet as a package repository, WinRM for command distribution and Chocolately for package installation.  We support this with a  testing pyramid  involving UnitTesting on NSpec and Jasmine/Karma/PhantomJS and Acceptance testing with SpecFlow/Selenium/WebDriver. We test our deployment scripts with Canary deployments orchestrated through PowerShell. \r\n\r\nMore interestingly we're using Puppet and Node.js to pioneer the idea of shipping products intended for single tenant architectures and the principle of 'the machine as the artefact of the pipeline'.\r\n\r\nWe're super excited by what we've built so far and looking forward to talking about our learnings. Its not all roses and rainbows. \r\n\r\nWe'd also like to talk our next phase which is in progress and involves moving to AWS for complete automation and infrastructure as code.",
+    "RecommendedAudience": "Developers",
+    "Presenters": [
+      {
+        "Name": "Nigel Fernandes",
+        "TwitterAlias": "nigelfds",
+        "Website": "www.thoughtworks.com/continuous-delivery",
+        "Bio": "Nigel Fernandes considers himself a software delivery monkey wrench. \r\n\r\nHe's played the roles of developer, architect, support engineer, system administrator, tester and manager during his career in India, the UK, Germany and Australia. \r\n\r\nHis passion is converting learnings from each of those diverse experiences into the ingredients for high performance teams, underlying successful software delivery. He currently serves ThoughtWorks Australia, as a Senior Consultant focussed on implementing continuos delivery in large organisations. He special focus on leveraging the cloud in such transformations.\r\n\r\nNigel has presented at Conferences, BarCamps and User Groups for Ruby, DevOps, AWS, and Agile in Australia, India, Germany, Brazil and Uruguay"
+      }
+    ],
+    "Format": "45 mins",
+    "Level": "No experience necessary",
+    "Tags": []
+  },
+  {
+    "Id": "06ebebcf-1d4b-4a91-95c7-4c28e5949110",
+    "Title": "The Guessing Game - Alternatives to Agile Estimation",
+    "Abstract": "This is a  that I am also presenting at Agile Australia and LAST Conference.\r\n\r\nAgile promotes empiricism and change, yet many practitioners continue to scope out and estimate delivery times and costs for software products and projects.\r\n\r\nDefenders of estimation claim that we need to estimate software projects in order to answer common business and customer questions such as:\r\n\r\n* Should we go ahead with this project? (go/no-go) \r\n* How much will it cost? (bottom line) \r\n* When will it be done? (predictability) \r\n* Should we do project B instead of A? (prioritisation)\r\n\r\nThis  challenges participants to flip these questions on their heads and seek alternatives to estimation rituals. It covers the many risks inherent with an estimation culture and demonstrates real, practical alternatives, both at the portfolio and the sprint level.\r\n\r\nDiscover: \r\n* How to reduce the uncertainty and risk inherent with popular estimation models and rituals \r\n* How to determine the price for your customer without estimation \r\nrituals \r\n* How to determine delivery dates and roadmaps without estimation rituals \r\n* How to determine which projects to pursue without estimation \r\nrituals \r\n* How to do Scrum or XP without estimation rituals \r\n* When, if ever, is it appropriate to estimate software projects?",
+    "RecommendedAudience": "Software developers, managers and executives. Prior knowledge of Agile/Lean principles will enhance enjoyment and learning from the , but are not prerequisites.",
+    "Presenters": [
+      {
+        "Name": "Neil Killick",
+        "TwitterAlias": "neil_killick",
+        "Website": "neilkillick.com",
+        "Bio": "I am an independent consultant providing software delivery coaching, project management & BA services in the Agile/Lean space.\r\n\r\nI am passionate about finding more effective ways for companies to deliver software and to humanise the workplace."
+      }
+    ],
+    "Format": "45 mins",
+    "Level": "No experience necessary",
+    "Tags": []
+  },
+  {
+    "Id": "0af7b349-7e01-437f-b852-35dace17e749",
+    "Title": "ASP.NET Web API: Scalability and High Performance Concepts",
+    "Abstract": "In this , Himanshu will take you through practical concepts of what it takes to build scalable and high performance Web API.",
+    "RecommendedAudience": "Level 300",
+    "Presenters": [
+      {
+        "Name": "Himanshu Desai",
+        "TwitterAlias": "H_Desai",
+        "Website": "himanshudesai.wordpress.com",
+        "Bio": "Himanshu Desai  who works as Lead Consultant at Readify is an experienced software architect/ developer and has been working with .NET platform since its inception. He is highly passionate and focused around architecture, solution design and loves working with Services."
+      }
+    ],
+    "Format": "45 mins",
+    "Level": "No experience necessary",
+    "Tags": []
+  },
+  {
+    "Id": "0ed505d6-ee56-42b9-beef-763f53190402",
+    "Title": "Git Going",
+    "Abstract": "Git is becoming an increasingly popular choice for source control, so now is the time for all developers to learn why and how to use Git effectively. Git can be a complex beast and understanding how Git actually works makes it an awesome tool, and allows you to solve some of the problems you may face as a developer.\r\nIn this talk I will take you through what Git is and why it’s great and set you up with all the knowledge you need to use Git effectively.\r\nWe will be diving into the main commands and what they actually do, as well as dissecting a git repository so that everyone understands what is actually happening under the covers.\r\nOn top of this I will show you a simple workflow that allows developers to hit the ground running with Git and work effectively in teams.",
+    "RecommendedAudience": "Some source control knowledge",
+    "Presenters": [
+      {
+        "Name": "Neil Campbell",
+        "TwitterAlias": "campbell_neil",
+        "Website": "codecise.com",
+        "Bio": "Neil is a Senior Developer for Readify based in Melbourne, who loves software and technology. He specialises in anything web, and works with pretty much anything .NET."
+      }
+    ],
+    "Format": "45 mins",
+    "Level": "No experience necessary",
+    "Tags": []
+  },
+  {
+    "Id": "133b2219-e5f2-40be-8328-0fe75d6812e4",
+    "Title": "F# 3.0 and Type Providers for the masses.",
+    "Abstract": "F# is still seen as a niche language within the .Net ecosystem and has a reputation for tackling narrow problem domains. But it has so much more to offer. In this talk I want to show how the every day .NET developer can use F# 3.0 features, like type providers to put into real use without having to worry about functional programming concepts and overhyped terms like monads and computation expressions.\r\n\r\nIn this talk I will primarily focus on F#’s type provider system looking at:\r\n- What is a type provider.\r\n- Accessing and querying data sets using type providers.\r\n- What types of data sources can be accessed with type providers.\r\n- Building your own type provider.",
+    "RecommendedAudience": "C# .Net developers. The level of the presentation will not require pre-requisite knowledge of F#.",
+    "Presenters": [
+      {
+        "Name": "Andrew Bienert",
+        "TwitterAlias": "abienert",
+        "Website": null,
+        "Bio": "Andrew is a System Designer at Fuji Xerox Document Management Solutions and active in the developer community having founded the Melbourne Alt.NET user group in 2010. He has over 20 years experience in IT across a range of industries as a developer, leader and business owner. He is also highly passionate about engineering systems and Agile software development practices."
+      }
+    ],
+    "Format": "45 mins",
+    "Level": "No experience necessary",
+    "Tags": []
+  },
+  {
+    "Id": "151c1900-5f3b-4ece-adb6-a3183811dd37",
+    "Title": "Reactive Extensions for Mere Mortals",
+    "Abstract": "The Reactive Extensions framework (Rx) is a collection of libraries to make it easy to work with asynchronous sources of data. But was it made just for academics and those who like to wear hypercolour shirts? \r\n\r\nIn this talk I'll run through:\r\n\r\n - what IObservable and IObserver are and how they differ to IEnumerable\r\n - how it differs from async/await - and where it's a better fit\r\n - explain some of the common patterns that work well with Rx\r\n - how desktop developers can use Rx\r\n - how web developers can use Rx (in the browser and on the server!)",
+    "RecommendedAudience": "300-level",
+    "Presenters": [
+      {
+        "Name": "Brendan Forster",
+        "TwitterAlias": "shiftkey",
+        "Website": "brendanforster.com",
+        "Bio": ".NET Consultant, open source hacker and general troublemaker"
+      }
+    ],
+    "Format": "45 mins",
+    "Level": "No experience necessary",
+    "Tags": []
+  },
+  {
+    "Id": "19b7c3ea-0811-44f2-8a52-dddd085d3095",
+    "Title": "Web Debugging with Fiddler",
+    "Abstract": "Fiddler is an enormously powerful tool for developers looking to discover why their web application or service isn't operating as they expect. In this , you'll discover what Fiddler is, how it works, and how you can start using it today to debugging your web applications and services.",
+    "RecommendedAudience": "Web Developers",
+    "Presenters": [
+      {
+        "Name": "John Bristowe",
+        "TwitterAlias": "JohnBristowe",
+        "Website": "bristowe.com",
+        "Bio": "John Bristowe (@JohnBristowe) is a Developer Evangelist with Telerik and is based out of Gold Coast, Australia. Prior to joining Telerik, he was a Senior Developer Evangelist with Microsoft. John enjoys all the meats of our technology stew, hacking on everything from angle brackets to .NET. John’s passion lies in modern web standards like HTML5 and CSS3. John is also an experienced speaker and frequently presents at developer conferences and events."
+      }
+    ],
+    "Format": "45 mins",
+    "Level": "No experience necessary",
+    "Tags": []
+  },
+  {
+    "Id": "1ad8e89d-0f64-4557-812e-9238936abc24",
+    "Title": "Building Line-of-Business Applications for Windows 8",
+    "Abstract": "In this  Mitch will explore what it means to build and deploy line-of-business applications on Windows 8 within the enterprise. The  will introduce concepts such as 'application archetype' which describes different kinds of applications within a business which can dramatically simplify the way you think about large development projects and a connected architecture for applications that effectively allows you to re-use entire chunks of functionality across projects.",
+    "RecommendedAudience": "200",
+    "Presenters": [
+      {
+        "Name": "Mitch Denny",
+        "TwitterAlias": "MitchDenny",
+        "Website": "blog.mitchdenny.com",
+        "Bio": "Mitch Denny is a Visual Studio ALM MVP and has been working with the Microsoft application platform for over 13 years. He has been awarded MVP status for 11 years running and is an expert on Application Lifecycle Management and application architecture across web and mobile platforms."
+      }
+    ],
+    "Format": "45 mins",
+    "Level": "No experience necessary",
+    "Tags": []
+  },
+  {
+    "Id": "1e54c2ed-3ea5-4c32-ba34-a40ae41a8f9f",
+    "Title": "Cross Platform Mobile Development with Xamarin",
+    "Abstract": "Let the dream come true “write once run everywhere”, see how you can develop mobile applications in C# and run it on windows mobile, iOS and Android. Full demonstration of application development, on all platforms, with WebApi backend and other funky stuff.",
+    "RecommendedAudience": "Mobile and Web Platform Knowledge",
+    "Presenters": [
+      {
+        "Name": "Carmel Halabe",
+        "TwitterAlias": null,
+        "Website": null,
+        "Bio": "Carmel Halabe is a Software Professional with years of experience in lead, design and software development. A former Microsoft Certified Trainer and Senior lecturer in Microsoft and leading colleges, trained development teams with hands on development workshops."
+      }
+    ],
+    "Format": "45 mins",
+    "Level": "No experience necessary",
+    "Tags": []
+  },
+  {
+    "Id": "288504f3-57c7-477c-960a-6fce00386add",
+    "Title": "Securing ASP.NET  Web APIs",
+    "Abstract": "With the trend towards using the HTTP API for modelling web services we need to start thinking about how these services fit into security scenarios involving identity and access control. In this talk we will go from how to implement simple username/password authentication through to token-based authentication and delegated authorisation and these are managed across different client types.",
+    "RecommendedAudience": "Intermediate",
+    "Presenters": [
+      {
+        "Name": "William Tulloch",
+        "TwitterAlias": "wtulloch",
+        "Website": null,
+        "Bio": "Originally an art school graduate, William has been professionally involved in software development for over 19 years and is currently working as a senior consultant for Readify .\r\n\r\nWilliam is passionate about software development, and his interests range from database development to UX design. Though his focus over the last few years has been on WCF, security, and XAML in all its many and varied forms, he has recently found himself back in the wonderful world of web development. \r\n\r\nActive in the developer community, William has spoken at various user groups and conferences where he has been known to wax lyrical about Windows Identity Foundation and more recently .NET 4.5. He is also one of the co-authors of the Apress book \"Introducing .NET 4.5\"."
+      }
+    ],
+    "Format": "45 mins",
+    "Level": "No experience necessary",
+    "Tags": []
+  },
+  {
+    "Id": "2b67c4f0-03ad-43c3-ac5e-c5edd70ac60e",
+    "Title": "Building Test Labs in the Cloud with Windows Azure and Team Foundation Service",
+    "Abstract": "In this  Mitch will look at how teams can take advantage of the licensing changes within MSDN to build test labs in the cloud which connect to Team Foundation Service. The  will provide an overview of the configuration required as well as demonstrations of test automation executing in a cloud environment.",
+    "RecommendedAudience": "200",
+    "Presenters": [
+      {
+        "Name": "Mitch Denny",
+        "TwitterAlias": "MitchDenny",
+        "Website": "blog.mitchdenny.com",
+        "Bio": "Mitch Denny is a Visual Studio ALM MVP and has been working with the Microsoft application platform for over 13 years. He has been awarded MVP status for 11 years running and is an expert on Application Lifecycle Management and application architecture across web and mobile platforms."
+      }
+    ],
+    "Format": "45 mins",
+    "Level": "No experience necessary",
+    "Tags": []
+  },
+  {
+    "Id": "2ee79cb3-ad58-4673-bee3-6548d80a5c71",
+    "Title": "Getting started with Single Page Applications using AngularJs",
+    "Abstract": "A walkthrough on how to build single page applications with AngularJS. Get to know the basics of AngularJS and how it fits in when building SPA.",
+    "RecommendedAudience": "Web developers. Level 200 with stong  knowledge about JavaScript",
+    "Presenters": [
+      {
+        "Name": "Moses Soliman",
+        "TwitterAlias": "mosessaur",
+        "Website": "mosesofegypt.net/",
+        "Bio": "Software Developer at Readify, Moved to Melbourne from Egypt almost 2 years ago. He is a seasoned .NET developer and blogs at http://mosesofegypt.net/"
+      }
+    ],
+    "Format": "45 mins",
+    "Level": "No experience necessary",
+    "Tags": []
+  },
+  {
+    "Id": "41d6e28a-bf46-405b-bbcf-b979f71d2e5e",
+    "Title": "C# best development practices",
+    "Abstract": "An attempt to make good coders into better coders",
+    "RecommendedAudience": "C# developers - all levels",
+    "Presenters": [
+      {
+        "Name": "Mukesh R Bhakta",
+        "TwitterAlias": null,
+        "Website": "www.anvika.com.au",
+        "Bio": "With over 25 years experience in Software Engineering and Designing"
+      }
+    ],
+    "Format": "45 mins",
+    "Level": "No experience necessary",
+    "Tags": []
+  },
+  {
+    "Id": "45ee2788-ba64-401c-a390-ca47dbfb96e9",
+    "Title": "The Need for Speed: Building High Performance ASP.NET Web Applications",
+    "Abstract": "Building a web site today requires more than a good design; it requires a good experience. That's where performance matters most. With the proper guidelines and tools, you can build high performance ASP.NET web sites that improvement the overall experience of your users. In this , you'll learn about these guidelines and tools. More important, you'll learn how to apply them.",
+    "RecommendedAudience": "ASP.NET Developers",
+    "Presenters": [
+      {
+        "Name": "John Bristowe",
+        "TwitterAlias": "JohnBristowe",
+        "Website": "bristowe.com",
+        "Bio": "John Bristowe (@JohnBristowe) is a Developer Evangelist with Telerik and is based out of Gold Coast, Australia. Prior to joining Telerik, he was a Senior Developer Evangelist with Microsoft. John enjoys all the meats of our technology stew, hacking on everything from angle brackets to .NET. John’s passion lies in modern web standards like HTML5 and CSS3. John is also an experienced speaker and frequently presents at developer conferences and events."
+      }
+    ],
+    "Format": "45 mins",
+    "Level": "No experience necessary",
+    "Tags": []
+  },
+  {
+    "Id": "50895dd7-a326-47d7-bb63-dadb2ad94cd5",
+    "Title": "ScriptCS - Why you should pay attention",
+    "Abstract": "Sometimes you don't want to have to open up Visual Studio and deal with the visual noise and distraction of a Solution, Project and Class just to test or demo a small piece of code. \r\n\r\nScriptCS is what you have been waiting for! You get a C# REPL and the ability to write and execute C# with a simple text editor. In this  learn how to install ScriptCS , write C# in your favourite text editor, and use NuGet and Script Packs.",
+    "RecommendedAudience": "300",
+    "Presenters": [
+      {
+        "Name": "Paul Bouwer",
+        "TwitterAlias": "pbouwer",
+        "Website": "blog.paulbouwer.com",
+        "Bio": "Paul has experience across a number of development languages and platforms. He is a tinkerer at heart."
+      }
+    ],
+    "Format": "45 mins",
+    "Level": "No experience necessary",
+    "Tags": []
+  },
+  {
+    "Id": "563990b0-6e7c-478a-a9ee-6ef0bcbcb187",
+    "Title": "What the F**k is OAuth?",
+    "Abstract": "The goal of this talk is to go from confusion to clarity by exploring what OAuth is and what it is not.",
+    "RecommendedAudience": "200-300",
+    "Presenters": [
+      {
+        "Name": "William Tulloch",
+        "TwitterAlias": "wtulloch",
+        "Website": null,
+        "Bio": "Originally an art school graduate, William has been professionally involved in software development for over 19 years and is currently working as a senior consultant for Readify.\r\n\r\n\r\n William is passionate about software development, and his interests range from database development to UX design. Though his focus over the last few years has been on WCF, security, and XAML in all its many and varied forms, he has recently found himself back in the wonderful world of web development. \r\n\r\n Active in the developer community, William has spoken at various user groups and conferences. including Tech-Ed Australia. He has been known to wax lyrical about claims-based security and more recently .NET 4.5. He is also one of the co-authors of the Apress book \"Introducing .NET 4.5\"."
+      }
+    ],
+    "Format": "45 mins",
+    "Level": "No experience necessary",
+    "Tags": []
+  },
+  {
+    "Id": "5c6c71d5-af0e-4b8d-8b5e-2d6305dc49a3",
+    "Title": "C# best development practices",
+    "Abstract": "Aiming to make exceptional developers out of good developers by pointing them to good C# programming practices.",
+    "RecommendedAudience": "C# developers - all levels",
+    "Presenters": [
+      {
+        "Name": "Mukesh R Bhakta",
+        "TwitterAlias": null,
+        "Website": "docs.google.com/file/d/0B0koujeIbXxsenRJR3IwSDlBMTA/edit?usp=sharing",
+        "Bio": "Over 25 years of Software Engineering and Design experience."
+      }
+    ],
+    "Format": "45 mins",
+    "Level": "No experience necessary",
+    "Tags": []
+  },
+  {
+    "Id": "62e98919-da3a-4c97-9355-478890ac3db8",
+    "Title": "An Introduction to HTML5 Canvas",
+    "Abstract": "Looking to dazzle your users without resorting to a new runtime? Why not give HTML5 canvas a go? The HTML5 canvas element and API are a simple yet powerful combination, enabling you to take advantage of a drawing surface within the browser. With the canvas element, you can create some amazing experiences that will have your visitors coming back for more. In this , you'll learn everything you need to know to start targeting the canvas element and its API today!",
+    "RecommendedAudience": "Web Developers",
+    "Presenters": [
+      {
+        "Name": "John Bristowe",
+        "TwitterAlias": "JohnBristowe",
+        "Website": "bristowe.com",
+        "Bio": "John Bristowe (@JohnBristowe) is a Developer Evangelist with Telerik and is based out of Gold Coast, Australia. Prior to joining Telerik, he was a Senior Developer Evangelist with Microsoft. John enjoys all the meats of our technology stew, hacking on everything from angle brackets to .NET. John’s passion lies in modern web standards like HTML5 and CSS3. John is also an experienced speaker and frequently presents at developer conferences and events."
+      }
+    ],
+    "Format": "45 mins",
+    "Level": "No experience necessary",
+    "Tags": []
+  },
+  {
+    "Id": "64c740ae-c1a1-4369-a8d2-fe20bf0cabad",
+    "Title": "From Agile Project Management to Continuous Delivery with TFS 2013",
+    "Abstract": "Everyone’s shipping faster these days. It’s hard, but we’ll take you through the school of hard knocks we’ve been through at SSW.\r\n\r\nYou’ll see a step by step process with tfs.visualstudio.com that will have you deploying faster with more checks and balances than ever before.\r\n\r\nWe’ll talk about how Microsoft have been doing it and we’ll look at what has worked for them and what hasn’t.  We’ll have a deeper look at what their teams have been through, including feature flags, gated checkins, and managing downtime.",
+    "RecommendedAudience": "Level 200",
+    "Presenters": [
+      {
+        "Name": "Adam Cogan",
+        "TwitterAlias": "adamcogan,",
+        "Website": "http://www.ssw.com.au",
+        "Bio": "Adam Cogan is the Chief Architect at SSW, a Microsoft Certified Gold Partner specializing in custom .NET, SharePoint and CRM solutions (with a splash of Business Intelligence). At SSW, Adam has been developing custom solutions for businesses across a range of industries such as Government, engineering, banking, insurance and manufacturing since 1990 for clients such as Microsoft, Worley Parsons and Aurecon."
+      },
+      {
+        "Name": "Damian Brady",
+        "TwitterAlias": "damovisa",
+        "Website": "http://www.ssw.com.au",
+        "Bio": "Damian is a Solution Architect who runs the Brisbane office for SSW, one of Australia’s leading Microsoft consultancies."
+      }
+    ],
+    "Format": "45 mins",
+    "Level": "No experience necessary",
+    "Tags": []
+  },
+  {
+    "Id": "64e93494-be68-4337-9b49-ac6c721cc338",
+    "Title": "Change the Future with a Tiny Box - Leap Motion showcase",
+    "Abstract": "'Imagine if you could do things on your computer just like you do them in real life. If natural movements replaced all those clicks and taps and drags and drops. Imagine if technology finally figured out people, instead of the other way around. That’s the Leap Motion Controller.\r\n\r\nIt senses your hands and fingers and follows their every move. It lets them move in all that wide-open space between you and your computer. So you can do everything without touching anything. It’s the tiny device that will change the way you use technology. It’s the world’s most natural technology that just might change the world.'\r\n\r\nGet an insight into the next Leap forward in computer interaction. This hour  will showcase the awesome interactive features of the Leap Motion and introduce the audience to the next step in interactive hardware.",
+    "RecommendedAudience": "Future space cadets preferred.",
+    "Presenters": [
+      {
+        "Name": "Lars \"Batman\" Klint",
+        "TwitterAlias": "larsklint",
+        "Website": "klint.co",
+        "Bio": "Lars is a passionate programmer using the Microsoft Stack through .Net and C#. As a software developer for Kiandra IT, he develops some of the best software applications in Australia, including developing Windows Phone Apps for both clients and for his own small software company. He is a stickler for best practices and using industry standards to produce awesome, robust and maintainable software.\r\nLars recently won the Melbourne AppFest for his Image of The Day Windows Phone Application, and continues to develop Windows Phone apps."
+      }
+    ],
+    "Format": "45 mins",
+    "Level": "No experience necessary",
+    "Tags": []
+  },
+  {
+    "Id": "68095f40-049b-4b00-87af-2fec7c593ba7",
+    "Title": "Azure table storage - partition  power!",
+    "Abstract": "I strongly believe that Azure table storage is one of the best NoSql offerings out there. Comparing it the azure sql offering you can get 700x the storage space and 40x the number of transactions per second - all for a significantly lower price.\r\n\r\nWhilst the performance is pretty impressive the real power of table storage is its flexibility. We will talk about how your choice of partition can seamlessly slide the scale between scalability and transactional support until you find your sweet spot.  \r\n\r\nI will attempt to explain a number of patterns for reading, writing, querying etc and back it up with plenty of code demos.",
+    "RecommendedAudience": "Talk for developers - knowledge in c# and general knowledge of dbs and azure. level 200",
+    "Presenters": [
+      {
+        "Name": "Felix Jorkowski",
+        "TwitterAlias": "felixinmelb",
+        "Website": null,
+        "Bio": "Software developer with a focus on the .NET stack. Also interesting in Node.js and front end javascript frameworks such as Knockout and RequireJS.\r\n\r\nFounder and developer of IDNT online - A practise management offering for allied health with an Azure backend (www.idnt.com.au).\r\n\r\nSenior Software engineer at Tiger Pistol - Social media success for small/medium businesses (www.tigerpistol.com).\r\n\r\nTalked at Teched Australia 2012 about oauth/ws-* style authentication on Azure (Authentication in the cloud: step by step)."
+      }
+    ],
+    "Format": "45 mins",
+    "Level": "No experience necessary",
+    "Tags": []
+  },
+  {
+    "Id": "6b417826-3194-4487-b20d-f2e3ac334691",
+    "Title": "Deep dive into SPA with AngularJS",
+    "Abstract": "A deeper look and experience on building SPA with AngularJA. Walkthrough advanced topics around AngularJS like writing custom directives & filters. Exploring patterns and practices around AngularJS",
+    "RecommendedAudience": "Web Developers, Level 300. Strong knowledge about JavaScript and HTML is a must",
+    "Presenters": [
+      {
+        "Name": "Moses Soliman",
+        "TwitterAlias": "mosessaur",
+        "Website": "mosesofegypt.net",
+        "Bio": "Software Developer at Readify. Moved to Melbourne from Egypt almost 2 years ago. He is a seasoned .NET developer and blogs at http://mosesofegypt.net/"
+      }
+    ],
+    "Format": "45 mins",
+    "Level": "No experience necessary",
+    "Tags": []
+  },
+  {
+    "Id": "6f06b124-6cb7-498d-85e4-d7c003b93651",
+    "Title": "Using Functional constructs in .NET for meta-programming with C#",
+    "Abstract": "Traditional approaches to meta-programming in C# involve reflection and incur significant performance penalties. This talk introduces some functional ideas to negate these performance penalties and derive a surprisingly neat and compact approach to this problem.\r\n\r\nWe will look at a typical problem (say, that of creating a Database ORM layer) and discuss current approaches such as string-building, hand-rolling and code-generation. We then employ maps, filters, compositions and folds in conjunction with reflection and Linq Expressions to dynamically compute and generate functions which can perform generic query construction and object mapping. We will show some performance metrics and discuss debugging techniques.",
+    "RecommendedAudience": "Intermediate C#",
+    "Presenters": [
+      {
+        "Name": "John Azariah",
+        "TwitterAlias": "johnazariah",
+        "Website": null,
+        "Bio": "John has over 20 years of professional software development expertise, comprising various roles in globally renowned software companies. This includes nearly five years at Microsoft Corporation (NASDAQ: MSFT) where he developed several versions of Microsoft Excel, Microsoft Project and SharePoint Server; and was awarded with a US patent for aspects of his work.\r\n\r\nAs an entrepreneur, John is a founding Director and CTO of BrightSword Technologies Pte Ltd, Singapore – an ISO 9001 organization – where he is responsible for the strategic technical and architectural aspects of their solutions. He also manages and actively participates in developing several open-source and shared-library projects made available by BrightSword Technologies. \r\n\r\nJohn is currently a Senior Application Architect at MYOB, Australia, where he designed and led the development and delivery of their first cloud-based flagship accounting application. He is active in the Melbourne .NET and Azure communities, and speaks frequently on computer science, software engineering, cloud computing, and other trends in technology and architecture.\r\n\r\nJohn holds a Bachelor’s Degree in Computer Science and Chemistry from Dartmouth College, NH, USA."
+      }
+    ],
+    "Format": "45 mins",
+    "Level": "No experience necessary",
+    "Tags": []
+  },
+  {
+    "Id": "70df6334-58a4-40db-b442-3d7f701a844f",
+    "Title": "AngularJS Directives",
+    "Abstract": "There are a lot of frameworks that allow you to do simple data-binding but break the clean 'view - controller' separation when you need to do DOM manipulation. AngularJS is different. In AngularJS 'directives' allow you to manipulate the DOM in any way you want while still maintaining that simple databinding relationship between your views and controllers.\r\n\r\n'HTML6 is already here and its name is angular'. This  will focus on the important AngularJS concepts surrounding directives like compile vs link, isolate scopes, templates and transclusion. By the end you will become a master directive author.",
+    "RecommendedAudience": "Basic understanding of the the word \"DataBinding\"",
+    "Presenters": [
+      {
+        "Name": "Basarat",
+        "TwitterAlias": "basarat",
+        "Website": "www.basarat.com",
+        "Bio": "An angle bracket lover"
+      }
+    ],
+    "Format": "45 mins",
+    "Level": "No experience necessary",
+    "Tags": []
+  },
+  {
+    "Id": "726feeaf-a7f7-4852-8d77-d47aacc11472",
+    "Title": "Integration In the Cloud: 1st look at Azure BizTalk Services",
+    "Abstract": "Azure BizTalk Services was recently released into into preview.  I will give a introduction on what it is, how to use it and why you might want to use it.  I will then deep dive into how to build and deploy your solution into Azure BizTalk Services.",
+    "RecommendedAudience": "Interest in Integration",
+    "Presenters": [
+      {
+        "Name": "Bill Chesnut",
+        "TwitterAlias": "biztalkbill",
+        "Website": "www.biztalkbill.com",
+        "Bio": "My name is Bill Chesnut I am a Microsoft Integration MVP (formerly BizTalk) and have been working in the integration space for the last 15 years, including tools like BizTalk Server, SQL Server and .NET.  I have been involved in the Melbourne .NET community since the initial release of .NET."
+      }
+    ],
+    "Format": "45 mins",
+    "Level": "No experience necessary",
+    "Tags": []
+  },
+  {
+    "Id": "73d525db-50fb-49a8-b90a-0f431170710c",
+    "Title": "Modern Architecture patterns for cloud applications",
+    "Abstract": "Traditional web applications have typically followed a layered architecture; Presentation, Service,\r\nBusiness and Data Access Layers over a relational database. While such applications often have a great deal of\r\ncapability, there are practical limitations on how well they grow, evolve and scale in a dynamically scalable\r\nenvironment like the cloud.\r\n\r\nCome and watch Mahesh Krishnan and John Azariah share their practical experiences of how Modern Architectural\r\nPatterns such as CQRS, Event Sourcing and Document Enrichment address issues such as reliability, flexibility and\r\nscalability in modern real-world cloud applications.\r\n\r\nThis exciting talk will feature the practical application of NoSQL databases, distributed caches, functional programming\r\nand distributed processing; and walk through the building of a Twitter-like social application.",
+    "RecommendedAudience": "Level 400",
+    "Presenters": [
+      {
+        "Name": "Mahesh Krishnan",
+        "TwitterAlias": "MaheshKrishnan",
+        "Website": null,
+        "Bio": "Mahesh Krishnan is a Principal Consultant with Readify and a Windows Azure MVP."
+      },
+      {
+        "Name": "John Azariah",
+        "TwitterAlias": "johnazariah",
+        "Website": null,
+        "Bio": "John Azariah is the lead architect for MYOB, where he architected the Windows Azure version of their flagship napplication."
+      }
+    ],
+    "Format": "45 mins",
+    "Level": "No experience necessary",
+    "Tags": []
+  },
+  {
+    "Id": "80387e00-b932-4068-b278-6bdd18520c90",
+    "Title": "Super Developer Algorithm: Steal it - What does it take to be a Super Developer (Technology Leaders, Architects, Analysts or others)",
+    "Abstract": "Problem Statement: Lets say we gained lot of skill and knowledge of processes, so now our delivery maybe high quality. What percentage of important things are we doing? How much of useless work are we doing? Do you find some people don't meet your expectations? Do you have conflicting views with management, business and teams? You want people to do their Job and when they don't. People don't understand stuff, they just don't get it?\r\n\r\nWhat you can expect: Now here is an algorithm to address the above mentioned problem - steal it, implement it, torrent it, sell it, extend it or share it. It is not a silver bullet. But it should help easy things a bit at work and home. I think we technologists are too stuck in our own world we don't realise",
+    "RecommendedAudience": "Humans who can understand English",
+    "Presenters": [
+      {
+        "Name": "Abi Bellamkonda",
+        "TwitterAlias": "abibellamkonda",
+        "Website": null,
+        "Bio": "I am a multi-lingual senior technology leader. Leading parallel teams to successful and smart deliveries using various technologies. I have used process frameworks like Agile, Prince2, TOGAF, BABOK, PMBOK and more. Starting a new role at Dun & Bradstreet as Head of Applications in the new financial year."
+      }
+    ],
+    "Format": "45 mins",
+    "Level": "No experience necessary",
+    "Tags": []
+  },
+  {
+    "Id": "818b3e0b-c01a-4efe-8ae4-8bd4ff07ccfe",
+    "Title": "Evolution of an ASP.NET application - making the brownfields green again",
+    "Abstract": "A real world Case Study in the Evolution Of An Asp.NET Application\r\n\r\nFollow the evolution of a production ASP.NET application from an anaemic NHibernate Big Ball of Mud into a distributed Domain Driven Design application with rich UI (and not so many postbacks), all while keeping the application up and running.\r\n\r\nThe focus is on the high level architectural challenges, particularly those that went along with the incorporation of technologies including Ioc (StructureMap), automapper, NServiceBus, RavenDb and KnockoutJs.\r\nWent went well? What didn't go so well? In hindsight, what would be done differently?\r\nThe good, the bad and the downright ugly.",
+    "RecommendedAudience": ".NET developers with an interest in real-world business software and its inherent challenges",
+    "Presenters": [
+      {
+        "Name": "Mark Cheeseman",
+        "TwitterAlias": null,
+        "Website": null,
+        "Bio": "Mark is a senior developer at Visa Global Logistics"
+      }
+    ],
+    "Format": "45 mins",
+    "Level": "No experience necessary",
+    "Tags": []
+  },
+  {
+    "Id": "845057c0-3c6d-49d1-b69b-637ef09b989b",
+    "Title": "Fun with Digital Media and Windows 8",
+    "Abstract": "This  is for developers who want to build applications that make the most out of the Windows 8 media features. Specifically Mitch will look at how to integrate Play To support into your applications and look at how you can hack the registry inside Windows 8 to enable non-certified Play To devices to work with Windows 8 Apps.",
+    "RecommendedAudience": "200",
+    "Presenters": [
+      {
+        "Name": "Mitch Denny",
+        "TwitterAlias": "MitchDenny",
+        "Website": "blog.mitchdenny.com",
+        "Bio": "Mitch Denny is a Visual Studio ALM MVP and has been working with the Microsoft application platform for over 13 years. He has been awarded MVP status for 11 years running and is an expert on Application Lifecycle Management and application architecture across web and mobile platforms."
+      }
+    ],
+    "Format": "45 mins",
+    "Level": "No experience necessary",
+    "Tags": []
+  },
+  {
+    "Id": "87194e29-4fcb-400e-9c76-2eadb20c6270",
+    "Title": "Everyday F#",
+    "Abstract": "F# has an array of features that work together to make it an excellent option for everyday programming. The combination of a smart compiler and some special data structures help you write code that is smaller, more reusable and contains fewer bugs. \r\n\r\nThis talk will focus on practical examples showing where F# can neatly solve common coding problems. We'll cover:\r\n* Pattern matching: like a switch statement only smarter\r\n* Active patterns: wrangle your data so it's trivial to interrogate\r\n* Option types: No more NullReferenceExceptions!\r\n* Discriminated unions: Let the compiler guarantee you haven't missed a case\r\n... and more",
+    "RecommendedAudience": "This  will be most relevant for developers working with C#. No F# knowledge assumed.",
+    "Presenters": [
+      {
+        "Name": "Andrew Browne",
+        "TwitterAlias": "adbrowne",
+        "Website": null,
+        "Bio": "Andrew is a Solution Architect at Picnic Software where he works in C# and F#."
+      }
+    ],
+    "Format": "45 mins",
+    "Level": "No experience necessary",
+    "Tags": []
+  },
+  {
+    "Id": "88917cea-4cea-46da-8658-f1fd00b110ab",
+    "Title": "What’s new for ALM in Visual Studio 2013 and Team Foundation Server 2013",
+    "Abstract": "The latest versions of Visual Studio and TFS bring some great new features for developers, Product Owners, testers, and even the crusty old stakeholders.  More than ever, TFS integrates the whole ALM story to help you deliver your project on time and on budget.\r\nIn this , we’ll quickly recap the best features of TFS 2012 and then look at the great new features in TFS 2013.  Adam Cogan will show you the new ALM features that make TFS perfect for Product Owners and company Stakeholders. He'll show you how developers work with TFS more effectively than ever, right from Visual Studio. We will finish off with the awesome story for testers.",
+    "RecommendedAudience": "Lv. 100",
+    "Presenters": [
+      {
+        "Name": "Adam Cogan",
+        "TwitterAlias": "adamcogan",
+        "Website": "Www.ssw.com.au",
+        "Bio": "Adam Cogan is the Chief Architect at SSW, a Microsoft Certified Gold Partner specializing in custom .NET, SharePoint and CRM solutions (with a splash of Business Intelligence). At SSW, Adam has been developing custom solutions for businesses across a range of industries such as Government, engineering, banking, insurance and manufacturing since 1990 for clients such as Microsoft, Worley Parsons and Aurecon."
+      }
+    ],
+    "Format": "45 mins",
+    "Level": "No experience necessary",
+    "Tags": []
+  },
+  {
+    "Id": "b10dd2b6-564d-4631-9d08-59a20d01d748",
+    "Title": "Best of Breed: Polyglot Development in the Microsoft Environment",
+    "Abstract": "Over the last several years, we've evolved a method of developing and deploying applications into Windows environments that draws on our experience working with many other programming languages. We augment the best features of .NET with a variety of languages and frameworks that streamline the development process. This lets us avoid many of the productivity-killing constraints of a pure Microsoft approach. We routinely use Ruby, Python, Javascript and of course, lots of Powershell to automate our build, test, and deployment processes.\r\n\r\nAs context for this talk, we'll refer to a large, distributed system that has evolved over the last 4 years to serve thousands of globally-distributed business users under challenging performance constraints. It incorporates both single-page and traditional browser clients into a hypermedia-driven RESTful integration architecture. Using this example, we'll describe places where Microsoft tools really shine and where we've found it best to bring in technology from other communities.",
+    "RecommendedAudience": ".net",
+    "Presenters": [
+      {
+        "Name": "Scott Shaw; Yang Jia",
+        "TwitterAlias": null,
+        "Website": null,
+        "Bio": "Scott Shaw, Director of Technology, Australia at ThoughtWorks;\r\nYang Jia, Lead Consultant, Thoughtworks China"
+      }
+    ],
+    "Format": "45 mins",
+    "Level": "No experience necessary",
+    "Tags": []
+  },
+  {
+    "Id": "b17a6b14-cc0d-47cc-8bf6-84da5b329f56",
+    "Title": "Adapting changes and extending behaviour without changing codebase",
+    "Abstract": "Say rule engines and many of us will think of artificial intelligence or validation. Those are the two ends of the spectrum. In this  I show how to take advantage of a rule engine to increase adaptability, testability and simplify deployment of new changes.\r\n\r\nI will be going to use a simple order form in both MVC ASP.Net and WinForm and extend its behaviour -without changing codebase- to make the application ready for different target market (i.e. computer shop and movie rental store). Then I show how simply you can unit test the new extended behaviour and deploy it to production literally in zero effort: without recompiling, restarting or redeploying neither of services nor applications.",
+    "RecommendedAudience": "Any developer",
+    "Presenters": [
+      {
+        "Name": "Arash Aghlara",
+        "TwitterAlias": "aghlara",
+        "Website": "www.flexrule.com",
+        "Bio": "I am founder of Pliant Framework. I have more than 18 years experience in developing middleware for enterprise software. At the moment I am working for MYOB Australia and running my own start-up to help software become more flexible and adaptive.  In 2007 I developed the product called FlexRule that is a business rules platform in Microsoft .Net stack."
+      }
+    ],
+    "Format": "45 mins",
+    "Level": "No experience necessary",
+    "Tags": []
+  },
+  {
+    "Id": "b712e23f-5138-4669-9f4b-7435054ba84c",
+    "Title": "Appfail: The story of a Melbourne .NET startup",
+    "Abstract": "Once upon a rainy day in Melbourne two ASP.NET devs, Sam & Peter, were scrolling through a long list of ELMAH exception logs – trying to diagnose a web site error. They thought – “There HAS to be a better way to do this.”\r\n\r\nAnd Appfail was born.\r\n\r\nWith rich failure analytics and beautiful charting – it’s like ELMAH met Google Analytics.\r\n\r\nJoin us, to hear the story of:\r\n    - building a startup.\r\n    - releasing a minimal viable product.\r\n    - making your site gorgeous – without a graphic designer!\r\n    - marketing & gaining a customer base.\r\n    - creating a SAAS, as a scalable cloud service.\r\n    - and keeping it running 24/7.\r\n\r\nThis is not a presentation on Appfail, it's the story of 2 local .NET devs creating a startup. We'll tell you what we did and the lessons we learnt along the way.",
+    "RecommendedAudience": "Anyone interested in software, web, or startups!",
+    "Presenters": [
+      {
+        "Name": "Sam Kroonenburg & Peter Sbarski",
+        "TwitterAlias": "samkroon",
+        "Website": "http://appfail.net",
+        "Bio": "Sam is the software development manager at Kiandra IT. \r\nIn a previous life, he was a developer for Microsoft working on Windows Vista, Windows 7 and FAST Search. On the Windows team he rewrote the Disk Defragmenter for Windows 7 and loved every second of it. \r\n\r\nPeter holds a PhD in Computer Science from Monash University and is a senior developer at Kiandra IT. Although Peter works primarily with C#/.NET he cannot help but occasionally do an app in objective-c or write a game in coffeescript."
+      }
+    ],
+    "Format": "45 mins",
+    "Level": "No experience necessary",
+    "Tags": []
+  },
+  {
+    "Id": "c0b5e5b6-142e-4fa4-be58-0f3ba2673d68",
+    "Title": "Glimpse - Why and How",
+    "Abstract": "Glimpse is one of the best diagnostics tools for  ASP.NET developers.\r\nIn this demo-heavy talk, we'll look at why you should be including Glimpse in every one of your web projects whether it be MVC, Web Forms, or even another flavour like Nancy or FubuMVC.\r\nWe'll investigate many of the out-of-the-box features you may not know about (including some brand new ones), as well as some awesome plugins available for inclusion.\r\nFinally, I'll show how easy it is to extend Glimpse to show application-specific information relevant to your project.",
+    "RecommendedAudience": "Level 300 - ASP.NET devs",
+    "Presenters": [
+      {
+        "Name": "Damian Brady",
+        "TwitterAlias": "damovisa",
+        "Website": "www.damianbrady.com.au",
+        "Bio": "Damian is a Solution Architect who runs the Brisbane office for SSW, one of Australia’s leading Microsoft consultancies."
+      }
+    ],
+    "Format": "45 mins",
+    "Level": "No experience necessary",
+    "Tags": []
+  },
+  {
+    "Id": "c0f8719a-0093-4dd8-9619-4fee06a09d87",
+    "Title": "Artificial Perception Using Mobile Devices (and JavaScript)",
+    "Abstract": "Serious sensing and artificial perception is heavily used in robotics and has recently started to appear in a lot of consumer technology.  Every new generation of mobile devices brings with it a range of improved and sometimes brand new sensors. In this presentation we will discuss how various mobile sensors work and how to access them and take advantage of them, using JavaScript (YES, I will demonstrate the results of some serious computation done in JavaScript!!). I will also touch on some academic research I did around using mobile sensors for machine learning.",
+    "RecommendedAudience": "Mobile and web developers",
+    "Presenters": [
+      {
+        "Name": "Hadi Michael",
+        "TwitterAlias": "hadi_michael",
+        "Website": null,
+        "Bio": "Digital Consultant and Software Engineer at DeloitteDigital. Occasional hardware hacker."
+      }
+    ],
+    "Format": "45 mins",
+    "Level": "No experience necessary",
+    "Tags": []
+  },
+  {
+    "Id": "c2cd6ead-7f6c-421e-98bd-4d9dba93688d",
+    "Title": "Get your app on - Windows Phone to the Rescue",
+    "Abstract": "So you want to develop applications in the mobile space? The number of platforms and possibilities is overwhelming and you get a head ache considering which direction to take? Come along on a guided tour of the benefits and stand out features of the Windows Phone development platform. \r\nThere are a large number of APIs for the platform, and this presentation will focus on hidden gems, which can make an app stand out from the others. Don’t be like the others, and come along and hang out with the cool kids.\r\nLearn how to make the most of the Windows Phone platform and how it can make you stand out as a developer in a very crowded space.",
+    "RecommendedAudience": "Knowledge of the .Net framework is recommended.",
+    "Presenters": [
+      {
+        "Name": "Lars \"zumba\" Klint",
+        "TwitterAlias": "larsklint",
+        "Website": "klint.co",
+        "Bio": "Lars is a passionate programmer using the Microsoft Stack through .Net and C#. As a software developer for Kiandra IT, he develops some of the best software applications in Australia, including developing Windows Phone Apps for both clients and for his own small software company. He is a stickler for best practices and using industry standards to produce awesome, robust and maintainable software.\r\nLars recently won the Melbourne AppFest for his Image of The Day Windows Phone Application, and continues to develop Windows Phone apps.\r\nAs a frequent blogger, Lars has contributed several articles to the Kiandra IT Blog and his own at klint.co, often presenting arguments that are not quite main stream, but with a dash of humour and a smidgen of cheekiness."
+      }
+    ],
+    "Format": "45 mins",
+    "Level": "No experience necessary",
+    "Tags": []
+  },
+  {
+    "Id": "c54f5c23-c358-488a-a344-cce86b5c1fc6",
+    "Title": "Fixing your Scrum Dysfunctions",
+    "Abstract": "Scrum is a great, proven, effective way to run an agile project. Come and learn how to avoid the 'cargo cult' and all the problems that come from blindly following the rules.\r\nIn this talk, we’ll first take a step back and look at what makes Scrum so effective in managing agile projects.  We’ll dive into the purpose behind each of the meetings, artifacts, and processes and look at how to get the most out of them.\r\nFinally, and most importantly, we’ll look at common problems encountered by teams implementing Scrum and identify ways of solving them while staying true to the framework.",
+    "RecommendedAudience": "Level 200 - some experience with Scrum would be useful",
+    "Presenters": [
+      {
+        "Name": "Damian Brady",
+        "TwitterAlias": "damovisa",
+        "Website": "www.damianbrady.com.au",
+        "Bio": "Damian is a Solution Architect who runs the Brisbane office for SSW, one of Australia’s leading Microsoft consultancies.\r\nA developer and trainer with a wide skillset, his consulting work varies from developing web apps in ASP.NET MVC and JavaScript to training and mentoring developers in Scrum and TFS.  He loves working with development teams to get the most out of Scrum and ensure project success. He’s also the co-author and co- of SSW’s \"Enterprise MVC\" course which sold out in 4 Australian cities.\r\nDamian is very active in the Australian software development community, running both the Brisbane .Net User Group and the annual DeveloperDeveloperDeveloper Brisbane conference.  When he’s not in Brisbane, he can often be found speaking at user groups or running training courses all around the country."
+      }
+    ],
+    "Format": "45 mins",
+    "Level": "No experience necessary",
+    "Tags": []
+  },
+  {
+    "Id": "ce44fa18-3eba-4171-a55c-b7d87583c447",
+    "Title": "Rich Internet Apps with Javascript, Durandal, Knockout and ASP.NET MVC",
+    "Abstract": "Learn about building cross-platform Single Page Rich Internet applications in javascript using the Durandal framework. We will use Knockout for data binding and ASP.NET MVC for back-end services. Along the way we will also see how to write behaviour driven tests for your app using Jasmine. This  is about bringing together various technologies to build single page apps in .NET world.",
+    "RecommendedAudience": "Javascript basics, ASP.NET MVC beginner level knowledge",
+    "Presenters": [
+      {
+        "Name": "Gursharan Jeet Singh",
+        "TwitterAlias": null,
+        "Website": null,
+        "Bio": "A developer for 13+ years building various kinds of web, thick-client, mainframe, perl and coldfusion (yes!) apps."
+      }
+    ],
+    "Format": "45 mins",
+    "Level": "No experience necessary",
+    "Tags": []
+  },
+  {
+    "Id": "d8cc5143-6b61-424a-851b-75592afe70e5",
+    "Title": "What's new in Visual Studio 2013 and TFS 2013",
+    "Abstract": "Software development continues to make great advances and so does Visual Studio with its new lightning-fast release cycle. Come learn about the trends impacting software development and how you can take advantage of them with the latest updates to Visual Studio 2012 and Visual Studio 2013.\r\n\r\nThis talk provides a brief overview coupled with lots of demos to highlight how the newest features in Visual Studio simplify development, streamline collaboration for teams, and helps you create apps that your users will love. Visual Studio helps you turn ideas into software; this  gets you started.",
+    "RecommendedAudience": "Level 100",
+    "Presenters": [
+      {
+        "Name": "Adam Cogan",
+        "TwitterAlias": "adamcogan,",
+        "Website": "http://www.ssw.com.au",
+        "Bio": "Adam Cogan is the Chief Architect at SSW, a Microsoft Certified Gold Partner specializing in custom .NET, SharePoint and CRM solutions (with a splash of Business Intelligence). At SSW, Adam has been developing custom solutions for businesses across a range of industries such as Government, engineering, banking, insurance and manufacturing since 1990 for clients such as Microsoft, Worley Parsons and Aurecon."
+      },
+      {
+        "Name": "Damian Brady",
+        "TwitterAlias": "damovisa",
+        "Website": "http://www.ssw.com.au",
+        "Bio": "Damian is a Solution Architect who runs the Brisbane office for SSW, one of Australia’s leading Microsoft consultancies."
+      }
+    ],
+    "Format": "45 mins",
+    "Level": "No experience necessary",
+    "Tags": []
+  },
+  {
+    "Id": "e24e9172-644f-4d5b-b63f-949bac7c382a",
+    "Title": "Introduction to Visual Studio vNext",
+    "Abstract": "In this  Mitch will look at the new and upcoming features in Visual Studio and Team Foundation Server (and Service) and how they will impact the productivity of development teams.",
+    "RecommendedAudience": "200",
+    "Presenters": [
+      {
+        "Name": "Mitch Denny",
+        "TwitterAlias": "MitchDenny",
+        "Website": "blog.mitchdenny.com",
+        "Bio": "Mitch Denny is a Visual Studio ALM MVP and has been working with the Microsoft application platform for over 13 years. He has been awarded MVP status for 11 years running and is an expert on Application Lifecycle Management and application architecture across web and mobile platforms."
+      }
+    ],
+    "Format": "45 mins",
+    "Level": "No experience necessary",
+    "Tags": []
+  },
+  {
+    "Id": "ecb721bc-7669-4845-b11e-e2de883b965c",
+    "Title": "What's new in SQL Server 2012 for .Net developers",
+    "Abstract": "Want to see how your familiar Visual Studio 2012 now offers a first class environment for SQL server development. Do you miss refactor->rename when designing your database ?  Do you wish to debug stored procedures easily ? How about version controlling your database ? Interested? Then come along and see the new developer centric SQL Server Data Tools (SSDT) introduced with SQL Server 2012. \r\n\r\nAfter spending about 1/2 the  on SSDT we will explore some new or unfamiliar things like Table Values Parameters (TVPs), Windowing on Data and few more miscellaneous enhancements.",
+    "RecommendedAudience": "Level 200, basic familiarity with Visual Studio and SQL Server",
+    "Presenters": [
+      {
+        "Name": "Pratik Khasnabis",
+        "TwitterAlias": "softveda",
+        "Website": null,
+        "Bio": "I am a Solution Architect at Bupa Australia and developing since last 15 years with the last 8 years using C#/.Net. I am playing around with  SQL Server 2012 for a new exciting project and would love to share things that I have learnt at DDD Melbourne 2013."
+      }
+    ],
+    "Format": "45 mins",
+    "Level": "No experience necessary",
+    "Tags": []
+  },
+  {
+    "Id": "ecc48d5e-0492-4b4e-9e5f-be36c86ccc6a",
+    "Title": "EmberJS and AngularJS: Beyond \"To Do\"",
+    "Abstract": "Single Page Applications can be rich in user interactions and system responsiveness that simple 'To Do' list examples may not provide. This  will explore the construction of web pages that have many components to display information and react to users actions.",
+    "RecommendedAudience": "An audience with an interest in front-end development.",
+    "Presenters": [
+      {
+        "Name": "Peter Berry",
+        "TwitterAlias": "pwcberry",
+        "Website": null,
+        "Bio": "I'm a senior developer at carsales.com.au, specializing in front-end development."
+      }
+    ],
+    "Format": "45 mins",
+    "Level": "No experience necessary",
+    "Tags": []
+  },
+  {
+    "Id": "f6f88ac8-d9af-4287-be9a-ff3a14bf7bf6",
+    "Title": "ASP.NET Web API:  0 to 100 in 60 minutes!",
+    "Abstract": "Building REST based API in Microsoft space has been challenging for quite some time.\r\nWhile there are many open source alternatives out there, Support in .NET Framework has not been that great. This has changed with the release of  Web API (as part of ASP.NET MVC4).While it is easy to get started with the provided template, building a practical production ready application requires deeper understanding of the Web API. \r\n\r\nIn this , Himanshu will explain the concepts behind Web API and take you through advanced topics including IOC, unit testing and how to implement in a real world scenario.",
+    "RecommendedAudience": "Beginner",
+    "Presenters": [
+      {
+        "Name": "Himanshu Desai",
+        "TwitterAlias": "H_Desai",
+        "Website": "himanshudesai.wordpress.com",
+        "Bio": "Himanshu Desai  who works as Lead Consultant at Readify is an experienced software architect/ developer and has been working with .NET platform since its inception. He is highly passionate and focused around architecture, solution design and loves working with Services."
+      }
+    ],
+    "Format": "45 mins",
+    "Level": "No experience necessary",
+    "Tags": []
+  },
+  {
+    "Id": "f7267c1b-cf18-48d9-928a-3cf4c54d1836",
+    "Title": "Visual Studio: Write once run everywhere ? Kind of...",
+    "Abstract": "Have  you ever tried to port an application from Windows 7/8/RT to Windows Phone 7/8 (or vice versa)? Or write all of them  at the same time? I am sure you had a strong desire to re-use as much of your excellent code as possible. But how much is too much? And what do you absolutely have to reuse? I will share my personal experience writing portable code for Windows Phone and Windows 8 showing my mistakes and achievements.",
+    "RecommendedAudience": "developers",
+    "Presenters": [
+      {
+        "Name": "Igor Gorelik",
+        "TwitterAlias": "rogik",
+        "Website": null,
+        "Bio": "Igor Gorelik is a Senior Developer for Readify, Melbourne Australia. Igor has been in industry for past 16 years dealing with various development platforms and languages. Currently Igor spends his free time doing native mobile application development, focusing on Windows Phone and Windows 8."
+      }
+    ],
+    "Format": "45 mins",
+    "Level": "No experience necessary",
+    "Tags": []
+  },
+  {
+    "Id": "fbcaca19-6e4d-4d82-837f-9d694c2b0bdc",
+    "Title": "TypeScript Deep Dive",
+    "Abstract": "TypeScript is a new open source language from Microsoft, designed under guidance of Anders Hejlsberg (architect of C#, Delphi , Turbo Pascal). It is meant to make your life as a Web Developer simpler. \r\n\r\nIf you know JavaScript, TypeScript will seem natural to you. This  will take you through the basics of the language to the more advanced stuff. You will learn about design choices made in the language and how you can easily integrate it into your daily workflow.",
+    "RecommendedAudience": "Basic JavaScript knowledge",
+    "Presenters": [
+      {
+        "Name": "Basarat",
+        "TwitterAlias": "basarat",
+        "Website": "www.basarat.com",
+        "Bio": "A senior web developer passionate about sharing knowledge. \r\nA common  at Alt.Net melbourne : http://www.meetup.com/Melbourne-ALT-NET/"
+      }
+    ],
+    "Format": "45 mins",
+    "Level": "No experience necessary",
+    "Tags": []
+  },
+  {
+    "Id": "fd345235-1157-4d61-bf45-a2713d1c5db5",
+    "Title": "The Responsive Web Development Kitchen",
+    "Abstract": "Responsive web development is hard! Between the inconsistent behaviours of browsers and the myriad of mobile devices, and alternate computing experiences, we've seen a rapid rise in tools and frameworks to make life easier! \r\n\r\nIn the responsive web development kitchen, these are our microwave dinners. They  deferring our hunger, and leave us with a little smile.\r\n\r\nThe bigger your needs, the large the meal you need! Sometimes you need the full seven course spread... but where to begin?\r\n\r\nIn the responsive web development kitchen you'll be taken on a guide tour of responsive cookbook,  culminating in why and how we at 99designs deciding to throw out cookbook and bake our own.\r\n\r\nTopics touched on will include:\r\n- Pre-cooked framework like bootstrap and foundation\r\n- Snacking on light weight libraries like skeleton and pure\r\n- Building development toolchains with grunt, yeoman and bower",
+    "RecommendedAudience": "frontend developers with basic knowledge of responsive web development. Familarity with frameworks like bootstrap or foundation is a bonus, but these will be covered in enough detail.",
+    "Presenters": [
+      {
+        "Name": "Michael Mifsud",
+        "TwitterAlias": "xzyfer",
+        "Website": null,
+        "Bio": "I'm a frontend engineer at 99designs. After 6 years of backend engineering I took up the challenge of frontend engineering and architecture! I spend my days R&D'ing, developing tools, designing workflows,  and building libraries for 99designs, a site serves millions of users from all over the world."
+      }
+    ]
+  }
+]
