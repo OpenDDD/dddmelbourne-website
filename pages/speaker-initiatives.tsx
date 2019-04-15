@@ -18,7 +18,10 @@ export default withPageMetadata((props: WithPageMetadataProps) => (
 
     <ul>
       <li>
-        <a href="https://ti.to/ddd-by-night/april-abstract-writing-workshop">Abstract Writing Workshop</a>
+        <a href="https://ti.to/ddd-by-night/may-abstract-writing-workshop">May - Abstract Writing Workshop</a>
+      </li>
+      <li>
+        <a href="https://ti.to/ddd-by-night/april-abstract-writing-workshop">April - Abstract Writing Workshop</a>
       </li>
       <li>Speaker training for selected speakers. More details to come.</li>
     </ul>
