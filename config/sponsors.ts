@@ -6,8 +6,9 @@ const Sponsors: Sponsor[] = [
     imageUrl: '/static/images/sponsors/2019/microsoft.png',
     name: 'Microsoft',
     type: SponsorType.Diamond,
-    url: 'https://www.microsoft.com/',
-  },  // Platinum
+    url: 'https://azure.microsoft.com/en-au/',
+  },
+  // Platinum
   {
     imageUrl: '/static/images/sponsors/2019/liberty.png',
     name: 'Liberty',
