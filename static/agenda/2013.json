@@ -295,6 +295,12 @@
     "RecommendedAudience": "Web developers. Level 200 with stong  knowledge about JavaScript",
     "Presenters": [
       {
+        "Name": "Kle Miller",
+        "TwitterAlias": "electrokle",
+        "Website": null,
+        "Bio": "Senior Developer at Readify, hobby farmer, aquaculture enthusiast, farther and producer of music..."
+      },
+      {
         "Name": "Moses Soliman",
         "TwitterAlias": "mosessaur",
         "Website": "mosesofegypt.net/",

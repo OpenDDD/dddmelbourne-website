@@ -1,7 +1,13 @@
 import { Sponsor, SponsorType } from './types'
 
 const Sponsors: Sponsor[] = [
-  // Platinum
+  // Diamon
+  {
+    imageUrl: '/static/images/sponsors/2019/microsoft.png',
+    name: 'Microsoft',
+    type: SponsorType.Diamond,
+    url: 'https://www.microsoft.com/',
+  },  // Platinum
   {
     imageUrl: '/static/images/sponsors/2019/liberty.png',
     name: 'Liberty',
