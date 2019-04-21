@@ -31,12 +31,6 @@ const Sponsors: Sponsor[] = [
   },
   // Community
   {
-    imageUrl: '/static/images/sponsors/2019/GGDMelb.png',
-    name: 'Girl Geek Dinners Melbourne',
-    type: SponsorType.Community,
-    url: 'https://www.meetup.com/en-AU/Girl-Geek-Dinners-Melbourne/',
-  },
-  {
     imageUrl: '/static/images/sponsors/2019/juniordev.png',
     name: 'JuniorDev',
     type: SponsorType.Community,
