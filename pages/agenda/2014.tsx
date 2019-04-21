@@ -46,7 +46,7 @@ class Agenda2014 extends React.Component<AgendaPageProps> {
             <tbody>
               <tr className="breadth-row">
                 <td className="time">8:30</td>
-                <td colSpan={5} className="breadth">
+                <td colSpan={4} className="breadth">
                   Registration
                   <br />
                   <small className="room" style={{ color: 'rgb(102, 173, 74)' }}>Foyer</small>
@@ -55,7 +55,7 @@ class Agenda2014 extends React.Component<AgendaPageProps> {
 
               <tr className="breadth-row">
                 <td className="time">9:00</td>
-                <td colSpan={5} className="breadth">
+                <td colSpan={4} className="breadth">
                   Welcome and housekeeping
                   <br />
                   <small className="room" style={{ color: 'rgb(102, 173, 74)' }}>ATC 101 - MAIN HALL</small>
@@ -69,7 +69,7 @@ class Agenda2014 extends React.Component<AgendaPageProps> {
 
               <tr className="breadth-row">
                 <td className="time">10:00</td>
-                <td colSpan={5} className="breadth">
+                <td colSpan={4} className="breadth">
                   Morning Tea
                 </td>
               </tr>
@@ -84,7 +84,7 @@ class Agenda2014 extends React.Component<AgendaPageProps> {
 
               <tr className="breadth-row">
                 <td className="time">11:00</td>
-                <td colSpan={5} className="breadth">
+                <td colSpan={4} className="breadth">
                   Changeover
                 </td>
               </tr>
@@ -101,7 +101,7 @@ class Agenda2014 extends React.Component<AgendaPageProps> {
 
               <tr className="breadth-row">
                 <td className="time">12:00</td>
-                <td colSpan={5} className="breadth">
+                <td colSpan={4} className="breadth">
                   Lunch
                   <br />
                   <small className="room" style={{ color: 'rgb(102, 173, 74)' }}>Atrium</small>
@@ -118,7 +118,7 @@ class Agenda2014 extends React.Component<AgendaPageProps> {
 
               <tr className="breadth-row">
                 <td className="time">13:45</td>
-                <td colSpan={5} className="breadth">
+                <td colSpan={4} className="breadth">
                   Changeover
                 </td>
               </tr>
@@ -133,7 +133,7 @@ class Agenda2014 extends React.Component<AgendaPageProps> {
 
               <tr className="breadth-row">
                 <td className="time">13:45</td>
-                <td colSpan={5} className="breadth">
+                <td colSpan={4} className="breadth">
                   Afternoon Tea
                 </td>
               </tr>
@@ -148,7 +148,7 @@ class Agenda2014 extends React.Component<AgendaPageProps> {
 
               <tr className="breadth-row">
                 <td className="time">15:45</td>
-                <td colSpan={5} className="breadth">
+                <td colSpan={4} className="breadth">
                   Changeover
                 </td>
               </tr>
@@ -160,7 +160,7 @@ class Agenda2014 extends React.Component<AgendaPageProps> {
 
               <tr className="breadth-row">
                 <td className="time">17:00</td>
-                <td colSpan={5} className="breadth">
+                <td colSpan={4} className="breadth">
                   <strong>Give aways and wrap up</strong>
                 </td>
               </tr>

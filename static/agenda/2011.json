@@ -1,401 +1,363 @@
 [
    {
-      "Id":"",
-      "Title":"JavaScript, the ultimate jQuery plugin",
-      "Presenters":[
+      "Id": "07bd9c20-58be-40ef-86d2-4efb881d5a25",
+      "Title": "JavaScript, the ultimate jQuery plugin",
+      "Presenters": [
          {
-            "Id":null,
-            "Name":"Aaron Powell",
-            "Tagline":null,
-            "Bio":"By day Aaron is a mild-mannered Readify Senior Developer and Technical Specialist (Web), doing everything from UX to service layer development. By night Aaron is a Microsoft MVP for Internet Explorer (Development), contributor on open source projects such as Umbraco and FunnelWeb and JavaScript fan-boy, who believes if you can’t do it in JavaScript you’re just not trying hard enough.",
-            "ProfilePhotoUrl":null,
-            "TwitterHandle":"slace",
-            "WebsiteUrl":"http://www.aaron-powell.com/"
+            "Id": null,
+            "Name": "Aaron Powell",
+            "Tagline": null,
+            "Bio": "By day Aaron is a mild-mannered Readify Senior Developer and Technical Specialist (Web), doing everything from UX to service layer development. By night Aaron is a Microsoft MVP for Internet Explorer (Development), contributor on open source projects such as Umbraco and FunnelWeb and JavaScript fan-boy, who believes if you can’t do it in JavaScript you’re just not trying hard enough.",
+            "ProfilePhotoUrl": null,
+            "TwitterHandle": "slace",
+            "WebsiteUrl": "http://www.aaron-powell.com/"
          }
       ],
-      "Abstract":"Does anyone write JavaScript any more or do they just write jQuery? If you’re not looking past the libraries that are out there then you’re possibly missing the full power of JavaScript. But where do you get started with using that power, how do you go beyond selector engines and make client side applications?",
-      "Format":"60 mins",
-      "Level":"No experience necessary",
-      "Tags":[
-
-      ]
+      "Abstract": "Does anyone write JavaScript any more or do they just write jQuery? If you’re not looking past the libraries that are out there then you’re possibly missing the full power of JavaScript. But where do you get started with using that power, how do you go beyond selector engines and make client side applications?",
+      "Format": "60 mins",
+      "Level": "No experience necessary",
+      "Tags": []
    },
    {
-      "Id":"",
-      "Title":"Introducing C# Async CTP ",
-      "Presenters":[
+      "Id": "ad45725f-76ae-479f-bd11-23b8f801082d",
+      "Title": "Introducing C# Async CTP ",
+      "Presenters": [
          {
-            "Id":null,
-            "Name":"Pratik Khasnabis",
-            "Tagline":null,
-            "Bio":"I am Lead .Net Developer at Bupa Australia. I am doing solution architecture and leading development effort for an enterprise SOA system based on WCF with a Winforms smartclient and integrating with a Java web CMS application and legacy COBOL system. I have over 14 years of experience in software development starting in C++ and then moving to C# about 6 years back. I am passionate about C# core language features and enjoyed going through the evolution from version 2.0 to 4.0 and now getting ready for 5.0. Currently I am deeply interested in SOA system architecture, integration patterns, messaging patterns and security. You can frequently see me in the Victoria .Net Users Group evenings. At other times I am into travelling, a bit of photography and cricket.",
-            "ProfilePhotoUrl":null,
-            "TwitterHandle":"softveda",
-            "WebsiteUrl":null
+            "Id": null,
+            "Name": "Pratik Khasnabis",
+            "Tagline": null,
+            "Bio": "I am Lead .Net Developer at Bupa Australia. I am doing solution architecture and leading development effort for an enterprise SOA system based on WCF with a Winforms smartclient and integrating with a Java web CMS application and legacy COBOL system. I have over 14 years of experience in software development starting in C++ and then moving to C# about 6 years back. I am passionate about C# core language features and enjoyed going through the evolution from version 2.0 to 4.0 and now getting ready for 5.0. Currently I am deeply interested in SOA system architecture, integration patterns, messaging patterns and security. You can frequently see me in the Victoria .Net Users Group evenings. At other times I am into travelling, a bit of photography and cricket.",
+            "ProfilePhotoUrl": null,
+            "TwitterHandle": "softveda",
+            "WebsiteUrl": null
          }
       ],
-      "Abstract":"The Visual Studio Async CTP came out in PDC 2010 which provides new support for asynchronous programming with language level support. A simple pattern for asynchronous programming has been introduced in C# 5.0 with two new keywords \"async\" and \"await\". We will explore this keyword and see how the async features in built on top of the Task class introduced in .Net 4.0. We will know how asynchronous programming is different from parallel programming. Finally a demo that show these features in action.",
-      "Format":"60 mins",
-      "Level":"No experience necessary",
-      "Tags":[
-
-      ]
+      "Abstract": "The Visual Studio Async CTP came out in PDC 2010 which provides new support for asynchronous programming with language level support. A simple pattern for asynchronous programming has been introduced in C# 5.0 with two new keywords \"async\" and \"await\". We will explore this keyword and see how the async features in built on top of the Task class introduced in .Net 4.0. We will know how asynchronous programming is different from parallel programming. Finally a demo that show these features in action.",
+      "Format": "60 mins",
+      "Level": "No experience necessary",
+      "Tags": []
    },
    {
-      "Id":"",
-      "Title":"New development workflows ",
-      "Presenters":[
+      "Id": "724ae5f2-6dee-46e6-bbf0-ec16f215c0ac",
+      "Title": "New development workflows ",
+      "Presenters": [
          {
-            "Id":null,
-            "Name":"David Burela",
-            "Tagline":null,
-            "Bio":"David Burela works as a Senior .Net consultant at Hazaa.com.au and has a strong focus on Windows Phone 7 and Windows Azure. He is a active member in the developer community and frequent speaker at events. He is currently writing a book on 'Enterprise integration of Silverlight 4 and Azure'.",
-            "ProfilePhotoUrl":null,
-            "TwitterHandle":"davidburela",
-            "WebsiteUrl":"http://about.me/DavidBurela"
+            "Id": null,
+            "Name": "David Burela",
+            "Tagline": null,
+            "Bio": "David Burela works as a Senior .Net consultant at Hazaa.com.au and has a strong focus on Windows Phone 7 and Windows Azure. He is a active member in the developer community and frequent speaker at events. He is currently writing a book on 'Enterprise integration of Silverlight 4 and Azure'.",
+            "ProfilePhotoUrl": null,
+            "TwitterHandle": "davidburela",
+            "WebsiteUrl": "http://about.me/DavidBurela"
          }
       ],
-      "Abstract":"In the last few years there have been a number of new technologies released, which when used together can greatly simplify a developer's life. Join David Burela as he takes us through an end to end example of creating a new project, source controlling it and deploying it out onto the cloud, ready to scale. In this session we will see:\r\n\r\n\r\n- What Mercurial is and how to use a DVCS (Distributed Version Control System)\r\n- How to add 3rd party assemblies into a project seamlessly with Microsoft NuGet\r\n- Unit test the project by using Ninject & nSubstitute (installed via NuGet)\r\n- Push all the source code to the cloud, meaning your source code is safe (Bitbucket.org)\r\n- Have all of this compiled and deployed to the cloud automatically for us (AppHarbor.com)",
-      "Format":"60 mins",
-      "Level":"No experience necessary",
-      "Tags":[
-
-      ]
+      "Abstract": "In the last few years there have been a number of new technologies released, which when used together can greatly simplify a developer's life. Join David Burela as he takes us through an end to end example of creating a new project, source controlling it and deploying it out onto the cloud, ready to scale. In this session we will see:\r\n\r\n\r\n- What Mercurial is and how to use a DVCS (Distributed Version Control System)\r\n- How to add 3rd party assemblies into a project seamlessly with Microsoft NuGet\r\n- Unit test the project by using Ninject & nSubstitute (installed via NuGet)\r\n- Push all the source code to the cloud, meaning your source code is safe (Bitbucket.org)\r\n- Have all of this compiled and deployed to the cloud automatically for us (AppHarbor.com)",
+      "Format": "60 mins",
+      "Level": "No experience necessary",
+      "Tags": []
    },
    {
-      "Id":"",
-      "Title":"Streamline Web Deployments with Studio 2010 and Web Deplo",
-      "Presenters":[
+      "Id": "4fc6ea7a-5888-4b3b-a0b7-3801f09f34c3",
+      "Title": "Streamline Web Deployments with Studio 2010 and Web Deplo",
+      "Presenters": [
          {
-            "Id":null,
-            "Name":"Malcolm Sheridan",
-            "Tagline":null,
-            "Bio":"Malcolm Sheridan is a Microsoft awarded MVP in ASP.NET, a Telerik Insider and a regular presenter at conferences and user groups throughout Australia. Being an ASP.NET guy, his focus is on web technologies and has been for the past 10 years. He loves working with ASP.NET MVC these days and also loves getting his hands dirty with jQuery and JavaScript. He also enjoys writing regular technical articles for such as SitePoint and DotNetCurry.",
-            "ProfilePhotoUrl":null,
-            "TwitterHandle":"malcolmsheridan",
-            "WebsiteUrl":null
+            "Id": null,
+            "Name": "Malcolm Sheridan",
+            "Tagline": null,
+            "Bio": "Malcolm Sheridan is a Microsoft awarded MVP in ASP.NET, a Telerik Insider and a regular presenter at conferences and user groups throughout Australia. Being an ASP.NET guy, his focus is on web technologies and has been for the past 10 years. He loves working with ASP.NET MVC these days and also loves getting his hands dirty with jQuery and JavaScript. He also enjoys writing regular technical articles for such as SitePoint and DotNetCurry.",
+            "ProfilePhotoUrl": null,
+            "TwitterHandle": "malcolmsheridan",
+            "WebsiteUrl": null
          }
       ],
-      "Abstract":"We’ve all done it. Typically web applications are deployed using Windows Explorer or a DOS prompt. If this is you step away from the keyboard! Come and see a practical session on the new deployment process in Visual Studio 2010. You will learn how to create, package and deploy web applications, their settings and databases more easily than ever before. The secrets of MSBuild, Web Deploy, One-Click Web Publish and Web Publishing Pipeline (WPP) will be revealed. You'll peek under the hood and see the technology used by the Visual Studio Publishing infrastructure. If you’re craving for a smorgasbord of information about the right way to deploy web applications, you won’t want to miss this.",
-      "Format":"60 mins",
-      "Level":"No experience necessary",
-      "Tags":[
-
-      ]
+      "Abstract": "We’ve all done it. Typically web applications are deployed using Windows Explorer or a DOS prompt. If this is you step away from the keyboard! Come and see a practical session on the new deployment process in Visual Studio 2010. You will learn how to create, package and deploy web applications, their settings and databases more easily than ever before. The secrets of MSBuild, Web Deploy, One-Click Web Publish and Web Publishing Pipeline (WPP) will be revealed. You'll peek under the hood and see the technology used by the Visual Studio Publishing infrastructure. If you’re craving for a smorgasbord of information about the right way to deploy web applications, you won’t want to miss this.",
+      "Format": "60 mins",
+      "Level": "No experience necessary",
+      "Tags": []
    },
    {
-      "Id":"",
-      "Title":"Continuous Delivery",
-      "Presenters":[
+      "Id": "894d15c8-4c12-4a89-9fc7-85c06be7cf08",
+      "Title": "Continuous Delivery",
+      "Presenters": [
          {
-            "Id":null,
-            "Name":"Steve Godbold",
-            "Tagline":null,
-            "Bio":"A regular presenter at industry events throughout Australia, Stephen Godbold is a Microsoft awarded Visual Studio ALM MVP. He is a contributor to open source projects that supplement TFS's Team Build and Work Item Tracking systems. Through these projects and his work as a Senior Consultant with Readify, he gathers evidence of how TFS is applied in the wild and works actively with the product teams to improve the next wave of ALM solutions.",
-            "ProfilePhotoUrl":null,
-            "TwitterHandle":"SteveGodbold",
-            "WebsiteUrl":"http://stevegodbold.com"
+            "Id": null,
+            "Name": "Steve Godbold",
+            "Tagline": null,
+            "Bio": "A regular presenter at industry events throughout Australia, Stephen Godbold is a Microsoft awarded Visual Studio ALM MVP. He is a contributor to open source projects that supplement TFS's Team Build and Work Item Tracking systems. Through these projects and his work as a Senior Consultant with Readify, he gathers evidence of how TFS is applied in the wild and works actively with the product teams to improve the next wave of ALM solutions.",
+            "ProfilePhotoUrl": null,
+            "TwitterHandle": "SteveGodbold",
+            "WebsiteUrl": "http://stevegodbold.com"
          }
       ],
-      "Abstract":"We’ve heard the story of Flickr’s multiple production releases in the same day. It sounds like a lofty goal, which may be attainable via the right charms, chants and dance moves done at the stroke of midnight on the second Tuesday of April. In this session Steve Godbold will walk you through what constitutes continuous delivery and just how you can work your way towards a more pleasant release experience.",
-      "Format":"60 mins",
-      "Level":"No experience necessary",
-      "Tags":[
-
-      ]
+      "Abstract": "We’ve heard the story of Flickr’s multiple production releases in the same day. It sounds like a lofty goal, which may be attainable via the right charms, chants and dance moves done at the stroke of midnight on the second Tuesday of April. In this session Steve Godbold will walk you through what constitutes continuous delivery and just how you can work your way towards a more pleasant release experience.",
+      "Format": "60 mins",
+      "Level": "No experience necessary",
+      "Tags": []
    },
    {
-      "Id":"",
-      "Title":"Climbing Mount Android - A beginners guide",
-      "Presenters":[
+      "Id": "7da9f9fd-e488-4027-b5d5-a7da8e60cb72",
+      "Title": "Climbing Mount Android - A beginners guide",
+      "Presenters": [
          {
-            "Id":null,
-            "Name":"Dr. Rajesh Vasa",
-            "Tagline":null,
-            "Bio":"Dr. Rajesh Vasa is an academic, a technology consultant and an entrepreneur. He teaches at Swinburne University of Technology (recent focus has been on Enterprise Software Development, Mobile Technologies as well as Software Deployment and Maintenance). His research interests are in the area of developer productivity - in particular, understanding developer behavior and work patterns. Rajesh offers consulting services in the areas of development methodology, team/technology selection, and undertakes independent reviews of software projects.",
-            "ProfilePhotoUrl":null,
-            "TwitterHandle":null,
-            "WebsiteUrl":null
+            "Id": null,
+            "Name": "Dr. Rajesh Vasa",
+            "Tagline": null,
+            "Bio": "Dr. Rajesh Vasa is an academic, a technology consultant and an entrepreneur. He teaches at Swinburne University of Technology (recent focus has been on Enterprise Software Development, Mobile Technologies as well as Software Deployment and Maintenance). His research interests are in the area of developer productivity - in particular, understanding developer behavior and work patterns. Rajesh offers consulting services in the areas of development methodology, team/technology selection, and undertakes independent reviews of software projects.",
+            "ProfilePhotoUrl": null,
+            "TwitterHandle": null,
+            "WebsiteUrl": null
          }
       ],
-      "Abstract":"With 350,000 device activations per day (no .. that was not a typo) Android is now a prominent player in the mobile space. So, what is Android? How does one start developing for this platform? This talk will introduce Android, the key tools used for development and present core concepts and design patterns used in Android development. The talk is a great starting point for anyone curious about the Android platform.",
-      "Format":"60 mins",
-      "Level":"No experience necessary",
-      "Tags":[
-
-      ]
+      "Abstract": "With 350,000 device activations per day (no .. that was not a typo) Android is now a prominent player in the mobile space. So, what is Android? How does one start developing for this platform? This talk will introduce Android, the key tools used for development and present core concepts and design patterns used in Android development. The talk is a great starting point for anyone curious about the Android platform.",
+      "Format": "60 mins",
+      "Level": "No experience necessary",
+      "Tags": []
    },
    {
-      "Id":"",
-      "Title":"Making the Web EASY again!",
-      "Presenters":[
+      "Id": "c141dd48-6937-4da2-bc30-0b2bd19931fe",
+      "Title": "Making the Web EASY again!",
+      "Presenters": [
          {
-            "Id":null,
-            "Name":"Phillip Beadle",
-            "Tagline":null,
-            "Bio":null,
-            "ProfilePhotoUrl":null,
-            "TwitterHandle":"philipbeadle",
-            "WebsiteUrl":"http://philipbeadle.net"
+            "Id": null,
+            "Name": "Phillip Beadle",
+            "Tagline": null,
+            "Bio": null,
+            "ProfilePhotoUrl": null,
+            "TwitterHandle": "philipbeadle",
+            "WebsiteUrl": "http://philipbeadle.net"
          }
       ],
-      "Abstract":"Remember the good old days when no one chastised you for not writing unit tests, design patterns were for wall paper and code behind was the code you left on your old PC? Scripting up a bit of Classic ASP was fun, you just whacked in a few angle brackets and FTP’d your file right onto your production site and you were done. Since then ASP.Net has become a massive framework, writing tests and using design patterns has become a part of normal development and the job has become really quite difficult. Well I want to show you how two new releases from Microsoft, called Razor and Web Matrix are here to make building dynamic websites fun and especially easy again. You’ll learn how to use the new Razor syntax to add some dynamic content to your site and see how cool WebMatrix is for writing Razor, deploying your site and also getting traffic reports from your site.",
-      "Format":"60 mins",
-      "Level":"No experience necessary",
-      "Tags":[
-
-      ]
+      "Abstract": "Remember the good old days when no one chastised you for not writing unit tests, design patterns were for wall paper and code behind was the code you left on your old PC? Scripting up a bit of Classic ASP was fun, you just whacked in a few angle brackets and FTP’d your file right onto your production site and you were done. Since then ASP.Net has become a massive framework, writing tests and using design patterns has become a part of normal development and the job has become really quite difficult. Well I want to show you how two new releases from Microsoft, called Razor and Web Matrix are here to make building dynamic websites fun and especially easy again. You’ll learn how to use the new Razor syntax to add some dynamic content to your site and see how cool WebMatrix is for writing Razor, deploying your site and also getting traffic reports from your site.",
+      "Format": "60 mins",
+      "Level": "No experience necessary",
+      "Tags": []
    },
    {
-      "Id":"",
-      "Title":"Frameworks for XAML apps – a lightning review",
-      "Presenters":[
+      "Id": "4fbbb1f8-5087-4f8c-81fa-0354f88491cc",
+      "Title": "Frameworks for XAML apps – a lightning review",
+      "Presenters": [
          {
-            "Id":null,
-            "Name":"Ian Randall",
-            "Tagline":null,
-            "Bio":"Ian Randall has been involved in software since the mid 80's, and professionally since 1997. He's written UI's in C and C++ with MFC and OpenGL (an experience he'd rather forget, frankly) and more recently in C# with WinForms and WPF. He is currently approaching his 5th anniversary at Datacom Systems Ltd in Auckland. He’s been a BA, QA, PM and TL but didn’t like any of them, and is happy now being ‘Software Developer’",
-            "ProfilePhotoUrl":null,
-            "TwitterHandle":"kiwipom",
-            "WebsiteUrl":"xaml.geek.nz"
+            "Id": null,
+            "Name": "Ian Randall",
+            "Tagline": null,
+            "Bio": "Ian Randall has been involved in software since the mid 80's, and professionally since 1997. He's written UI's in C and C++ with MFC and OpenGL (an experience he'd rather forget, frankly) and more recently in C# with WinForms and WPF. He is currently approaching his 5th anniversary at Datacom Systems Ltd in Auckland. He’s been a BA, QA, PM and TL but didn’t like any of them, and is happy now being ‘Software Developer’",
+            "ProfilePhotoUrl": null,
+            "TwitterHandle": "kiwipom",
+            "WebsiteUrl": "xaml.geek.nz"
          }
       ],
-      "Abstract":"Frameworks for XAML apps – a lightning review - MVVM has become the established pattern for XAML development, and writing your own mvvm-plumbing code for every new project might not be the best choice. This session will show you how to create a WPF application using four different frameworks:\r\n\r\n\r\n- (Raw) WPF. Building an application in an old-fashioned way\r\n- MvvmLight – Laurent Bugnion’s helper classes let us create ViewModels that separate presentation concerns from the rest of the app\r\n- PRISM Microsoft P&P;’s ‘Composite Application Guidance’ introduces quite a lot more features than the core MVVM helper classes\r\n- Caliburn.Micro – Rob Eisenberg’s opinionated framework uses magic pixie dust and makes stuff just work – leaving you to focus on writing business rules\r\n\r\nJust as there is no ‘right’ way to develop code, there is no silver bullet for app frameworks. This session showcases a couple of the good ones and talks about their strengths and weaknesses. If you can stomach 4 different flavours of ‘Hello, World’ in less than an hour, then this session just might be the one for you.",
-      "Format":"60 mins",
-      "Level":"No experience necessary",
-      "Tags":[
-
-      ]
+      "Abstract": "Frameworks for XAML apps – a lightning review - MVVM has become the established pattern for XAML development, and writing your own mvvm-plumbing code for every new project might not be the best choice. This session will show you how to create a WPF application using four different frameworks:\r\n\r\n\r\n- (Raw) WPF. Building an application in an old-fashioned way\r\n- MvvmLight – Laurent Bugnion’s helper classes let us create ViewModels that separate presentation concerns from the rest of the app\r\n- PRISM Microsoft P&P;’s ‘Composite Application Guidance’ introduces quite a lot more features than the core MVVM helper classes\r\n- Caliburn.Micro – Rob Eisenberg’s opinionated framework uses magic pixie dust and makes stuff just work – leaving you to focus on writing business rules\r\n\r\nJust as there is no ‘right’ way to develop code, there is no silver bullet for app frameworks. This session showcases a couple of the good ones and talks about their strengths and weaknesses. If you can stomach 4 different flavours of ‘Hello, World’ in less than an hour, then this session just might be the one for you.",
+      "Format": "60 mins",
+      "Level": "No experience necessary",
+      "Tags": []
    },
    {
-      "Id":"",
-      "Title":"How to swing a service bus like you mean it",
-      "Presenters":[
+      "Id": "ede5abc0-bbe4-47ab-ba5e-aa14b2415bea",
+      "Title": "How to swing a service bus like you mean it",
+      "Presenters": [
          {
-            "Id":null,
-            "Name":"Jim Pelletier",
-            "Tagline":null,
-            "Bio":"Jim is a contractor in the the .NET space, with a focus on the web and backend or middleware systems. Jim's areas of interest currently include things like NServiceBus, Automated Deployment and all things ALT.NET",
-            "ProfilePhotoUrl":null,
-            "TwitterHandle":"pjimmy",
-            "WebsiteUrl":null
+            "Id": null,
+            "Name": "Jim Pelletier",
+            "Tagline": null,
+            "Bio": "Jim is a contractor in the the .NET space, with a focus on the web and backend or middleware systems. Jim's areas of interest currently include things like NServiceBus, Automated Deployment and all things ALT.NET",
+            "ProfilePhotoUrl": null,
+            "TwitterHandle": "pjimmy",
+            "WebsiteUrl": null
          }
       ],
-      "Abstract":"In this talk Jim will cover how to bring together the messaging patterns and configurations options provided by NServiceBus into an architecture that allows organisations flexibility an order of magnitude above traditional systems both at the initial development stage and during the operational lifetime of your system. We will also be discussing various DDD principals and how they are explicitly enabled by NServiceBus and SOA.",
-      "Format":"60 mins",
-      "Level":"No experience necessary",
-      "Tags":[
-
-      ]
+      "Abstract": "In this talk Jim will cover how to bring together the messaging patterns and configurations options provided by NServiceBus into an architecture that allows organisations flexibility an order of magnitude above traditional systems both at the initial development stage and during the operational lifetime of your system. We will also be discussing various DDD principals and how they are explicitly enabled by NServiceBus and SOA.",
+      "Format": "60 mins",
+      "Level": "No experience necessary",
+      "Tags": []
    },
    {
-      "Id":"lunch-note",
-      "Title":"Windows Phone OS, what’s next",
-      "Presenters":[
+      "Id": "lunch-note",
+      "Title": "Windows Phone OS, what’s next",
+      "Presenters": [
          {
-            "Id":null,
-            "Name":"Chris Walsh",
-            "Tagline":null,
-            "Bio":null,
-            "ProfilePhotoUrl":null,
-            "TwitterHandle":null,
-            "WebsiteUrl":null
+            "Id": null,
+            "Name": "Chris Walsh",
+            "Tagline": null,
+            "Bio": null,
+            "ProfilePhotoUrl": null,
+            "TwitterHandle": null,
+            "WebsiteUrl": null
          }
       ],
-      "Abstract":"Come along to this fun and exciting session by Chris where he will be talking about and showing off the next key features of the upcoming Windows Phone Mango update. In this session, we’ll go through the key new features in the developer story, show you how to apply them into your existing apps and talk about where to go from here in making your application the best it can be.",
-      "Format":"60 mins",
-      "Level":"No experience necessary",
-      "Tags":[
-
-      ]
+      "Abstract": "Come along to this fun and exciting session by Chris where he will be talking about and showing off the next key features of the upcoming Windows Phone Mango update. In this session, we’ll go through the key new features in the developer story, show you how to apply them into your existing apps and talk about where to go from here in making your application the best it can be.",
+      "Format": "60 mins",
+      "Level": "No experience necessary",
+      "Tags": []
    },
    {
-      "Id":"",
-      "Title":"Doing Rest with new WCF Web API",
-      "Presenters":[
+      "Id": "111d7e03-6796-4fc5-9e64-0328541af414",
+      "Title": "Doing Rest with new WCF Web API",
+      "Presenters": [
          {
-            "Id":null,
-            "Name":"Himanshu Desai",
-            "Tagline":null,
-            "Bio":"Himanshu works as a Senior Consultant at Readify. His passion includes Architecture, Service Orientation and WCF among other things. Outside of work he loves to spend time with his family and his two dogs.",
-            "ProfilePhotoUrl":null,
-            "TwitterHandle":"H_Desai",
-            "WebsiteUrl":null
+            "Id": null,
+            "Name": "Himanshu Desai",
+            "Tagline": null,
+            "Bio": "Himanshu works as a Senior Consultant at Readify. His passion includes Architecture, Service Orientation and WCF among other things. Outside of work he loves to spend time with his family and his two dogs.",
+            "ProfilePhotoUrl": null,
+            "TwitterHandle": "H_Desai",
+            "WebsiteUrl": null
          }
       ],
-      "Abstract":"Rest Support in WCF has come a long way since it was first introduced as part of .NET 3.5 SP1. At PDC last year the WCF Team showed that the REST support is going to get a lot better. In this session Himanshu introduces you to the new WCF Web API that Microsoft is working on and how it puts you in control to do REST your own way with WCF.",
-      "Format":"60 mins",
-      "Level":"No experience necessary",
-      "Tags":[
-
-      ]
+      "Abstract": "Rest Support in WCF has come a long way since it was first introduced as part of .NET 3.5 SP1. At PDC last year the WCF Team showed that the REST support is going to get a lot better. In this session Himanshu introduces you to the new WCF Web API that Microsoft is working on and how it puts you in control to do REST your own way with WCF.",
+      "Format": "60 mins",
+      "Level": "No experience necessary",
+      "Tags": []
    },
    {
-      "Id":"",
-      "Title":"From 0 to 50; Securing WCF with Windows Identity Foundation",
-      "Presenters":[
+      "Id": "98304155-6290-4f65-a96b-3384c6a2f4d8",
+      "Title": "From 0 to 50; Securing WCF with Windows Identity Foundation",
+      "Presenters": [
          {
-            "Id":null,
-            "Name":"William Tulloch",
-            "Tagline":null,
-            "Bio":"William Tulloch works as a senior consultant with Readify where currently his main focus has been on Azure, Windows Identity Foundation and Silverlight and anything else that comes his way.",
-            "ProfilePhotoUrl":null,
-            "TwitterHandle":"wtulloch",
-            "WebsiteUrl":null
+            "Id": null,
+            "Name": "William Tulloch",
+            "Tagline": null,
+            "Bio": "William Tulloch works as a senior consultant with Readify where currently his main focus has been on Azure, Windows Identity Foundation and Silverlight and anything else that comes his way.",
+            "ProfilePhotoUrl": null,
+            "TwitterHandle": "wtulloch",
+            "WebsiteUrl": null
          }
       ],
-      "Abstract":"It is kill be killed when we take an existing WCF service and use Windows Identity Federation to implement federated security. Is it possible to set up a custom Security Token Service and use it to provide authentication and authorisation for a web service in less then 50 minutes or is this a train wreck waiting to happen? For a lot of developers getting up and running with WIF is still a fraught process. In this presentation we will: look at how certificates are used and best practice when developing. Creating a custom authentication class that can that hooks into the WIF pipeline. Creating a custom STS; the pain the fustration and the gotchas. Modifying WCF service to use WIF and how that affects the client application Providing authorisation against service operations Wiring it all together.",
-      "Format":"60 mins",
-      "Level":"No experience necessary",
-      "Tags":[
-
-      ]
+      "Abstract": "It is kill be killed when we take an existing WCF service and use Windows Identity Federation to implement federated security. Is it possible to set up a custom Security Token Service and use it to provide authentication and authorisation for a web service in less then 50 minutes or is this a train wreck waiting to happen? For a lot of developers getting up and running with WIF is still a fraught process. In this presentation we will: look at how certificates are used and best practice when developing. Creating a custom authentication class that can that hooks into the WIF pipeline. Creating a custom STS; the pain the fustration and the gotchas. Modifying WCF service to use WIF and how that affects the client application Providing authorisation against service operations Wiring it all together.",
+      "Format": "60 mins",
+      "Level": "No experience necessary",
+      "Tags": []
    },
    {
-      "Id":"",
-      "Title":"Domain Driven Development, Domain Events & Unit Testing ",
-      "Presenters":[
+      "Id": "fd601c16-90d8-490b-8f84-8ccdfa2a6a9c",
+      "Title": "Domain Driven Development, Domain Events & Unit Testing ",
+      "Presenters": [
          {
-            "Id":null,
-            "Name":"Mitch Denny",
-            "Tagline":null,
-            "Bio":"I’m the CTO of Readify. I’ve been working in the .NET developer community since early in 2000 when it was first released. Since then I’ve been awarded MVP status for near on a decade, initially in ASP.NET, but more recently in ALM. My focus is essentially on improving outcomes for software projects.",
-            "ProfilePhotoUrl":null,
-            "TwitterHandle":"MitchDenny",
-            "WebsiteUrl":"http://notgartner.wordpress.com"
+            "Id": null,
+            "Name": "Mitch Denny",
+            "Tagline": null,
+            "Bio": "I’m the CTO of Readify. I’ve been working in the .NET developer community since early in 2000 when it was first released. Since then I’ve been awarded MVP status for near on a decade, initially in ASP.NET, but more recently in ALM. My focus is essentially on improving outcomes for software projects.",
+            "ProfilePhotoUrl": null,
+            "TwitterHandle": "MitchDenny",
+            "WebsiteUrl": "http://notgartner.wordpress.com"
          }
       ],
-      "Abstract":"This is a demo orientated session with a few explanatory slides which shows how to build out a domain model which supports domain events and testability via TDD and BDD techniques. Topics covered will include (time permitting):\r\n\r\n- DDD Primer\r\n- What are Domain Events\r\n- Domain Events (3 different approaches)\r\n- What is TDD?\r\n- BDD is good TDD\r\n- DDD and TDD/BDD together!\r\n- Hooking in Entity Framework (Code First)\r\n- Hooking in NHibernate",
-      "Format":"60 mins",
-      "Level":"No experience necessary",
-      "Tags":[
-
-      ]
+      "Abstract": "This is a demo orientated session with a few explanatory slides which shows how to build out a domain model which supports domain events and testability via TDD and BDD techniques. Topics covered will include (time permitting):\r\n\r\n- DDD Primer\r\n- What are Domain Events\r\n- Domain Events (3 different approaches)\r\n- What is TDD?\r\n- BDD is good TDD\r\n- DDD and TDD/BDD together!\r\n- Hooking in Entity Framework (Code First)\r\n- Hooking in NHibernate",
+      "Format": "60 mins",
+      "Level": "No experience necessary",
+      "Tags": []
    },
    {
-      "Id":"",
-      "Title":"Building a Cross-Mobile platform API with OData",
-      "Presenters":[
+      "Id": "09b80d84-90dd-4dc7-8b11-9fc2f36e43c4",
+      "Title": "Building a Cross-Mobile platform API with OData",
+      "Presenters": [
          {
-            "Id":null,
-            "Name":"Lewis Benge",
-            "Tagline":null,
-            "Bio":"Lewis is a Microsoft Commerce Server MVP and vTSP based in Sydney. Specialising on Service Orientated architecture and connected-systems development, his work exposes him to a rich combination of Microsoft technologies such as WCF, rich client and Azure, and is also Microsoft Certified Technology Specialist in MOSS 2007. He now also regularly participates in the Australian development and Microsoft online community providing guidance, support, and evangelism.",
-            "ProfilePhotoUrl":null,
-            "TwitterHandle":"LewisBenge",
-            "WebsiteUrl":null
+            "Id": null,
+            "Name": "Lewis Benge",
+            "Tagline": null,
+            "Bio": "Lewis is a Microsoft Commerce Server MVP and vTSP based in Sydney. Specialising on Service Orientated architecture and connected-systems development, his work exposes him to a rich combination of Microsoft technologies such as WCF, rich client and Azure, and is also Microsoft Certified Technology Specialist in MOSS 2007. He now also regularly participates in the Australian development and Microsoft online community providing guidance, support, and evangelism.",
+            "ProfilePhotoUrl": null,
+            "TwitterHandle": "LewisBenge",
+            "WebsiteUrl": null
          }
       ],
-      "Abstract":"Windows Phones, iPhones, Androids. More mobile platforms and more headaches for customers and developers alike wanting to achieve maximum reach. But the learning slope is too steep you can go skiing on it. Don’t lose hope though because we live in a Service Oriented World. So wouldn’t be nice to follow the same principles of that world and abstract all the business rules and logic behind an API and not having to do any on the device itself. Wouldn’t it be nicer to have the extra time to make your applications prettier and not repeat the logic again and again? Cross-Platform communication is the key. In this session Lewis Benge will explain how to get started building that sexy black box and use OData (Open Data Protocol) to achieve cross-platform communication between the different mobile platforms and your black box. So don’t miss it, come around and learn how to make your life easier.",
-      "Format":"60 mins",
-      "Level":"No experience necessary",
-      "Tags":[
-
-      ]
+      "Abstract": "Windows Phones, iPhones, Androids. More mobile platforms and more headaches for customers and developers alike wanting to achieve maximum reach. But the learning slope is too steep you can go skiing on it. Don’t lose hope though because we live in a Service Oriented World. So wouldn’t be nice to follow the same principles of that world and abstract all the business rules and logic behind an API and not having to do any on the device itself. Wouldn’t it be nicer to have the extra time to make your applications prettier and not repeat the logic again and again? Cross-Platform communication is the key. In this session Lewis Benge will explain how to get started building that sexy black box and use OData (Open Data Protocol) to achieve cross-platform communication between the different mobile platforms and your black box. So don’t miss it, come around and learn how to make your life easier.",
+      "Format": "60 mins",
+      "Level": "No experience necessary",
+      "Tags": []
    },
    {
-      "Id":"",
-      "Title":"Database Tuning Techniques for Developers",
-      "Presenters":[
+      "Id": "8148c757-3f26-49e6-b475-3bb6cc4077e3",
+      "Title": "Database Tuning Techniques for Developers",
+      "Presenters": [
          {
-            "Id":null,
-            "Name":"Jim McLeod",
-            "Tagline":null,
-            "Bio":"I am a SQL Server consultant with MyDBA (www.mydba.com), a dedicated SQL Server support and consulting business, specialising in database performance. I am a Microsoft Certified Trainer, and hold MCITP certifications in database administration and development. Originally a developer (Delphi and .NET) before moving into database administration, I have been working with SQL Server for 10 years. When not spending time with SQL Server or my family, I enjoy cycling and running.",
-            "ProfilePhotoUrl":null,
-            "TwitterHandle":"Jim_McLeod",
-            "WebsiteUrl":"http://www.jimmcleod.net"
+            "Id": null,
+            "Name": "Jim McLeod",
+            "Tagline": null,
+            "Bio": "I am a SQL Server consultant with MyDBA (www.mydba.com), a dedicated SQL Server support and consulting business, specialising in database performance. I am a Microsoft Certified Trainer, and hold MCITP certifications in database administration and development. Originally a developer (Delphi and .NET) before moving into database administration, I have been working with SQL Server for 10 years. When not spending time with SQL Server or my family, I enjoy cycling and running.",
+            "ProfilePhotoUrl": null,
+            "TwitterHandle": "Jim_McLeod",
+            "WebsiteUrl": "http://www.jimmcleod.net"
          }
       ],
-      "Abstract":"While it’s easy to pass SQL Server performance problems off to the DBA, it’s even easier to fix performance problems before they are in production and your users notice. Develop a mindset of thinking about performance implications while designing databases and writing T-SQL. Make your database fly as as you learn how to monitor SQL performance. Examine some of the leading causes of poor performance commonly seen in SQL Server, and learn solutions that will make your database love you again. Your DBA will love you too.",
-      "Format":"60 mins",
-      "Level":"No experience necessary",
-      "Tags":[
-
-      ]
+      "Abstract": "While it’s easy to pass SQL Server performance problems off to the DBA, it’s even easier to fix performance problems before they are in production and your users notice. Develop a mindset of thinking about performance implications while designing databases and writing T-SQL. Make your database fly as as you learn how to monitor SQL performance. Examine some of the leading causes of poor performance commonly seen in SQL Server, and learn solutions that will make your database love you again. Your DBA will love you too.",
+      "Format": "60 mins",
+      "Level": "No experience necessary",
+      "Tags": []
    },
    {
-      "Id":"",
-      "Title":"Ruby and .NET for Fun and Profit",
-      "Presenters":[
+      "Id": "e05d0d04-94bb-4856-a055-120c170a3713",
+      "Title": "Ruby and .NET for Fun and Profit",
+      "Presenters": [
          {
-            "Id":null,
-            "Name":"Brendan Forster",
-            "Tagline":null,
-            "Bio":"Brendan is a consultant for Readify by day, who enjoys working on various open-source projects in his spare time. He’s not cool enough to join the Ruby club.",
-            "ProfilePhotoUrl":null,
-            "TwitterHandle":"shiftkey",
-            "WebsiteUrl":"http://brendanforster.com"
+            "Id": null,
+            "Name": "Brendan Forster",
+            "Tagline": null,
+            "Bio": "Brendan is a consultant for Readify by day, who enjoys working on various open-source projects in his spare time. He’s not cool enough to join the Ruby club.",
+            "ProfilePhotoUrl": null,
+            "TwitterHandle": "shiftkey",
+            "WebsiteUrl": "http://brendanforster.com"
          }
       ],
-      "Abstract":"Why should a .NET developer care about Ruby? How can someone use it to make their life easier? And how cool do you need to be to join the Ruby club? All these questions and more will be covered off as Brendan explores how Ruby and IronRuby (the Ruby runtime for .NET) can be used to complement .NET development. This talk will be split into three parts: - How to get started with Ruby and IronRuby, and resources to help with the learning curve - Projects from the Ruby ecosystem which can make life easier for .NET development - Interesting projects specifically for .NET – including WPF and WP7.",
-      "Format":"60 mins",
-      "Level":"No experience necessary",
-      "Tags":[
-
-      ]
+      "Abstract": "Why should a .NET developer care about Ruby? How can someone use it to make their life easier? And how cool do you need to be to join the Ruby club? All these questions and more will be covered off as Brendan explores how Ruby and IronRuby (the Ruby runtime for .NET) can be used to complement .NET development. This talk will be split into three parts: - How to get started with Ruby and IronRuby, and resources to help with the learning curve - Projects from the Ruby ecosystem which can make life easier for .NET development - Interesting projects specifically for .NET – including WPF and WP7.",
+      "Format": "60 mins",
+      "Level": "No experience necessary",
+      "Tags": []
    },
    {
-      "Id":"",
-      "Title":"Looking behind the curtain of jquery (no magic wizards here either)",
-      "Presenters":[
+      "Id": "573050fa-e43f-4525-8378-f91ebf59125b",
+      "Title": "Looking behind the curtain of jquery (no magic wizards here either)",
+      "Presenters": [
          {
-            "Id":null,
-            "Name":"Jared Wyles",
-            "Tagline":null,
-            "Bio":" am a javascript developer for atlassian (don't hate me for the java thing). I was a c# developer in a past life working for such companies as caltex, medibank and real insurance. Lover of javascript and adament defender of why javascript variable hoisting is a good thing. Some what regular speaker at sydjs on any random topic that springs into my head. While i am not bending the browser into positions it has never seen before, i can usually be found annoying hacking on random projects that take my fancy that weekend. Advocate of all things open source (it really is not the devil despite what microsoft has said in the past), have contributed to many open source projects although a full time job of drinking is making that harder. In summary, love code love to share my passion for code.",
-            "ProfilePhotoUrl":null,
-            "TwitterHandle":"rioter",
-            "WebsiteUrl":null
+            "Id": null,
+            "Name": "Jared Wyles",
+            "Tagline": null,
+            "Bio": " am a javascript developer for atlassian (don't hate me for the java thing). I was a c# developer in a past life working for such companies as caltex, medibank and real insurance. Lover of javascript and adament defender of why javascript variable hoisting is a good thing. Some what regular speaker at sydjs on any random topic that springs into my head. While i am not bending the browser into positions it has never seen before, i can usually be found annoying hacking on random projects that take my fancy that weekend. Advocate of all things open source (it really is not the devil despite what microsoft has said in the past), have contributed to many open source projects although a full time job of drinking is making that harder. In summary, love code love to share my passion for code.",
+            "ProfilePhotoUrl": null,
+            "TwitterHandle": "rioter",
+            "WebsiteUrl": null
          }
       ],
-      "Abstract":"I will take a deep dive into the jquery innards with you as my guests! Watch as i show just how jquery gets it's `sizzle`! How that amazing plugin system actually works. The dark mysterious of that event system, we all love to use. After this tour you will know more about the dom than you ever cared to know, using the knowledge gained you will walk away knowing how to write effective javascript, more efficient jquery selectors, lower your dependency on dom ready and wield events like no other!",
-      "Format":"60 mins",
-      "Level":"No experience necessary",
-      "Tags":[
-
-      ]
+      "Abstract": "I will take a deep dive into the jquery innards with you as my guests! Watch as i show just how jquery gets it's `sizzle`! How that amazing plugin system actually works. The dark mysterious of that event system, we all love to use. After this tour you will know more about the dom than you ever cared to know, using the knowledge gained you will walk away knowing how to write effective javascript, more efficient jquery selectors, lower your dependency on dom ready and wield events like no other!",
+      "Format": "60 mins",
+      "Level": "No experience necessary",
+      "Tags": []
    },
    {
-      "Id":"",
-      "Title":"Writing your own .NET Profiler isn't scary",
-      "Presenters":[
+      "Id": "08902d43-ad30-4198-a46a-5fc3c743a68f",
+      "Title": "Writing your own .NET Profiler isn't scary",
+      "Presenters": [
          {
-            "Id":null,
-            "Name":"Shaun Wilde",
-            "Tagline":null,
-            "Bio":"Senior Application Developer at Common Vision, a Melbourne based IT Consulting Company. Has provided support on CoverageEye, PartCover and now starting again with OpenCover.",
-            "ProfilePhotoUrl":null,
-            "TwitterHandle":"scubamunki",
-            "WebsiteUrl":"https://github.com/sawilde"
+            "Id": null,
+            "Name": "Shaun Wilde",
+            "Tagline": null,
+            "Bio": "Senior Application Developer at Common Vision, a Melbourne based IT Consulting Company. Has provided support on CoverageEye, PartCover and now starting again with OpenCover.",
+            "ProfilePhotoUrl": null,
+            "TwitterHandle": "scubamunki",
+            "WebsiteUrl": "https://github.com/sawilde"
          }
       ],
-      "Abstract":"A talk on writing your own .NET profiler to do IL injection. The talk will include\r\n\r\n\r\na) a basic overview of the interfaces and concepts involved with writing .NET profilers.\r\nb) a brief description of open source tools that do IL rewriting such as PartCover and OpenCover and will finally conclude with..\r\nc) a demo of making your own profiler to do fault injection using the OpenCover code as a basis on-the-fly for IL rewriting.",
-      "Format":"60 mins",
-      "Level":"No experience necessary",
-      "Tags":[
-
-      ]
+      "Abstract": "A talk on writing your own .NET profiler to do IL injection. The talk will include\r\n\r\n\r\na) a basic overview of the interfaces and concepts involved with writing .NET profilers.\r\nb) a brief description of open source tools that do IL rewriting such as PartCover and OpenCover and will finally conclude with..\r\nc) a demo of making your own profiler to do fault injection using the OpenCover code as a basis on-the-fly for IL rewriting.",
+      "Format": "60 mins",
+      "Level": "No experience necessary",
+      "Tags": []
    },
    {
-      "Id":"",
-      "Title":"Cross Mono, cross platform for a Windows .Net developer ",
-      "Presenters":[
+      "Id": "de4e7bc3-e140-4964-9014-715868962254",
+      "Title": "Cross Mono, cross platform for a Windows .Net developer ",
+      "Presenters": [
          {
-            "Id":null,
-            "Name":"Cristian Prieto",
-            "Tagline":null,
-            "Bio":null,
-            "ProfilePhotoUrl":null,
-            "TwitterHandle":"cprieto",
-            "WebsiteUrl":"http://www.cprieto.com"
+            "Id": null,
+            "Name": "Cristian Prieto",
+            "Tagline": null,
+            "Bio": null,
+            "ProfilePhotoUrl": null,
+            "TwitterHandle": "cprieto",
+            "WebsiteUrl": "http://www.cprieto.com"
          }
       ],
-      "Abstract":"Have you ever dream about writing .Net code and running it everywhere? Well, the time has come! Come with us and learn how mono works, how to start hacking code with Mono and future Mono roadmap in this introductory Mono lesson",
-      "Format":"60 mins",
-      "Level":"No experience necessary",
-      "Tags":[
-
-      ]
+      "Abstract": "Have you ever dream about writing .Net code and running it everywhere? Well, the time has come! Come with us and learn how mono works, how to start hacking code with Mono and future Mono roadmap in this introductory Mono lesson",
+      "Format": "60 mins",
+      "Level": "No experience necessary",
+      "Tags": []
    }
 ]

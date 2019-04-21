@@ -1,9 +1,24 @@
 [
   {
+    "Id": "keynote",
+    "Title": "Programming over space and time",
+    "Abstract": "Programming evolves through the creation of new abstractions, allowing us to more cleanly express intent while avoiding complexity, duplication and plumbing code. Yet most of the techniques and patterns in use today assume that the data we need is already there, spread out over space rather than time. With the rapid growth of interconnected systems, we can no longer afford to treat latency as an afterthought, creating warts in our otherwise clean designs. Instead, we need to flip our perspective and embrace time as a first-class concept. In this keynote, we'll make this perspective shift, leading naturally to an understanding of C#'s asynchronous functions, Reactive Extensions, and the art of programming over both space and time.",
+    "Presenters": [
+      {
+        "Name": "Joe Albahari",
+        "TwitterAlias": "linqpad",
+        "Website": "http://www.albahari.com",
+        "Bio": "Joe Albahari is the author of LINQPad and C# 5.0 in a Nutshell. He speaks regularly at TechEd, YOW and user groups, and has been a C# MVP since 2008."
+      }
+    ],
+    "Format": "45 mins",
+    "Level": "No experience necessary",
+    "Tags": []
+  },
+  {
     "Id": "angular",
     "Title": "An Introduction to AngularJS",
     "Abstract": "For workshop details please refer to home page workshop section.",
-    "RecommendedAudience": "",
     "Presenters": [
       {
         "Name": "Glen Maddern",
@@ -20,7 +35,6 @@
     "Id": "javascript",
     "Title": "JavaScript all the things",
     "Abstract": "For workshop details please refer to home page workshop section.",
-    "RecommendedAudience": "",
     "Presenters": [
       {
         "Name": "Aaron Powell",
@@ -37,7 +51,6 @@
     "Id": "git",
     "Title": "Thinking Like A Git",
     "Abstract": "For workshop details please refer to home page workshop section.",
-    "RecommendedAudience": "",
     "Presenters": [
       {
         "Name": "Brendan Forster",
@@ -54,7 +67,6 @@
     "Id": "linqpad",
     "Title": "Hands-on Concurrency Lab in LINQPad",
     "Abstract": "For workshop details please refer to home page workshop section.",
-    "RecommendedAudience": "",
     "Presenters": [
       {
         "Name": "Jospeh Albahari",
@@ -71,7 +83,6 @@
     "Id": "windows8",
     "Title": "Windows 8 Apps for Business Workshop",
     "Abstract": "For workshop details please refer to home page workshop section.",
-    "RecommendedAudience": "",
     "Presenters": [
       {
         "Name": "Mitch Denny",

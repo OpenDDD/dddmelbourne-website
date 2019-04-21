@@ -72,7 +72,7 @@ const Conference: IConference = {
   Name: name,
   Instance: currentInstance.toString(),
   PreviousInstance: (currentInstance - 1).toString(),
-  PreviousInstances: [...Array(currentInstance - 2014).keys()].map((_, i) => (2014 + i).toString()),
+  PreviousInstances: [...Array(currentInstance - 2011).keys()].map((_, i) => (2011 + i).toString()),
   // PreviousInstances: [...Array(currentInstance - firstInstance).keys()].map((_, i) => (firstInstance + i).toString()),
   Organiser: {
     Name: 'Oz Dev Inc.',

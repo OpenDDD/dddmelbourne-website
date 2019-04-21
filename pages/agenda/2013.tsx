@@ -4,14 +4,14 @@ import { SafeLink } from '../../components/global/safeLink'
 import withPageMetadata from '../../components/global/withPageMetadata'
 import ResponsiveVideo from '../../components/responsiveVideo'
 import Sponsors from '../../components/sponsors'
-import From2014 from '../../config/2014'
+import From2013 from '../../config/2013'
 
-class Agenda2014 extends React.Component<AgendaPageProps> {
+class Agenda2013 extends React.Component<AgendaPageProps> {
   static getAgendaPageParams(): AgendaPageParameters {
     return {
-      conferenceInstance: '2014',
+      conferenceInstance: '2013',
       numTracks: 4,
-      sessionsUrl: '/static/agenda/2014.json',
+      sessionsUrl: '/static/agenda/2013.json',
       sponsors: [],
     }
   }
@@ -26,152 +26,129 @@ class Agenda2014 extends React.Component<AgendaPageProps> {
               <tr>
                 <th style={{ width: '4%' }} />
                 <th style={{ width: '24%' }}>
-                  <strong style={{ background: '#66ad4a' }}>Green</strong>
-                  <em>ATC 101 - MAIN HALL</em>
+                  <strong>SUPERHEROES</strong>
+                  <em>STREAM</em>
                 </th>
                 <th style={{ width: '24%' }}>
-                  <strong style={{ background: '#54a6d6' }}>Blue</strong>
-                  <em>AMDC 301 - LEVEL 3</em>
+                  <strong>CODE MONKEYS</strong>
+                  <em>STREAM</em>
                 </th>
                 <th style={{ width: '24%' }}>
-                  <strong style={{ background: '#ad4a54' }}>Red</strong>
-                  <em>AMDC 501 - LEVEL 5</em>
+                  <strong>PLUMBING</strong>
+                  <em>STREAM</em>
                 </th>
                 <th style={{ width: '24%' }}>
-                  <strong style={{ background: '#cd9152' }}>Orange</strong>
-                  <em>AMDC 505 - LEVEL 5</em>
+                  <strong>WORKSHOPS</strong>
+                  <em>STREAM</em>
                 </th>
               </tr>
             </thead>
             <tbody>
               <tr className="breadth-row">
                 <td className="time">8:30</td>
-                <td colSpan={5} className="breadth">
+                <td colSpan={4} className="breadth">
                   Registration
-                  <br />
-                  <small className="room" style={{ color: 'rgb(102, 173, 74)' }}>Foyer</small>
                 </td>
               </tr>
 
               <tr className="breadth-row">
                 <td className="time">9:00</td>
-                <td colSpan={5} className="breadth">
+                <td colSpan={4} className="breadth">
                   Welcome and housekeeping
-                  <br />
-                  <small className="room" style={{ color: 'rgb(102, 173, 74)' }}>ATC 101 - MAIN HALL</small>
                 </td>
               </tr>
 
               <tr className="breadth-row">
-                <td className="time">9:10</td>
-                <SessionCell isKeynote={true} sessionId="keynote" room="ATC 101 - MAIN HALL" roomStyle={{ color: 'rgb(102, 173, 74)' }} />
+                <td className="time">9:15</td>
+                <SessionCell isKeynote={true} sessionId="keynote" />
               </tr>
 
               <tr className="breadth-row">
                 <td className="time">10:00</td>
-                <td colSpan={5} className="breadth">
+                <td colSpan={4} className="breadth">
                   Morning Tea
                 </td>
               </tr>
 
               <tr>
-                <td className="time">10:15</td>
-                <SessionCell sessionId="3a84281d-ba48-499e-ad77-bac3160a2233" />
-                <SessionCell sessionId="66236637-27ee-489c-9d8c-d6de9de672ea" />
-                <SessionCell sessionId="f9f0c08e-71c0-4082-843e-0aec53f1919f" />
-                <SessionCell sessionId="workshop1" />
+                <td className="time">10:30</td>
+                <SessionCell sessionId="b712e23f-5138-4669-9f4b-7435054ba84c" />
+                <SessionCell sessionId="fd345235-1157-4d61-bf45-a2713d1c5db5" />
+                <SessionCell sessionId="0ed505d6-ee56-42b9-beef-763f53190402" />
+                <SessionCell sessionId="javascript" />
               </tr>
 
               <tr className="breadth-row">
-                <td className="time">11:00</td>
-                <td colSpan={5} className="breadth">
+                <td className="time">11:30</td>
+                <td colSpan={4} className="breadth">
                   Changeover
                 </td>
               </tr>
 
               <tr>
                 <td className="time">
-                  11:15
+                  11:45
                 </td>
-                <SessionCell sessionId="342c8945-f1bb-4dd6-bcb6-4a33402d4f2e" />
-                <SessionCell sessionId="09d38ade-b83a-487b-8816-16babb035b9f" />
-                <SessionCell sessionId="dc84b8cc-ad31-4e0f-bc98-55ad9f421d0b" />
-                <SessionCell sessionId="workshop1" />
+                <SessionCell sessionId="06ebebcf-1d4b-4a91-95c7-4c28e5949110" />
+                <SessionCell sessionId="2ee79cb3-ad58-4673-bee3-6548d80a5c71" />
+                <SessionCell sessionId="288504f3-57c7-477c-960a-6fce00386add" />
+                <SessionCell sessionId="git" />
               </tr>
 
               <tr className="breadth-row">
-                <td className="time">12:00</td>
-                <td colSpan={5} className="breadth">
+                <td className="time">12:45</td>
+                <td colSpan={4} className="breadth">
                   Lunch
                   <br />
-                  <small className="room" style={{ color: 'rgb(102, 173, 74)' }}>Atrium</small>
+                  <small className="room">Atrium</small>
                 </td>
               </tr>
 
               <tr>
-                <td className="time">13:00</td>
-                <SessionCell sessionId="024c64d4-1485-454d-a3c1-077dba8cf379" />
-                <SessionCell sessionId="28960b64-2c00-4903-95dc-eac2df38e1f9" />
-                <SessionCell sessionId="98456d17-ba82-44b8-a94d-19b1fd1f520d" />
-                <SessionCell sessionId="workshop2" />
+                <td className="time">14:00</td>
+                <SessionCell sessionId="151c1900-5f3b-4ece-adb6-a3183811dd37" />
+                <SessionCell sessionId="70df6334-58a4-40db-b442-3d7f701a844f" />
+                <SessionCell sessionId="73d525db-50fb-49a8-b90a-0f431170710c" />
+                <SessionCell sessionId="845057c0-3c6d-49d1-b69b-637ef09b989b" />
               </tr>
 
               <tr className="breadth-row">
-                <td className="time">13:45</td>
-                <td colSpan={5} className="breadth">
+                <td className="time">15:00</td>
+                <td colSpan={4} className="breadth">
                   Changeover
                 </td>
               </tr>
 
               <tr className="breadth-row">
-                <td className="time">14:00</td>
-                <SessionCell sessionId="allsopp" />
-                <SessionCell sessionId="1f9ee938-dfa3-4118-9ee1-08d4e910bb58" />
-                <SessionCell sessionId="cee4b28c-a54b-4be3-97a8-b2e4abfc233a" />
-                <SessionCell sessionId="workshop2" />
+                <td className="time">15:15</td>
+                <SessionCell sessionId="64e93494-be68-4337-9b49-ac6c721cc338" />
+                <SessionCell sessionId="0219d40b-0dff-4dbd-9aa8-101996bccfa5" />
+                <SessionCell sessionId="45ee2788-ba64-401c-a390-ca47dbfb96e9" />
+                <SessionCell sessionId="angular" />
               </tr>
 
               <tr className="breadth-row">
-                <td className="time">13:45</td>
-                <td colSpan={5} className="breadth">
+                <td className="time">16:15</td>
+                <td colSpan={4} className="breadth">
                   Afternoon Tea
                 </td>
               </tr>
 
               <tr className="breadth-row">
-                <td className="time">15:00</td>
-                <SessionCell sessionId="1f1471ee-79d2-4e49-b1f2-3228d7c0b6f3" />
-                <SessionCell sessionId="17102e0d-ba68-499c-bb51-0b9cf39b26a5" />
-                <SessionCell sessionId="5c22ad22-dc66-4de8-9f65-b228302505ea" />
-                <SessionCell sessionId="" />
-              </tr>
-
-              <tr className="breadth-row">
-                <td className="time">15:45</td>
-                <td colSpan={5} className="breadth">
-                  Changeover
-                </td>
-              </tr>
-
-              <tr className="breadth-row">
-                <td className="time">16:00</td>
-                <SessionCell isLocknote={true} sessionId="locknote" room="ATC 101 - MAIN HALL" roomStyle={{ color: 'rgb(102, 173, 74)' }} />
-              </tr>
-
-              <tr className="breadth-row">
-                <td className="time">17:00</td>
-                <td colSpan={5} className="breadth">
-                  <strong>Give aways and wrap up</strong>
-                </td>
+                <td className="time">16:30</td>
+                <SessionCell sessionId="80387e00-b932-4068-b278-6bdd18520c90" />
+                <SessionCell sessionId="1e54c2ed-3ea5-4c32-ba34-a40ae41a8f9f" />
+                <SessionCell sessionId="0af7b349-7e01-437f-b852-35dace17e749" />
+                <SessionCell sessionId="linqpad" />
               </tr>
 
               <tr className="breadth-row">
                 <td className="time">17:30</td>
-                <td colSpan={5} className="breadth">
+                <td colSpan={4} className="breadth">
                   <strong>Afterparty</strong>
                   <br />
                   <br />
-                  <small className="room" style={{ color: 'rgb(102, 173, 74)' }}>The Glenferrie Hotel</small>
+                  <small className="room">The Glenferrie Hotel</small>
                   <br />
                   <small>324 Burwood Rd, Hawthorn VIC 3122</small>
                 </td>
@@ -182,22 +159,22 @@ class Agenda2014 extends React.Component<AgendaPageProps> {
         <h2 style={{ display: 'none' }}>Media</h2>
 
         <div className="text-center" style={{ display: 'none' }}>
-          <ResponsiveVideo src={From2014.YouTubeKeynoteEmbedUrl} />
+          <ResponsiveVideo src={From2013.YouTubeKeynoteEmbedUrl} />
         </div>
         <br />
         <p style={{ display: 'none' }}>
-          <SafeLink href={From2014.YouTubePlaylistUrl} target="_blank">
+          <SafeLink href={From2013.YouTubePlaylistUrl} target="_blank">
             YouTube Playlist
           </SafeLink>{' '}
           |{' '}
-          <SafeLink href={From2014.FlickrAlbumUrl} target="_blank">
+          <SafeLink href={From2013.FlickrAlbumUrl} target="_blank">
             Flickr Album
           </SafeLink>
         </p>
-        <Sponsors show={true} sponsors={From2014.Sponsors} />
+        <Sponsors show={true} sponsors={From2013.Sponsors} />
       </Fragment>
     )
   }
 }
 
-export default withPageMetadata(AgendaPage(Agenda2014, Agenda2014.getAgendaPageParams()))
+export default withPageMetadata(AgendaPage(Agenda2013, Agenda2013.getAgendaPageParams()))
