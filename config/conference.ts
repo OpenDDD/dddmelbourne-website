@@ -12,7 +12,7 @@ const isSoldOut = false
 const date = moment.parseZone('2019-08-10T08:00:00+10:00')
 const endDate = date.clone().add(12, 'h')
 const currentInstance = parseInt(date.format('YYYY'), 10)
-const firstInstance = 2015
+const firstInstance = 2010
 const wave1RegistrationOpenFrom = moment.parseZone('2019-05-06T12:00:00+10:00')
 const wave2RegistrationOpenFrom = moment.parseZone('2019-06-08T15:00:00+10:00')
 const registrationOpenUntil = true
@@ -72,8 +72,7 @@ const Conference: IConference = {
   Name: name,
   Instance: currentInstance.toString(),
   PreviousInstance: (currentInstance - 1).toString(),
-  PreviousInstances: [...Array(currentInstance - 2011).keys()].map((_, i) => (2011 + i).toString()),
-  // PreviousInstances: [...Array(currentInstance - firstInstance).keys()].map((_, i) => (firstInstance + i).toString()),
+  PreviousInstances: [...Array(currentInstance - firstInstance).keys()].map((_, i) => (firstInstance + i).toString()),
   Organiser: {
     Name: 'Oz Dev Inc.',
     Url: 'https://medium.com/ddd-melbourne/the-ddd-melbourne-crew-5f0dd3da09df',

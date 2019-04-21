@@ -17,7 +17,6 @@ class Agenda2010 extends React.Component<AgendaPageProps> {
   }
 
   render() {
-    const SessionCell = this.props.SessionCell
     return (
       <Fragment>
         <div style={{ overflow: 'initial' }}>
