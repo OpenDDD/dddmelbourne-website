@@ -43,6 +43,20 @@ const Sponsors: Sponsor[] = [
     url: 'https://www.womenwhocode.com/melbourne',
   },
   // Services
+  {
+    imageUrl: '/static/images/sponsors/2019/elastic-logo.png',
+    name: 'Elastic',
+    serviceProvided: 'Coffee Cart',
+    type: SponsorType.Service,
+    url: 'https://www.elastic.co/',
+  },
+  {
+    imageUrl: '/static/images/sponsors/2019/luminary-logo.png',
+    name: 'Luminary',
+    serviceProvided: 'WiFi',
+    type: SponsorType.Service,
+    url: 'https://www.luminary.com/',
+  },
   // Standard
 ]
 
