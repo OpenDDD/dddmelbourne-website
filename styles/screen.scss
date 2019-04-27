@@ -550,6 +550,28 @@ section.sponsors.standard {
   padding: 26px 0;
 }
 
+// DDD By Night
+section.ddd-by-night {
+  height: 250px;
+  position: relative;
+  z-index: 1;
+  background: url('/static/images/ddd-by-night/back.jpg') 0 0 no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  .content {
+    position: relative;
+    top: 50%;
+    @include transform(translateY(-50%));
+    color: #fff;
+    font-weight: $bold;
+    img {margin-left: -30px; max-width: 200px!important}
+    p {font-size: 120%; margin-top: 0}
+    .btn {background: url('/static/images/white-30pc.png')}
+    .btn:after {color: #fff}
+      .btn:hover {background: url('/static/images/white-40pc.png')}
+  }
+}
+
 // Footer
 footer {
   color: #fff;
@@ -654,12 +676,12 @@ footer {
   }
 
   img.platinum {
-    max-width: 280px !important;
+    max-width: 270px !important;
     max-height: 260px !important;
   }
 
   img.diamond {
-    max-width: 385px !important;
+    max-width: 325px !important;
   }
 
   small {

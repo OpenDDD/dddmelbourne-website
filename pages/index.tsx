@@ -37,6 +37,13 @@ class Index extends React.Component<IndexProps & WithPageMetadataProps> {
           sponsors={conference.Sponsors}
           hideUpsell={conference.HideSponsorshipUpsell}
         />
+        <section className="ddd-by-night">
+          <div className="content">
+            <img src="/static/images/ddd-by-night/ddd-night-logo.png" alt="DDD By Night" />
+            <p>Free evening event.</p>
+            <p><a href="https://nights.dddmelbourne.com" className="btn" target="_blank">Find Out More</a></p>
+          </div>
+        </section>
       </Page>
     )
   }
