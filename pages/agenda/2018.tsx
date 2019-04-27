@@ -155,7 +155,7 @@ class Agenda2018 extends React.Component<AgendaPageProps> {
               <tr className="breadth-row">
                 <td className="time">15:30</td>
                 <SessionCell sessionId="baed0437-b817-4ff5-8bc1-0ac10ee7307c" />
-                <SessionCell sessionId="599170e2-c2ed-42cf-8a5f-ca3e8d55b49f" />
+                <SessionCell sessionId="e7bbf226-4f1a-41a3-8393-2c0c5de9764f" />
                 <SessionCell sessionId="d5bfc25b-f8c6-4762-8d62-89efe3176456" />
                 <SessionCell sessionId="d2c1f8a3-75bd-4e75-9731-fc03ff351d9b" />
               </tr>
