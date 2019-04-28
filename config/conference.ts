@@ -102,9 +102,7 @@ const Conference: IConference = {
   EmergencyContactPhoneNumber: 'TBC', // TODO
   MediaOfficerName: 'Yolanie Gamage', // TODO
 
-  AnonymousReportFormUrl:
-    'https://forms.office.com/Pages/ResponsePage.aspx?id=8IU585acE0S9pvuDhIEiS26sQVnJFzFLm-6XlxI4bCFURDVGTks2N1VOQVBWWUU1VFJESDZMNlkxNS4u', // TODO
-
+  AnonymousReportFormUrl: 'https://forms.gle/7GkewmN8BrHQtwWQA',
   AnonymousVoting: false,
   MinVotes: 8,
   MaxVotes: 12,
