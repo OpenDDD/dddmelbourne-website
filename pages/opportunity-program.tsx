@@ -41,10 +41,7 @@ export default withPageMetadata((props: WithPageMetadataProps) => (
       <li>You’ll be notified of the result no matter the outcome.</li>
     </ul>
 
-    <p><a href={"https://goo.gl/forms/oUIJjsPuyW3RB5QB3"} className="btn agenda">Apply Here</a></p>
-
-    <p>Applications close: 31st August<br />
-      Application notification: 2nd Septmeber</p>
+    <p><a href={"https://forms.gle/Ere7HUqRHTfcw8PV9"} className="btn agenda">Apply Here</a></p>
 
     <h2 id="how-can-i-tell-you-care-about-inclusion">How can I tell you care about inclusion?</h2>
 

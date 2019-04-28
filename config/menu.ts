@@ -80,6 +80,10 @@ export default function Menu(conference: Conference, dates: Dates) {
         name: 'Code of Conduct',
       },
       {
+        href: '/accessibility',
+        name: 'Accessibility',
+      },
+      {
         href: '/contact',
         name: 'Contact',
       },
