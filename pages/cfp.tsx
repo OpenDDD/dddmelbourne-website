@@ -32,7 +32,8 @@ class CFPPage extends React.Component<WithPageMetadataProps> {
         pageMetadata={this.props.pageMetadata}
         title="Call For Presentations (CFP)"
         hideBanner={true}
-        description={conference.Name + ' Call For Presentations (CFP) page.'}
+        pageImage="https://dddmelbourne.com/static/images/cfp_artwork.png"
+        description="We welcome sessions from any software related topic and from anyone in the software industry."}
       >
         <h1>Call For Presentations (CFP)</h1>
 
