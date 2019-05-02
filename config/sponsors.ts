@@ -22,6 +22,12 @@ const Sponsors: Sponsor[] = [
     url: 'https://www.webjet.com.au/',
   },
   // Gold
+  {
+    imageUrl: '/static/images/sponsors/2019/Compass-Logo.png',
+    name: 'Compass',
+    type: SponsorType.Gold,
+    url: 'https://www.compass.education/',
+  },
   // Silver
   {
     imageUrl: '/static/images/sponsors/2019/ndc-sydney.png',
@@ -56,6 +62,13 @@ const Sponsors: Sponsor[] = [
     serviceProvided: 'WiFi',
     type: SponsorType.Service,
     url: 'https://www.luminary.com/',
+  },
+  {
+    imageUrl: '/static/images/sponsors/2019/livehire.png',
+    name: 'LiveHire',
+    serviceProvided: 'Childcare',
+    type: SponsorType.Service,
+    url: 'https://www.livehire.com/',
   },
   // Standard
 ]
