@@ -1,5 +1,7 @@
 import { Moment } from 'moment'
 
+export type Types = 'conference' | 'voting' | 'tickets' | 'agenda' | 'conference'
+
 export interface Conference {
   Name: string
   Instance: string
@@ -11,8 +13,10 @@ export interface Conference {
   Goal: string
   GoogleAnalyticsId: string
   TicketPrice: string
-  EventbriteId: string
-  FinancialAssistanceEventbriteCode: string
+  TicketsProviderId: TicketsProvider
+  TicketsProviderAccountId: string
+  TicketsProviderEventId: string
+  TicketsProviderFinancialAssistanceCode: string
   IsSoldOut: boolean
   HashTag: string
   SellingPoints: string[]
@@ -73,6 +77,11 @@ export interface Conference {
   Keynotes: Session[]
 }
 
+export enum TicketsProvider {
+  Eventbrite,
+  Tito,
+}
+
 export interface Venue {
   Name: string
   Address: string
@@ -92,7 +101,7 @@ export interface Venue {
 export interface ImportantDate {
   Description: string
   Date: Moment
-  Type: string
+  Type: Types
 }
 
 export interface Dates {

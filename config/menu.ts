@@ -13,7 +13,7 @@ export default function Menu(conference: Conference, dates: Dates) {
     {
       href: '/sponsorship',
       name: 'Sponsorship',
-    }
+    },
   ]
 
   if (dates.RegistrationOpen) {

@@ -3,6 +3,8 @@ queue:
   demands:
     - npm
     - azureps
+trigger:
+- master
 
 variables:
   StorageAccount: 'dddmelbournedeployments'
