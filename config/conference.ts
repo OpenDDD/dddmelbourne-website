@@ -1,7 +1,7 @@
 import moment from 'moment'
 import { orderBy } from '../components/utils/arraySort'
 import SponsorData from '../config/sponsors'
-import { Conference as IConference } from './types'
+import { Conference as IConference, TicketsProvider } from './types'
 import venue from './venue'
 
 const name = 'DDD Melbourne'
@@ -18,10 +18,10 @@ const wave2RegistrationOpenFrom = moment.parseZone('2019-06-08T15:00:00+10:00')
 const registrationOpenUntil = true
   ? null
   : date
-    .clone()
-    .add(-1, 'd')
-    .startOf('day')
-    .add(17, 'h')
+      .clone()
+      .add(-1, 'd')
+      .startOf('day')
+      .add(17, 'h')
 const presentationSubmissionsOpenFrom = moment.parseZone('2019-04-13T17:00:00+10:00')
 const presentationSubmissionsOpenUntil = moment.parseZone('2019-06-15T23:59:59+10:00')
 const votingOpenFrom = moment.parseZone('2019-06-16T12:00:00+10:00')
@@ -84,8 +84,10 @@ const Conference: IConference = {
     'Our goal is to create an approachable event that appeals to the whole community, especially people who usually don’t have the opportunity to attend, or speak at, conferences.',
   GoogleAnalyticsId: 'UA-60040308-1', // TODO
   TicketPrice: '$79',
-  EventbriteId: null, // TODO
-  FinancialAssistanceEventbriteCode: 'financialassistance', // TODO
+  TicketsProviderId: TicketsProvider.Tito,
+  TicketsProviderAccountId: 'ddd-melbourne',
+  TicketsProviderEventId: 'ddd-2019',
+  TicketsProviderFinancialAssistanceCode: 'financialassistance', // TODO
   IsSoldOut: isSoldOut,
   HashTag: 'dddmelbourne',
   SellingPoints: ['One day', 'Fully catered', 'Inclusive atmosphere', 'Interesting presentations', 'Awesome people'],

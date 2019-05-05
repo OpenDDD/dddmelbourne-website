@@ -1,9 +1,10 @@
-@import 'mixins.scss';
-@import 'colours-and-fonts.scss';
-@import 'typography.scss';
-@import 'slick.scss';
-@import 'forms.scss';
-@import '../node_modules/react-responsive-select/dist/ReactResponsiveSelect.css';
+@import "mixins.scss";
+@import "colours-and-fonts.scss";
+@import "typography.scss";
+@import "slick.scss";
+@import "forms.scss";
+@import "../node_modules/react-responsive-select/dist/ReactResponsiveSelect.css";
+@import "tito.scss";
 
 body,
 html {
@@ -53,8 +54,8 @@ hr {
 }
 .btn:after,
 .maillink:after {
-  content: '\f0da';
-  font-family: 'FontAwesome';
+  content: "\f0da";
+  font-family: "FontAwesome";
   color: #000;
   @include opacity(0.3);
   display: inline-block;
@@ -68,7 +69,7 @@ hr {
 .btn-mail:after,
 .maillink:after {
   @include opacity(1);
-  content: '\f003';
+  content: "\f003";
   color: #fff;
 }
 .maillink:after {
@@ -77,7 +78,7 @@ hr {
 }
 .btn-pdf:after {
   @include opacity(1);
-  content: '\f1c1';
+  content: "\f1c1";
   color: #fff;
 }
 .btn:hover,
@@ -156,15 +157,6 @@ a.btn {
   background-color: darken($agenda, 10%);
 }
 
-.btn.pink {
-  background-color: darken($foyer-room, 5%);
-}
-.btn.pink:hover,
-.btn.pink:active,
-.btn.pink:focus {
-  background-color: darken($foyer-room, 10%);
-}
-
 .btn.sponsors {
   background-color: $dark-grey;
 }
@@ -183,20 +175,19 @@ a.btn {
 }
 
 .btn.add-vote:after {
-  content: '\f067';
+  content: "\f067";
 }
 
 .btn.remove-vote:after {
-  content: '\f068';
+  content: "\f068";
 }
 
 // Sprite
-.accordion .panel-heading a:after,
 .slick-vertical .slick-next,
 .slick-vertical .slick-prev,
 .blog-list-post .blog-date:before,
 .blog-list-post .blog-date:after {
-  background-image: url('/static/images/sprite.png') !important;
+  background-image: url("/static/images/sprite.png") !important;
 }
 
 // Modals
@@ -283,8 +274,8 @@ nav.main {
         }
       }
       a:after {
-        content: '\f0da';
-        font-family: 'FontAwesome';
+        content: "\f0da";
+        font-family: "FontAwesome";
         @include opacity(0.3);
         display: inline-block;
         margin: 0 0 0 10px;
@@ -312,7 +303,7 @@ header {
     color: #fff;
   }
   .logo {
-    font-family: 'Montserrat', sans-serif;
+    font-family: "Montserrat", sans-serif;
     line-height: 70px;
     text-transform: uppercase;
     font-size: 25px;
@@ -323,7 +314,7 @@ header {
 // Fader
 .fader {
   height: 220px;
-  background: url('/static/images/fader-back.jpg') 50% 0 no-repeat;
+  background: url("/static/images/fader-back.jpg") 50% 0 no-repeat;
   position: relative;
   z-index: 1;
   background-size: cover;
@@ -332,7 +323,7 @@ header {
 // Banner
 .banner {
   height: 160px;
-  background: url('/static/images/fader-back.jpg') 100% 0 no-repeat;
+  background: url("/static/images/fader-back.jpg") 100% no-repeat;
   position: relative;
   z-index: 1;
   background-size: cover;
@@ -380,7 +371,7 @@ header {
     line-height: 1;
     text-indent: 0;
     display: block;
-    font-family: 'Overpass Mono', monospace;
+    font-family: "Overpass Mono", monospace;
     font-weight: $bold;
     margin-bottom: 0;
   }
@@ -409,94 +400,6 @@ h2 + .event-details {
 // Important Dates
 .important-dates {
   padding-bottom: 20px;
-}
-.imp-date {
-  position: relative;
-  margin: 23px 15px;
-  padding: 1px 20px 0px 20px;
-  background: #f0f0f0;
-  border: 7px solid #000;
-  border-top-width: 0;
-  border-right-width: 0;
-  border-left-width: 0;
-  text-align: left;
-  strong {
-    display: block;
-  }
-  h3 {
-    font-weight: $regular;
-    font-size: 14px;
-    margin-top: 20px;
-    margin-bottom: 10px;
-    strong {
-      font-size: 120%;
-    }
-  }
-  p {
-    margin: 10px 0;
-  }
-}
-
-.imp-date.done {
-  h3,
-  p {
-    @include opacity(0.3);
-  }
-}
-
-.ico-done {
-  position: absolute;
-  right: 20px;
-  top: 25px;
-  width: 30px;
-  height: 30px;
-  line-height: 30px;
-  @include border-radius(50%);
-  overflow: hidden;
-  background: $primary-color;
-  text-align: center;
-}
-.ico-done:before {
-  content: '\f00c';
-  font-family: 'FontAwesome';
-  color: #fff;
-  text-align: center;
-  font-size: 20px;
-}
-
-.imp-date:before,
-.imp-date:after {
-  content: '';
-  display: block;
-  width: 20px;
-  height: 28px;
-  background: url('/static/images/cal-top-mob.png') 0 0 no-repeat;
-  position: absolute;
-  top: 0;
-  @include transform(translateY(-50%));
-}
-.imp-date:before {
-  left: 30px;
-}
-.imp-date:after {
-  right: 30px;
-}
-
-// Border Colours
-.imp-date.content {
-  border-color: $call-content;
-}
-.imp-date.voting {
-  border-color: $voting;
-}
-.imp-date.tickets {
-  border-color: $tickets;
-}
-.imp-date.agenda {
-  border-color: $agenda;
-}
-.imp-date.conference {
-  border-color: $primary-color;
 }
 
 // Keynotes
@@ -555,7 +458,7 @@ section.ddd-by-night {
   height: 250px;
   position: relative;
   z-index: 1;
-  background: url('/static/images/ddd-by-night/back.jpg') 0 0 no-repeat;
+  background: url("/static/images/ddd-by-night/back.jpg") 0 0 no-repeat;
   background-attachment: fixed;
   background-size: cover;
   .content {
@@ -564,11 +467,23 @@ section.ddd-by-night {
     @include transform(translateY(-50%));
     color: #fff;
     font-weight: $bold;
-    img {margin-left: -30px; max-width: 200px!important}
-    p {font-size: 120%; margin-top: 0}
-    .btn {background: url('/static/images/white-30pc.png')}
-    .btn:after {color: #fff}
-      .btn:hover {background: url('/static/images/white-40pc.png')}
+    img {
+      margin-left: -30px;
+      max-width: 200px !important;
+    }
+    p {
+      font-size: 120%;
+      margin-top: 0;
+    }
+    .btn {
+      background: url("/static/images/white-30pc.png");
+    }
+    .btn:after {
+      color: #fff;
+    }
+    .btn:hover {
+      background: url("/static/images/white-40pc.png");
+    }
   }
 }
 
@@ -732,49 +647,6 @@ section.right-sidebar {
         margin: 0 auto;
       }
     }
-    .important-dates-right {
-      margin-bottom: 30px;
-      .imp-date {
-        float: none;
-        width: auto;
-        margin: 10px 0 0 0;
-        border-bottom: 0;
-        border-right-width: 7px;
-        padding: 10px 15px 2px 15px;
-        h3,
-        p {
-          font-size: 14px;
-        }
-        h3 {
-          font-weight: 700;
-          margin: 0;
-          strong {
-            font-size: 100%;
-            display: inline-block;
-          }
-        }
-        p {
-          margin-top: 2px;
-          strong {
-            display: inline-block;
-            font-weight: 400;
-          }
-          strong:after {
-            content: '-';
-            display: inline-block;
-            margin: 0 6px;
-          }
-        }
-        .ico-done {
-          right: 15px;
-          top: 16px;
-        }
-      }
-      .imp-date:before,
-      .imp-date:after {
-        display: none;
-      }
-    }
   }
 }
 
@@ -822,49 +694,6 @@ section.full-width {
       }
     }
   }
-  .important-dates-right {
-    margin-bottom: 30px;
-    .imp-date {
-      float: none;
-      width: auto;
-      margin: 10px 0 0 0;
-      border-bottom: 0;
-      border-right-width: 7px;
-      padding: 10px 15px 2px 15px;
-      h3,
-      p {
-        font-size: 14px;
-      }
-      h3 {
-        font-weight: 700;
-        margin: 0;
-        strong {
-          font-size: 100%;
-          display: inline-block;
-        }
-      }
-      p {
-        margin-top: 2px;
-        strong {
-          display: inline-block;
-          font-weight: 400;
-        }
-        strong:after {
-          content: '-';
-          display: inline-block;
-          margin: 0 0 0 6px;
-        }
-      }
-      .ico-done {
-        right: 15px;
-        top: 16px;
-      }
-    }
-    .imp-date:before,
-    .imp-date:after {
-      display: none;
-    }
-  }
 }
 
 // Accordions
@@ -891,7 +720,7 @@ section.full-width {
       text-decoration: none;
     }
     &:after {
-      content: '';
+      content: "";
       display: block;
       position: absolute;
       right: 0;
@@ -1164,7 +993,7 @@ section.full-width {
   }
   .blog-date:before,
   .blog-date:after {
-    content: '';
+    content: "";
     display: block;
     width: 34px;
     height: 43px;
@@ -1481,7 +1310,7 @@ section.full-width {
     top: 0;
     left: 0;
     margin: auto;
-    background: rgba(0, 0, 0, 0.65);
+    background: rgba(0, 0, 0, 0.75);
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cc000000', endColorstr='#cc000000',GradientType=0 ); /* IE6-9 */
     color: #fff;
     z-index: 100;
@@ -1560,7 +1389,7 @@ tr td.highlight-session {
 
 .agenda-row h2 {
   color: #333;
-  font-family: 'Lato';
+  font-family: "Lato";
   font-weight: 900;
   font-size: 1.75em;
   text-align: center;
@@ -1617,8 +1446,16 @@ tr td.highlight-session {
 
 .agenda-row td {
   background: #fff;
+  width: 33%;
   border: 1px solid #ddd;
   line-height: 1.5;
+}
+
+.agenda-row td.session-4 {
+  width: 24%;
+}
+
+.agenda-row tbody tr {
 }
 
 .agenda-row .time {
@@ -1661,23 +1498,6 @@ tr td.highlight-session {
     padding-bottom: 56.25%;
     padding-top: 25px;
     height: 0;
-  }
-}
-
-// Testing control
-#testing-control {
-  position: fixed;
-  top: 40px;
-  right: 40px;
-  z-index: 100;
-  @include opacity(0.9);
-}
-
-@media only screen and (max-width: 500px) {
-  #testing-control {
-    right: inherit;
-    left: 0;
-    top: 0;
   }
 }
 
@@ -1776,15 +1596,6 @@ tr td.highlight-session {
     img:nth-child(4n) {
       height: 100%;
     }
-  }
-
-  // Important Dates
-  .imp-date {
-    float: left;
-    width: 47%;
-    margin-left: 1.5%;
-    margin-right: 1.5%;
-    margin-bottom: 0;
   }
 
   // What Now? CTA's
@@ -1891,12 +1702,6 @@ tr td.highlight-session {
   .important-dates {
     padding-bottom: 30px;
   }
-  .imp-date {
-    width: 30.25%;
-    margin-left: 1.5%;
-    margin-right: 1.5%;
-    margin-top: 35px;
-  }
 
   // Strip of Photos
   section.image-strip {
@@ -1966,19 +1771,6 @@ tr td.highlight-session {
         padding: 7px 15px;
         margin-top: 35px;
       }
-      .important-dates-right {
-        .imp-date {
-          float: none;
-          width: auto;
-          h3,
-          p {
-            font-size: 15px;
-          }
-        }
-        .imp-date:nth-child(odd) {
-          margin-right: 0;
-        }
-      }
     }
   }
 
@@ -1992,10 +1784,6 @@ tr td.highlight-session {
         height: 278px;
         padding: 30px;
       }
-    }
-    .important-dates-right {
-      float: right;
-      width: 48%;
     }
   }
 
@@ -2121,48 +1909,6 @@ tr td.highlight-session {
   // Important Dates
   .important-dates {
     padding-bottom: 40px;
-  }
-  .imp-date {
-    margin-top: 53px;
-    padding: 20px 20px 10px 20px;
-    h3 {
-      font-size: 22px;
-      strong {
-        font-size: 120%;
-      }
-    }
-  }
-  .imp-date:before,
-  .imp-date:after {
-    width: 40px;
-    height: 58px;
-    background: url('/static/images/cal-top.png') 0 0 no-repeat;
-  }
-  .imp-date:before {
-    left: 27px;
-  }
-  .imp-date:after {
-    right: 27px;
-  }
-
-  section.right-sidebar {
-    .imp-date {
-      .ico-done {
-        @include transform(scale(0.9));
-      }
-    }
-  }
-
-  // Date Done
-  .ico-done {
-    right: 20px;
-    top: 35px;
-    width: 35px;
-    height: 35px;
-    line-height: 37px;
-  }
-  .ico-done:before {
-    font-size: 22px;
   }
 
   // Strip of Photos
@@ -2321,29 +2067,6 @@ tr td.highlight-session {
   .important-dates {
     padding-bottom: 50px;
   }
-  .imp-date {
-    width: 23%;
-    margin-left: 1%;
-    margin-right: 1%;
-    h3 {
-      font-size: 22px;
-      strong {
-        font-size: 120%;
-      }
-    }
-  }
-
-  // Date Done
-  .ico-done {
-    right: 20px;
-    top: 37px;
-    width: 37px;
-    height: 37px;
-    line-height: 39px;
-  }
-  .ico-done:before {
-    font-size: 23px;
-  }
 
   // Strip of Photos
   section.image-strip {
@@ -2355,9 +2078,6 @@ tr td.highlight-session {
     padding-bottom: 60px;
     nav.foot-nav {
       padding: 40px 0;
-    }
-    .copyright {
-      font-size: 85%;
     }
   }
 
@@ -2396,14 +2116,6 @@ tr td.highlight-session {
         padding: 20px 25px;
         margin-top: 45px;
       }
-      .important-dates-right {
-        .imp-date {
-          h3,
-          p {
-            font-size: 16px;
-          }
-        }
-      }
     }
   }
 
@@ -2415,14 +2127,6 @@ tr td.highlight-session {
         height: 301px;
         .btn {
           margin-top: 0;
-        }
-      }
-      .important-dates-right {
-        .imp-date {
-          h3,
-          p {
-            font-size: 16px;
-          }
         }
       }
     }
@@ -2536,26 +2240,6 @@ tr td.highlight-session {
   .important-dates {
     padding-bottom: 50px;
   }
-  .imp-date {
-    margin-top: 60px;
-    h3 {
-      font-size: 24px;
-      strong {
-        font-size: 120%;
-      }
-    }
-  }
-  // Date Done
-  .ico-done {
-    right: 20px;
-    top: 40px;
-    width: 40px;
-    height: 40px;
-    line-height: 40px;
-  }
-  .ico-done:before {
-    font-size: 24px;
-  }
 
   // Strip of Photos
   section.image-strip {
@@ -2584,12 +2268,6 @@ tr td.highlight-session {
     }
   }
 
-  // Full Width Pagetype
-  section.full-width .important-dates-right .imp-date .ico-done {
-    right: 15px;
-    top: 20px;
-  }
-
   // Full Width Page Type
   section.full-width {
     .right-col {
@@ -2600,9 +2278,6 @@ tr td.highlight-session {
         .btn {
           margin-top: 0;
         }
-      }
-      .important-dates-right .imp-date {
-        padding: 18px 18px 8px 18px;
       }
     }
   }
