@@ -105,7 +105,7 @@ const Conference: IConference = {
   MediaOfficerName: 'Yolanie Gamage', // TODO
 
   AnonymousReportFormUrl: 'https://forms.gle/7GkewmN8BrHQtwWQA',
-  AnonymousVoting: false,
+  AnonymousVoting: true,
   MinVotes: 8,
   MaxVotes: 12,
 
