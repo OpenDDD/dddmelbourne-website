@@ -48,6 +48,12 @@ const Sponsors: Sponsor[] = [
     type: SponsorType.Community,
     url: 'https://www.womenwhocode.com/melbourne',
   },
+  {
+    imageUrl: '/static/images/sponsors/2019/back2bikes.png',
+    name: 'Back2Bikes',
+    type: SponsorType.Community,
+    url: 'http://back2bikes.com.au/',
+  },
   // Services
   {
     imageUrl: '/static/images/sponsors/2019/elastic-logo.png',
