@@ -89,7 +89,7 @@ const Conference: IConference = {
   TicketsProviderEventId: 'ddd-2019',
   TicketsProviderFinancialAssistanceCode: 'financialassistance', // TODO
   IsSoldOut: isSoldOut,
-  HashTag: 'dddmelbourne',
+  HashTag: 'DDDMelbourne',
   SellingPoints: ['One day', 'Fully catered', 'Inclusive atmosphere', 'Interesting presentations', 'Awesome people'],
   Handbook: null,
   SessionizeUrl: 'https://sessionize.com/ddd-melbourne-2019/',
