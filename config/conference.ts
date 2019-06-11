@@ -94,6 +94,7 @@ const Conference: IConference = {
   Handbook: null,
   SessionizeUrl: 'https://sessionize.com/ddd-melbourne-2019/',
   SessionizeEditUrl: 'https://sessionize.com/app/speaker/',
+  PrivateSubmissionUrl: 'https://forms.gle/Hbfn1fiEZqkcwJ8p7',
   PreviouslySubmittedTopics:
     'Agile, building great teams, UI design, software testing, virtual reality, women in tech, web accessibility, open source software, feedback culture, self-employment tips, mentoring, Scrum, pair programming, bots, IoT, machine learning, neural networks, quantum encryption, Assembly language, automated deployments, mobile development, mobile test automation, architecture, microservices, serverless, APIs, GraphQL, actors, JavaScript, authentication, React, UWP,  HTTP protocol, Git, Docker and pointers',
 

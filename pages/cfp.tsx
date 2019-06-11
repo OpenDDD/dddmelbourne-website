@@ -106,6 +106,19 @@ class CFPPage extends React.Component<WithPageMetadataProps> {
           </SafeLink>
         </p>
 
+        <p>
+          Even though submissions will be anonymised to remove bias in our voting process, we recognise that open voting
+          on your talk may be daunting to some and we have provided a private submission channel to make sure everyone
+          can submit in a way in which they are comfortable. These talk submissions will also be anonymised when the
+          committee are reviewing them and they will have no advantage nor disadvantage over the regular channel.
+        </p>
+
+        <p className="text-center">
+          <SafeLink className="btn content" target="_blank" href={conference.PrivateSubmissionUrl}>
+            Submit to our private channel
+          </SafeLink>
+        </p>
+
         <p>Other things to note for presenters:</p>
         <ul>
           <li>

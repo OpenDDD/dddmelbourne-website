@@ -28,6 +28,18 @@ const Sponsors: Sponsor[] = [
     type: SponsorType.Gold,
     url: 'https://www.compass.education/',
   },
+  {
+    imageUrl: '/static/images/sponsors/2019/readify.png',
+    name: 'Readify',
+    type: SponsorType.Gold,
+    url: 'https://readify.net/',
+  },
+  {
+    imageUrl: '/static/images/sponsors/2019/logo-ovh.png',
+    name: 'OVH',
+    type: SponsorType.Gold,
+    url: 'https://www.ovh.com.au/',
+  },
   // Silver
   {
     imageUrl: '/static/images/sponsors/2019/ndc-sydney.png',
