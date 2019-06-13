@@ -1,7 +1,7 @@
 import moment from 'moment'
 import { orderBy } from '../components/utils/arraySort'
 import SponsorData from '../config/sponsors'
-import { Conference as IConference, TicketsProvider } from './types'
+import { Conference as IConference, TicketNumberWhileVoting, TicketsProvider } from './types'
 import venue from './venue'
 
 const name = 'DDD Melbourne'
@@ -107,6 +107,8 @@ const Conference: IConference = {
 
   AnonymousReportFormUrl: 'https://forms.gle/7GkewmN8BrHQtwWQA',
   AnonymousVoting: true,
+  PreferentialVoting: true,
+  TicketNumberWhileVoting: TicketNumberWhileVoting.Required,
   MinVotes: 6,
   MaxVotes: 12,
 
