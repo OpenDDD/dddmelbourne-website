@@ -107,7 +107,7 @@ const Conference: IConference = {
 
   AnonymousReportFormUrl: 'https://forms.gle/7GkewmN8BrHQtwWQA',
   AnonymousVoting: true,
-  MinVotes: 8,
+  MinVotes: 6,
   MaxVotes: 12,
 
   Date: date,
