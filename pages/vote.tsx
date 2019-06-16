@@ -9,7 +9,7 @@ import dateTimeProvider from '../components/utils/dateTimeProvider'
 import Voting from '../components/voting'
 import Conference from '../config/conference'
 import getConferenceDates from '../config/dates'
-import { Session } from '../config/types'
+import { Conference as Conf, Session, TicketNumberWhileVoting } from '../config/types'
 import Page from '../layouts/main'
 
 interface VoteProps extends WithPageMetadataProps {
@@ -23,6 +23,14 @@ interface VoteState {
   startTime: string
   voteId: string
 }
+
+enum StorageKeys {
+  VOTING_ID = 'ddd-voting-id',
+  VOTING_START_TIME = 'ddd-voting-start-time',
+  VOTING_SESSION_ORDER = 'ddd-voting-session-order',
+}
+
+const storageKey = (conference: Conf, key: StorageKeys) => `${key}-${conference.Instance}`
 
 class VotePage extends React.Component<VoteProps, VoteState> {
   static getInitialProps({ res }) {
@@ -63,7 +71,9 @@ class VotePage extends React.Component<VoteProps, VoteState> {
       })
       .catch(error => {
         logException('Error when getting sessions', error, {
-          voteId: !!localStorage ? localStorage.getItem('ddd-voting-id') : null,
+          voteId: !!localStorage
+            ? localStorage.getItem(storageKey(this.props.pageMetadata.conference, StorageKeys.VOTING_ID))
+            : null,
         })
         that.setState({ isError: true, isLoading: false })
         if (console) {
@@ -81,29 +91,63 @@ class VotePage extends React.Component<VoteProps, VoteState> {
         sessions,
       })
     } else {
-      if (!localStorage.getItem('ddd-voting-start-time')) {
-        localStorage.setItem('ddd-voting-start-time', moment().toISOString())
+      // Patch up existing new sessions for this conference instance from before we fixed the local storage 'old data' issue
+      if (
+        !localStorage.getItem(storageKey(this.props.pageMetadata.conference, StorageKeys.VOTING_ID)) &&
+        localStorage.getItem(StorageKeys.VOTING_ID) &&
+        moment
+          .parseZone(localStorage.getItem(StorageKeys.VOTING_START_TIME))
+          .isAfter(this.props.pageMetadata.conference.VotingOpenFrom)
+      ) {
+        localStorage.setItem(
+          storageKey(this.props.pageMetadata.conference, StorageKeys.VOTING_ID),
+          localStorage.getItem(StorageKeys.VOTING_ID),
+        )
+        localStorage.setItem(
+          storageKey(this.props.pageMetadata.conference, StorageKeys.VOTING_START_TIME),
+          localStorage.getItem(StorageKeys.VOTING_START_TIME),
+        )
+        localStorage.setItem(
+          storageKey(this.props.pageMetadata.conference, StorageKeys.VOTING_SESSION_ORDER),
+          localStorage.getItem(StorageKeys.VOTING_SESSION_ORDER),
+        )
       }
-      if (!localStorage.getItem('ddd-voting-id')) {
+
+      if (!localStorage.getItem(storageKey(this.props.pageMetadata.conference, StorageKeys.VOTING_START_TIME))) {
+        localStorage.setItem(
+          storageKey(this.props.pageMetadata.conference, StorageKeys.VOTING_START_TIME),
+          moment().toISOString(),
+        )
+      }
+      if (!localStorage.getItem(storageKey(this.props.pageMetadata.conference, StorageKeys.VOTING_ID))) {
         const voteId = uuid()
-        logEvent('voting', 'voteIdGenerated', { id: voteId, startTime: localStorage.getItem('ddd-voting-start-time') })
-        localStorage.setItem('ddd-voting-id', voteId)
+        logEvent('voting', 'voteIdGenerated', {
+          id: voteId,
+          startTime: localStorage.getItem(
+            storageKey(this.props.pageMetadata.conference, StorageKeys.VOTING_START_TIME),
+          ),
+        })
+        localStorage.setItem(storageKey(this.props.pageMetadata.conference, StorageKeys.VOTING_ID), voteId)
       } else {
-        logEvent('voting', 'returnToVoting', { id: localStorage.getItem('ddd-voting-id') })
+        logEvent('voting', 'returnToVoting', {
+          id: localStorage.getItem(storageKey(this.props.pageMetadata.conference, StorageKeys.VOTING_ID)),
+        })
       }
 
       this.setState({
-        startTime: localStorage.getItem('ddd-voting-start-time'),
-        voteId: localStorage.getItem('ddd-voting-id'),
+        startTime: localStorage.getItem(storageKey(this.props.pageMetadata.conference, StorageKeys.VOTING_START_TIME)),
+        voteId: localStorage.getItem(storageKey(this.props.pageMetadata.conference, StorageKeys.VOTING_ID)),
       })
 
-      const orderings = localStorage.getItem('ddd-voting-session-order')
+      const orderings = localStorage.getItem(
+        storageKey(this.props.pageMetadata.conference, StorageKeys.VOTING_SESSION_ORDER),
+      )
 
       // if previous ordering data has not been persisted in local storage
       if (orderings == null) {
         const ids = JSON.stringify(sessions.map(({ Id }) => Id)) // Randomizing will be done in backend API
 
-        localStorage.setItem('ddd-voting-session-order', ids)
+        localStorage.setItem(storageKey(this.props.pageMetadata.conference, StorageKeys.VOTING_SESSION_ORDER), ids)
 
         this.setState({
           isLoading: false,
@@ -118,7 +162,7 @@ class VotePage extends React.Component<VoteProps, VoteState> {
           .concat(sessions.filter(s => !orderingsArray.find(id => id === s.Id)))
 
         const ids = JSON.stringify(ordered.map(({ Id }) => Id))
-        localStorage.setItem('ddd-voting-session-order', ids)
+        localStorage.setItem(storageKey(this.props.pageMetadata.conference, StorageKeys.VOTING_SESSION_ORDER), ids)
 
         this.setState({
           isLoading: false,
@@ -200,10 +244,6 @@ class VotePage extends React.Component<VoteProps, VoteState> {
                   to complete it in one go
                 </li>
                 <li>
-                  There is an ability to <em>flag</em> sessions with a visual indicator; you can use this in any way
-                  that suits you e.g. mark sessions you've seen, mark sessions you aren't interested in, etc.
-                </li>
-                <li>
                   You can add/remove sessions to/from a shortlist and view that shortlist separately;{' '}
                   <strong>we recommend trying to come up with a shortlist first</strong> and then selecting your votes
                   from the shortlist after removing the sessions you are less interested in from the shortlist
@@ -221,16 +261,39 @@ class VotePage extends React.Component<VoteProps, VoteState> {
                   in your technical area, cover soft skills / leadership and/or are a bit more out there (to stretch
                   yourself), but it's totally up to you to vote for your perfect agenda!
                 </li>
-                <li>
-                  We ideally want the people who are actually attending to be the ones that have the greatest influence
-                  on the agenda and we also feel this is fairer to session submitters since it makes for a more level
-                  playing field for social network reach; this year we've added an optional field for you to add in your
-                  ticket # (from your confirmation email) if you've{' '}
-                  <Link href="/tickets">
-                    <a>purchased a ticket</a>
-                  </Link>{' '}
-                  which will <strong>give your vote a higher weighting</strong>
-                </li>
+                {this.props.pageMetadata.conference.TicketNumberWhileVoting === TicketNumberWhileVoting.Optional && (
+                  <li>
+                    We ideally want the people who are attending to have the greatest influence on the agenda and we
+                    also feel this is fairer to session submitters since it makes for a more level playing field for
+                    social network reach; this year we have an optional field for you to add in your ticket # (from your
+                    confirmation email) if you've{' '}
+                    <Link href="/tickets">
+                      <a>purchased a ticket</a>
+                    </Link>{' '}
+                    which will <strong>give your vote a higher weighting</strong>.
+                  </li>
+                )}
+                {this.props.pageMetadata.conference.TicketNumberWhileVoting === TicketNumberWhileVoting.Required && (
+                  <li>
+                    We ideally want the people who are attending to have the greatest influence on the agenda and we
+                    also feel this is fairer to session submitters since it makes for a more level playing field for
+                    social network reach; this year you have to{' '}
+                    <Link href="/tickets">
+                      <a>purchase a ticket</a>
+                    </Link>{' '}
+                    in order to vote.
+                  </li>
+                )}
+                {this.props.pageMetadata.conference.PreferentialVoting && (
+                  <li>
+                    Once you have selected the sessions you want to vote for{' '}
+                    <strong>you will need to order your votes based on your preference.</strong> We are using a{' '}
+                    <a href="https://en.wikipedia.org/wiki/Preferential_voting" target="_blank">
+                      preferential voting system
+                    </a>{' '}
+                    to maximise the impact of your votes.
+                  </li>
+                )}
               </ul>
             </div>
           </div>
@@ -254,7 +317,7 @@ class VotePage extends React.Component<VoteProps, VoteState> {
             <br />
             Thanks!
             <br />
-            &lt;3 DDD Melbourne team
+            &lt;3 {this.props.pageMetadata.conference.Name} team
           </p>
 
           {this.state.isLoading && <p>Loading sessions...</p>}
@@ -273,6 +336,11 @@ class VotePage extends React.Component<VoteProps, VoteState> {
               maxVotes={maxVotes}
               anonymousVoting={this.props.pageMetadata.conference.AnonymousVoting}
               submitVoteUrl={this.props.pageMetadata.appConfig.submitVoteUrl}
+              conferenceInstance={this.props.pageMetadata.conference.Instance}
+              conferenceName={this.props.pageMetadata.conference.Name}
+              ticketsProvider={this.props.pageMetadata.conference.TicketsProviderId}
+              preferentialVoting={this.props.pageMetadata.conference.PreferentialVoting}
+              ticketNumberHandling={this.props.pageMetadata.conference.TicketNumberWhileVoting}
             />
           )}
         </div>
