@@ -110,7 +110,7 @@ const Conference: IConference = {
   PreferentialVoting: true,
   TicketNumberWhileVoting: TicketNumberWhileVoting.Required,
   MinVotes: 6,
-  MaxVotes: 12,
+  MaxVotes: 10,
 
   Date: date,
   EndDate: endDate,
