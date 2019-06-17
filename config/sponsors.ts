@@ -66,6 +66,12 @@ const Sponsors: Sponsor[] = [
     type: SponsorType.Community,
     url: 'http://back2bikes.com.au/',
   },
+  {
+    imageUrl: '/static/images/sponsors/2019/yow.png',
+    name: 'YOW',
+    type: SponsorType.Community,
+    url: 'http://www.yowconference.com',
+  },
   // Services
   {
     imageUrl: '/static/images/sponsors/2019/elastic-logo.png',
