@@ -40,6 +40,12 @@ const Sponsors: Sponsor[] = [
     type: SponsorType.Gold,
     url: 'https://www.ovh.com.au/',
   },
+  {
+    imageUrl: '/static/images/sponsors/2019/kiandrait.png',
+    name: 'Kiandra IT',
+    type: SponsorType.Gold,
+    url: 'https://kiandra.com.au/',
+  },
   // Silver
   {
     imageUrl: '/static/images/sponsors/2019/ndc-sydney.png',
