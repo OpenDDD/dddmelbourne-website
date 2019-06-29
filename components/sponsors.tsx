@@ -26,6 +26,19 @@ const Sponsors: StatelessComponent<SponsorsProps> = ({ sponsors, show, hideUpsel
           </Fragment>
         )}
 
+        {sponsors.find(s => s.type === SponsorType.AfterParty) && (
+          <Fragment>
+            <h2>After Party Partner</h2>
+            {sponsors
+              .filter(s => s.type === SponsorType.AfterParty)
+              .map(s => (
+                <SafeLink href={s.url} target="_blank" key={s.name} title={s.name}>
+                  <img src={s.imageUrl} alt={s.name} className="afterparty" />
+                </SafeLink>
+              ))}
+          </Fragment>
+        )}
+
         {sponsors.find(s => s.type === SponsorType.Platinum) && (
           <Fragment>
             <h2>

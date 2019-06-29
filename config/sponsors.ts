@@ -35,7 +35,7 @@ const Sponsors: Sponsor[] = [
     url: 'https://www.compass.education/',
   },
   {
-    imageUrl: '/static/images/sponsors/2019/readify.png',
+    imageUrl: '/static/images/sponsors/2019/readify-kloud.png',
     name: 'Readify',
     type: SponsorType.Gold,
     url: 'https://readify.net/',
