@@ -141,7 +141,7 @@ const Conference: IConference = {
   Socials: {
     Twitter: {
       Id: '971044039',
-      Name: 'DDDMelbourne',
+      Name: 'DDDMelb',
     },
     Instagram: 'dddmelb',
     Flickr: 'https://www.flickr.com/photos/135717775@N07/albums',

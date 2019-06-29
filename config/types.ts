@@ -161,6 +161,7 @@ export enum SponsorType {
   Diamond,
   Service,
   Community,
+  AfterParty,
 }
 
 export interface Sponsor {

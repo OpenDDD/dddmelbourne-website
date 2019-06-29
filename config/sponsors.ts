@@ -21,6 +21,12 @@ const Sponsors: Sponsor[] = [
     type: SponsorType.Platinum,
     url: 'https://www.webjet.com.au/',
   },
+  {
+    imageUrl: '/static/images/sponsors/2019/GitHub_Logo.png',
+    name: 'GitHub',
+    type: SponsorType.AfterParty,
+    url: 'https://www.github.com/',
+  },
   // Gold
   {
     imageUrl: '/static/images/sponsors/2019/Compass-Logo.png',
@@ -45,6 +51,12 @@ const Sponsors: Sponsor[] = [
     name: 'Kiandra IT',
     type: SponsorType.Gold,
     url: 'https://kiandra.com.au/',
+  },
+  {
+    imageUrl: '/static/images/sponsors/2019/nintex.png',
+    name: 'Nintex',
+    type: SponsorType.Gold,
+    url: 'https://www.nintex.com/',
   },
   // Silver
   {
