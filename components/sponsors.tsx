@@ -28,7 +28,7 @@ const Sponsors: StatelessComponent<SponsorsProps> = ({ sponsors, show, hideUpsel
 
         {sponsors.find(s => s.type === SponsorType.AfterParty) && (
           <Fragment>
-            <h2>After Party Partner</h2>
+            <h2>After Party Sponsor</h2>
             {sponsors
               .filter(s => s.type === SponsorType.AfterParty)
               .map(s => (
