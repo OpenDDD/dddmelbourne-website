@@ -149,9 +149,11 @@ export const CurrentAgenda: React.FC<CurrentAgendaProps> = ({
                   session={getSessions('431b57f6-be91-4b56-a4e3-cf0df13a61ec')}
                   onSelect={onSelect}
                 />
-                <AgendaSession room="Eureka Room 3">
-                  <StyledTrackHeader>Women Who Code Melbourne Panel</StyledTrackHeader>
-                </AgendaSession>
+                <AgendaSession
+                  room="Eureka Room 3"
+                  session={getSessions('f9ffaf37-87b9-4ecd-99ea-058a1925e6d3')}
+                  onSelect={onSelect}
+                />
                 <AgendaSession
                   room="JuniorDev"
                   session={getSessions('1ab27723-dac5-4bea-a66a-3c3ef81836eb')}
@@ -199,7 +201,7 @@ export const CurrentAgenda: React.FC<CurrentAgendaProps> = ({
                 </AgendaSession>
               </StyledAgendaRow>
               <StyledAgendaRow>
-                <AgendaTime time={date.clone().set({ hour: 13, minute: 20 })} />
+                <AgendaTime time={date.clone().set({ hour: 13, minute: 35 })} />
                 <AgendaSession
                   room="Goldfields Theatre"
                   session={getSessions('619a1e2b-26d0-4af3-8c96-ed6de432402c')}
