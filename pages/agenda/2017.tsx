@@ -61,7 +61,9 @@ class Agenda2017 extends React.Component<AgendaPageProps> {
                 <td colSpan={7} className="breadth">
                   Registration
                   <br />
-                  <small className="room" style={{ color: 'rgb(1, 182, 173)' }}>Courtyard Entrance</small>
+                  <small className="room" style={{ color: 'rgb(1, 182, 173)' }}>
+                    Courtyard Entrance
+                  </small>
                 </td>
               </tr>
 
@@ -70,13 +72,20 @@ class Agenda2017 extends React.Component<AgendaPageProps> {
                 <td colSpan={7} className="breadth">
                   Welcome and housekeeping
                   <br />
-                  <small className="room" style={{ color: 'rgb(1, 182, 173)' }}>K309</small>
+                  <small className="room" style={{ color: 'rgb(1, 182, 173)' }}>
+                    K309
+                  </small>
                 </td>
               </tr>
 
               <tr className="breadth-row">
                 <td className="time">9:00</td>
-                <SessionCell isKeynote={true} sessionId="keynote" room="K309" roomStyle={{ color: 'rgb(1, 182, 173)' }} />
+                <SessionCell
+                  isKeynote={true}
+                  sessionId="keynote"
+                  room="K309"
+                  roomStyle={{ color: 'rgb(1, 182, 173)' }}
+                />
               </tr>
 
               <tr className="breadth-row">
@@ -84,7 +93,9 @@ class Agenda2017 extends React.Component<AgendaPageProps> {
                 <td colSpan={7} className="breadth">
                   Morning Tea
                   <br />
-                  <small className="room" style={{ color: 'rgb(1, 182, 173)' }}>Foyer</small>
+                  <small className="room" style={{ color: 'rgb(1, 182, 173)' }}>
+                    Foyer
+                  </small>
                 </td>
               </tr>
 
@@ -149,7 +160,9 @@ class Agenda2017 extends React.Component<AgendaPageProps> {
                 <td colSpan={7} className="breadth">
                   Lunch
                   <br />
-                  <small className="room" style={{ color: 'rgb(1, 182, 173)' }}>Foyer</small>
+                  <small className="room" style={{ color: 'rgb(1, 182, 173)' }}>
+                    Foyer
+                  </small>
                 </td>
               </tr>
 
@@ -169,7 +182,9 @@ class Agenda2017 extends React.Component<AgendaPageProps> {
                 <td colSpan={7} className="breadth">
                   Afternoon Tea
                   <br />
-                  <small className="room" style={{ color: 'rgb(1, 182, 173)' }}>Foyer</small>
+                  <small className="room" style={{ color: 'rgb(1, 182, 173)' }}>
+                    Foyer
+                  </small>
                 </td>
               </tr>
 
@@ -193,7 +208,12 @@ class Agenda2017 extends React.Component<AgendaPageProps> {
 
               <tr className="breadth-row">
                 <td className="time">16:00</td>
-                <SessionCell isLocknote={true} sessionId="locknote" room="K309" roomStyle={{ color: 'rgb(1, 182, 173)' }} />
+                <SessionCell
+                  isLocknote={true}
+                  sessionId="locknote"
+                  room="K309"
+                  roomStyle={{ color: 'rgb(1, 182, 173)' }}
+                />
               </tr>
 
               <tr className="breadth-row">
@@ -201,7 +221,9 @@ class Agenda2017 extends React.Component<AgendaPageProps> {
                 <td colSpan={7} className="breadth">
                   <strong>Give aways and wrap up</strong>
                   <br />
-                  <small className="room" style={{ color: 'rgb(1, 182, 173)' }}>K309</small>
+                  <small className="room" style={{ color: 'rgb(1, 182, 173)' }}>
+                    K309
+                  </small>
                 </td>
               </tr>
 
@@ -211,7 +233,9 @@ class Agenda2017 extends React.Component<AgendaPageProps> {
                   <strong>Afterparty</strong>
                   <br />
                   <br />
-                  <small className="room" style={{ color: 'rgb(1, 182, 173)' }}>The Glasshouse Caulfield</small>
+                  <small className="room" style={{ color: 'rgb(1, 182, 173)' }}>
+                    The Glasshouse Caulfield
+                  </small>
                   <br />
                   <small>31 Station St, Caulfield East VIC 3145</small>
                 </td>
@@ -234,7 +258,7 @@ class Agenda2017 extends React.Component<AgendaPageProps> {
             Flickr Album
           </SafeLink>
         </p>
-        <Sponsors show={true} sponsors={From2017.Sponsors} />
+        <Sponsors show={true} hideUpsell={true} sponsors={From2017.Sponsors} />
       </Fragment>
     )
   }

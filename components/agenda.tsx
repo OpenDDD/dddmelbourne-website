@@ -1,5 +1,5 @@
 import fetch from 'isomorphic-fetch'
-import React, { CSSProperties } from 'react'
+import React from 'react'
 import { Fragment } from 'react'
 import { Modal } from 'react-bootstrap'
 import { Session, Sponsor } from '../config/types'
@@ -14,7 +14,6 @@ export interface SessionCellProps {
   rowSpan?: number
   sponsorName?: string
   room?: string
-  roomStyle?: CSSProperties
 }
 
 export interface AgendaProps {
@@ -144,10 +143,10 @@ const agenda = (WrappedComponent: React.ComponentType<AgendaProps>, externalProp
                   {props.isKeynote
                     ? 'KEYNOTE - '
                     : props.isLocknote
-                      ? 'LOCKNOTE - '
-                      : props.isLunchnote
-                        ? 'LUNCHNOTE - '
-                        : null}
+                    ? 'LOCKNOTE - '
+                    : props.isLunchnote
+                    ? 'LUNCHNOTE - '
+                    : null}
                   {session.Presenters.map(p => p.Name).join(', ')}
                 </strong>
                 <br />
@@ -161,7 +160,7 @@ const agenda = (WrappedComponent: React.ComponentType<AgendaProps>, externalProp
                 {props.room && (
                   <Fragment>
                     <br />
-                    <small className="room" style={props.roomStyle}>{props.room}</small>
+                    <small className="room">{props.room}</small>
                   </Fragment>
                 )}
               </Fragment>

@@ -7,7 +7,7 @@
   "license": "N/A",
   "private": true,
   "scripts": {
-    "dev": "cross-env TESTING_MODE=true APPINSIGHTS_INSTRUMENTATIONKEY=c87865f7-34bd-43db-b0ae-38537acbd0d6 GET_SUBMISSIONS_URL=https://localhost:7071/api/GetSubmissions SUBMIT_VOTE_URL=https://localhost:7071/api/SubmitVote GET_AGENDA_URL=https://localhost:7071/api/GetAgenda next --inspect",
+    "dev": "cross-env TESTING_MODE=true APPINSIGHTS_INSTRUMENTATIONKEY=c87865f7-34bd-43db-b0ae-38537acbd0d6 GET_SUBMISSIONS_URL=https://dddmelb-functions-prod.azurewebsites.net/api/GetSubmissions SUBMIT_VOTE_URL=https://dddmelb-functions-prod.azurewebsites.net/api/SubmitVote GET_AGENDA_URL=https://dddmelb-functions-prod.azurewebsites.net/api/GetAgenda next --inspect",
     "build": "next build",
     "start": "next start",
     "analyze": "cross-env BUNDLE_ANALYZE=both next build",
@@ -18,6 +18,8 @@
     "@emotion/core": "^10.0.10",
     "@emotion/is-prop-valid": "^0.7.3",
     "@emotion/styled": "^10.0.10",
+    "@reach/dialog": "^0.2.9",
+    "@zeit/next-css": "^1.0.1",
     "applicationinsights": "^1.2.0",
     "emotion-theming": "^10.0.10",
     "express": "^4.16.4",
