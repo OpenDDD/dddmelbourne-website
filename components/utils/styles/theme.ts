@@ -6,12 +6,12 @@ export const theme = {
   colors: {
     primary: '#008554',
     primaryDark: '#006c44',
-    secondary: '#da459c',
-    secondaryDark: '#d63091',
+    secondary: '#2274a5',
+    secondaryDark: '#1e6590',
     inverse: '#4b4c4e',
     inverseDark: '#3f4041',
-    tertiary: '#2274a5',
-    tertiaryDark: '#1e6590',
+    tertiary: '#da459c',
+    tertiaryDark: '#d63091',
     body: '#292929',
     darkGrey: '#58595b',
     lightGrey: '#f0f0f4',
@@ -32,9 +32,13 @@ export const theme = {
     afterpartyRoom: '#dd4876',
   },
   weights: {
+    /** Light: 300 */
     light: 300,
+    /** Regular: 400 */
     regular: 400,
+    /** Semi-bold: 600 */
     semiBold: 600,
+    /** Bold: 700 */
     bold: 700,
   },
   fonts: {

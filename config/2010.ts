@@ -15,12 +15,14 @@ const From2010: From2010 = {
   Sponsors: [
     // Gold
     {
+      id: '',
       imageUrl: '/static/images/sponsors/2010/nab.png',
       name: 'NAB',
       type: SponsorType.Gold,
       url: 'https://nab.com.au/',
     },
     {
+      id: '',
       imageUrl: '/static/images/sponsors/2010/readify.png',
       name: 'Readify',
       type: SponsorType.Gold,

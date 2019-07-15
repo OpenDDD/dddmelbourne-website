@@ -1,14 +1,14 @@
 import moment from 'moment'
 import { orderBy } from '../components/utils/arraySort'
 import SponsorData from '../config/sponsors'
-import { Conference as IConference, TicketNumberWhileVoting, TicketsProvider } from './types'
+import { Conference as IConference, TicketNumberWhileVoting, TicketPurchasingOptions, TicketsProvider } from './types'
 import venue from './venue'
 
 const name = 'DDD Melbourne'
 const tagLine = `${name} is an inclusive non-profit conference for the software community`
 
 const hideDate = false
-const isSoldOut = false
+const ticketPurchasingOptions = TicketPurchasingOptions.OnSale
 const date = moment.parseZone('2019-08-10T08:00:00+10:00')
 const endDate = date.clone().add(12, 'h')
 const currentInstance = parseInt(date.format('YYYY'), 10)
@@ -18,10 +18,10 @@ const wave2RegistrationOpenFrom = moment.parseZone('2019-06-08T15:00:00+10:00')
 const registrationOpenUntil = true
   ? null
   : date
-      .clone()
-      .add(-1, 'd')
-      .startOf('day')
-      .add(17, 'h')
+    .clone()
+    .add(-1, 'd')
+    .startOf('day')
+    .add(17, 'h')
 const presentationSubmissionsOpenFrom = moment.parseZone('2019-04-13T17:00:00+10:00')
 const presentationSubmissionsOpenUntil = moment.parseZone('2019-06-15T23:59:59+10:00')
 const votingOpenFrom = moment.parseZone('2019-06-16T12:00:00+10:00')
@@ -51,7 +51,7 @@ const importantDates = [
   },
 ]
 
-if (registrationOpenUntil !== null && !isSoldOut) {
+if (registrationOpenUntil !== null && ticketPurchasingOptions === TicketPurchasingOptions.OnSale) {
   importantDates.push({
     Date: registrationOpenUntil,
     Description: 'Ticket sales close',
@@ -88,7 +88,7 @@ const Conference: IConference = {
   TicketsProviderAccountId: 'ddd-melbourne',
   TicketsProviderEventId: 'ddd-2019',
   TicketsProviderFinancialAssistanceCode: 'financialassistance', // TODO
-  IsSoldOut: isSoldOut,
+  TicketPurchasingOptions: ticketPurchasingOptions,
   HashTag: 'DDDMelbourne',
   SellingPoints: ['One day', 'Fully catered', 'Inclusive atmosphere', 'Interesting presentations', 'Awesome people'],
   Handbook: null,

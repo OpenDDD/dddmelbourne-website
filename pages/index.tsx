@@ -32,16 +32,22 @@ class Index extends React.Component<IndexProps & WithPageMetadataProps> {
         <ImportantDates conference={conference} actions={actions} currentDate={this.props.pageMetadata.currentDate} />
         <Keynotes conference={conference} />
         <ImageStrip images={this.props.imageStrip} />
-        <Sponsors
-          show={!conference.HideSponsors}
-          sponsors={conference.Sponsors}
-          hideUpsell={conference.HideSponsorshipUpsell}
-        />
+        <div className="container">
+          <Sponsors
+            show={!conference.HideSponsors}
+            sponsors={conference.Sponsors}
+            hideUpsell={conference.HideSponsorshipUpsell}
+          />
+        </div>
         <section className="ddd-by-night">
           <div className="content">
             <img src="/static/images/ddd-by-night/ddd-night-logo.png" alt="DDD By Night" />
             <p>Free evening event.</p>
-            <p><a href="https://nights.dddmelbourne.com" className="btn" target="_blank">Find Out More</a></p>
+            <p>
+              <a href="https://nights.dddmelbourne.com" className="btn" target="_blank">
+                Find Out More
+              </a>
+            </p>
           </div>
         </section>
       </Page>

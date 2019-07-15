@@ -2,13 +2,13 @@ import fetch from 'isomorphic-fetch'
 import Router from 'next/router'
 import React from 'react'
 import AllAgendas from '../components/allAgendas'
-import CurrentAgenda from '../components/currentAgenda'
-import { SafeLink } from '../components/global/safeLink'
+import { CurrentAgenda } from '../components/currentAgenda'
 import withPageMetadata, { WithPageMetadataProps } from '../components/global/withPageMetadata'
+import Sponsors from '../components/sponsors'
 import dateTimeProvider from '../components/utils/dateTimeProvider'
 import Conference from '../config/conference'
 import getConferenceDates from '../config/dates'
-import { Session } from '../config/types'
+import { Session, SponsorType } from '../config/types'
 import Page from '../layouts/main'
 
 interface AgendaPageProps extends WithPageMetadataProps {
@@ -42,21 +42,10 @@ class AgendaPage extends React.Component<AgendaPageProps> {
 
     return {}
   }
+
   render() {
     const conference = this.props.pageMetadata.conference
     const dates = this.props.pageMetadata.dates
-
-    const AfterSessionDetails = (s: Session) => {
-      return dates.AcceptingFeedback ? (
-        <>
-          <p className="text-center">
-            <SafeLink className="btn btn-secondary" target="_blank" href={conference.SessionFeedbackLink}>
-              Give feedback
-            </SafeLink>
-          </p>
-        </>
-      ) : null
-    }
 
     return (
       <Page
@@ -78,23 +67,35 @@ class AgendaPage extends React.Component<AgendaPageProps> {
           )}
           {dates.AgendaPublished && (
             <CurrentAgenda
+              date={Conference.Date}
               sessions={this.props.sessions}
-              previousConferenceInstances={this.props.pageMetadata.conference.PreviousInstances}
               sessionsUrl={this.props.pageMetadata.appConfig.getAgendaUrl}
               sponsors={this.props.pageMetadata.conference.Sponsors}
-              afterSessionDetails={AfterSessionDetails}
+              acceptingFeedback={dates.AcceptingFeedback}
+              feedbackLink={conference.SessionFeedbackLink}
             />
           )}
           {conference.Handbook && (
-            <>
+            <React.Fragment>
               <h2>Handbook</h2>
               <p>
                 <a className="btn btn-pdf" href={'/static/docs/' + conference.Handbook}>
                   Download handbook (PDF)
                 </a>
               </p>
-            </>
+            </React.Fragment>
           )}
+          <Sponsors
+            show={!this.props.pageMetadata.conference.HideSponsors}
+            hideUpsell={this.props.pageMetadata.conference.HideSponsorshipUpsell}
+            sponsors={this.props.pageMetadata.conference.Sponsors.filter(
+              s =>
+                s.type === SponsorType.Gold ||
+                s.type === SponsorType.Platinum ||
+                s.type === SponsorType.Diamond ||
+                s.type === SponsorType.AfterParty,
+            )}
+          />
           <AllAgendas
             conference={this.props.pageMetadata.conference}
             conferenceInstance={this.props.pageMetadata.conference.Instance}
