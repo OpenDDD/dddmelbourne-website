@@ -151,7 +151,7 @@ export const CurrentAgenda: React.FC<CurrentAgendaProps> = ({
                 />
                 <AgendaSession
                   room="Eureka Room 3"
-                  session={getSessions('f9ffaf37-87b9-4ecd-99ea-058a1925e6d3')}
+                  session={getSessions('531eb2c2-e4b2-43c8-868f-e2b31a138970')}
                   onSelect={onSelect}
                 />
                 <AgendaSession
@@ -224,7 +224,7 @@ export const CurrentAgenda: React.FC<CurrentAgendaProps> = ({
                 />
                 <AgendaSession
                   room="JuniorDev"
-                  session={getSessions('e00049bd-c849-47ca-9ac8-55741f0db51a')}
+                  session={getSessions('fb3884d6-0081-4edd-bf2c-8f48e9353964')}
                   onSelect={onSelect}
                 />
               </StyledAgendaRow>
