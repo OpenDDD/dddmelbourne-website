@@ -73,7 +73,14 @@ const Sponsors: Sponsor[] = [
     imageUrl: '/static/images/sponsors/2019/ndc-sydney.png',
     name: 'NDC Sydney',
     type: SponsorType.Silver,
-    url: 'http://ndcsydney.com/',
+    url: 'https://ndcsydney.com/',
+  },
+  {
+    id: 'mongodb',
+    imageUrl: '/static/images/sponsors/2019/mongodb.jpg',
+    name: 'MongoDB',
+    type: SponsorType.Silver,
+    url: 'https://www.mongodb.com',
   },
   // Community
   {
@@ -81,7 +88,7 @@ const Sponsors: Sponsor[] = [
     imageUrl: '/static/images/sponsors/2019/juniordev.png',
     name: 'JuniorDev',
     type: SponsorType.Community,
-    url: 'http://juniordev.io/',
+    url: 'https://juniordev.io/',
   },
   {
     id: 'wwcm',
@@ -102,7 +109,7 @@ const Sponsors: Sponsor[] = [
     imageUrl: '/static/images/sponsors/2019/yow.png',
     name: 'YOW',
     type: SponsorType.Community,
-    url: 'http://www.yowconference.com',
+    url: 'https://www.yowconference.com',
   },
   // Services
   {
