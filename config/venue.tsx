@@ -24,8 +24,9 @@ const venue: Venue = {
   ),
   Car: (
     <Fragment>
-      If you’re being dropped off at the Exhibition Centre, Clarendon Street entrance is the closest entrance. If you’re
-      getting a lift to the Convention Centre, the entrance near DFO is the closest drop off point. Visit MCEC{' '}
+      The closest entrance to the DDD space in the exhibition centre is Convention Centre Place entrance. If you are
+      being dropped off by uber/taxi, the address to provide the driver is 1 Convention Centre Pl, South Wharf VIC 3006.
+      Please visit MCEC{' '}
       <SafeLink href="https://mcec.com.au/visit/visit-information" target="_blank">
         for further guidance
       </SafeLink>
@@ -50,7 +51,8 @@ const venue: Venue = {
       <SafeLink href="https://www.ptv.vic.gov.au/" target="_blank">
         Public Transport Victoria
       </SafeLink>{' '}
-      to plan your journey.
+      to plan your journey. If you enter via Clarendon Street entrance, please take note of the DDD event space location
+      on the below map.
     </Fragment>
   ),
   Bus: null,

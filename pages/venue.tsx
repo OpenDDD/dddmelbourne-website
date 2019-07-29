@@ -144,6 +144,11 @@ class VenuePage extends React.Component<WithPageMetadataProps> {
             )}
           </div>
         </section>
+        <div className="container">
+          <p>
+            <img src="/static/images/2019/venue.png" alt="Venue Image" />
+          </p>
+        </div>
       </Page>
     )
   }
