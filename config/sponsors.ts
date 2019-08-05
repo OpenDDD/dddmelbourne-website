@@ -7,7 +7,7 @@ const Sponsors: Sponsor[] = [
     imageUrl: '/static/images/sponsors/2019/microsoft.png',
     name: 'Microsoft',
     type: SponsorType.Diamond,
-    url: 'https://azure.microsoft.com/en-au/',
+    url: 'https://azure.microsoft.com/en-au/resources/join-the-azure-developer-community/?ocid=AID760699&wt.mc_id=DDDMelb',
   },
   // Platinum
   {

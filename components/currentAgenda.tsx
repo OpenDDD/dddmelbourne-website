@@ -204,7 +204,7 @@ export const CurrentAgenda: React.FC<CurrentAgendaProps> = ({
                 <AgendaTime time={date.clone().set({ hour: 13, minute: 35 })} />
                 <AgendaSession
                   room="Goldfields Theatre"
-                  session={getSessions('619a1e2b-26d0-4af3-8c96-ed6de432402c')}
+                  session={getSessions('9c0d43ec-25b4-4e38-9d80-1ce5566b4e22')}
                   onSelect={onSelect}
                 />
                 <AgendaSession
@@ -309,7 +309,7 @@ export const CurrentAgenda: React.FC<CurrentAgendaProps> = ({
                 <AgendaTime time={date.clone().set({ hour: 16, minute: 25 })} />
                 <AgendaSession
                   room="Goldfields Theatre"
-                  session={getSessions('9c0d43ec-25b4-4e38-9d80-1ce5566b4e22')}
+                  session={getSessions('619a1e2b-26d0-4af3-8c96-ed6de432402c')}
                   onSelect={onSelect}
                 />
                 <AgendaSession
@@ -349,7 +349,7 @@ export const CurrentAgenda: React.FC<CurrentAgendaProps> = ({
                 </AgendaSession>
               </StyledAgendaRow>
               <StyledAgendaRow>
-                <AgendaTime time={date.clone().set({ hour: 18, minute: 0 })} />
+                <AgendaTime time={date.clone().set({ hour: 18, minute: 30 })} />
                 <AgendaSession sponsor={getSponsor('github')} fullWidth>
                   <StyledTrackHeader>Afterparty</StyledTrackHeader>
                 </AgendaSession>
