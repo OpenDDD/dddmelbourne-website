@@ -76,7 +76,7 @@ const Conference: IConference = {
   Organiser: {
     Name: 'Oz Dev Inc.',
     Url: 'https://medium.com/ddd-melbourne/the-ddd-melbourne-crew-5f0dd3da09df',
-    ShirtColour: 'blue',
+    ShirtColour: 'teal',
   },
   TagLine: tagLine,
   SiteDescription: `${tagLine}.`,
