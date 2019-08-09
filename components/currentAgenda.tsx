@@ -14,6 +14,7 @@ import {
 } from './Agenda/Agenda.styled'
 import { AgendaProvider } from './Agenda/AgendaContext'
 import { AgendaSession } from './Agenda/AgendaSession'
+import { StyledAgendaPresenter } from './Agenda/AgendaSession.styled'
 import { AgendaSessions } from './Agenda/AgendaSessions'
 import { AgendaTime } from './Agenda/AgendaTime'
 import { theme } from './utils/styles/theme'
@@ -125,9 +126,16 @@ export const CurrentAgenda: React.FC<CurrentAgendaProps> = ({
               </StyledAgendaRow>
               <StyledAgendaRow>
                 <AgendaTime time={date.clone().set({ hour: 9, minutes: 0 })} />
-                <AgendaSession room="Goldfields Theatre" fullWidth isKeynote>
-                  <StyledTrackHeader>KEYNOTE</StyledTrackHeader>
-                </AgendaSession>
+                <AgendaSession
+                  sessionId="b67e6e68-ea07-4bf2-b8d6-deb77c7bb9db"
+                  room="Goldfields Theatre"
+                  renderPresenters={presenters => (
+                    <StyledAgendaPresenter isKeynote>Keynote: {presenters}</StyledAgendaPresenter>
+                  )}
+                  fullWidth
+                  isKeynote
+                  alwaysShowRoom
+                />
               </StyledAgendaRow>
               <StyledAgendaRow>
                 <AgendaTime time={date.clone().set({ hour: 9, minute: 45 })} />
@@ -242,13 +250,24 @@ export const CurrentAgenda: React.FC<CurrentAgendaProps> = ({
               </StyledAgendaRow>
               <StyledAgendaRow>
                 <AgendaTime time={date.clone().set({ hour: 17, minute: 15 })} />
-                <AgendaSession room="Goldfields Theatre" fullWidth>
-                  <StyledTrackHeader>TBC - Special Closing Event</StyledTrackHeader>
+                <AgendaSession
+                  sessionId="94a556e1-398d-4988-888e-bb2538ba90a7"
+                  room="Goldfields Theatre"
+                  fullWidth
+                  alwaysShowRoom
+                  isKeynote
+                  renderPresenters={presenters => <StyledAgendaPresenter>Locknote: {presenters}</StyledAgendaPresenter>}
+                />
+              </StyledAgendaRow>
+              <StyledAgendaRow>
+                <AgendaTime time={date.clone().set({ hour: 18, minute: 0 })} />
+                <AgendaSession room="Goldfields Theatre" alwaysShowRoom fullWidth>
+                  <StyledTrackHeader>Thank yous and wrap up</StyledTrackHeader>
                 </AgendaSession>
               </StyledAgendaRow>
               <StyledAgendaRow>
                 <AgendaTime time={date.clone().set({ hour: 18, minute: 30 })} />
-                <AgendaSession sponsorId="github" fullWidth>
+                <AgendaSession sponsorId="github" room="General Assembly" fullWidth alwaysShowRoom>
                   <StyledTrackHeader>Afterparty</StyledTrackHeader>
                 </AgendaSession>
               </StyledAgendaRow>

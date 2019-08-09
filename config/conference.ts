@@ -8,7 +8,7 @@ const name = 'DDD Melbourne'
 const tagLine = `${name} is an inclusive non-profit conference for the software community`
 
 const hideDate = false
-const ticketPurchasingOptions = TicketPurchasingOptions.OnSale
+const ticketPurchasingOptions = TicketPurchasingOptions.SoldOut
 const date = moment.parseZone('2019-08-10T08:00:00+10:00')
 const endDate = date.clone().add(12, 'h')
 const currentInstance = parseInt(date.format('YYYY'), 10)
@@ -191,7 +191,7 @@ const Conference: IConference = {
 
   SessionGroups: [
     {
-      sessions: [],
+      sessions: ['b67e6e68-ea07-4bf2-b8d6-deb77c7bb9db'],
       timeEnd: date.clone().set({ hour: 9, minutes: 45 }),
       timeStart: date.clone().set({ hour: 9, minutes: 0 }),
       type: 'SessionIds',
@@ -283,7 +283,7 @@ const Conference: IConference = {
       type: 'SessionIds',
     },
     {
-      sessions: [],
+      sessions: ['94a556e1-398d-4988-888e-bb2538ba90a7'],
       timeEnd: date.clone().set({ hour: 18, minute: 0 }),
       timeStart: date.clone().set({ hour: 17, minute: 15 }),
       type: 'SessionIds',
