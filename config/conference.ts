@@ -91,7 +91,7 @@ const Conference: IConference = {
   TicketPurchasingOptions: ticketPurchasingOptions,
   HashTag: 'DDDMelbourne',
   SellingPoints: ['One day', 'Fully catered', 'Inclusive atmosphere', 'Interesting presentations', 'Awesome people'],
-  Handbook: null,
+  Handbook: 'handbook2019.pdf',
   SessionizeUrl: 'https://sessionize.com/ddd-melbourne-2019/',
   SessionizeEditUrl: 'https://sessionize.com/app/speaker/',
   PrivateSubmissionUrl: 'https://forms.gle/Hbfn1fiEZqkcwJ8p7',
