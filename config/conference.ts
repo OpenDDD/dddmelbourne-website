@@ -185,7 +185,46 @@ const Conference: IConference = {
 
   Sponsors: SponsorData,
 
-  Keynotes: [],
+  Keynotes: [
+    {
+      Id: 'Keynote',
+      Title: 'See the bigger vision',
+      Abstract: 'Join Australian physicist, comedian & astronaut candidate Josh Richards on an humorous and informative journey to the red planet, blending science, engineering and ethics with comedy as he shares at how colonising Mars will change humans in body, mind and soul.\n\nHear about how he engages in the community to promote STEM and what motivates you him get involved. Find out about how he has seen the STEM/IT community evolving and where he sees it going?',
+      Format: '45 mins',
+      Level: 'No Experience Necessary',
+      Presenters: [
+        {
+          Id: '',
+          Bio: 'Physicist, Explosives Engineer, Soldier, Comedian, Astronaut Candidate – one thing Josh Richards can never be accused of is being boring. After a decade of picking up booby traps with the Australian Army, slogging through mud with British Commandos, being science adviser to the richest artist in the world, and performing comedy wearing a giant koala suit to confused audiences around the world, Josh found his true calling in September 2012 when he discovered the Mars One project.\n\nSelected from over 200,000 initial applicants, Josh is currently one of 100 astronaut candidates short-listed for a one-way mission to Mars in 2031. As an in-demand professional speaker, Josh’s storytelling makes for compelling & entertaining corporate keynote presentations on leadership, small-team dynamics, and the challenges of life in space that are certain to leave any audience with plenty to think about.',
+          Name: 'Josh Richards',
+          ProfilePhotoUrl: 'https://sessionize.com/image?f=a9ab8afe6b9cad86fbadcbcf1aec6477,400,400,True,False,cd-f7d0-4253-aa7d-e2b97503c82a.c9e0b03c-7ee4-4f52-b9b4-3210c7bcc2d3.jpg',
+          Tagline: 'Astronaut Candidate, Speaker, Author, Troublemaker',
+          TwitterHandle: 'Mighty_Ginge',
+          WebsiteUrl: 'https://joshrichards.space'
+        }
+      ],
+      Tags: ['Career', 'Leadership', 'Soft skills']
+    },
+    {
+      Id: 'Locknote',
+      Title: 'A Career Shaped by DDD Melbourne',
+      Abstract: 'It’s been a decade since DDD Melbourne first started and a lot has changed in that time, the technologies we use, the people we know, the careers we’ve had. I’ve had a wild ride over the last 10 years and DDD has been a critical part of it. So come with me as we look back over the last 10 years of DDD through the eyes of someone who’s career has been greatly impacted by DDD Melbourne.',
+      Format: '45 mins',
+      Level: 'No Experience Necessary',
+      Presenters: [
+        {
+          Id: '',
+          Bio: 'Aaron is a Developer Advocate at Microsoft. Having spent 15 years doing web development he\'s seen it all, from browser wars, the rise of AJAX and the fall of 20 JavaScript frameworks (and that was just yesterday!). Always tinkering with something new he explores crazy ideas like writing your own implementation of numbers in .NET, creating IoC in JavaScript or implementing tic-tac-toe using git commits.',
+          Name: 'Aaron Powell',
+          ProfilePhotoUrl: 'https://sessionize.com/image?f=0b7835d5e4b8fe5cb980d1d4193104a2,400,400,True,False,f8943ee2-ebbf-4b33-98c8-82b16377c1a9.jpg',
+          Tagline: 'I like long walks on the beach talking about JavaScript',
+          TwitterHandle: 'slace',
+          WebsiteUrl: 'https://www.aaron-powell.com/'
+        }
+      ],
+      Tags: ['Career']
+    }
+  ],
 
   RoomNames: ['Theatre', 'ER1', 'ER2', 'ER3', 'JD'],
 
