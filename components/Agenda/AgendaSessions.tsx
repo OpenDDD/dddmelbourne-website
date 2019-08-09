@@ -1,6 +1,5 @@
 import React, { Fragment } from 'react'
-import { Session, Sponsor } from '../../config/types'
-import { onSelectCallback } from './Agenda'
+import { useAgendaContext } from './AgendaContext'
 import {
   StyledAgendaButton,
   StyledAgendaPresenter,
@@ -11,31 +10,34 @@ import {
 } from './AgendaSession.styled'
 
 interface AgendaSessionsProps {
-  sessions?: Session[]
+  sessionIds?: string[]
   children?: React.ReactNode
   room?: string
-  sponsor?: Sponsor
+  alwaysShowRoom?: boolean
+  sponsorId?: string
   fullWidth?: boolean
   isKeynote?: boolean
-  onSelect?: onSelectCallback
   renderTitle?: (title: string) => React.ReactNode
   renderPresenters?: (presenters: string) => React.ReactNode
 }
 
 export const AgendaSessions: React.FC<AgendaSessionsProps> = ({
-  sessions,
+  sessionIds,
   children,
   room,
-  sponsor,
+  alwaysShowRoom,
+  sponsorId,
   fullWidth,
   isKeynote,
-  onSelect,
   renderTitle,
   renderPresenters,
 }) => {
   return (
-    <StyledSection fullWidth={fullWidth} session={typeof sessions !== 'undefined'}>
-      {sessions.map(session => {
+    <StyledSection fullWidth={fullWidth} session={typeof sessionIds !== 'undefined'}>
+      {sessionIds.map(sessionId => {
+        const { onSelect, getSession, getSponsor, getRoom } = useAgendaContext()
+        const session = sessionId ? getSession(sessionId) : false
+        const sponsor = sponsorId ? getSponsor(sponsorId) : undefined
         const presenters = session ? session.Presenters.map(p => p.Name).join(', ') : ''
         return (
           <div>
@@ -52,13 +54,15 @@ export const AgendaSessions: React.FC<AgendaSessionsProps> = ({
                   <StyledAgendaTitle isKeynote={isKeynote}>{session.Title}</StyledAgendaTitle>
                 )}
                 {sponsor && <StyledSponsor>Sponsored by: {sponsor.shortName || sponsor.name}</StyledSponsor>}
-                {room && <StyledRoom showOnMobile={typeof session !== 'undefined' && !isKeynote}>{room}</StyledRoom>}
+                {typeof room !== 'undefined' && <StyledRoom showOnMobile={!alwaysShowRoom}>{getRoom(room)}</StyledRoom>}
               </StyledAgendaButton>
             )}
             {children && (
               <Fragment>
                 {children}
-                {room && <StyledRoom showOnMobile={typeof session !== 'undefined' && !isKeynote}>{room}</StyledRoom>}
+                {typeof room !== 'undefined' && (
+                  <StyledRoom showOnMobile={session !== false && !alwaysShowRoom}>{getRoom(room)}</StyledRoom>
+                )}
               </Fragment>
             )}
           </div>

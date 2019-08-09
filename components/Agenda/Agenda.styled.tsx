@@ -23,7 +23,6 @@ export const StyledAgendaRow = styled('section')({
 
   [breakpointMax('xs')]: {
     '& > section:nth-child(2n+1)': {
-      // backgroundColor: 'pink !important',
       borderRight: 0,
     },
 
@@ -100,3 +99,27 @@ export const StyledCenteredParagraph = styled('p')({
 export const StyledSponsorLogo = styled('img')({
   width: 200,
 })
+
+export const StyledFeedbackActions = styled('div')({
+  display: 'flex',
+  flexDirection: 'row',
+  flexWrap: 'wrap',
+  marginBottom: calcRem(10),
+
+  '& > *:not(:last-child)': {
+    marginRight: calcRem(10),
+  },
+})
+
+export const StyledUpNext = styled('div')(({ theme }) => ({
+  marginBottom: calcRem(20),
+
+  '& > h2': {
+    padding: calcRem(10),
+    margin: 0,
+    backgroundColor: theme.colors.inverse,
+    color: '#fff',
+    fontSize: calcRem(20),
+  },
+}))
+StyledUpNext.displayName = 'StyledUpNext'

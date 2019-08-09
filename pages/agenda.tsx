@@ -1,4 +1,3 @@
-import fetch from 'isomorphic-fetch'
 import Router from 'next/router'
 import React from 'react'
 import AllAgendas from '../components/allAgendas'
@@ -6,6 +5,7 @@ import { CurrentAgenda } from '../components/currentAgenda'
 import withPageMetadata, { WithPageMetadataProps } from '../components/global/withPageMetadata'
 import Sponsors from '../components/sponsors'
 import dateTimeProvider from '../components/utils/dateTimeProvider'
+import { fetchSessions } from '../components/utils/useSessions'
 import Conference from '../config/conference'
 import getConferenceDates from '../config/dates'
 import { Session, SponsorType } from '../config/types'
@@ -13,10 +13,11 @@ import Page from '../layouts/main'
 
 interface AgendaPageProps extends WithPageMetadataProps {
   sessions?: Session[]
+  sessionId?: string
 }
 
 class AgendaPage extends React.Component<AgendaPageProps> {
-  static async getInitialProps({ req, res }) {
+  static async getInitialProps({ req, res, query }) {
     const dates = getConferenceDates(Conference, dateTimeProvider.now())
     if (!dates.VotingFinished) {
       if (res) {
@@ -31,13 +32,11 @@ class AgendaPage extends React.Component<AgendaPageProps> {
     }
 
     if (req) {
-      const response = await fetch(process.env.GET_AGENDA_URL)
-      if (!response.ok) {
-        return {}
-      }
+      const sessions = await fetchSessions(process.env.GET_AGENDA_URL)
+      const sessionId = query && query.sessionId ? query.sessionId : ''
+      const result = { sessionId }
 
-      const body = await response.json()
-      return { sessions: body as Session[] }
+      return sessions ? { sessions, ...result } : result
     }
 
     return {}
@@ -73,6 +72,7 @@ class AgendaPage extends React.Component<AgendaPageProps> {
               sponsors={this.props.pageMetadata.conference.Sponsors}
               acceptingFeedback={dates.AcceptingFeedback}
               feedbackLink={conference.SessionFeedbackLink}
+              selectedSessionId={this.props.sessionId}
             />
           )}
           {conference.Handbook && (

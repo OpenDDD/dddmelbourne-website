@@ -127,14 +127,15 @@ const Conference: IConference = {
   FeedbackOpenFrom: feedbackOpenFrom,
   FeedbackOpenUntil: feedbackOpenUntil,
 
-  ConferenceFeedbackLink: null,
-  SessionFeedbackLink: null,
+  ConferenceFeedbackLink: '/conference-feedback',
+  SessionFeedbackLink: '/feedback',
 
   HideDate: hideDate,
   HideSponsors: false,
   HideSponsorshipUpsell: false,
   HideVenue: venue === null,
   HideAfterpartyVenue: venue === null || venue.Afterparty === null,
+  ShowNextSessions: true,
 
   Venue: venue,
 
@@ -185,6 +186,109 @@ const Conference: IConference = {
   Sponsors: SponsorData,
 
   Keynotes: [],
+
+  RoomNames: ['Theatre', 'ER1', 'ER2', 'ER3', 'JD'],
+
+  SessionGroups: [
+    {
+      sessions: [],
+      timeEnd: date.clone().set({ hour: 9, minutes: 45 }),
+      timeStart: date.clone().set({ hour: 9, minutes: 0 }),
+      type: 'SessionIds',
+    },
+    {
+      sessions: [
+        '44f3ab17-52bf-43df-915d-a9f1cd2decf5',
+        '1ad725d0-da57-484c-b363-cb8fbcc1bb3b',
+        '80081d86-2371-4c03-9dbf-78874d311cac',
+        '876f300e-c8a1-488f-9d67-b94655c61e67',
+        '61ec6c7b-65bf-47f4-980a-a5043bb1f658'
+      ],
+      timeEnd: date.clone().set({ hour: 11, minutes: 0 }),
+      timeStart: date.clone().set({ hour: 10, minutes: 15 }),
+      type: 'SessionIds',
+    },
+    {
+      sessions: [
+        '80f58dce-fff6-4c9d-9e5f-536ecac3cf78',
+        '1eff322d-e7f7-4d47-a474-738025ed068f',
+        '431b57f6-be91-4b56-a4e3-cf0df13a61ec',
+        '531eb2c2-e4b2-43c8-868f-e2b31a138970',
+        '1ab27723-dac5-4bea-a66a-3c3ef81836eb'
+      ],
+      timeEnd: date.clone().set({ hour: 12, minute: 0 }),
+      timeStart: date.clone().set({ hour: 11, minute: 15 }),
+      type: 'SessionIds',
+    },
+    {
+      sessions: [
+        'aeb1a7d8-8f0d-476a-8b04-dcc0ac85583d',
+        '6738e367-d528-469f-8706-5693321ffee9',
+        'a712613f-826b-475c-9ba5-8a299b482e38',
+        'ec2e9258-5779-4a9b-931f-3ca43cebd182',
+        '2633de08-2d54-49ca-ad8a-6c1868627d92'
+      ],
+      timeEnd: date.clone().set({ hour: 12, minute: 35 }),
+      timeStart: date.clone().set({ hour: 12, minute: 15 }),
+      type: 'SessionIds',
+    },
+    {
+      sessions: [
+        '9c0d43ec-25b4-4e38-9d80-1ce5566b4e22',
+        'e2eeecf8-d878-47af-b676-64c2eeb869ff',
+        '1372ab63-42fe-4357-8099-05b911a6b895',
+        'a6902460-f114-4d04-8c42-79051275c032',
+        'fb3884d6-0081-4edd-bf2c-8f48e9353964'
+      ],
+      timeEnd: date.clone().set({ hour: 14, minute: 20 }),
+      timeStart: date.clone().set({ hour: 13, minute: 35 }),
+      type: 'SessionIds',
+    },
+    {
+      sessions: [
+        '5a8030cd-0a3d-48f5-8106-d61012032a27',
+        '1ff00730-7315-46ab-8894-202d32161a8b',
+        '9cd0d9fd-98d3-46a9-8803-05da7b163bfb',
+        '8e6dea80-4928-49a9-8a30-490f2e82fd0d',
+        '208b50ae-b13d-4041-95a4-1d11a3e9cbf7'
+      ],
+      timeEnd: date.clone().set({ hour: 14, minute: 55 }),
+      timeStart: date.clone().set({ hour: 14, minute: 35 }),
+      type: 'SessionIds',
+    },
+    {
+      sessions: [
+        'ae3a2ce9-c0a2-451c-a4b6-246fe9eb711a',
+        'ca70ba13-26c4-4583-a6fe-1710a5a30362',
+        '510bdecd-c23b-43d6-944b-86423b0b10f0',
+        'c212d5d9-76a5-44ab-b73a-ffcba4d2d26a',
+        'ca4fae67-13b2-42ea-a4b7-b5e00bf442ea',
+        '3d89ac57-d69c-4a00-bb9b-0f31d7bd0002'
+      ],
+      timeEnd: date.clone().set({ hour: 15, minute: 25 }),
+      timeStart: date.clone().set({ hour: 15, minute: 25 }),
+      type: 'SessionIds',
+    },
+    {
+      sessions: [
+        '619a1e2b-26d0-4af3-8c96-ed6de432402c',
+        '8737fcc4-eb38-4871-b81e-6e3812218c42',
+        '207baae6-4ff5-49db-80ad-9527c57b88f6',
+        'ca8dce34-a2da-4379-ad62-ee67642ee602',
+        '18a87e6e-23ba-4c9f-a939-0ef92bc03e04',
+        '712a9de9-e4eb-4570-96d6-47c906e69ccb'
+      ],
+      timeEnd: date.clone().set({ hour: 17, minute: 10 }),
+      timeStart: date.clone().set({ hour: 16, minute: 25 }),
+      type: 'SessionIds',
+    },
+    {
+      sessions: [],
+      timeEnd: date.clone().set({ hour: 18, minute: 0 }),
+      timeStart: date.clone().set({ hour: 17, minute: 15 }),
+      type: 'SessionIds',
+    },
+  ]
 }
 
 export default Conference
