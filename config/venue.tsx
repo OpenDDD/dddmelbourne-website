@@ -9,8 +9,8 @@ const venue: Venue = {
   Address: '1 Convention Centre Pl, South Wharf VIC 3006',
   Latitude: -37.8256,
   Longitude: 144.9531075,
-  Afterparty: null,
-  AfterpartyAddress: null,
+  Afterparty: 'General Assembly',
+  AfterpartyAddress: '29 South Wharf Promenade, Melbourne, VIC 3006',
   Wifi: 'MCEC has free wifi for all attendees limited to 512Kb download speed that needs to be renewed every hour.',
   Accommodation: null,
   Parking: (
