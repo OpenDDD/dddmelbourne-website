@@ -11,6 +11,10 @@ variables:
   StorageContainer: 'dddmelbourne-website'
 
 steps:
+  - task: NodeTool@0
+    inputs:
+      versionSpec: '10.16.x'
+
   - task: DeleteFiles@1
     inputs:
       Contents: '.next/**/*.*'
