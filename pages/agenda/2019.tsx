@@ -20,7 +20,7 @@ class Agenda2019 extends React.Component<AgendaPageProps> {
     // const SessionCell = this.props.SessionCell
     return (
       <Fragment>
-        <div style={{ overflow: 'initial' }}></div>
+        <div style={{ overflow: 'initial' }}>2019 Agenda Coming soon...</div>
         <h2 style={{ display: 'none' }}>Media</h2>
 
         <div className="text-center" style={{ display: 'none' }}>

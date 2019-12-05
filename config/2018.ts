@@ -1,13 +1,13 @@
 import { Sponsor, SponsorType } from './types'
 
-interface From2019 {
+interface From2018 {
   YouTubePlaylistUrl: string
   YouTubeKeynoteEmbedUrl: string
   FlickrAlbumUrl: string
   Sponsors: Sponsor[]
 }
 
-const From2019: From2019 = {
+const From2018: From2018 = {
   YouTubePlaylistUrl: null, // TODO
   // tslint:disable-next-line:object-literal-sort-keys
   YouTubeKeynoteEmbedUrl: null, // TODO
