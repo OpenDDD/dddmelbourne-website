@@ -6,10 +6,10 @@ import Page from '../layouts/withSidebar'
 export default withPageMetadata((props: WithPageMetadataProps) => (
   <Page
     pageMetadata={props.pageMetadata}
-    title="COVID-19 Response"
+    title="COVID-19 Statement"
     description="The goal and history of DDD Melbourne and OpenDDD Inc."
   >
-    <h1>COVID-19 Response</h1>
+    <h1>COVID-19 Statement</h1>
     <p>
       Hello all,
     </p>
@@ -18,7 +18,7 @@ export default withPageMetadata((props: WithPageMetadataProps) => (
       impact it is having on the health and wellbeing of our community. We hope that you are all safe and well.
     </p>
     <p>
-      On the 17th March, the Australian Government put out advice recommending that
+      On the 17th March, the Australian Government put out advice recommending that{' '}
       <SafeLink href="https://www.health.gov.au/resources/publications/coronavirus-covid-19-what-you-need-to-know" target="_blank">
         indoor gatherings of more than 100 people be cancelled
       </SafeLink>. DDD Melbourne 2020 is scheduled for Saturday 3rd October, which is just over six months away. As
@@ -36,10 +36,10 @@ export default withPageMetadata((props: WithPageMetadataProps) => (
       understanding and ongoing support through these uncertain times.
     </p>
     <p>
-      In the meantime, our quarterly
+      In the meantime, our quarterly{' '}
       <SafeLink href="https://nights.dddmelbourne.com" target="_blank">
         DDD Melbourne By Night
-      </SafeLink>
+      </SafeLink>{' '}
       events will continue to run, but will be held virtually. We look forward to seeing you all there.
     </p>
     <p>
