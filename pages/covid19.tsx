@@ -6,10 +6,10 @@ import Page from '../layouts/withSidebar'
 export default withPageMetadata((props: WithPageMetadataProps) => (
   <Page
     pageMetadata={props.pageMetadata}
-    title="COVID-19 Statement"
-    description="The goal and history of DDD Melbourne and OpenDDD Inc."
+    title="Status of This Year's Event"
+    description="Our statement on COVID-19 and the status of this year's event."
   >
-    <h1>COVID-19 Statement</h1>
+    <h1>Status of This Year's Event</h1>
     <p>
       Hello all,
     </p>
@@ -18,29 +18,22 @@ export default withPageMetadata((props: WithPageMetadataProps) => (
       impact it is having on the health and wellbeing of our community. We hope that you are all safe and well.
     </p>
     <p>
-      On the 17th March, the Australian Government put out advice recommending that{' '}
-      <SafeLink href="https://www.health.gov.au/resources/publications/coronavirus-covid-19-what-you-need-to-know" target="_blank">
-        indoor gatherings of more than 100 people be cancelled
-      </SafeLink>. DDD Melbourne 2020 is scheduled for Saturday 3rd October, which is just over six months away. As
-      we've seen over the last two months, a lot can change in that timeframe. The health and wellbeing of our
-      attendees, speakers, sponsors and crew are our top priority, and so we are taking the decision on whether to
-      hold, postpone, or cancel the event very seriously.
+      It is with great sadness that we have made the tough decision to cancel this year's event. There is just over
+      five months until our planned date of Saturday 3rd October. Although we are hopeful that circumstances improve
+      before then, the simple fact is that there is too much uncertainty for us to commit to this date. Uncertainty
+      that it will be safe for the health of our attendees, speakers, sponsors and crew, and also uncertainty that our
+      sponsors will be able to commit to supporting us when many businesses are already struggling to support their
+      staff.
     </p>
     <p>
-      We don't believe it's reasonable to ask our community to commit to purchasing tickets and preparing presentations
-      while the status of the event is uncertain. As such, we will confirm the date before opening up both the ticket
-      sales and the Call for Presentations. We aim to do this by mid April.
-    </p>
-    <p>
-      We will be in close contact with our sponsors throughout the planning process, and we greatly appreciate their
-      understanding and ongoing support through these uncertain times.
-    </p>
-    <p>
-      In the meantime, our quarterly{' '}
-      <SafeLink href="https://nights.dddmelbourne.com" target="_blank">
-        DDD Melbourne By Night
-      </SafeLink>{' '}
-      events will continue to run, but will be held virtually. We look forward to seeing you all there.
+      This has been an extremely difficult decision for us to make, especially because it is precisely during such
+      difficult times that we all look to our communities for support. You may be aware that we host quarterly DDD BY
+      Night events, with last month's event being the first to be held fully online. To keep our community engaged
+      through these difficult times we will be looking to step up our online events throughout the year. If you haven't
+      already, please join our{' '}
+      <SafeLink href="http://nights.dddmelbourne.com/" target="_blank">
+        Meetup Group
+      </SafeLink>{' '} to hear about upcoming events.
     </p>
     <p>
       We care deeply about the Melbourne tech community, and now more than ever we could all use a bit of human
