@@ -47,7 +47,7 @@ export default withPageMetadata((props: WithPageMetadataProps) => (
       The DDD Melbourne team
     </p>
     <p>
-      18th March 2020
+      5th May 2020
     </p>
   </Page>
 ))
