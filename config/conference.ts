@@ -8,13 +8,13 @@ const name = 'DDD Melbourne'
 const tagLine = `${name} is an inclusive non-profit conference for the software community`
 
 const hideDate = false
-const ticketPurchasingOptions = TicketPurchasingOptions.OnSale
-const date = moment.parseZone('2020-10-03T08:00:00+10:00')
+const ticketPurchasingOptions = TicketPurchasingOptions.SoldOut
+const date = moment.parseZone('2019-08-10T08:00:00+10:00')
 const endDate = date.clone().add(12, 'h')
 const currentInstance = parseInt(date.format('YYYY'), 10)
 const firstInstance = 2010
-const wave1RegistrationOpenFrom = moment.parseZone('2020-05-06T12:00:00+10:00')
-const wave2RegistrationOpenFrom = moment.parseZone('2020-06-08T15:00:00+10:00')
+const wave1RegistrationOpenFrom = moment.parseZone('2019-05-06T12:00:00+10:00')
+const wave2RegistrationOpenFrom = moment.parseZone('2019-06-08T15:00:00+10:00')
 const registrationOpenUntil = true
   ? null
   : date
@@ -22,11 +22,11 @@ const registrationOpenUntil = true
     .add(-1, 'd')
     .startOf('day')
     .add(17, 'h')
-const presentationSubmissionsOpenFrom = moment.parseZone('2020-04-13T17:00:00+10:00')
-const presentationSubmissionsOpenUntil = moment.parseZone('2020-06-15T23:59:59+10:00')
-const votingOpenFrom = moment.parseZone('2020-06-16T12:00:00+10:00')
-const votingOpenUntil = moment.parseZone('2020-06-27T15:00:00+10:00')
-const agendaPublishedFrom = moment.parseZone('2020-07-15T19:00:00+10:00')
+const presentationSubmissionsOpenFrom = moment.parseZone('2019-04-13T17:00:00+10:00')
+const presentationSubmissionsOpenUntil = moment.parseZone('2019-06-15T23:59:59+10:00')
+const votingOpenFrom = moment.parseZone('2019-06-16T12:00:00+10:00')
+const votingOpenUntil = moment.parseZone('2019-06-27T15:00:00+10:00')
+const agendaPublishedFrom = moment.parseZone('2019-07-15T19:00:00+10:00')
 const feedbackOpenFrom = date.clone()
 const feedbackOpenUntil = endDate
 const importantDates = [
